@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:background="@drawable/tlo_info">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/buttonBackSzczegoly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_back"
+                android:gravity="left|center"
+                android:paddingLeft="30dp"
+                android:drawableLeft="@drawable/ic_back_small"
+                style="@style/InfoButtonBack"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtNazwaED"
+                android:layout_width="290dp"
+                android:layout_height="150dp"
+                android:gravity="left|bottom"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="24dp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <FrameLayout
+                android:id="@+id/edframelayout"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center|center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tlo_ed"
+                    android:gravity="left|center"/>
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="240px"
+                    android:layout_height="180px"/>
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="-5dp">
+
+            <Button
+                android:id="@+id/buttonRunED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_run_ed"
+                android:gravity="left|center"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                style="@style/InfoButton"/>
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="-9dp">
+
+            <Button
+                android:id="@+id/buttonRunManual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:paddingLeft="40dp"
+                android:text="@string/btn_run_manual"
+                android:textSize="20dp"
+                style="@style/InfoButton"/>
+
+        </TableRow>
+        
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="60dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/textEDInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:lineSpacingMultiplier="1.18"
+            android:scaleType="centerCrop"/>
+
+    </ScrollView>
+
+</LinearLayout>

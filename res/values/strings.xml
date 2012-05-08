@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Nazwa aplikacji -->
+
+    <string name="app_name">e-Doświadczenia w fizyce</string>
+
+<!-- Nazwy e-doświadczeń -->
+
+    <string name="txt_list_ed">Lista e-doświadczeń</string>
+
+    <string name="ed_name_wahadlo">Wahadło matematyczne</string>
+    <string name="ed_name_lawa">Ława\noptyczna</string>
+    <string name="ed_name_rownia">Równia pochyła</string>
+    <string name="ed_name_zderzenia">Zderzenia\nsprężyste\ni niesprężyste</string>
+    <string name="ed_name_rzuty">Rzuty</string>
+    <string name="ed_name_astro">Ruch ciał\nniebieskich</string>
+    <string name="ed_name_ciecze">Mechanika\ncieczy</string>
+    <string name="ed_name_bryla">Bryła sztywna</string>
+    <string name="ed_name_gazy">Właściwości\ngazów</string>
+    <string name="ed_name_drgania">Drgania\nmechaniczne</string>
+    <string name="ed_name_poleelektryczne">Pole\nelektryczne</string>
+    <string name="ed_name_prad">Obwody\nprądu stałego</string>
+    <string name="ed_name_dzwiek">Laboratorium dzwięku</string>
+    <string name="ed_name_kalorymetria">Kalorymetria</string>
+    <string name="ed_name_kondensatory">Kondensatory</string>
+    <string name="ed_name_polemagnetyczne">Pole\nmagnetyczne</string>
+    <string name="ed_name_cewki">Cewki i indukcja</string>
+    <string name="ed_name_polaryzacja">Zjawisko\npolaryzacji\ni załamania światła</string>
+    <string name="ed_name_rlc">Układy RLC</string>
+    <string name="ed_name_korpuskularna">Korpuskularna natura światła\ni materii</string>
+    <string name="ed_name_interferencja">Interferencja\ni dyfrakcja\nświatła</string>
+    <string name="ed_name_spektroskopia">Spektroskopia</string>
+    <string name="ed_name_einstein">Eksperymenty\nmyślowe\nEinsteina</string>
+
+<!-- Przyciski -->
+
+    <string name="btn_yes">Tak</string>
+    <string name="btn_no">Nie</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_close">Zamknij</string>
+    <string name="btn_view_www">Strona WWW</string>
+    <string name="btn_back">&#160;&#160;&#160;powrót</string>
+    <string name="btn_info">informacje</string>
+    <string name="btn_list_ed">e-doświadczenia</string>
+    <string name="btn_close_app">zakończ program</string>
+    <string name="btn_about_project">o projekcie</string>
+    <string name="btn_about_ed">o e-doświadczeniach</string>
+    <string name="btn_about_app">o aplikacji</string>
+    <string name="btn_www_project">strona www</string>
+    <string name="btn_facebook">facebook</string>
+    <string name="btn_run_ed">uruchom</string>
+    <string name="btn_run_manual">wyświetl podręcznik</string>
+
+<!-- Teksty strony tytułowej -->
+
+    <string name="txt_title1">
+        Aplikacja wykonana w ramach innowacyjnego projektu testującego pt. „e-Doświadczenia w fizyce”,
+        \nwspółfinansowanego ze środków Unii Europejskiej w ramach Europejskiego Funduszu Społecznego
+    </string>
+    <string name="txt_title2">Pomysł i realizacja:</string>
+    <string name="txt_title3">
+        Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej\n
+        przy wsparciu Young Digital Planet SA oraz L.C.G. Malmberg B.V.
+    </string>
+
+<!-- Teksty strony informacyjnej -->
+
+    <string name="info_choose">
+         <![CDATA[
+<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font></h1>
+<b>Wybierz informacje do wyświetlenia, korzystając z menu po lewej stronie.</b>
+         ]]>
+    </string>
+
+    <string name="info_project_text">
+        <![CDATA[
+<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O projekcie</h1>
+
+W ramach innowacyjnego projektu testującego pt. <b>„e-Doświadczenia w fizyce”</b> wytwarzamy oraz testujemy
+w wybranych szkołach ponadgminazjalnych nowatorskie rozwiązania programowe,
+polegające na (testowym) włączeniu do lekcji fizyki tzw. <b>e-doświadczeń</b> &minus;
+wirtualnych doświadczeń fizycznych, jako uzupełnienie doświadczeń rzeczywistych.
+Następnie będziemy starali się o włączenie e-doświadczeń do głównego nurtu polityki oświatowej,
+tzn. planujemy sprawić, żeby stały się one częścią programów nauczania fizyki
+w szkołach ponadgimnazjalnych.<br/><br/>
+e-Doświadczenia będą sukcesywnie produkowane i testowane do końca 2012 roku.
+Swoim zakresem będą obejmowały większość zagadnień omawianych na lekcjach fizyki w szkołach
+ponadgimnazjalnych, w tym zagadnienia objęte rozszerzonym programem nauczania.<br/><br/>
+
+Pomysł na projekt narodził się w wyniku przeprowadzonej analizy i diagnozy problemów związanych
+z nauczaniem fizyki w polskich szkołach. Ideą przewodnią projektu jest znana wszystkim maksyma Konfucjusza:
+<b>„Powiesz mi &minus; wkrótce zapomnę, pokażesz mi &minus; może zapamiętam,
+pozwolisz dotknąć a zrozumiem”.</b><br/></br>
+        ]]>
+    </string>
+
+    <string name="info_ed_text">
+        <![CDATA[
+<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O e-doświadczeniach</h1>
+Głównym produktem projektu jest <b>zestaw 23 wirtualnych e-doświadczeń z fizyki</b>,
+w postaci programów komputerowych, obejmujących różne działy fizyki.
+Programy te są głównie przeznaczone do uruchamiania przy użyciu klasycznych komputerów,
+jednak podjęliśmy próbę przeniesienia ich na tablety (choć wiążą się z tym pewne ograniczenia, opisane
+w zakładce „o aplikacji”).<br/><br/>
+
+Mocno podkreślamy, że absolutnie <b>nie chcemy zastępować doświadczeń rzeczywistych</b>
+(są one niezastąpione w dydaktyce), chcemy je wspierać.
+e-Doświadczenia mają na celu pokazanie zagadnień fizycznych w szerszej perspektywie.
+Dzięki swoim możliwościom pozwolą bowiem na głębsze zrozumienie problemów, pozwolą na budowanie lepiej rozumianych
+modeli, ciągów przyczynowo-skutkowych i zbiorów zależności, niezbędnych do opisu zjawisk fizycznych.<br/><br/>
+
+Dzięki e-Doświadczeniom nauczyciele będą mogli zilustrować daną partię materiału teoretycznego
+przy pomocy komputera, bez obawy zniszczenia drogiego sprzętu doświadczalnego.
+Z kolei uczniowie będą mogli samodzielne powtórzyć dane ćwiczenie w domu.<br/><br/>
+
+Przewidziana jest <b>daleko idąca możliwość ingerencji w przebieg e-doświadczeń</b>,
+co umożliwia uczniowi przyswojenie wiedzy oraz pobudzenie i rozwinięcie zainteresowań badawczych. <br/><br/>
+
+Staramy się, aby e-doświadczenia były <b>w jak największym stopniu zbliżone do rzeczywistości</b>.
+Wpisują się one w schemat <b>zaprojektuj - zbuduj – wykonaj – przeanalizuj – przedstaw wyniki</b>,
+gdzie istotne jest uczenie się na błędach. Chcemy bowiem zmusić uczniów do działania, nawet jeśli sprowadzałoby
+się to do działania metodą prób i błędów. Zgodnie z naszym doświadczeniem, uzyskanie nawet niewłaściwych wyników,
+które skonfrontowane z tymi prawidłowymi zmuszą do myślenia „gdzie i jaki popełniłem błąd?”,
+ma ogromną wartość dydaktyczną: motywuje do wyciągania wniosków i ciągłych poszukiwań właściwego rozwiązania
+problemu, wymuszając w ten sposób aktywność naukową.<br/><br/>
+
+Wszystkim e-doświadczeniom towarzyszą <b>podręczniki w formie zeszytów ćwiczeń</b>. Gorąco zachęcamy do zapoznania
+się z nimi jeszcze przed uruchomieniem danego e-doświadczenia.<br/><br/>
+
+        ]]>
+    </string>
+
+    <string name="info_app_text">
+        <![CDATA[
+<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O aplikacji</h1>
+
+e-Doświadczenia produkowane są w technologii <b>Adobe Flash / Adobe Air</b>, dzięki czemu mogą być używane
+na większości komputerów, niezależnie od używanego systemu operacyjnego czy rodzaju procesora.
+Niestety, technologia ta na tabletach daleka jest od doskonałości - występują ograniczenia związane
+z wydajnością aplikacji oraz z dostosowaniem jej do ekranów dotykowych.<br/><br/>
+Podczas używania e-doświadczeń <b>mogą zatem pojawić się następujące problemy:</b><br/>
+&bull; niewystarczająca wydajność w e-doświadczeniach wykorzystujących grafikę 3D
+(np. Wahadło matematyczne, Ruch ciał niebieskich), skutkująca „klatkowaniem” animacji,<br/>
+&bull; utrudniony dostęp do niektórych, niewielkich elementów (np. filtr w Ławie optycznej); czasem trzeba kilku
+prób, aby „podnieść” dany element,<br/>
+&bull; nie można uruchamiać podręczników z wnętrza e-doświadczeń; w zamian zostały one udostępnione
+bezpośrednio z aplikacji.<br/><br/>
+
+Przed uruchomieniem, dane e-Doświadczenie jest pobierane z Internetu do pamięci wewnętrznej urządzenia.
+Jest to operacja jednorazowa, do momentu skasowania go z pamięci bądź opublikowania nowszej wersji.<br/><br/>
+
+<font color="#22DAFE">Autor aplikacji</font><br/>
+Paweł Syty &minus; Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej<br/><br/>
+<font color="#22DAFE">Opracowanie graficzne aplikacji</font><br/>
+Rafał Buczek &minus; Crea.pl<br/><br/>
+<font color="#22DAFE">Opracowanie i produkcja e-doświadczeń:</font><br/>
+Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej<br/>
+Young Digital Planet SA<br/>
+L.C.G. Malmberg B.V. (Holandia)
+        ]]>
+    </string>
+
+<!-- Teksty w popupach o programie i partnerach -->
+
+    <string name="pokl_name">Program Operacyjny Kapitał Ludzki</string>
+    <string name="pokl_text">
+         <![CDATA[
+Program Kapitał Ludzki jest jednym z programów służących realizacji Narodowych Strategicznych Ram Odniesienia
+2007-2013 i obejmuje całość interwencji Europejskiego Funduszu Społecznego (EFS) w Polsce. Stanowi on odpowiedź
+na wyzwania, jakie przed państwami członkowskimi UE, w tym również Polską, stawia odnowiona Strategia Lizbońska.
+<br/><br/>
+Do wyzwań tych należą: uczynienie z Europy bardziej atrakcyjnego miejsca do lokowania inwestycji
+i podejmowania pracy, rozwijanie wiedzy i innowacji oraz tworzenie większej liczby trwałych miejsc pracy.
+        ]]>
+    </string>
+
+    <string name="efs_name">Europejski Fundusz Społeczny</string>
+    <string name="efs_text">
+         <![CDATA[
+Europejski Fundusz Społeczny (EFS) jest jednym z funduszy strukturalnych UE. Został stworzony, by redukować
+różnice w zamożności i jakości życia we wszystkich państwach członkowskich i regionach UE.<br/><br/>
+Fundusz promuje spójność gospodarczą i społeczną oraz promocją zatrudnienia w UE. Pomaga państwom członkowskim,
+sprawiając, że siła robocza i firmy są lepiej przygotowane do stawienia czoła nowym, globalnym wyzwaniom.
+        ]]>
+    </string>
+
+    <string name="pg_name">Politechnika Gdańska</string>
+    <string name="pg_text">
+                <![CDATA[
+<b>Największa i najstarsza w północnej Polsce państwowa uczelnia wyższa o profilu technicznym,
+z siedzibą w Gdańsku.</b><br/><br/>
+Obejmuje 9 wydziałów, na których studiuje ponad 24 tysiące studentów na studiach
+inżynierskich i magisterskich (stacjonarnych i niestacjonarnych), a także ponad 400 słuchaczy studiów
+doktoranckich. Dodatkowo, prowadzona jest na szeroką skalę
+wymiana międzynarodowa studentów i pracowników.<br/><br/>
+W ogólnopolskich rankingach uczelni wyższych
+Politechnika Gdańska zajmuje od dawna jedno z czołowych miejsc.
+        ]]>
+    </string>
+
+    <string name="ftims_name">Wydział Fizyki Technicznej i Matematyki Stosowanej PG</string>
+    <string name="ftims_text">
+         <![CDATA[
+<b>Jeden z dziewięciu wydziałów Politechniki Gdańskiej.</b><br/><br/>
+Prowadzone kierunki studiów i specjalności:<br/><br/>
+<b>Fizyka techniczna</b><br/>
+&bull; Fizyka stosowana<br/>
+&bull; Konwersja energii<br/>
+&bull; Informatyka stosowana<br/>
+&bull; Nanotechnologia<br/>
+&bull; Fizyka środowiska<br/><br/>
+
+<b>Matematyka</b><br/>
+&bull; Matematyka stosowana<br/>
+&bull; Matematyka finansowa<br/>
+&bull; Biomatematyka<br/><br/>
+
+<b>Inżynieria materiałowa</b><br/>
+&bull; Inżynieria materiałów funkcjonalnych<br/>
+&nbsp;&nbsp;(wspólnie z wydziałami: Chemicznym<br/>&nbsp;&nbsp;i Mechanicznym)<br/><br/>
+
+Absolwenci wydziału są cenionymi specjalistami i łatwo znajdują zatrudnienie w różnych dziedzinach przemysłu.
+        ]]>
+    </string>
+
+    <string name="ydp_name">Young Digital Planet SA (Gdańsk)</string>
+    <string name="ydp_text">
+         <![CDATA[
+<b>Największy w Polsce producent i wydawca edukacyjnych programów komputerowych.</b><br/><br/>
+Firma działa na rynku oprogramowania od 1990 roku. Jest dostawcą systemów szkoleniowych i treści edukacyjnych,
+opartych na technologiach informacyjnych, dla klientów indywidualnych, instytucji oświatowych
+oraz przedsiębiorstw.<br/><br/>
+Celem firmy jest dostarczanie rozwiązań, które charakteryzują się najwyższą jakością oraz sprawdzoną
+efektywnością. Jego realizację stanowią uznane i wielokrotnie nagradzane serie produktów, m.in.:<br/><br/>
+&bull; EuroPlus+<br/>
+&bull; eduSensus<br/>
+&bull; portal Nauczyciel.pl<br/>
+&bull; eduROM<br/>
+&bull; Lekcjotek@
+        ]]>
+    </string>
+
+    <string name="malmberg_name">L.C.G. Malmberg B.V. (Den Bosch, Holandia)</string>
+    <string name="malmberg_text">
+         <![CDATA[
+<b>Znany, działający od lat i wiodący w Holandii wydawca rozwiązań edukacyjnych</b>, pomagających uczniom w procesie
+uczenia się za pomocą systemów multimedialnych oraz nowoczesnych technologii ICT.<br/><br/>
+Firma rozwija interdyscyplinarne metodologie nauczania (Pluspunt, Biologie voor jou, Taalblokken,
+w sumie ponad 2500 tytułów).
+Świadczy usługi doradcze, szkoleniowe, badawcze m.in. w zakresie e-learnigu.
+        ]]>
+    </string>
+
+<!-- Teksty pomocy -->
+
+    <string name="txt_title_help">Pomoc</string>
+
+    <string name="txt_help_tytulowa">
+         <![CDATA[
+<b>Na tym ekranie można:</b><br/><br/>
+
+&bull; przeczytać podstawowe informacje o projekcie,<br/><br/>
+
+&bull; wyświetlić informacje o programie operacyjnym i funduszu,
+w ramach których realizowany jest projekt<br/>
+(<i>poprzez tapnięcie na logotypach na górze ekranu</i>)<br/><br/>
+
+&bull; wyświetlić informacje o realizatorach projektu<br/>
+(<i>poprzez tapnięcie na logotypach na dole ekranu</i>),<br/><br/>
+
+&bull; zmienić język aplikacji<br/>
+(<i>poprzez tapnięcie na ikonach w belce narzędziowej u góry ekranu</i>),<br/><br/>
+
+&bull; przejść do kolejnych ekranów aplikacji bądź ją zakończyć<br/>
+(<i>poprzez tapnięcie na przyciskach w centralnej części ekranu)</i>.
+         ]]>
+    </string>
+
+<!-- Komunikaty -->
+
+    <string name="msg_no_network">
+        Do pobrania e-doświadczenia niezbędne jest połączenie z Internetem.\n\nSprawdź swoje połączenie sieciowe
+        i spróbuj ponownie.
+    </string>
+
+    <string name="msg_ed_not_yet_produced">
+        Niestety, to e-doświadczenie nie jest jeszcze gotowe.\n\ne-Doświadczenia są produkowane sukcesywnie\ni będą
+        udostępniane tak szybko, jak to tylko możliwe.
+    </string>
+
+    <string name="msg_no_file_on_server">
+        Wystąpił nieoczekiwany błąd serwera.\nPrzepraszamy i prosimy spróbować później.
+    </string>
+
+    <string name="msg_internal_error001">
+        Wystąpił nieoczekiwany błąd aplikacji (kod: 001).\nPrzepraszamy i prosimy spróbować później.
+        Jeżeli błąd będzie się powtarzał, prosimy o kontakt z autorem programu.
+    </string>
+
+    <string name="msg_cant_make_dir">
+        Nie można utworzyć katalogu na karcie pamięci! Proszę spróbować z inną kartą.
+    </string>
+
+    <string name="msg_title_error">Błąd!</string>
+
+    <string name="dlg_unpacking">Pobieranie zakończone.\nTrwa rozpakowywanie plików, proszę czekać...</string>
+
+    <string name="dlg_downloading">Pobieranie danych (ok. %1$d MB), proszę czekać... </string>
+
+    <string name="msg_download_cancelled">Operacja została anulowana przez użytkownika</string>
+    
+    <string name="msg_to_less_space">Zbyt mało miejsca na karcie SD!\nPobranie e-doświadczeń nie będzie możliwe.</string>
+
+    <string name="msg_no_pdf_reader">Aby obejrzeć podręcznik, zainstaluj czytnik plików PDF</string>
+
+    <string name="msg_screen_not_supported">
+        Ta aplikacja wymaga ekranu o rozdzielczości co najmniej 1280 x 800 pikseli.
+    </string>
+
+    <string name="msg_title_info">Informacja</string>
+    <string name="msg_title_question">Pytanie</string>
+    <string name="msg_download_ed_question">
+        Aby uruchomić to e-doświadczenie, wymagane jest jednorazowe pobranie dodatkowych danych z Internetu.\n
+        \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
+        \n\nCzy pobrać dane teraz?
+    </string>
+    <string name="msg_download_ed_update_question">
+        Znaleziono aktualizację tego e-doświadczenia.\n
+        \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
+        \n\nCzy pobrać aktualizację teraz?
+    </string>
+    <string name="msg_install_flash_question">
+        Aby uruchamiać e-doświadczenia, wymagane jest zainstalowanie Adobe Flash Playera.
+        \n\nCzy uruchomić Market?
+    </string>
+
+    <string name="msg_starting_ed">Uruchamianie e-doświadczenia...</string>
+
+    <string name="msg_manual_not_available">
+        Przepraszamy, podręcznik do tego e-doświadczenia nie został jeszcze przygotowany.
+    </string>
+
+    <string name="msg_switch_to_en">Switched to English</string>
+    <string name="msg_already_en">You are already using English version...</string>
+    <string name="msg_switch_to_pl">Przełączono na język polski</string>
+    <string name="msg_already_pl">Już używasz wersji polskojęzycznej...</string>
+
+<!-- Informacje o e-doświadczeniach -->
+
+    <string name="ed_info_wahadlo">
+         <![CDATA[
+<b>Wahadło</b> możemy wyobrażać sobie jako kulkę zawieszoną swobodnie na nici.
+Głównym założeniem modelu <b>wahadła matematycznego</b> jest to, aby kulka ta
+była punktowa, a cała masa wahadła skupiała się właśnie w niej.
+Nić, na której zawieszona jest kulka traktujemy jako nieważką (zaniedbujemy jej masę)
+oraz nierozciągliwą (nie zmienia ona swojej długości).<br/><br/>
+
+<b>Za pomocą tego e-doświadczenia można m. in:</b><br/>
+&bull; zbadać okres podstawowy drgań wahadła matematycznego,<br/>
+&bull; zaobserwować zmiany energii kinetycznej i potencjalnej,<br/>
+&bull; poznać jeden z wielu sposobów na wyznaczenie przyspieszenia
+grawitacyjnego,<br/>
+&bull; sprawdzić, jak wygląda ruch wahadła w przyspieszającej windzie bądź pociągu,<br/>
+&bull; prowadzić obserwację wahadła matematycznego w warunkach,
+w których trudno się znaleźć w świecie rzeczywistym, np. na innych planetach,<br/>
+&bull; obserwować ruch wahadła Foucaulta.<br/><br/>
+
+<big><b>Uwaga!</b></big><br/>Ze względu na prowadzenie czasochłonnych obliczeń
+oraz wykorzystanie trójwymiarowej grafiki, animacja wahadła najprawdopodobniej
+będzie dość powolna (maksymalnie kilka klatek/s).
+Ciągle pracujemy nad optymalizacją tego e-doświadczenia tak, aby można było
+w pełni wykorzystać jego możliwości również na tabletach.
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_wahadlo">
+         <![CDATA[
+<b>Ćwiczenie - jam zmierzyć okres podstawowy drgań wahadła matematycznego?</b><br/><br/>
+&bull; Proponujemy na początek zmierzyć okres podstawowy, czyli czas jednego wahnięcia wahadła. 
+Do tego doświadczenia potrzebne nam będzie wahadło suwakowe oraz kulka.<br/>
+&bull; Przyczepiamy kulkę do nitki, która przymocowana jest do statywu.<br/>
+&bull; Ustalamy długość nici oraz kąt wychylenia i naciskamy ZAAKCEPTUJ USTAWIENIA.<br/>
+&bull; Aby uruchomić wahadło, naciskamy URUCHOM.<br/>
+&bull; Po jednym pełnym okresie zatrzymujemy stoper i wynik zapisujemy do tabeli.<br/>
+&bull; Postarajmy się teraz jak najdokładniej przeprowadzić ponownie to samo doświadczenie. 
+Mierząc pełne okresy, za każdym razem zapisujemy wynik w tabeli. 
+Doświadczenie powtarzamy przynajmniej 5 razy.<br/>
+&bull; Następnie przyjrzyjmy się otrzymanym wynikom i odpowiedzmy sobie na pytanie: 
+czy udało nam się dokładnie powtórzyć doświadczenie, czyli czy otrzymane wyniki pomiarów 
+okresu podstawowego są sobie równe?<br/>
+&bull; Czy twoim zdaniem odchylenia od poszczególnych zmierzonych w ten sposób wielkości 
+są duże czy małe?<br/>
+&bull; Jak uważasz, skąd biorą się te odchylenia i jakie czynniki mają wpływ na dokładność 
+wykonanych pomiarów?<br/>
+&bull; Zastanów się, czy istnieją bardziej dokładne sposoby na zmierzenie okresu podstawowego?<br/>
+<br/>
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
+         ]]>
+    </string>
+
+    <string name="ed_info_lawa">
+         <![CDATA[
+e-Doświadczenie <b>Ława optyczna</b> zostało w całości poświęcone soczewkom.
+<b>Soczewka</b> to proste urządzenie optyczne, składające się z jednego lub kilku sklejonych razem
+bloków przezroczystego materiału, zwykle szkła, ale też różnych tworzyw sztucznych, żeli lub minerałów.<br/><br/>
+
+Dzięki temu e-doświadczeniu można zapoznać się z wiedzą z zakresu optyki geometrycznej.
+Można poznać własności soczewek i podstawowe parametry je charakteryzujące. Dodatkowo, stanowi ono
+doskonałą ilustrację podstawowych wzorów opisujących soczewki.<br/><br/>
+
+Układając odpowiednio soczewki na ławie optycznej, można otrzymać różne obrazy rzeczywiste jak i pozorne.
+Ponadto, można zbudować lunetę i mikroskop.
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_lawa">
+         <![CDATA[
+<b>Ćwiczenie - badanie soczewek skupiających</b><br/><br/>
+&bull; Montujemy na ławie źródło światła z dowolnym filtrem.<br/>
+&bull; Z zestawu soczewek szklanych o różnych ogniskowych wybieramy dowolną soczewkę 
+skupiającą (taką o dodatniej wartości ogniskowej) i montujemy ją na ławie optycznej.<br/>
+<br/>
+&bull; Po drugiej stronie soczewki, na razie w dowolnej odległości, montujemy ekran.<br/>
+&bull; Źródło światła ustawiamy kolejno: przed ogniskiem soczewki, 
+w ognisku i w odległości większej niż ogniskowa przed soczewką.<br/>
+&bull; Dla każdego z tych trzech przypadków sprawdzamy, czy powstaje obraz na ekranie.<br/>
+&bull; Jeżeli obraz na ekranie jest niewyraźny, spróbuj przesuwać ekranem wzdłuż ławy optycznej 
+tak, aby uzyskać najlepszy rezultat.<br/>
+&bull; Jeśli nie obserwujemy żadnego obrazu na ekranie, popatrzmy przez soczewkę 
+i sprawdźmy czy można zaobserwować obraz pozorny.<br/>
+&bull; Proponujemy powtórzyć ćwiczenie dla innych soczewek skupiających z tego zestawu.<br/>
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
+         ]]>
+    </string>
+
+    <string name="ed_info_rzuty">
+         <![CDATA[
+<b>Rzutem</b> nazywamy ruch w jednorodnym polu grawitacyjnym z
+pewną prędkością początkową, skierowaną wzdłuż, w poprzek lub
+pod skosem względem linii pola.<br/><br/>
+
+<b>Za pomocą tego e-doświadczenia można:</b><br/>
+&bull; badać rzuty<br/>
+&nbsp;&nbsp; - pionowe,<br/>&nbsp;&nbsp; -  poziome,<br/>&nbsp;&nbsp; -  ukośne,<br/>
+&bull; badać rzuty, podczas których od rzuconego ciała odłącza się jego część,<br/>
+&bull; obserwować, jak odbicie rzuconej piłki od powierzchni wpływa na jej ruch obrotowy,<br/>
+&bull; obserwować rzuty w wietrznych warunkach,<br/>
+&bull; obserwować rzuty w nieinercjalnych układach odniesienia.
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_rzuty">
+         <![CDATA[
+<b>Ćwiczenie - rzut poziomy przy ustalonej prędkości</b><br/>
+&bull; Wybierz z Narzędzi (pierwsza ikona od lewej) następujące elementy: 
+dowolną kulkę, planszę z siatką pomiarową, linijkę, stelaż do wyrzutni oraz wyrzutnię 
+i matę tłumiącą odbicia.<br/>
+&bull; Ustaw stelaż z lewej strony maty i ustaw na nim wyrzutnię na pewnej wysokości.
+Nastaw kąt nachylenia wyrzutni równy 0 stopni (czyli poziomo) 
+oraz ustaw dowolną prędkość początkową kulki.<br/>
+&bull; URUCHOM doświadczenie.<br/>
+&bull; Ustal zasięg rzutu, tzn. odległość, jaką kulka przebyła w poziomie. 
+Do dokładnych pomiarów położenia użyj linijki.<br/>
+&bull; Powtórz ćwiczenie parokrotnie przy tej samej prędkości początkowej.
+Za każdym razem zmień wysokość, na jakiej znajduje się wyrzutnia.<br/>
+&bull; Zastanów się, od czego zależy zasięg rzutu.<br/><br/>
+
+<b>Ćwiczenie - spadek swobodny</b><br/>
+&bull;Wybierz z Narzędzi dwa statywy z elektromagnesem oraz dwie kulki 
+o różnych średnicach. Zmontuj odpowiednio zestaw, ustalając dla obu kulek identyczną 
+wysokość początkową i upuść kulki włączając przycisk URUCHOM 
+(obie kulki zostaną zwolnione jednocześnie).<br/>
+&bull; Jaki czas upływa pomiędzy spadkiem obu kulek? Jeśli bezpośrednią obserwacją 
+nie jesteś w stanie tego dokładnie określić, posłuż się nagraniem z kamery. 
+Zanotuj swoje spostrzeżenia. <br/>
+&bull; Przeprowadź ćwiczenie, ustalając wysokości początkowe kulek na stelażu, 
+tak aby odległość między podłożem i ich dolnymi wierzchołkami była identyczna dla obu.<br/>
+&bull; Jaki jest w tym przypadku czas upływający pomiędzy lądowaniami kulek? 
+Wyjaśnij. Dlaczego tak istotne jest założenie o równej odległości wierzchołków od podłoża, 
+a nie środków kulek? <br/>
+&bull; Powtórz ćwiczenie, zmieniając wysokości początkowe oraz rozmiar obu badanych kulek. 
+Dostępne są cztery kulki o różnych średnicach i co za tym idzie o różnych masach. 
+Pamiętaj, aby ustalać jednakową odległość wierzchołków od podłoża. <br/>
+&bull; Jakie są Twoje wnioski? Czy jesteś w stanie powiedzieć, od czego zależy 
+czas spadku swobodnego, a od czego nie zależy? <br/>
+&bull; Czy jesteś w stanie wyciągnąć ogólne wnioski dotyczące rzutów, które obserwowałeś?
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
+         ]]>
+    </string>
+
+    <string name="ed_info_bryla">
+         <![CDATA[
+<b>Bryła sztywna</b> to modelowe ciało fizyczne, które nie deformuje się pod wpływem sił,
+czyli &minus; inaczej mówiąc &minus; odległości między punktami ciała się nie zmieniają.<br/><br/>
+Z pojęciem bryły sztywnej nieodłącznie związane jest pojęcie wahadła fizycznego.
+<b>Wahadłem fizycznym</b> nazywamy bryłę sztywną, wykonującą drgania
+wokół osi nie przechodzącej przez środek masy bryły.<br/><br/>
+
+<b>Za pomocą tego e-doświadczenia można m. in:</b><br/>
+&bull; zmierzyć okres wahadła fizycznego,<br/>
+&bull; wyznaczać środki mas figur o nieregularnych kształtach,<br/>
+&bull; badać moment bezwładności różnych figur, w tym własnoręcznie stworzonych,<br/>
+&bull; badać zachowanie tzw. wahadła Oberbecka.
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_bryla">
+         <![CDATA[
+<b>Ćwiczenie - wyznaczanie środka masy bryły sztywnej</b><br/><br/>
+&bull; Wybierz z Narzędzi bryłę z zakładki "Środek masy" wraz z potrzebnymi narzędziami.<br/>
+&bull; Zawieś kątomierz na statywie.<br/>
+&bull; Kliknij na bryłę, a następnie na przycisk WYBIERZ PUNKT ZACZEPIENIA.<br/>
+<br/>
+&bull; Przed uruchomieniem doświadczenia zastanów się i spróbuj odgadnąć, 
+w którym miejscu bryły powinien być jej środek masy.<br/>
+<br/>
+&bull; W otwartym oknie kliknij w miejscu najbliższym punktowi, w którym uważasz, 
+że znajduje się środek masy. Możesz zmieniać punkt zaczepienia klikając w innym miejscu na bryle.<br/>
+&bull; Zamknij okno i powieś bryłę na statywie.<br/>
+&bull; Uruchom doświadczenie.<br/>
+&bull; Po ustabilizowaniu się bryły, kliknij na nią jednokrotnie prawym przyciskiem myszy, 
+aby narysować jej oś stabilnego zawieszenia.<br/>
+&bull; Dwukrotnie kliknij na bryłę, by ponownie położyć ją na stole.<br/>
+&bull; Wybierz inny punkt zaczepienia i powtórz pomiar. Zrób tak kilkakrotnie.<br/>
+&bull; Czy jesteś w stanie wskazać środek masy? Czy spodziewałeś się go w takim miejscu?<br/>
+&bull; Powtórz doświadczenie dla innych brył.<br/>
+&bull; Dlaczego w niektórych bryłach środek masy znajduje się poza bryłą? Uzasadnij.<br/>
+<br/>
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
+         ]]>
+    </string>
+
+    <string name="ed_info_rownia">
+         <![CDATA[
+<b>Równią pochyłą</b> nazywamy płaską powierzchnię, nachyloną pod pewnym kątem do poziomu.
+Równia pochyła jest jedną z sześciu klasycznych <b>maszyn prostych</b>, tzn. takich,
+które zmieniają kierunek lub wartość siły (pozostałymi są: dźwignia, kołowrót, blok, klin i śruba).<br/><br/>
+
+Za pomocą tego e-doświadczenia można m.in.:<br/>
+&bull; badać ruch przyspieszony,<br/>
+&bull; badać prawa dotyczące siły tarcia,<br/>
+&bull; poznać metodę wyznaczenia współczynnika tarcia<br/>,
+&bull; przekonać się, od czego zależy współczynnik tarcia.<br/><br/>
+
+Dodatkowo, wirtualne e-doświadczenie umożliwia także obserwacje w warunkach,
+które bardzo trudno jest wytworzyć w laboratorium: w windzie i pociągu,
+poruszających się z zadanym przyspieszeniem.
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_rownia">
+         <![CDATA[
+<b>Ćwiczenie - jakim ruchem poruszają się klocki na równi?</b><br/><br/>
+&bull; Wybierz dowolny klocek z Narzędzi. Możesz także według własnego uznania wybrać 
+nakładkę na klocek lub równię.<br/>
+&bull; Połóż klocek w górnej części równi (w dowolnym punkcie). Zanotuj jego położenie.<br/>
+&bull; Nachyl równię pod kątem większym od $35^\circ$ (zwróć uwagę, że na kątomierzu odczytujemy kąt, 
+jaki równia tworzy ze stołem, a nie kąt, przy którym umieszczony jest kątomierz!)<br/>
+&bull;   Wciśnij URUCHOM.<br/>
+&bull; Po dotarciu klocka do końca równi, odtwórz nagranie z kamery.<br/>
+&bull; Dla przynajmniej 6 punktów, zapisz w tabeli położenie klocka co 0,1 s. 
+Sporządź wykres przebytej drogi w zależności od czasu.<br/>
+&bull; Wykonaj drugi wykres: wyznacz prędkość chwilową ciała od czasu dzieląc drogę przebytą 
+przez ciało w ciągu 0,1 s przez 0,1 s.<br/>
+&bull; Przyjrzyj się otrzymanym wykresom. Jaki ruch on przedstawia? Jakie parametry ruchu 
+jesteś w stanie ustalić na ich podstawie?<br/>
+&bull; Powtórz ćwiczenie, wybierając różne nakładki na klocki oraz równię. 
+Czy Twoje wnioski będą takie same?<br/>
+&bull; Czy istotne jest, w którym punkcie równi położysz klocek?<br/>
+&bull; Co się stanie, jeśli będziesz zmieniać kąt nachylenia równi?
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
+         ]]>
+    </string>
+
+    <string name="ed_info_einstein">
+         <![CDATA[
+<b>Eksperymenty myślowe Einsteina...</b>             
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_einstein">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+
+    <string name="ed_info_astro">
+         <![CDATA[
+<b>Ciałem niebieskim</b> nazywamy dowolny obiekt fizyczny (czyli przedmiot
+rozciągły w czasie i przestrzeni) występujący w przestrzeni
+kosmicznej, czyli poza obszarem ziemskiej atmosfery (umownie
+granicą jest tzw. linia K&aacute;rm&aacute;na, znajdująca się 100 km nad
+powierzchnią Ziemi).<br/><br/>
+
+Ciałem niebieskim może być także układ obiektów i struktur
+powiązanych ze sobą siłami grawitacji. Jako ciała niebieskie
+klasyfikujemy miedzy innymi: gromady galaktyk, galaktyki,
+gwiazdy, układy planetarne, planety, księżyce. Jak widać, rozmiary
+i struktury ciał niebieskich są bardzo różne, zatem i ich ruch może
+zdecydowanie się różnić.
+<br/><br/>
+Za pomocą e-doświadczenia można zbadać model Układu Słonecznego,
+poznać prawa Keplera, wyznaczyć prędkości kosmiczne i trajektorie planet
+oraz dowiedzieć się, czym jest układ podwójnej gwiazdy.
+Jest to również niepowtarzalna okazja do zbudowania własnego układu planetarnego.<br/><br/>
+
+<big><b>Uwaga!</b></big><br/>Ze względu na prowadzenie czasochłonnych obliczeń
+oraz wykorzystanie grafiki trójwymiarowej, animacja wahadła najprawdopodobniej
+będzie dość powolna (maksymalnie kilka klatek/s).
+Ciągle pracujemy nad optymalizacją tego e-doświadczenia, tak, aby można było
+w pełni wykorzystać jego możliwości również na tabletach.
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_astro">
+         <![CDATA[
+<b>Ćwiczenia -  badanie Układu Słonecznego</b><br/><br/>
+&bull; Wybierz na pasku narzędzi "Układy ciał niebieskich", a następnie wybierz UKŁAD SŁONECZNY.<br/>
+&bull; Przed uruchomieniem doświadczenia, korzystając z okienka nawigacji znajdującego się 
+z prawej strony ekranu, postaraj się zlokalizować wszystkie planety znajdujące się w układzie.<br/>
+<br/>
+&bull; Na panelu dolnym, w zakładce "Konfiguracja", zaznacz opcję "Pokaż trajektorie".<br/>
+&bull; Aby zaoszczędzić na czasie, możesz przyspieszyć upływ czasu poprzez wybranie 
+odpowiedniej wartości w rozwijanym menu, w zakładce "Konfiguracja".<br/>
+&bull; Ukryj panel dolny poprzez kliknięcie na guzik UKRYJ PANEL, a następnie uruchom doświadczenie 
+poprzez wciśnięcie URUCHOM.<br/>
+&bull; Korzystając z przycisków nawigacji ustaw układ tak, aby było widać jak najwięcej 
+trajektorii planet.<br/>
+&bull; Dalej możesz swobodnie nawigować po układzie, by jak najlepiej poznać działanie 
+i możliwości doświadczenia.<br/>
+&bull; Jakie są twoje wnioski na temat rozmiarów układu i poszczególnych planet, 
+oraz odległości między nimi? Czy przy możliwościach obecnej technologii, człowiek jest w stanie, 
+w czasie swojego życia, dostać się na kraniec naszego Układu Słonecznego?<br/>
+<br/>
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
+         ]]>
+    </string>
+
+    <string name="ed_info_zderzenia">
+         <![CDATA[
+<b>Zderzenie</b> to relatywnie krótkie zdarzenie, podczas którego poruszające się ciała
+oddziałują na siebie pewnymi siłami. W <b>zderzeniach sprężystych</b>, całkowita energia kinetyczna ciał
+po zderzeniu jest równa całkowitej energii kinetycznej ciał przed zderzeniem.
+Z kolei w <b>zderzeniach niesprężystych</b>, końcowa energia kinetyczna jest mniejsza od energii kinetycznej
+przed zderzeniem (w takim przypadku część energii jest tracona na różne procesy towarzyszące zderzeniu,
+jak np. wydzielanie ciepła).<br/><br/>
+
+Za pomocą tego e-doświadczenia można m.in.:<br/>
+&bull; badać zasadę zachowania pędu,<br/>
+&bull; badać oraz zasadę zachowania energii,<br/>
+&bull; obserwować zachowanie tzw. kołyski Newtona,<br/>
+&bull; nauczyć się metody mierzenia czasu zderzeń metalowych kul.<br/><br/>
+
+Jako ciekawostkę, do e-doświadczenia załączono symulację bilardu.
+
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_zderzenia">
+         <![CDATA[
+<b>Ćwiczenie - zderzenie centralne czołowe</b><br/>
+&bull; Wybierz z Narzędzi (pierwsza ikonka od lewej) dwie takie same kulki
+(obie stalowe, szklane, uranowe lub niklowe).<br/>
+&bull; Jedną z nich umieść przy wyrzutni, a drugą na środku maty.
+Ustaw je tak, aby ich środki znajdowały się w tej samej linii siatki.<br/>
+&bull; Ustal dowolną prędkość początkową dla kulki i wystrzel ją.<br/>
+&bull; Jak będą poruszały się kulki po zderzeniu?
+Powtórz ćwiczenie, ustalając różne prędkości początkowe kulki oraz zmieniając rodzaj kulek
+(obie muszą być z tego samego materiału). Czy ich zachowanie będzie takie same?
+
+<br/><br/>
+<b>Ćwiczenie - zasady zachowania w zderzeniach centralnych skośnych</b><br/>
+&bull; Wybierz z Narzędzi dwie dowolne kulki i zanotuj ich masy.<br/>
+&bull; Jedną kulkę umieść przy wyrzutni, drugą ustaw na środku maty.
+Przesuń wyrzutnię tak, aby środek wyrzucanej kulki nie znajdował się na tej samej linii siatki,
+co środek kulki z centrum maty. Zwróć uwagę na to, żeby środki kul
+były na liniach wystarczająco bliskich siebie tak, aby zderzenie
+w ogóle nastąpiło.<br/>
+&bull; Ustal dowolną wartość prędkości początkowej dla wystrzeliwanej kulki
+i zapisz ją. Wystrzel kulkę.<br/>
+&bull;  Używając nagrania z Kamery ustal, jakie są wartości prędkości
+końcowych obu kul. W tym celu musisz ustalić, jaką drogę przebywa
+każda z kul w ustalonym czasie.<br/>
+&bull; Posługując się nagraniem ustal, pod jakim kątem kulki zostały odbite.
+Dzięki temu będziesz mógł wyznaczyć składowe wektorów prędkości
+w kierunku poziomym oraz pionowym.<br/>
+&bull;  Sprawdź, czy spełnione są: zasada zachowania energii oraz zasada zachowania pędu.
+Odpowiednie wzory znajdziesz w podręczniku.<br/>
+&bull;  Powtórz ćwiczenia, wybierając inne kulki oraz zmieniając
+początkowe prędkości i położenia wystrzeliwanej kulki.<br/><br/>
+
+Więcej ćwiczeń można znaleźć w podręczniku.<br/>
+         ]]>
+    </string>
+
+    <string name="ed_info_ciecze">
+         <![CDATA[
+<b>Mechanika cieczy...</b>         
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_ciecze">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+
+    <string name="ed_info_drgania">
+         <![CDATA[
+<b>Drgania mechaniczne...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_drgania">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+
+</resources>

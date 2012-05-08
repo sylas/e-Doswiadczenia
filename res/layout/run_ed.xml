@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uruchom_ed_layout"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <WebView
+        android:id="@+id/webview_ed"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight=".785">
+    </WebView>
+
+    <LinearLayout
+        android:id="@+id/ed_run_info"
+        android:orientation="vertical"
+        android:layout_weight=".215"
+        android:paddingTop="110dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/tlo_ed_run"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/txtNazwaED"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|bottom"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:scrollbars="vertical"
+                android:fillViewport="true">
+
+                <TextView
+                    android:id="@+id/textEDInfoRun"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginTop="15px"
+                    android:textColor="@color/white"
+                    android:lineSpacingMultiplier="1.18"
+                    android:scaleType="centerCrop"/>
+
+            </ScrollView>
+
+            <Button
+                android:id="@+id/buttonRunManual"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/btn_run_manual"
+                android:textSize="17dp"
+                style="@style/InfoButton"/>
+
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

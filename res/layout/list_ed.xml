@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/tlo_info"
+              android:baselineAligned="true"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp">
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="30dp"
+            android:text="@string/btn_back"
+            android:drawableLeft="@drawable/ic_back_small"
+            style="@style/InfoButtonBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="@string/txt_list_ed"
+            android:textColor="@color/bluegreen"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/tlo_lista_naglowek"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="1195dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_wahadlo"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wahadlo"/>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_lawa"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_lawa"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_rownia"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_rownia"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false" >
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_zderzenia"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_zderzenia"/>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_rzuty"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_rzuty"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_astro"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_astro"/>
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false" >
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_ciecze"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_ciecze"/>
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_bryla"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_bryla"/>
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_einstein"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_einstein"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false" >
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_drgania"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_drgania"/>
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_poleelektryczne"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_prad"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_dzwiek"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_kalorymetria"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_kondensatory"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false" >
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_polemagnetyczne"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_cewki"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_polaryzacja"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false" >
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_rlc"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_korpuskularna"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_interferencja"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false" >
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_spektroskopia"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/ed_name_gazy"
+                    style="@style/ListaButton"
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"/>
+
+            </TableRow>
+    
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

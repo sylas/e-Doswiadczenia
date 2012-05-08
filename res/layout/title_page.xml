@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tlo_strona_tytulowa"
+    android:id="@+id/strona_tytulowa">
+
+    <TextView android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bluegreen"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.18"
+        android:layout_marginTop="310dp"
+        android:gravity="center"
+        android:text="@string/txt_title1"/>
+
+    <TextView android:id="@+id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.18"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/txt_title2"/>
+
+    <TextView android:id="@+id/text3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bluegreen"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.18"
+        android:gravity="center"
+        android:text="@string/txt_title3"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttonInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_info"
+            android:textSize="20dp"
+            style="@style/InfoButton"/>
+
+        <Button
+            android:id="@+id/buttonLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_list_ed"
+            android:textSize="20dp"
+            style="@style/InfoButton"
+            android:layout_marginLeft="60dp"/>
+
+        <Button
+            android:id="@+id/buttonZakoncz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_close_app"
+            android:textSize="20dp"
+            style="@style/InfoButton"
+            android:layout_marginLeft="60dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
