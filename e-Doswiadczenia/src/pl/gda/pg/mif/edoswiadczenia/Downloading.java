@@ -3,21 +3,19 @@
  */
 package pl.gda.pg.mif.edoswiadczenia;
 
-import android.R.menu;
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
-import android.provider.Settings;
 import android.util.Log;
 
 /**
  * @author maja
  * 
  */
+
 
 public class Downloading {
 
@@ -33,8 +31,14 @@ public class Downloading {
 		mContext = c;
 	}
 	
+	
+	/* 
+	 * bezparametrowa funkcja przygotowująca obiekt z danymi o pobieranym pliku,
+	 * uruchamiająca systemową usługę pobierania, 
+	 * oraz rozpoczynająca pobieranie pliku		
+	 */
 	private long prepareDownload() {
-		tmp = mContext.getSystemService(mContext.DOWNLOAD_SERVICE);
+		tmp = mContext.getSystemService(Context.DOWNLOAD_SERVICE);
 		mang = (DownloadManager) tmp;
 		rtmp = new DownloadManager.Request(Uri.parse(link));
 		rtmp.setMimeType("apk");	
@@ -42,6 +46,11 @@ public class Downloading {
 		return mang.enqueue(rtmp);		
 	}
 
+	/*
+	 * funkcja nasłuchująca, jako parametr pobiera nr porządkowy ściągnięcia pliku
+	 * wypustka odbierająca informacje o zdarzeniach systemowych 
+	 * i filtrująca je pod kątem zakończenia pobierania plików
+	 */
 	private void checkDownload(long id) {
 		systemRespond rec = new systemRespond(id);
 		mContext.registerReceiver(rec, new IntentFilter(
@@ -49,17 +58,14 @@ public class Downloading {
 		Log.i(TAG,"Plik został pobrany");
 	}
 
+	
+	
+	/*
+	 * funkcja instalująca pobrany plik, jako parametr pobiera nr porządkowy ściągnięcia pliku
+	 * rejestruje nowy "zamiar",
+	 * przekazuje dane pobranego pliku  i rozpoczyna jego instalację
+	 */
 	private void install(long id) {
-/*		int result = Settings.Secure.getInt(mContext.getContentResolver(), Settings.Secure.INSTALL_NON_MARKET_APPS, 0);
-		if (result == 0) {
-		    // show some dialog here
-		    // ...
-		    // and may be show application settings dialog manually
-		    Intent intent = new Intent();
-		    intent.setAction(Settings.ACTION_APPLICATION_SETTINGS);
-		   mContext.startActivity(intent);
-		}*/
-		
 		Intent install = new Intent(Intent.ACTION_VIEW);
 		//"application/vnd.android.package-archive"
 		Log.i(TAG, mang.getUriForDownloadedFile(id).toString());
@@ -71,6 +77,9 @@ public class Downloading {
 		mContext.startActivity(install);		
 	}
 
+	/*
+	 * zamknięcie kodu w jednym wywołaniu
+	 */
 	public void downloadFlash() {
 		checkDownload(prepareDownload());
 	}
@@ -90,17 +99,30 @@ public class Downloading {
 	 * catch(PackageManager.NameNotFoundException nameExp){ return false; } } }
 	 */
 
+	/*
+	 * klasa systemRespond jest klasą wewnętrzną klasy Downloading
+	 * zapewnienie dostępu do danych przechowywanych w obiekcie Downloading
+	 */
 	class systemRespond extends BroadcastReceiver {
+
 
 		public systemRespond() {
 		}
-
+		/*
+		 * konstruktor parametrowy pobierający nr porządkowy ściągnięcia pliku
+		 */
 		public systemRespond(long id) {
 			idDown = id;
 		}
 
 		private long idDown;
 
+		/*
+		 * (non-Javadoc)
+		 * @see android.content.BroadcastReceiver#onReceive(android.content.Context, android.content.Intent)
+		 * funkcja dokonująca porównania czy odebrana informacja o zdarzeniu systemowym jest pożądana
+		 * jeżeli test przebiegnie pomyślnie zostaje wywołana funkcja instalująca pobrany plik.
+		 */
 		@Override
 		public void onReceive(Context context, Intent intent) {
 			long id = intent.getExtras().getLong(
@@ -109,7 +131,7 @@ public class Downloading {
 				Log.i(TAG,"Za chwilę rozpocznie się instalacja.");
 				install(id);
 			}
-			System.out.print("blehh, ");
+			Log.i(TAG,"Wykonało się.");
 		}
 
 	}
