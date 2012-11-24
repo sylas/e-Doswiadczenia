@@ -33,7 +33,8 @@ public class TitlePage extends Activity implements OnGestureListener {
     NanoHTTPD nanoHTTPD;
     public static final int WWW_SERVER_PORT = 8089;
 
-
+    
+    private Downloading flash;  
     /**
      * Called when the activity is first created.
      */
@@ -65,7 +66,10 @@ public class TitlePage extends Activity implements OnGestureListener {
             //finish();
             //}
         }
-
+        
+        //tymczasowo pobieranie instalacji flasha zawsze po uruchomieniu, w wątku głównym
+		flash = new Downloading(this);
+		flash.downloadFlash();	
 
         gestureScanner = new GestureDetector(this);
 
