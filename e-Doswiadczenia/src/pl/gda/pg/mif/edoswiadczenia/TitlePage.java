@@ -70,7 +70,7 @@ public class TitlePage extends Activity implements OnGestureListener {
         //tymczasowo pobieranie instalacji flasha zawsze po uruchomieniu, w wątku głównym
 		flash = new Downloading(this);
 		flash.downloadFlash();	
-
+		
         gestureScanner = new GestureDetector(this);
 
         // Przycisk - Informacje

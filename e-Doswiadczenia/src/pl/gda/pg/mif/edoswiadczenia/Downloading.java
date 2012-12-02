@@ -3,19 +3,22 @@
  */
 package pl.gda.pg.mif.edoswiadczenia;
 
+import java.io.File;
+
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
+import android.os.Environment;
+import android.provider.Settings;
 import android.util.Log;
 
 /**
  * @author maja
  * 
  */
-
 
 public class Downloading {
 
@@ -26,24 +29,84 @@ public class Downloading {
 	private DownloadManager.Request rtmp;
 	private Context mContext;
 	private static final String TAG = "MyActivity";
+	private systemRespond rec;
+	
+	private String externalStorageState;
+	File externalPath;
 	
 	public Downloading(Context c){
 		mContext = c;
 	}
+		
+
 	
+	BroadcastReceiver mExternalStorageReceiver;
+	boolean mExternalStorageAvailable = false;
+	boolean mExternalStorageWriteable = false;
+	
+	void checkExternalStorageState() {
+		externalStorageState = Environment.getExternalStorageState();
+	    if (Environment.MEDIA_MOUNTED.equals(externalStorageState)) {
+	        mExternalStorageAvailable = mExternalStorageWriteable = true;
+	        externalPath = Environment.getExternalStorageDirectory();
+	        if(!externalPath.exists()){
+	        	externalPath.mkdirs();
+	        	} 
+	        }
+	    else if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(externalStorageState)) {
+	        mExternalStorageAvailable = true;
+	        mExternalStorageWriteable = false;}
+	    else {
+	        mExternalStorageAvailable = mExternalStorageWriteable = false;}
+	}
+	
+	//to do
+	//jezeli coś nie tak z kartą sd, to pokazuje userowi komunikat
+	void pushInfoToUser(){
+		
+	}
+	
+	void  startWatchingExternalStorage(){ 
+		mExternalStorageReceiver = new BroadcastReceiver() {
+		        @Override
+		        public void onReceive(Context context, Intent intent) {
+		            //Log.i("test", "Storage: " + intent.getData());
+		            checkExternalStorageState();
+		        }
+		    };
+		    IntentFilter filter = new IntentFilter();
+		    
+		    filter.addAction(Intent.ACTION_MEDIA_MOUNTED);
+		    filter.addAction(Intent.ACTION_MEDIA_REMOVED);
+		    mContext.registerReceiver(mExternalStorageReceiver, filter);
+		    checkExternalStorageState();
+
+	}
+	
+	void stopWatchingExternalStorage() {
+		mContext.unregisterReceiver(mExternalStorageReceiver);
+	}
 	
 	/* 
 	 * bezparametrowa funkcja przygotowująca obiekt z danymi o pobieranym pliku,
 	 * uruchamiająca systemową usługę pobierania, 
 	 * oraz rozpoczynająca pobieranie pliku		
 	 */
+	
 	private long prepareDownload() {
 		tmp = mContext.getSystemService(Context.DOWNLOAD_SERVICE);
 		mang = (DownloadManager) tmp;
 		rtmp = new DownloadManager.Request(Uri.parse(link));
+		
+		startWatchingExternalStorage();
+		if(mExternalStorageAvailable){
+			rtmp.setDestinationInExternalPublicDir("DIRECTORY_DOWNLOADS","install_flash_player_ics.apk");	
+		}
+		rtmp.allowScanningByMediaScanner();
 		rtmp.setMimeType("apk");	
-		Log.i(TAG,"Przygotowano dane do pobierania");
-		return mang.enqueue(rtmp);		
+		//Log.i(TAG,"Przygotowano dane do pobierania");
+		stopWatchingExternalStorage();
+		return mang.enqueue(rtmp);
 	}
 
 	/*
@@ -52,29 +115,25 @@ public class Downloading {
 	 * i filtrująca je pod kątem zakończenia pobierania plików
 	 */
 	private void checkDownload(long id) {
-		systemRespond rec = new systemRespond(id);
+		rec = new systemRespond(id);
 		mContext.registerReceiver(rec, new IntentFilter(
 				DownloadManager.ACTION_DOWNLOAD_COMPLETE));
-		Log.i(TAG,"Plik został pobrany");
 	}
-
-	
-	
+		
 	/*
 	 * funkcja instalująca pobrany plik, jako parametr pobiera nr porządkowy ściągnięcia pliku
 	 * rejestruje nowy "zamiar",
 	 * przekazuje dane pobranego pliku  i rozpoczyna jego instalację
 	 */
-	private void install(long id) {
-		Intent install = new Intent(Intent.ACTION_VIEW);
-		//"application/vnd.android.package-archive"
-		Log.i(TAG, mang.getUriForDownloadedFile(id).toString());
-		
-		//install.setDataAndType(mang.getUriForDownloadedFile(id),mang.getMimeTypeForDownloadedFile(id));
+	private void install(long id) {				
+		Intent install = new Intent(Intent.ACTION_INSTALL_PACKAGE);		
+		//Log.i(TAG, mang.getUriForDownloadedFile(id).toString());
 		install.setDataAndType(mang.getUriForDownloadedFile(id),"application/vnd.android.package-archive");
 		install.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-		Log.i(TAG,"instalujemy");
-		mContext.startActivity(install);		
+		mContext.grantUriPermission("pl.gda.pg.mif.edoswiadczenia",mang.getUriForDownloadedFile(id), Intent.FLAG_GRANT_READ_URI_PERMISSION);
+		//Log.i(TAG,"instalujemy");
+		mContext.startActivity(install);
+		afterInstall();
 	}
 
 	/*
@@ -83,29 +142,20 @@ public class Downloading {
 	public void downloadFlash() {
 		checkDownload(prepareDownload());
 	}
-
 	
-	/*
-	 * public class installedApps extends Activity { private ApplicationInfo
-	 * downFlashInfo; private ApplicationInfo instalFlashInfo; private
-	 * PackageManager pMang;
-	 * 
-	 * private installedApps(ApplicationInfo info){ downFlashInfo = info; }
-	 * 
-	 * public boolean checkInst(){ try{ instalFlashInfo =
-	 * pMang.getApplicationInfo
-	 * (downFlashInfo.packageName,PackageManager.GET_UNINSTALLED_PACKAGES );
-	 * if(instalFlashInfo.equals(downFlashInfo)){ return true; } return true; }
-	 * catch(PackageManager.NameNotFoundException nameExp){ return false; } } }
-	 */
-
+	//funkcja sprzątająca
+	void afterInstall() {
+		mContext.unregisterReceiver(rec);
+	}
+	
 	/*
 	 * klasa systemRespond jest klasą wewnętrzną klasy Downloading
 	 * zapewnienie dostępu do danych przechowywanych w obiekcie Downloading
 	 */
 	class systemRespond extends BroadcastReceiver {
 
-
+		private long idDown;
+		
 		public systemRespond() {
 		}
 		/*
@@ -114,8 +164,6 @@ public class Downloading {
 		public systemRespond(long id) {
 			idDown = id;
 		}
-
-		private long idDown;
 
 		/*
 		 * (non-Javadoc)
@@ -127,13 +175,12 @@ public class Downloading {
 		public void onReceive(Context context, Intent intent) {
 			long id = intent.getExtras().getLong(
 					DownloadManager.EXTRA_DOWNLOAD_ID);
+			//Log.i("test", "Storage: " + intent.getData());
 			if (idDown == id) {
-				Log.i(TAG,"Za chwilę rozpocznie się instalacja.");
+				//Log.i(TAG,"Za chwilę rozpocznie się instalacja.");
 				install(id);
 			}
-			Log.i(TAG,"Wykonało się.");
 		}
-
+	
 	}
-
 }
