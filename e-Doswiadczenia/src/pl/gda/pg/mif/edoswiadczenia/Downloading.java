@@ -4,10 +4,12 @@
 package pl.gda.pg.mif.edoswiadczenia;
 
 import java.io.File;
+import java.util.Iterator;
 import java.util.List;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -44,6 +46,8 @@ public class Downloading {
 	BroadcastReceiver mExternalStorageReceiver;
 	boolean mExternalStorageAvailable = false;
 	boolean mExternalStorageWriteable = false;
+	private final String flashPackageName = "com.adobe.flashplayer";
+
 	
 	public Downloading(Context c){
 		mContext = c;
@@ -95,16 +99,19 @@ public class Downloading {
 	
 	//bezparametrowa funkcja sprawdzająca czy idtnieje potrzeba instalowania flash playera na tablecie
 	boolean checkIfFlashExixts(){
-		try{
-			ApplicationInfo info = mContext.getPackageManager().getApplicationInfo("Adobe Flash Player", 0 );
-			int wait = 3;
-	     //-- application exists
-			return true;
-	    } catch( PackageManager.NameNotFoundException e ){
-	     //-- application doesn't exist
-	    	return false;
+		
+		boolean status = false;
+		List<PackageInfo> mPackages;
+		PackageManager mPm = mContext.getPackageManager(); 
+		int iter = 0;
+		mPackages = mPm.getInstalledPackages(0);
+		while (!status && !(iter > mPackages.size()) ) {
+			status = mPackages.get(iter).packageName.equals(flashPackageName);
+			iter++;
 		}
+		return status;
 	}
+	
 	
 	/* 
 	 * bezparametrowa funkcja przygotowująca obiekt z danymi o pobieranym pliku,

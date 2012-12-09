@@ -57,7 +57,7 @@ public class TitlePage extends Activity implements OnGestureListener {
         setContentView(R.layout.title_page);
 
         // Start serwera WWW
-        // TODO Losować port
+        //Losowanie portu
         portRandomization();
         // TODO Sprawdzic czy port nie zajety
         //      (w dalekiej przyszlosci - port jest niestandardowy, wiec ryzyko jego zajecia jest minimalne)
@@ -74,10 +74,13 @@ public class TitlePage extends Activity implements OnGestureListener {
             //}
         }
         
-        //pobieranie instalacji flasha zawsze po uruchomieniu, w wątku głównym, jeżeli zachodzi taka potrzeba
-		
+        //pobieranie instalacji flasha jeżeli zachodzi taka potrzeba
+        //zawsze po uruchomieniu, w wątku głównym, 		
         flash = new Downloading(this);
 		if(!flash.checkIfFlashExixts()){
+		    Toast.makeText(this, "Flash not installed! " +
+		    		"This application require Adobe Flash Player. " +
+		    		"Downloading will start automatically.", Toast.LENGTH_LONG).show();
 			flash.downloadFlash();
 		}
 		
