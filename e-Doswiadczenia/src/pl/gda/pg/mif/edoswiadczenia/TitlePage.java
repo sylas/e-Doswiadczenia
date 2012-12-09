@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.text.Html;
+import android.util.Log;
 import android.view.GestureDetector.OnGestureListener;
 import android.view.View.OnClickListener;
 import android.view.*;
@@ -16,6 +17,9 @@ import android.widget.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.Locale;
+import java.util.Random;
+
+import org.xml.sax.Parser;
 
 /**
  * Strona tytulowa aplikacji.
@@ -31,9 +35,10 @@ public class TitlePage extends Activity implements OnGestureListener {
     public static final String EN_FLAG = "en";
     public static final String PL_FLAG = "pl";
     NanoHTTPD nanoHTTPD;
-    public static final int WWW_SERVER_PORT = 8089;
-
+    public static int WWW_SERVER_PORT; // = 8089
+    public static final int MAX_PORT = 65535;
     
+    private static final String TAG = "MyActivity";
     private Downloading flash;  
     /**
      * Called when the activity is first created.
@@ -53,8 +58,10 @@ public class TitlePage extends Activity implements OnGestureListener {
 
         // Start serwera WWW
         // TODO Losować port
+        portRandomization();
         // TODO Sprawdzic czy port nie zajety
         //      (w dalekiej przyszlosci - port jest niestandardowy, wiec ryzyko jego zajecia jest minimalne)
+        
         File NanoHTTPDserverRoot =
                 new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + ListED.ED_SDCARD_DIR);
         try {
@@ -67,9 +74,12 @@ public class TitlePage extends Activity implements OnGestureListener {
             //}
         }
         
-        //tymczasowo pobieranie instalacji flasha zawsze po uruchomieniu, w wątku głównym
-		flash = new Downloading(this);
-		flash.downloadFlash();	
+        //pobieranie instalacji flasha zawsze po uruchomieniu, w wątku głównym, jeżeli zachodzi taka potrzeba
+		
+        flash = new Downloading(this);
+		if(!flash.checkIfFlashExixts()){
+			flash.downloadFlash();
+		}
 		
         gestureScanner = new GestureDetector(this);
 
@@ -357,4 +367,24 @@ public class TitlePage extends Activity implements OnGestureListener {
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);
     }
+
+    /*
+     * "A valid port value is between 0 and 65535. 
+     * A port number of zero will let the system pick up an ephemeral port in a bind operation." 
+     */ 	
+	public void portRandomization(){
+	   
+		Random rdn = new Random();
+		int tmp = rdn.nextInt();
+		if (tmp > MAX_PORT || tmp < 0){
+			WWW_SERVER_PORT = Math.abs(tmp % MAX_PORT);
+		}
+		else{
+			WWW_SERVER_PORT = tmp;
+		}
+		
+	    String text = String.valueOf(WWW_SERVER_PORT);
+	    Log.i(TAG,text);
+	}
+
 }

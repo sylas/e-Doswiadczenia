@@ -4,15 +4,22 @@
 package pl.gda.pg.mif.edoswiadczenia;
 
 import java.io.File;
+import java.util.List;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.Settings;
+import android.provider.Settings.System;
 import android.util.Log;
 
 /**
@@ -28,22 +35,21 @@ public class Downloading {
 			+ "installers/archive/android/11.1.115.27/install_flash_player_ics.apk";
 	private DownloadManager.Request rtmp;
 	private Context mContext;
-	private static final String TAG = "MyActivity";
+	//private static final String TAG = "MyActivity";
 	private systemRespond rec;
 	
 	private String externalStorageState;
 	File externalPath;
+
+	BroadcastReceiver mExternalStorageReceiver;
+	boolean mExternalStorageAvailable = false;
+	boolean mExternalStorageWriteable = false;
 	
 	public Downloading(Context c){
 		mContext = c;
 	}
 		
 
-	
-	BroadcastReceiver mExternalStorageReceiver;
-	boolean mExternalStorageAvailable = false;
-	boolean mExternalStorageWriteable = false;
-	
 	void checkExternalStorageState() {
 		externalStorageState = Environment.getExternalStorageState();
 	    if (Environment.MEDIA_MOUNTED.equals(externalStorageState)) {
@@ -65,7 +71,7 @@ public class Downloading {
 	void pushInfoToUser(){
 		
 	}
-	
+
 	void  startWatchingExternalStorage(){ 
 		mExternalStorageReceiver = new BroadcastReceiver() {
 		        @Override
@@ -87,12 +93,24 @@ public class Downloading {
 		mContext.unregisterReceiver(mExternalStorageReceiver);
 	}
 	
+	//bezparametrowa funkcja sprawdzająca czy idtnieje potrzeba instalowania flash playera na tablecie
+	boolean checkIfFlashExixts(){
+		try{
+			ApplicationInfo info = mContext.getPackageManager().getApplicationInfo("Adobe Flash Player", 0 );
+			int wait = 3;
+	     //-- application exists
+			return true;
+	    } catch( PackageManager.NameNotFoundException e ){
+	     //-- application doesn't exist
+	    	return false;
+		}
+	}
+	
 	/* 
 	 * bezparametrowa funkcja przygotowująca obiekt z danymi o pobieranym pliku,
 	 * uruchamiająca systemową usługę pobierania, 
 	 * oraz rozpoczynająca pobieranie pliku		
 	 */
-	
 	private long prepareDownload() {
 		tmp = mContext.getSystemService(Context.DOWNLOAD_SERVICE);
 		mang = (DownloadManager) tmp;
