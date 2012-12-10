@@ -4,25 +4,18 @@
 package pl.gda.pg.mif.edoswiadczenia;
 
 import java.io.File;
-import java.util.Iterator;
 import java.util.List;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Environment;
-import android.provider.Settings;
-import android.provider.Settings.System;
-import android.util.Log;
+
 
 /**
  * @author maja
@@ -47,7 +40,8 @@ public class Downloading {
 	boolean mExternalStorageAvailable = false;
 	boolean mExternalStorageWriteable = false;
 	private final String flashPackageName = "com.adobe.flashplayer";
-
+	private final InfoForUser notificationDialog = new InfoForUser();
+	
 	
 	public Downloading(Context c){
 		mContext = c;
@@ -65,15 +59,15 @@ public class Downloading {
 	        }
 	    else if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(externalStorageState)) {
 	        mExternalStorageAvailable = true;
-	        mExternalStorageWriteable = false;}
+	        mExternalStorageWriteable = false;
+	        //przekazanie informacji użytkownikowi
+	        notificationDialog.pushInfoToUser(0,10);
+	        }
 	    else {
-	        mExternalStorageAvailable = mExternalStorageWriteable = false;}
-	}
-	
-	//to do
-	//jezeli coś nie tak z kartą sd, to pokazuje userowi komunikat
-	void pushInfoToUser(){
-		
+	        mExternalStorageAvailable = mExternalStorageWriteable = false;
+	      //przekazanie informacji użytkownikowi
+	        notificationDialog.pushInfoToUser(1,10);
+	        }
 	}
 
 	void  startWatchingExternalStorage(){ 
@@ -105,13 +99,17 @@ public class Downloading {
 		PackageManager mPm = mContext.getPackageManager(); 
 		int iter = 0;
 		mPackages = mPm.getInstalledPackages(0);
-		while (!status && !(iter > mPackages.size()) ) {
+		while (!status && iter < mPackages.size() ) {
 			status = mPackages.get(iter).packageName.equals(flashPackageName);
 			iter++;
 		}
+		// for(PackageInfo item : mPm.getInstalledPackages(0))
+		//	if(status = item.packageName.equals(flashPackageName))
+		//		break;
+
 		return status;
 	}
-	
+
 	
 	/* 
 	 * bezparametrowa funkcja przygotowująca obiekt z danymi o pobieranym pliku,

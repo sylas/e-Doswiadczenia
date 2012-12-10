@@ -27,6 +27,9 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Wyświetlenie listy e-doświadczeń. Dziedziczy po StronaTytulowa, aby uwspólnić
@@ -42,14 +45,18 @@ public class ListED extends Activity {
     private final String PREFS_UPDATE_SUFFIX = "_update";
     private final String PREFS_SIZE_SUFFIX = "_size";
     private final String PREFS_DIR_SIZE_SUFFIX = "_dirsize";
-    private final String ADOBE_FLASH_MARKET_URL = "http://market.android.com/details?id=com.adobe.flashplayer";
+  // private final String ADOBE_FLASH_MARKET_URL = "http://market.android.com/details?id=com.adobe.flashplayer";
     private final static String ADOBE_FLASH_PACKAGE_NAME = "com.adobe.flashplayer";
     public final static String ED_SDCARD_DIR = "e-doswiadczenia";
     private final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
     public static final String ED_BASE_DIR = Environment.getExternalStorageDirectory().getAbsolutePath()
             + File.separator + ED_SDCARD_DIR + File.separator;
     public static final String ED_SERVER_ROOT = "http://127.0.0.1:" + Integer.toString(TitlePage.WWW_SERVER_PORT) + File.separator;
-
+    
+    public static Map<String,List<String>> edInformation;
+  //TODO poprawka aktualizacji   
+    public static ED openedED = new ED();
+    
     public ListED() {
     }
 
@@ -60,6 +67,11 @@ public class ListED extends Activity {
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_ed);
+     
+        //pobieranie instalacji flasha, jeżeli zachodzi taka potrzeba		
+        if(!isFlashAvailable(this)){
+			askForDownloadingFlash();			
+		}
 
 // Wahadlo matematyczne
         Button button4 = (Button) findViewById(R.id.button4);
@@ -67,7 +79,7 @@ public class ListED extends Activity {
 
             @Override
             public void onClick(View v) {
-                if (!downloadingED) {
+                if (!downloadingED) {         	
                     ED.edFileSWFName = "pendulum.swf";
                     ED.edSubDir = "wahadlo_matematyczne";
                     ED.edName = getString(R.string.ed_name_wahadlo);
@@ -513,13 +525,16 @@ public class ListED extends Activity {
 
                     public void onClick(DialogInterface dialog,
                             int which) {
-                        // Przekierowanie do marketu
-                        Uri marketUri = Uri.parse(ADOBE_FLASH_MARKET_URL);
+                        
+                    	Downloading flash = new Downloading(getApplicationContext());
+                    	flash.downloadFlash();
+                    	// Przekierowanie do marketu
+                        //Uri marketUri = Uri.parse(ADOBE_FLASH_MARKET_URL);
                         // Można też tak (bezposrednio do marketu)...:
                         //Uri marketUri = Uri.parse("market://details?id=com.adobe.flashplayer");
                         // ... ale np. emulator nie rozpoznaje protokulu "market"
-                        Intent marketIntent = new Intent(Intent.ACTION_VIEW, marketUri);
-                        startActivity(marketIntent);
+                        //Intent marketIntent = new Intent(Intent.ACTION_VIEW, marketUri);
+                        //startActivity(marketIntent);
                     }
                 }).setNegativeButton(getString(R.string.btn_no),
                 new DialogInterface.OnClickListener() {
@@ -914,20 +929,33 @@ public class ListED extends Activity {
         @Override
         protected Void doInBackground(String... edRemoteZipFileName) {
             try {
+            	/* kawałek mojego testowego kodu */
+            	//łącze do strony zawierajacej wszystkie opublikowane ed;
+            	URL mLink = new URL(ED_REMOTE_REPOSITORY);
+                // Otwiera polaczenie
+            	URLConnection mainConn = mLink.openConnection();
+            	//pobieranie danych dot. zamieszczonych plików;
+                edInformation.putAll(mainConn.getHeaderFields());
+                if(!edInformation.containsKey()){
+                	
+                }
+            	
+            	
+            	
+            	
+            	
+            	
 
                 String fileURL = edRemoteZipFileName[0];
-
                 // Sprawdzenie, czy plik ZIP istnieje na sewerze
                 if (!fileExistsOnServer(ED_REMOTE_REPOSITORY + fileURL)) {
                     return null;
                 }
-
                 URL url = new URL(ED_REMOTE_REPOSITORY + fileURL); // plik do sprawdzenia
-
                 URLConnection ucon = url.openConnection(); // Otwiera polaczenie
 
                 // Pobierz dlugosc zdalnego pliku
-                ED.edFileZIPSize = ucon.getContentLength();
+                ED.edFileZIPSize = ucon.getContentLength();  
 
                 // Pobierz dlugosc pliku zapisana w preferencjach
                 SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);

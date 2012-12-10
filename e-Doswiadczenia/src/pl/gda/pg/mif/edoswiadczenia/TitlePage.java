@@ -16,10 +16,10 @@ import android.view.*;
 import android.widget.*;
 import java.io.File;
 import java.io.IOException;
+import java.net.BindException;
 import java.util.Locale;
 import java.util.Random;
 
-import org.xml.sax.Parser;
 
 /**
  * Strona tytulowa aplikacji.
@@ -35,11 +35,12 @@ public class TitlePage extends Activity implements OnGestureListener {
     public static final String EN_FLAG = "en";
     public static final String PL_FLAG = "pl";
     NanoHTTPD nanoHTTPD;
-    public static int WWW_SERVER_PORT; // = 8089
+    public static int WWW_SERVER_PORT;
     public static final int MAX_PORT = 65535;
     
-    private static final String TAG = "MyActivity";
-    private Downloading flash;  
+    private static final String TAG = "MyActivity";  
+    public static final InfoForUser notificationDialog = new InfoForUser();
+
     /**
      * Called when the activity is first created.
      */
@@ -56,33 +57,28 @@ public class TitlePage extends Activity implements OnGestureListener {
 
         setContentView(R.layout.title_page);
 
-        // Start serwera WWW
         //Losowanie portu
         portRandomization();
-        // TODO Sprawdzic czy port nie zajety
-        //      (w dalekiej przyszlosci - port jest niestandardowy, wiec ryzyko jego zajecia jest minimalne)
-        
-        File NanoHTTPDserverRoot =
-                new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + ListED.ED_SDCARD_DIR);
+        // Start serwera WWW            
+        File NanoHTTPDserverRoot = new File(Environment.getExternalStorageDirectory().
+        		getAbsolutePath() + File.separator + ListED.ED_SDCARD_DIR);
         try {
             nanoHTTPD = new NanoHTTPD(WWW_SERVER_PORT, NanoHTTPDserverRoot);
-        } catch (IOException ioe) {
-            // "Address already in use" jest niegrozny, wiec robimy wyjatek od wyjatku :)
-            //if (!ioe.getMessage().equals(ERR_ADDRESS_IN_USE)) {
-            //showInfoDialog(getString(R.string.msg_title_error), getString(R.string.msg_internal_error001), R.drawable.ic_error);
-            //finish();
-            //}
+        } 
+
+        //jeśli zajety port - "Address already in use" jest niegrozny, wiec robimy wyjatek od wyjatku :)
+        catch(BindException bEx){
+        	int tmp = WWW_SERVER_PORT;
+        	portRandomization();
+        	if (tmp == WWW_SERVER_PORT){
+        		portRandomization();
+        	}
         }
-        
-        //pobieranie instalacji flasha jeżeli zachodzi taka potrzeba
-        //zawsze po uruchomieniu, w wątku głównym, 		
-        flash = new Downloading(this);
-		if(!flash.checkIfFlashExixts()){
-		    Toast.makeText(this, "Flash not installed! " +
-		    		"This application require Adobe Flash Player. " +
-		    		"Downloading will start automatically.", Toast.LENGTH_LONG).show();
-			flash.downloadFlash();
-		}
+        catch (IOException ioe) {
+        	/*myDialog mDialog = myDialog.myDialog();
+        	mDialog.setTitle(getString(R.string.msg_title_error));
+        	mDialog.setMessage(getString(R.string.msg_internal_error001));*/
+            }
 		
         gestureScanner = new GestureDetector(this);
 
@@ -389,5 +385,5 @@ public class TitlePage extends Activity implements OnGestureListener {
 	    String text = String.valueOf(WWW_SERVER_PORT);
 	    Log.i(TAG,text);
 	}
-
+    
 }
