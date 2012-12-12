@@ -23,5 +23,5 @@ public class ED {
     public static int edIcon;
     public static int edMovie;
     public static int edFileZIPSize;
-    public static Date edLastModification;
+    public static long edLastModification;
 }

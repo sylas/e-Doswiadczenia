@@ -39,7 +39,7 @@ public class TitlePage extends Activity implements OnGestureListener {
     public static final int MAX_PORT = 65535;
     
     private static final String TAG = "MyActivity";  
-    public static final InfoForUser notificationDialog = new InfoForUser();
+
 
     /**
      * Called when the activity is first created.
@@ -68,11 +68,7 @@ public class TitlePage extends Activity implements OnGestureListener {
 
         //jeśli zajety port - "Address already in use" jest niegrozny, wiec robimy wyjatek od wyjatku :)
         catch(BindException bEx){
-        	int tmp = WWW_SERVER_PORT;
         	portRandomization();
-        	if (tmp == WWW_SERVER_PORT){
-        		portRandomization();
-        	}
         }
         catch (IOException ioe) {
         	/*myDialog mDialog = myDialog.myDialog();
