@@ -27,6 +27,9 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Wyświetlenie listy e-doświadczeń. Dziedziczy po StronaTytulowa, aby uwspólnić
@@ -42,14 +45,17 @@ public class ListED extends Activity {
     private final String PREFS_UPDATE_SUFFIX = "_update";
     private final String PREFS_SIZE_SUFFIX = "_size";
     private final String PREFS_DIR_SIZE_SUFFIX = "_dirsize";
-    private final String ADOBE_FLASH_MARKET_URL = "http://market.android.com/details?id=com.adobe.flashplayer";
+    private final String PREFS_DATE_MODF_SUFFIX = "_date";
     private final static String ADOBE_FLASH_PACKAGE_NAME = "com.adobe.flashplayer";
     public final static String ED_SDCARD_DIR = "e-doswiadczenia";
     private final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
     public static final String ED_BASE_DIR = Environment.getExternalStorageDirectory().getAbsolutePath()
             + File.separator + ED_SDCARD_DIR + File.separator;
     public static final String ED_SERVER_ROOT = "http://127.0.0.1:" + Integer.toString(TitlePage.WWW_SERVER_PORT) + File.separator;
-
+    
+    public static Map<String,List<String>> edInformation;
+  //TODO poprawka aktualizacji   
+    
     public ListED() {
     }
 
@@ -60,6 +66,12 @@ public class ListED extends Activity {
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_ed);
+     
+        //pobieranie instalacji flasha, jeżeli zachodzi taka potrzeba		
+           
+        if(!isFlashAvailable(this)){
+			askForDownloadingFlash();	
+		}
 
 // Wahadlo matematyczne
         Button button4 = (Button) findViewById(R.id.button4);
@@ -67,7 +79,7 @@ public class ListED extends Activity {
 
             @Override
             public void onClick(View v) {
-                if (!downloadingED) {
+                if (!downloadingED) {         	
                     ED.edFileSWFName = "pendulum.swf";
                     ED.edSubDir = "wahadlo_matematyczne";
                     ED.edName = getString(R.string.ed_name_wahadlo);
@@ -513,13 +525,16 @@ public class ListED extends Activity {
 
                     public void onClick(DialogInterface dialog,
                             int which) {
-                        // Przekierowanie do marketu
-                        Uri marketUri = Uri.parse(ADOBE_FLASH_MARKET_URL);
+                        
+                    	Downloading flash = new Downloading(getApplicationContext());
+                    	flash.downloadFlash();
+                    	// Przekierowanie do marketu
+                        //Uri marketUri = Uri.parse(ADOBE_FLASH_MARKET_URL);
                         // Można też tak (bezposrednio do marketu)...:
                         //Uri marketUri = Uri.parse("market://details?id=com.adobe.flashplayer");
                         // ... ale np. emulator nie rozpoznaje protokulu "market"
-                        Intent marketIntent = new Intent(Intent.ACTION_VIEW, marketUri);
-                        startActivity(marketIntent);
+                        //Intent marketIntent = new Intent(Intent.ACTION_VIEW, marketUri);
+                        //startActivity(marketIntent);
                     }
                 }).setNegativeButton(getString(R.string.btn_no),
                 new DialogInterface.OnClickListener() {
@@ -745,13 +760,24 @@ public class ListED extends Activity {
                 // Wczytujemy zapisaną w preferencjach wartosc rozmiaru pliku danego e-d
                 // Zwróci zero, jak klucza jeszcze nie ma - pierwsze pobranie e-d
                 int edSavedFileSize = edLocalData.getInt(ED.edSubDir + PREFS_SIZE_SUFFIX, 0);
-
+                long edSavedModifiedDate = edLocalData.getLong(ED.edName + PREFS_DATE_MODF_SUFFIX,0);
+              
                 if (edSavedFileSize == 0 || edSavedFileSize != ED.edFileZIPSize) {
                     // Stworzenie nowego klucza bądź uaktualnienie starego
                     SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
                     edLocalDataEditor.putInt(ED.edSubDir + PREFS_SIZE_SUFFIX, ED.edFileZIPSize);
                     edLocalDataEditor.apply();
                 }
+                
+                //TODO moj jest ten kawałek podłogi ;)
+                   
+                else if (edSavedModifiedDate == 0 || edSavedModifiedDate != ED.edLastModification) {
+                    // Stworzenie nowego klucza bądź uaktualnienie starego
+                    SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
+                    edLocalDataEditor.putLong(ED.edName+PREFS_DATE_MODF_SUFFIX,ED.edLastModification);
+                    edLocalDataEditor.apply();
+                }
+                //
 
                 // Definiuje InputStreams do odczytu z URLConnection
                 InputStream is = ucon.getInputStream();
@@ -907,41 +933,58 @@ public class ListED extends Activity {
      * Sprawdza (w osobnym wątku) czy jest uaktualnienie dango e-doświadczenia.
      * Bada, czy na serwerze jest plik ZIP o innej długości niż pobrany przy
      * poprzedniej instalacji. Jeżeli tak, to oznacza że jest uaktualnienie.
-     * TODO Można zastąpić datą pliku, ale nie wiem jak ją wydobyć.
+     * TODO  Można zastąpić datą pliku, ale nie wiem jak ją wydobyć.
      */
     private class CheckForEDUpdates extends AsyncTask<String, Void, Void> {
 
-        @Override
+		@Override
         protected Void doInBackground(String... edRemoteZipFileName) {
             try {
-
-                String fileURL = edRemoteZipFileName[0];
-
+            	String fileURL = edRemoteZipFileName[0];
                 // Sprawdzenie, czy plik ZIP istnieje na sewerze
                 if (!fileExistsOnServer(ED_REMOTE_REPOSITORY + fileURL)) {
                     return null;
                 }
-
-                URL url = new URL(ED_REMOTE_REPOSITORY + fileURL); // plik do sprawdzenia
-
-                URLConnection ucon = url.openConnection(); // Otwiera polaczenie
-
+                // plik do sprawdzenia
+                URL url = new URL(ED_REMOTE_REPOSITORY + fileURL); 
+                // Otwiera polaczenie
+                URLConnection ucon = url.openConnection(); 
+                
                 // Pobierz dlugosc zdalnego pliku
                 ED.edFileZIPSize = ucon.getContentLength();
-
+                
                 // Pobierz dlugosc pliku zapisana w preferencjach
                 SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
                 int edSavedFileSize = edLocalData.getInt(ED.edSubDir + PREFS_SIZE_SUFFIX, 0);
                 // Zwróci zero, jak klucza nie ma 
                 // (zero powinno wystąpić wyłącznie wtedy, jeżeli użytkownik skasował dane aplikacji)
 
-                if (edSavedFileSize != ED.edFileZIPSize) {
+            	/* kawałek mojego testowego kodu */
+                //pobieranie daty ostatniej modyfikacji;
+                ED.edLastModification = ucon.getLastModified();
+                               
+                // Pobierz datę pliku zapisaną w preferencjach
+                //SharedPreferences edLocalModificationDate = getPreferences(MODE_PRIVATE);
+                long edSavedModificationDate = edLocalData.getLong(ED.edName+PREFS_DATE_MODF_SUFFIX, 0);
+                // Zwróci zero, jak klucza nie ma 
+                // (zero powinno wystąpić wyłącznie wtedy, jeżeli użytkownik skasował dane aplikacji)
+               
+                if (edSavedFileSize != ED.edFileZIPSize && edSavedModificationDate != ED.edLastModification) {
+                    // Jest aktualizacja, albo użytkownik wykasował dane aplikacji i nie można stwierdzić
+                    // Zapisujemy info o aktualizacji do preferencji
+                    SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
+                    edLocalDataEditor.putBoolean(ED.edSubDir + PREFS_UPDATE_SUFFIX, true);
+                    edLocalDataEditor.apply();
+                }          
+                else if (edSavedFileSize == ED.edFileZIPSize && edSavedModificationDate != ED.edLastModification) {
                     // Jest aktualizacja, albo użytkownik wykasował dane aplikacji i nie można stwierdzić
                     // Zapisujemy info o aktualizacji do preferencji
                     SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
                     edLocalDataEditor.putBoolean(ED.edSubDir + PREFS_UPDATE_SUFFIX, true);
                     edLocalDataEditor.apply();
                 }
+                
+                
             } catch (IOException e) {
                 return null;
             }
