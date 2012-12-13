@@ -16,6 +16,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.StatFs;
+import android.os.StrictMode;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -53,7 +54,7 @@ public class ListED extends Activity {
             + File.separator + ED_SDCARD_DIR + File.separator;
     public static final String ED_SERVER_ROOT = "http://127.0.0.1:" + Integer.toString(TitlePage.WWW_SERVER_PORT) + File.separator;
     
-    public static Map<String,List<String>> edInformation;
+
   //TODO poprawka aktualizacji   
     
     public ListED() {
@@ -72,6 +73,7 @@ public class ListED extends Activity {
         if(!isFlashAvailable(this)){
 			askForDownloadingFlash();	
 		}
+
 
 // Wahadlo matematyczne
         Button button4 = (Button) findViewById(R.id.button4);
@@ -560,7 +562,7 @@ public class ListED extends Activity {
         if (isEdIntegrant()) {  // E-d juz pobrane i nie naruszone
 
             // Sprawdzamy, czy jest aktualizacja
-            new CheckForEDUpdates().execute(edRemoteZipFileName);
+            //new CheckForEDUpdates().execute(edRemoteZipFileName);
             // Uwaga! Sprawdzenie jest w osobnym wątku, więc warunek poniżej zapewne nie będzie prawdziwy
             // nawet gdy będzie znaleziona aktualizacja. Ale będzie prawdziwy podczas kolejnego uruchomienia e-d!
             // TODO Sprawdzic, czy nie da sie zastosowac semafora.
@@ -768,9 +770,7 @@ public class ListED extends Activity {
                     edLocalDataEditor.putInt(ED.edSubDir + PREFS_SIZE_SUFFIX, ED.edFileZIPSize);
                     edLocalDataEditor.apply();
                 }
-                
-                //TODO moj jest ten kawałek podłogi ;)
-                   
+                                 
                 else if (edSavedModifiedDate == 0 || edSavedModifiedDate != ED.edLastModification) {
                     // Stworzenie nowego klucza bądź uaktualnienie starego
                     SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
@@ -932,10 +932,10 @@ public class ListED extends Activity {
     /**
      * Sprawdza (w osobnym wątku) czy jest uaktualnienie dango e-doświadczenia.
      * Bada, czy na serwerze jest plik ZIP o innej długości niż pobrany przy
-     * poprzedniej instalacji. Jeżeli tak, to oznacza że jest uaktualnienie.
-     * TODO  Można zastąpić datą pliku, ale nie wiem jak ją wydobyć.
+     * poprzedniej instalacji oraz o innej dacie modyfikacji. 
+     * Jeżeli tak, to oznacza że jest uaktualnienie.
      */
-    private class CheckForEDUpdates extends AsyncTask<String, Void, Void> {
+/*    private class CheckForEDUpdates extends AsyncTask<String, Void, Void> {
 
 		@Override
         protected Void doInBackground(String... edRemoteZipFileName) {
@@ -958,17 +958,14 @@ public class ListED extends Activity {
                 int edSavedFileSize = edLocalData.getInt(ED.edSubDir + PREFS_SIZE_SUFFIX, 0);
                 // Zwróci zero, jak klucza nie ma 
                 // (zero powinno wystąpić wyłącznie wtedy, jeżeli użytkownik skasował dane aplikacji)
-
-            	/* kawałek mojego testowego kodu */
+                
                 //pobieranie daty ostatniej modyfikacji;
                 ED.edLastModification = ucon.getLastModified();
                                
                 // Pobierz datę pliku zapisaną w preferencjach
-                //SharedPreferences edLocalModificationDate = getPreferences(MODE_PRIVATE);
                 long edSavedModificationDate = edLocalData.getLong(ED.edName+PREFS_DATE_MODF_SUFFIX, 0);
-                // Zwróci zero, jak klucza nie ma 
-                // (zero powinno wystąpić wyłącznie wtedy, jeżeli użytkownik skasował dane aplikacji)
                
+                // Zwróci zero, jak klucza nie ma            
                 if (edSavedFileSize != ED.edFileZIPSize && edSavedModificationDate != ED.edLastModification) {
                     // Jest aktualizacja, albo użytkownik wykasował dane aplikacji i nie można stwierdzić
                     // Zapisujemy info o aktualizacji do preferencji
@@ -990,7 +987,8 @@ public class ListED extends Activity {
             }
             return null;
         }
-    }
+
+    }*/
 
     /*
      * Utworzenie ActionBar-u.
