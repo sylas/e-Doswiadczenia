@@ -28,9 +28,7 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+
 
 /**
  * Wyświetlenie listy e-doświadczeń. Dziedziczy po StronaTytulowa, aby uwspólnić
@@ -243,7 +241,7 @@ public class ListED extends Activity {
             }
         });
 
-/////////////////////////////////wlasciwosci gazów////////////////////////////////////////////
+//wlasciwosci gazów
         Button button9 = (Button) findViewById(R.id.button9);
         button9.setOnClickListener(new OnClickListener() {
 
@@ -253,18 +251,14 @@ public class ListED extends Activity {
                      ED.edSubDir = EdFileNames.edName[6];
                      ED.edFileSWFName = "gases.swf";
                      ED.edName = getString(R.string.ed_name_gazy);
-                     //ED.edInfo = getString(R.string.ed_info_gazy);
-                     //ED.edInfoRun = getString(R.string.ed_cwiczenie_gazy);
+                     ED.edInfo = getString(R.string.ed_info_gazy);
+                     ED.edInfoRun = getString(R.string.ed_cwiczenie_gazy);
                      //ED.edMovie = R.raw.gazy;
 
                      if (edIsDownloaded()) {
                          startActivity(new Intent(ListED.this, DetailsED.class));
                      }
                  }
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
             }
         });
 
@@ -289,85 +283,133 @@ public class ListED extends Activity {
             }
         });
 
-/////////////////////////////////pole elektryczne////////////////////////////////////////////
+//pole elektryczne
         Button button11 = (Button) findViewById(R.id.button11);
         button11.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                if (downloadingED) {
-                    return;
+                if (!downloadingED) {
+                    ED.edSubDir = "pole_elektryczne";
+                    ED.edFileSWFName = "electro.swf";
+                    ED.edName = getString(R.string.ed_name_pole_elektryczne);
+                    ED.edInfo = getString(R.string.ed_info_pole_elektryczne);
+                    ED.edInfoRun = getString(R.string.ed_cwiczenie_pole_elektryczne);
+                    //ED.edMovie = R.raw.pole_elektryczne;
+
+                    if (edIsDownloaded()) {
+                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    }
                 }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
             }
         });
 
-/////////////////////////////////prąd stały////////////////////////////////////////////
+//prąd stały
         Button button12 = (Button) findViewById(R.id.button12);
         button12.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                if (downloadingED) {
-                    return;
+                if (!downloadingED) {
+                    ED.edSubDir = "prad_staly";
+                    ED.edFileSWFName = "circuits.swf";
+                    ED.edName = getString(R.string.ed_name_prad_staly);
+                    ED.edInfo = getString(R.string.ed_info_prad_staly);
+                    ED.edInfoRun = getString(R.string.ed_cwiczenie_prad_staly);
+                    //ED.edMovie = R.raw.prad_staly;
+
+                    if (edIsDownloaded()) {
+                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    }
                 }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
             }
         });
 
-/////////////////////////////////laboratorium dzwieku////////////////////////////////////////////
+//laboratorium dzwieku
         Button button13 = (Button) findViewById(R.id.button13);
         button13.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+                if (!downloadingED) {
+	                ED.edSubDir = "laboratorium_dzwieku";
+	                ED.edFileSWFName = "sound.swf";
+	                ED.edName = getString(R.string.ed_name_dzwiek);
+	                ED.edInfo = getString(R.string.ed_info_dzwiek);
+	                ED.edInfoRun = getString(R.string.ed_cwiczenie_dzwiek);
+	                //ED.edMovie = R.raw.dzwiek;
+	
+	                if (edIsDownloaded()) {
+	                    startActivity(new Intent(ListED.this, DetailsED.class));
+	                }
+	            }
+	        }
+	    });
 
-/////////////////////////////////kalorymetria////////////////////////////////////////////
+//kalorymetria
         Button button14 = (Button) findViewById(R.id.button14);
         button14.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+                if (!downloadingED) {
+	                ED.edSubDir = "kalorymetria";
+	                ED.edFileSWFName = "calo.swf";
+	                ED.edName = getString(R.string.ed_name_kalorymetria);
+	                ED.edInfo = getString(R.string.ed_info_kalorymetria);
+	                ED.edInfoRun = getString(R.string.ed_cwiczenie_kalorymetria);
+	                //ED.edMovie = R.raw.kalorymetria;
+	
+	                if (edIsDownloaded()) {
+	                    startActivity(new Intent(ListED.this, DetailsED.class));
+	                }
+	            }
+	        }
+	    });
 
-/////////////////////////////////kondensatory////////////////////////////////////////////
+//kondensatory
         Button button15 = (Button) findViewById(R.id.button15);
         button15.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+                if (!downloadingED) {
+	                ED.edSubDir = "kondensatory";
+	                ED.edFileSWFName = "capacitors.swf";
+	                ED.edName = getString(R.string.ed_name_kondensatory);
+	                ED.edInfo = getString(R.string.ed_info_kondensatory);
+	                ED.edInfoRun = getString(R.string.ed_cwiczenie_kondensatory);
+	                //ED.edMovie = R.raw.kondensatory;
+	
+	                if (edIsDownloaded()) {
+	                    startActivity(new Intent(ListED.this, DetailsED.class));
+	                }
+	            }
+	        }
+	    });
 
-/////////////////////////////////pole magnetyczne////////////////////////////////////////////
+//pole magnetyczne
         Button button16 = (Button) findViewById(R.id.button16);
         button16.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+                if (!downloadingED) {
+	                ED.edSubDir = "pole_magnetyczne";
+	                ED.edFileSWFName = "magnetic.swf";
+	                ED.edName = getString(R.string.ed_name_pole_magnetyczne);
+	                ED.edInfo = getString(R.string.ed_info_pole_magnetyczne);
+	                ED.edInfoRun = getString(R.string.ed_cwiczenie_pole_magnetyczne);
+	                //ED.edMovie = R.raw.pole_magnetyczne;
+	
+	                if (edIsDownloaded()) {
+	                    startActivity(new Intent(ListED.this, DetailsED.class));
+	                }
+	            }
+	        }
+	    });
 
-/////////////////////////////////cewki i indukcja
+/////////////////////////////////cewki i indukcja//////////////////////////////////////////////////////
         Button button17 = (Button) findViewById(R.id.button17);
         button17.setOnClickListener(new OnClickListener() {
 
@@ -380,7 +422,7 @@ public class ListED extends Activity {
             }
         });
 
-/////////////////////////////////zjawisko polaryzacji i zalamania swiatla//////
+/////////////////////////////////zjawisko polaryzacji i zalamania swiatla////////////////////////
         Button button18 = (Button) findViewById(R.id.button18);
         button18.setOnClickListener(new OnClickListener() {
 
@@ -393,7 +435,7 @@ public class ListED extends Activity {
             }
         });
 
-/////////////////////////////////uklady RLC/////////////////////////////
+/////////////////////////////////uklady RLC///////////////////////////////////////////////
         Button button19 = (Button) findViewById(R.id.button19);
         button19.setOnClickListener(new OnClickListener() {
 
@@ -406,7 +448,7 @@ public class ListED extends Activity {
             }
         });
 
-/////////////////////////////////korpuskularna natura swiatła i materii/////
+/////////////////////////////////korpuskularna natura swiatła i materii///////////////////////
         Button button20 = (Button) findViewById(R.id.button20);
         button20.setOnClickListener(new OnClickListener() {
 
@@ -419,7 +461,7 @@ public class ListED extends Activity {
             }
         });
 
-/////////////////////////////////interferencja i dyfrakcja////////////////////
+/////////////////////////////////interferencja i dyfrakcja//////////////////////////////////////
         Button button21 = (Button) findViewById(R.id.button21);
         button21.setOnClickListener(new OnClickListener() {
 

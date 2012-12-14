@@ -19,18 +19,18 @@
     <string name="ed_name_bryla">Solid body</string>
     <string name="ed_name_gazy">Properties\nof gases</string>
     <string name="ed_name_drgania">Mechanical\nvibration</string>
-    <string name="ed_name_poleelektryczne">Electric field</string>
-    <string name="ed_name_prad">DC circuits</string>
+    <string name="ed_name_pole_elektryczne">Electric field</string>
+    <string name="ed_name_prad_staly">DC circuits</string>
     <string name="ed_name_dzwiek">Sound\nlaboratory</string>
     <string name="ed_name_kalorymetria">Calorimetry</string>
     <string name="ed_name_kondensatory">Capacitors</string>
-    <string name="ed_name_polemagnetyczne">Magnetic field</string>
-    <string name="ed_name_cewki">Coils\nand induction</string>
-    <string name="ed_name_polaryzacja">Polarization\nand refraction\nof light</string>
+    <string name="ed_name_pole_magnetyczne">Magnetic field</string>
+    <string name="ed_name_cewki_i_indukcja">Coils\nand induction</string>
+    <string name="ed_name_optyka_geometryczna">Polarization\nand refraction\nof light</string>
     <string name="ed_name_rlc">RLC circuits</string>
     <string name="ed_name_korpuskularna">Corpuscular\nnature of light\nand matter</string>
     <string name="ed_name_interferencja">Interference\nand diffraction\nof light</string>
-    <string name="ed_name_spektroskopia">Spectroscopy</string>
+    <string name="ed_name_fizyka_atomowa">Spectroscopy</string>
     <string name="ed_name_einstein">Einstein\'s\nthought\nexperiments</string>
 
 <!-- Przyciski -->

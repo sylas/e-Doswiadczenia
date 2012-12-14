@@ -19,18 +19,18 @@
     <string name="ed_name_bryla">Bryła sztywna</string>
     <string name="ed_name_gazy">Właściwości\ngazów</string>
     <string name="ed_name_drgania">Drgania\nmechaniczne</string>
-    <string name="ed_name_poleelektryczne">Pole\nelektryczne</string>
-    <string name="ed_name_prad">Obwody\nprądu stałego</string>
+    <string name="ed_name_pole_elektryczne">Pole\nelektryczne</string>
+    <string name="ed_name_prad_staly">Obwody\nprądu stałego</string>
     <string name="ed_name_dzwiek">Laboratorium dzwięku</string>
     <string name="ed_name_kalorymetria">Kalorymetria</string>
     <string name="ed_name_kondensatory">Kondensatory</string>
-    <string name="ed_name_polemagnetyczne">Pole\nmagnetyczne</string>
-    <string name="ed_name_cewki">Cewki i indukcja</string>
-    <string name="ed_name_polaryzacja">Zjawisko\npolaryzacji\ni załamania światła</string>
+    <string name="ed_name_pole_magnetyczne">Pole\nmagnetyczne</string>
+    <string name="ed_name_cewki_i_indukcja">Cewki i indukcja</string>
+    <string name="ed_name_optyka_geometryczna">Zjawisko\npolaryzacji\ni załamania światła</string>
     <string name="ed_name_rlc">Układy RLC</string>
     <string name="ed_name_korpuskularna">Korpuskularna natura światła\ni materii</string>
     <string name="ed_name_interferencja">Interferencja\ni dyfrakcja\nświatła</string>
-    <string name="ed_name_spektroskopia">Spektroskopia</string>
+    <string name="ed_name_fizyka_atomowa">Spektroskopia</string>
     <string name="ed_name_einstein">Eksperymenty\nmyślowe\nEinsteina</string>
 
 <!-- Przyciski -->
@@ -723,5 +723,111 @@ Więcej ćwiczeń znajduje się w podręczniku.
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
+    
+	<string name="ed_info_gazy">
+         <![CDATA[
+<b>Właściwości gazów...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_gazy">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
 
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+
+	<string name="ed_info_pole_elektryczne">
+         <![CDATA[
+<b>Pole elektryczne...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_pole_elektryczne">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+    
+    <string name="ed_info_prad_staly">
+         <![CDATA[
+<b>Obwody prądu stałego...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_prad_staly">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+    
+    <string name="ed_info_dzwiek">
+         <![CDATA[
+<b>Laboratorium dzwięku...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_dzwiek">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+    
+    <string name="ed_info_kalorymetria">
+         <![CDATA[
+<b>Kalorymetria...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_kalorymetria">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>  
+   
+    <string name="ed_info_kondensatory">
+         <![CDATA[
+<b>Kondensatory...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_kondensatory">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>  
+    
+    <string name="ed_info_pole_magnetyczne">
+         <![CDATA[
+<b>Pole magnetyczne...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_pole_magnetyczne">
+         <![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+    
+ 
 </resources>
