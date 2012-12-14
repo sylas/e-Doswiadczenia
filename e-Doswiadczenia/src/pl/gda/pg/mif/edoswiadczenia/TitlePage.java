@@ -1,5 +1,14 @@
 package pl.gda.pg.mif.edoswiadczenia;
 
+import java.io.File;
+import java.io.IOException;
+import java.net.BindException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Random;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -13,25 +22,24 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.StrictMode;
 import android.text.Html;
 import android.util.Log;
+import android.view.Display;
+import android.view.GestureDetector;
 import android.view.GestureDetector.OnGestureListener;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.*;
-import android.widget.*;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.BindException;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLConnection;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Random;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Strona tytulowa aplikacji.
@@ -51,7 +59,7 @@ public class TitlePage extends Activity implements OnGestureListener {
 	public static final int MAX_PORT = 65535;
 
 	private static final String TAG = "MyActivity";  
-
+	public static Boolean updateDone = false;
 	/**
 	 * Called when the activity is first created.
 	 */
@@ -86,6 +94,20 @@ public class TitlePage extends Activity implements OnGestureListener {
         	mDialog.setTitle(getString(R.string.msg_title_error));
         	mDialog.setMessage(getString(R.string.msg_internal_error001));*/
 		}
+		
+		//TODO usunac
+/*		long edSavedModificationDate;
+		SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
+		for (int i = 0; i < EdFileNames.edName.length; i++) {
+
+			edSavedModificationDate = edLocalData.getLong(EdFileNames.edName[i] + "_date", 0);
+			if(edSavedModificationDate !=0){
+				SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
+				edLocalDataEditor.putLong(EdFileNames.edName[i] + "_date", 0);
+				edLocalDataEditor.apply();			
+			}
+		}*/
+
 		new CheckForEDUpdates().execute(EdFileNames.edName);
 		gestureScanner = new GestureDetector(this);
 
@@ -434,7 +456,7 @@ public class TitlePage extends Activity implements OnGestureListener {
 	 * Bada, czy na serwerze jest plik ZIP o innej dacie modyfikacji niż pobrany . 
 	 * Jeżeli tak, to oznacza że jest uaktualnienie.
 	 */
-	private class CheckForEDUpdates extends AsyncTask<String, Void, Void> {
+	public class CheckForEDUpdates extends AsyncTask<String, Void, Void> {
 
 
 		private final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
@@ -442,40 +464,47 @@ public class TitlePage extends Activity implements OnGestureListener {
 		private final String PREFS_DATE_MODF_SUFFIX = "_date";
 
 		@Override
-		protected Void doInBackground(String... filename) {
+		protected Void doInBackground(String... filenames) {
 
-			long lastModification= 0;
-			try {
+			for (String edName : filenames) {
+				long lastModification= 0;
+				try {
+					if(!isInternetOn()){					
+						return null;
+						//TODO poinformować usera, że żeby sprawdzić aktulaizacje musi włączyć internet;
+					}
 
-				final String fileURL = ED_REMOTE_REPOSITORY + File.separator + filename + ".zip";
+					final String fileURL = ED_REMOTE_REPOSITORY + File.separator + edName + ".zip";
 
-				// Sprawdzenie, czy plik ZIP istnieje na sewerze
-				if (!fileExistsOnServer(fileURL)) {               	
+					// Sprawdzenie, czy plik ZIP istnieje na sewerze
+					if (!fileExistsOnServer(fileURL)) {               	
+						break;
+					}
+					else{
+						// Otwiera polaczenie       
+						HttpURLConnection conn = (HttpURLConnection) new URL(fileURL).openConnection();
+						if(conn.getDoInput()&&conn.getDoOutput()){
+							conn.setRequestMethod("Last-Modified");
+							// Pobierz datę ostatniej zmiany zdalnego pliku
+							lastModification = conn.getLastModified();
+						}
+						conn.disconnect();
+						//Zapisz / porównaj ustawienia w Preferencjach
+						SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
+						long edSavedModificationDate = edLocalData.getInt(edName + PREFS_DATE_MODF_SUFFIX, 0);
+
+						// Zwróci zero, jak klucza nie ma     
+						if (edSavedModificationDate == 0 || edSavedModificationDate != lastModification) {
+							// Zapisujemy info o aktualizacji do preferencji
+							SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
+							edLocalDataEditor.putBoolean(edName + PREFS_UPDATE_SUFFIX, true);
+							edLocalDataEditor.apply();
+						}
+					}
+				}          
+				catch (IOException e) {
 					return null;
 				}
-
-				// Otwiera polaczenie       
-				HttpURLConnection conn = (HttpURLConnection) new URL(fileURL).openConnection();
-				if(conn.getDoInput()&&conn.getDoOutput()){
-					conn.setRequestMethod("Last-Modified");
-					// Pobierz datę ostatniej zmiany zdalnego pliku
-					lastModification = conn.getLastModified();
-				}
-				conn.disconnect();
-
-				//Zapisz / porównaj ustawienia w Preferencjach
-				SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
-				long edSavedModificationDate = edLocalData.getInt(filename + PREFS_DATE_MODF_SUFFIX, 0);
-
-				// Zwróci zero, jak klucza nie ma     
-				if (edSavedModificationDate == 0 || edSavedModificationDate != lastModification) {
-					// Zapisujemy info o aktualizacji do preferencji
-					SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
-					edLocalDataEditor.putBoolean(filename + PREFS_UPDATE_SUFFIX, true);
-					edLocalDataEditor.apply();
-				}          
-			} catch (IOException e) {
-				return null;
 			}
 			return null;
 		}
