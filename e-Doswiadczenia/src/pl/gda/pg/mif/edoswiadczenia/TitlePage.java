@@ -484,7 +484,7 @@ public class TitlePage extends Activity implements OnGestureListener {
 						// Otwiera polaczenie       
 						HttpURLConnection conn = (HttpURLConnection) new URL(fileURL).openConnection();
 						if(conn.getDoInput()&&conn.getDoOutput()){
-							conn.setRequestMethod("Last-Modified");
+							conn.setRequestMethod("HEAD");
 							// Pobierz datę ostatniej zmiany zdalnego pliku
 							lastModification = conn.getLastModified();
 						}

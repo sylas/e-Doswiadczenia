@@ -249,6 +249,18 @@ public class ListED extends Activity {
 
             @Override
             public void onClick(View v) {
+            	 if (!downloadingED) {
+                     ED.edSubDir = EdFileNames.edName[6];
+                     ED.edFileSWFName = "gases.swf";
+                     ED.edName = getString(R.string.ed_name_gazy);
+                     //ED.edInfo = getString(R.string.ed_info_gazy);
+                     //ED.edInfoRun = getString(R.string.ed_cwiczenie_gazy);
+                     //ED.edMovie = R.raw.gazy;
+
+                     if (edIsDownloaded()) {
+                         startActivity(new Intent(ListED.this, DetailsED.class));
+                     }
+                 }
                 if (downloadingED) {
                     return;
                 }
