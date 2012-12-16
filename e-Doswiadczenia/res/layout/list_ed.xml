@@ -206,7 +206,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_pole_elektryczne"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    android:drawableLeft="@drawable/ic_pole_elektryczne"/>
 
                 <Button
                     android:id="@+id/button12"
@@ -217,7 +217,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_prad_staly"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    android:drawableLeft="@drawable/ic_prad_staly"/>
             </TableRow>
 
             <TableRow
@@ -235,7 +235,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_dzwiek"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    android:drawableLeft="@drawable/ic_dzwiek"/>
 
                 <Button
                     android:id="@+id/button14"
@@ -246,7 +246,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_kalorymetria"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    android:drawableLeft="@drawable/ic_kalorymetria"/>
 
                 <Button
                     android:id="@+id/button15"
@@ -257,7 +257,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_kondensatory"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    android:drawableLeft="@drawable/ic_kondensatory"/>
             </TableRow>
 
             <TableRow
@@ -276,7 +276,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_pole_magnetyczne"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    android:drawableLeft="@drawable/ic_pole_magnetyczne"/>
 
                 <Button
                     android:id="@+id/button17"

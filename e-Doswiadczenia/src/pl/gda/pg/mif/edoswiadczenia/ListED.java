@@ -295,7 +295,7 @@ public class ListED extends Activity {
                     ED.edName = getString(R.string.ed_name_pole_elektryczne);
                     ED.edInfo = getString(R.string.ed_info_pole_elektryczne);
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_pole_elektryczne);
-                    //ED.edMovie = R.raw.pole_elektryczne;
+                    ED.edMovie = R.raw.pole_elektryczne;
 
                     if (edIsDownloaded()) {
                         startActivity(new Intent(ListED.this, DetailsED.class));
@@ -316,7 +316,7 @@ public class ListED extends Activity {
                     ED.edName = getString(R.string.ed_name_prad_staly);
                     ED.edInfo = getString(R.string.ed_info_prad_staly);
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_prad_staly);
-                    //ED.edMovie = R.raw.prad_staly;
+                    ED.edMovie = R.raw.prad_staly;
 
                     if (edIsDownloaded()) {
                         startActivity(new Intent(ListED.this, DetailsED.class));
@@ -358,7 +358,7 @@ public class ListED extends Activity {
 	                ED.edName = getString(R.string.ed_name_kalorymetria);
 	                ED.edInfo = getString(R.string.ed_info_kalorymetria);
 	                ED.edInfoRun = getString(R.string.ed_cwiczenie_kalorymetria);
-	                //ED.edMovie = R.raw.kalorymetria;
+	                ED.edMovie = R.raw.kalorymetria;
 	
 	                if (edIsDownloaded()) {
 	                    startActivity(new Intent(ListED.this, DetailsED.class));
@@ -379,7 +379,7 @@ public class ListED extends Activity {
 	                ED.edName = getString(R.string.ed_name_kondensatory);
 	                ED.edInfo = getString(R.string.ed_info_kondensatory);
 	                ED.edInfoRun = getString(R.string.ed_cwiczenie_kondensatory);
-	                //ED.edMovie = R.raw.kondensatory;
+	                ED.edMovie = R.raw.kondensatory;
 	
 	                if (edIsDownloaded()) {
 	                    startActivity(new Intent(ListED.this, DetailsED.class));
@@ -400,7 +400,7 @@ public class ListED extends Activity {
 	                ED.edName = getString(R.string.ed_name_pole_magnetyczne);
 	                ED.edInfo = getString(R.string.ed_info_pole_magnetyczne);
 	                ED.edInfoRun = getString(R.string.ed_cwiczenie_pole_magnetyczne);
-	                //ED.edMovie = R.raw.pole_magnetyczne;
+	                ED.edMovie = R.raw.pole_magnetyczne;
 	
 	                if (edIsDownloaded()) {
 	                    startActivity(new Intent(ListED.this, DetailsED.class));
