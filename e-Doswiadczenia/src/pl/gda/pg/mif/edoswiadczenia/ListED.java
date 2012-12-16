@@ -253,7 +253,7 @@ public class ListED extends Activity {
                      ED.edName = getString(R.string.ed_name_gazy);
                      ED.edInfo = getString(R.string.ed_info_gazy);
                      ED.edInfoRun = getString(R.string.ed_cwiczenie_gazy);
-                     //ED.edMovie = R.raw.gazy;
+                     ED.edMovie = R.raw.gazy;
 
                      if (edIsDownloaded()) {
                          startActivity(new Intent(ListED.this, DetailsED.class));
@@ -311,9 +311,9 @@ public class ListED extends Activity {
             @Override
             public void onClick(View v) {
                 if (!downloadingED) {
-                    ED.edSubDir = "prad_staly";
+                    ED.edSubDir = "obwody_pradu_stalego";
                     ED.edFileSWFName = "circuits.swf";
-                    ED.edName = getString(R.string.ed_name_prad_staly);
+                    ED.edName = getString(R.string.ed_name_obwody_pradu_stalego);
                     ED.edInfo = getString(R.string.ed_info_prad_staly);
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_prad_staly);
                     ED.edMovie = R.raw.prad_staly;
@@ -337,7 +337,7 @@ public class ListED extends Activity {
 	                ED.edName = getString(R.string.ed_name_dzwiek);
 	                ED.edInfo = getString(R.string.ed_info_dzwiek);
 	                ED.edInfoRun = getString(R.string.ed_cwiczenie_dzwiek);
-	                //ED.edMovie = R.raw.dzwiek;
+	                ED.edMovie = R.raw.dzwiek;
 	
 	                if (edIsDownloaded()) {
 	                    startActivity(new Intent(ListED.this, DetailsED.class));

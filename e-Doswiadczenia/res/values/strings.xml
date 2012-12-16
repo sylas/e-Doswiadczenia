@@ -20,7 +20,7 @@
     <string name="ed_name_gazy">Właściwości\ngazów</string>
     <string name="ed_name_drgania">Drgania\nmechaniczne</string>
     <string name="ed_name_pole_elektryczne">Pole\nelektryczne</string>
-    <string name="ed_name_prad_staly">Obwody\nprądu stałego</string>
+    <string name="ed_name_obwody_pradu_stalego">Obwody\nprądu stałego</string>
     <string name="ed_name_dzwiek">Laboratorium dzwięku</string>
     <string name="ed_name_kalorymetria">Kalorymetria</string>
     <string name="ed_name_kondensatory">Kondensatory</string>

@@ -20,7 +20,7 @@
     <string name="ed_name_gazy">Properties\nof gases</string>
     <string name="ed_name_drgania">Mechanical\nvibration</string>
     <string name="ed_name_pole_elektryczne">Electric field</string>
-    <string name="ed_name_prad_staly">DC circuits</string>
+    <string name="ed_name_obwody_pradu_stalego">DC circuits</string>
     <string name="ed_name_dzwiek">Sound\nlaboratory</string>
     <string name="ed_name_kalorymetria">Calorimetry</string>
     <string name="ed_name_kondensatory">Capacitors</string>

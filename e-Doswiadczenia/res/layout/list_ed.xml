@@ -215,7 +215,7 @@
                     android:layout_weight="1"
                     android:paddingLeft="25dp"
                     android:paddingRight="10dp"
-                    android:text="@string/ed_name_prad_staly"
+                    android:text="@string/ed_name_obwody_pradu_stalego"
                     style="@style/ListaButton"
                     android:drawableLeft="@drawable/ic_prad_staly"/>
             </TableRow>
@@ -369,7 +369,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_gazy"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    android:drawableLeft="@drawable/ic_gazy"/>
 
                 <TextView
                     android:layout_width="0dp"
