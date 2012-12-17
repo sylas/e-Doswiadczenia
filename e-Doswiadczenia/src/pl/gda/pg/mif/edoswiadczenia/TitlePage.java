@@ -95,19 +95,6 @@ public class TitlePage extends Activity implements OnGestureListener {
         	mDialog.setMessage(getString(R.string.msg_internal_error001));*/
 		}
 		
-		//TODO usunac
-/*		long edSavedModificationDate;
-		SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
-		for (int i = 0; i < EdFileNames.edName.length; i++) {
-
-			edSavedModificationDate = edLocalData.getLong(EdFileNames.edName[i] + "_date", 0);
-			if(edSavedModificationDate !=0){
-				SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
-				edLocalDataEditor.putLong(EdFileNames.edName[i] + "_date", 0);
-				edLocalDataEditor.apply();			
-			}
-		}*/
-
 		new CheckForEDUpdates().execute(EdFileNames.edName);
 		gestureScanner = new GestureDetector(this);
 

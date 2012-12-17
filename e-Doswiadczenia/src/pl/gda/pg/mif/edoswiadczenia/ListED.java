@@ -52,8 +52,6 @@ public class ListED extends Activity {
             + File.separator + ED_SDCARD_DIR + File.separator;
     public static final String ED_SERVER_ROOT = "http://127.0.0.1:" + Integer.toString(TitlePage.WWW_SERVER_PORT) + File.separator;
     
-
-  //TODO poprawka aktualizacji   
     
     public ListED() {
     }
@@ -614,11 +612,6 @@ public class ListED extends Activity {
         }
 
         if (isEdIntegrant()) {  // E-d juz pobrane i nie naruszone
-
-            // Sprawdzamy, czy jest aktualizacja
-            //new CheckForEDUpdates().execute(edRemoteZipFileName);
-            // Uwaga! Sprawdzenie jest w osobnym wątku, więc warunek poniżej zapewne nie będzie prawdziwy
-            // nawet gdy będzie znaleziona aktualizacja. Ale będzie prawdziwy podczas kolejnego uruchomienia e-d!
             // TODO Sprawdzic, czy nie da sie zastosowac semafora.
 
             // Sprawdzenie, czy jest ustawiona flaga "update" w preferencjach danego e-d
@@ -982,67 +975,6 @@ public class ListED extends Activity {
             }
         }
     }
-
-    /**
-     * Sprawdza (w osobnym wątku) czy jest uaktualnienie dango e-doświadczenia.
-     * Bada, czy na serwerze jest plik ZIP o innej długości niż pobrany przy
-     * poprzedniej instalacji oraz o innej dacie modyfikacji. 
-     * Jeżeli tak, to oznacza że jest uaktualnienie.
-     */
-/*    private class CheckForEDUpdates extends AsyncTask<String, Void, Void> {
-
-		@Override
-        protected Void doInBackground(String... edRemoteZipFileName) {
-            try {
-            	String fileURL = edRemoteZipFileName[0];
-                // Sprawdzenie, czy plik ZIP istnieje na sewerze
-                if (!fileExistsOnServer(ED_REMOTE_REPOSITORY + fileURL)) {
-                    return null;
-                }
-                // plik do sprawdzenia
-                URL url = new URL(ED_REMOTE_REPOSITORY + fileURL); 
-                // Otwiera polaczenie
-                URLConnection ucon = url.openConnection(); 
-                
-                // Pobierz dlugosc zdalnego pliku
-                ED.edFileZIPSize = ucon.getContentLength();
-                
-                // Pobierz dlugosc pliku zapisana w preferencjach
-                SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
-                int edSavedFileSize = edLocalData.getInt(ED.edSubDir + PREFS_SIZE_SUFFIX, 0);
-                // Zwróci zero, jak klucza nie ma 
-                // (zero powinno wystąpić wyłącznie wtedy, jeżeli użytkownik skasował dane aplikacji)
-                
-                //pobieranie daty ostatniej modyfikacji;
-                ED.edLastModification = ucon.getLastModified();
-                               
-                // Pobierz datę pliku zapisaną w preferencjach
-                long edSavedModificationDate = edLocalData.getLong(ED.edName+PREFS_DATE_MODF_SUFFIX, 0);
-               
-                // Zwróci zero, jak klucza nie ma            
-                if (edSavedFileSize != ED.edFileZIPSize && edSavedModificationDate != ED.edLastModification) {
-                    // Jest aktualizacja, albo użytkownik wykasował dane aplikacji i nie można stwierdzić
-                    // Zapisujemy info o aktualizacji do preferencji
-                    SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
-                    edLocalDataEditor.putBoolean(ED.edSubDir + PREFS_UPDATE_SUFFIX, true);
-                    edLocalDataEditor.apply();
-                }          
-                else if (edSavedFileSize == ED.edFileZIPSize && edSavedModificationDate != ED.edLastModification) {
-                    // Jest aktualizacja, albo użytkownik wykasował dane aplikacji i nie można stwierdzić
-                    // Zapisujemy info o aktualizacji do preferencji
-                    SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
-                    edLocalDataEditor.putBoolean(ED.edSubDir + PREFS_UPDATE_SUFFIX, true);
-                    edLocalDataEditor.apply();
-                }
-                
-                
-            } catch (IOException e) {
-                return null;
-            }
-            return null;
-        }
-
-    }*/
 
     /*
      * Utworzenie ActionBar-u.
