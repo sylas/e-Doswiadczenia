@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<!-- Nazwa aplikacji -->
+    <!-- Nazwa aplikacji -->
 
     <string name="app_name">e-Doświadczenia w fizyce</string>
 
-<!-- Nazwy e-doświadczeń -->
+    <!-- Nazwy e-doświadczeń -->
 
     <string name="txt_list_ed">Lista e-doświadczeń</string>
-
     <string name="ed_name_wahadlo">Wahadło matematyczne</string>
-    <string name="ed_name_lawa">Ława\noptyczna</string>
+    <string name="ed_name_lawa">Ława optyczna</string>
     <string name="ed_name_rownia">Równia pochyła</string>
-    <string name="ed_name_zderzenia">Zderzenia\nsprężyste\ni niesprężyste</string>
+    <string name="ed_name_zderzenia">Zderzenia sprężyste\ni niesprężyste</string>
     <string name="ed_name_rzuty">Rzuty</string>
-    <string name="ed_name_astro">Ruch ciał\nniebieskich</string>
-    <string name="ed_name_ciecze">Mechanika\ncieczy</string>
+    <string name="ed_name_astro">Ruch ciał niebieskich</string>
+    <string name="ed_name_ciecze">Mechanika cieczy</string>
     <string name="ed_name_bryla">Bryła sztywna</string>
-    <string name="ed_name_gazy">Właściwości\ngazów</string>
-    <string name="ed_name_drgania">Drgania\nmechaniczne</string>
-    <string name="ed_name_pole_elektryczne">Pole\nelektryczne</string>
-    <string name="ed_name_obwody_pradu_stalego">Obwody\nprądu stałego</string>
-    <string name="ed_name_dzwiek">Laboratorium dzwięku</string>
+    <string name="ed_name_gazy">Właściwości gazów</string>
+    <string name="ed_name_drgania">Drgania mechaniczne</string>
+    <string name="ed_name_pole_elektryczne">Pole elektryczne</string>
+    <string name="ed_name_obwody_pradu_stalego">Obwody prądu stałego</string>
+    <string name="ed_name_dzwiek">Laboratorium\ndzwięku</string>
     <string name="ed_name_kalorymetria">Kalorymetria</string>
     <string name="ed_name_kondensatory">Kondensatory</string>
-    <string name="ed_name_pole_magnetyczne">Pole\nmagnetyczne</string>
+    <string name="ed_name_pole_magnetyczne">Pole magnetyczne</string>
     <string name="ed_name_cewki_i_indukcja">Cewki i indukcja</string>
-    <string name="ed_name_optyka_geometryczna">Zjawisko\npolaryzacji\ni załamania światła</string>
+    <string name="ed_name_optyka_geometryczna">Zjawisko polaryzacji i załamania światła</string>
     <string name="ed_name_rlc">Układy RLC</string>
-    <string name="ed_name_korpuskularna">Korpuskularna natura światła\ni materii</string>
-    <string name="ed_name_interferencja">Interferencja\ni dyfrakcja\nświatła</string>
+    <string name="ed_name_korpuskularna">Korpuskularna natura światła i materii</string>
+    <string name="ed_name_interferencja">Interferencja i dyfrakcja światła</string>
     <string name="ed_name_fizyka_atomowa">Spektroskopia</string>
-    <string name="ed_name_einstein">Eksperymenty\nmyślowe\nEinsteina</string>
+    <string name="ed_name_einstein">Eksperymenty myślowe Einsteina</string>
 
-<!-- Przyciski -->
+    <!-- Przyciski -->
 
     <string name="btn_yes">Tak</string>
     <string name="btn_no">Nie</string>
@@ -52,29 +51,24 @@
     <string name="btn_run_ed">uruchom</string>
     <string name="btn_run_manual">wyświetl podręcznik</string>
 
-<!-- Teksty strony tytułowej -->
+    <!-- Teksty strony tytułowej -->
 
-    <string name="txt_title1">
-        Aplikacja wykonana w ramach innowacyjnego projektu testującego pt. „e-Doświadczenia w fizyce”,
-        \nwspółfinansowanego ze środków Unii Europejskiej w ramach Europejskiego Funduszu Społecznego
-    </string>
+    <string name="txt_title1">        Aplikacja wykonana w ramach innowacyjnego projektu testującego pt. „e-Doświadczenia w fizyce”,
+        \nwspółfinansowanego ze środków Unii Europejskiej w ramach Europejskiego Funduszu Społecznego</string>
     <string name="txt_title2">Pomysł i realizacja:</string>
-    <string name="txt_title3">
-        Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej\n
-        przy wsparciu Young Digital Planet SA oraz L.C.G. Malmberg B.V.
-    </string>
+    <string name="txt_title3">        Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej\n
+        przy wsparciu Young Digital Planet SA oraz L.C.G. Malmberg B.V.</string>
 
-<!-- Teksty strony informacyjnej -->
+    <!-- Teksty strony informacyjnej -->
 
     <string name="info_choose">
-         <![CDATA[
+<![CDATA[
 <h1><font color="#22DAFE">e-Doświadczenia w fizyce</font></h1>
 <b>Wybierz informacje do wyświetlenia, korzystając z menu po lewej stronie.</b>
          ]]>
     </string>
-
     <string name="info_project_text">
-        <![CDATA[
+<![CDATA[
 <h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O projekcie</h1>
 
 W ramach innowacyjnego projektu testującego pt. <b>„e-Doświadczenia w fizyce”</b> wytwarzamy oraz testujemy
@@ -94,9 +88,8 @@ z nauczaniem fizyki w polskich szkołach. Ideą przewodnią projektu jest znana 
 pozwolisz dotknąć a zrozumiem”.</b><br/></br>
         ]]>
     </string>
-
     <string name="info_ed_text">
-        <![CDATA[
+<![CDATA[
 <h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O e-doświadczeniach</h1>
 Głównym produktem projektu jest <b>zestaw 23 wirtualnych e-doświadczeń z fizyki</b>,
 w postaci programów komputerowych, obejmujących różne działy fizyki.
@@ -130,9 +123,8 @@ się z nimi jeszcze przed uruchomieniem danego e-doświadczenia.<br/><br/>
 
         ]]>
     </string>
-
     <string name="info_app_text">
-        <![CDATA[
+<![CDATA[
 <h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O aplikacji</h1>
 
 e-Doświadczenia produkowane są w technologii <b>Adobe Flash / Adobe Air</b>, dzięki czemu mogą być używane
@@ -161,11 +153,11 @@ L.C.G. Malmberg B.V. (Holandia)
         ]]>
     </string>
 
-<!-- Teksty w popupach o programie i partnerach -->
+    <!-- Teksty w popupach o programie i partnerach -->
 
     <string name="pokl_name">Program Operacyjny Kapitał Ludzki</string>
     <string name="pokl_text">
-         <![CDATA[
+<![CDATA[
 Program Kapitał Ludzki jest jednym z programów służących realizacji Narodowych Strategicznych Ram Odniesienia
 2007-2013 i obejmuje całość interwencji Europejskiego Funduszu Społecznego (EFS) w Polsce. Stanowi on odpowiedź
 na wyzwania, jakie przed państwami członkowskimi UE, w tym również Polską, stawia odnowiona Strategia Lizbońska.
@@ -174,20 +166,18 @@ Do wyzwań tych należą: uczynienie z Europy bardziej atrakcyjnego miejsca do l
 i podejmowania pracy, rozwijanie wiedzy i innowacji oraz tworzenie większej liczby trwałych miejsc pracy.
         ]]>
     </string>
-
     <string name="efs_name">Europejski Fundusz Społeczny</string>
     <string name="efs_text">
-         <![CDATA[
+<![CDATA[
 Europejski Fundusz Społeczny (EFS) jest jednym z funduszy strukturalnych UE. Został stworzony, by redukować
 różnice w zamożności i jakości życia we wszystkich państwach członkowskich i regionach UE.<br/><br/>
 Fundusz promuje spójność gospodarczą i społeczną oraz promocją zatrudnienia w UE. Pomaga państwom członkowskim,
 sprawiając, że siła robocza i firmy są lepiej przygotowane do stawienia czoła nowym, globalnym wyzwaniom.
         ]]>
     </string>
-
     <string name="pg_name">Politechnika Gdańska</string>
     <string name="pg_text">
-                <![CDATA[
+<![CDATA[
 <b>Największa i najstarsza w północnej Polsce państwowa uczelnia wyższa o profilu technicznym,
 z siedzibą w Gdańsku.</b><br/><br/>
 Obejmuje 9 wydziałów, na których studiuje ponad 24 tysiące studentów na studiach
@@ -198,10 +188,9 @@ W ogólnopolskich rankingach uczelni wyższych
 Politechnika Gdańska zajmuje od dawna jedno z czołowych miejsc.
         ]]>
     </string>
-
     <string name="ftims_name">Wydział Fizyki Technicznej i Matematyki Stosowanej PG</string>
     <string name="ftims_text">
-         <![CDATA[
+<![CDATA[
 <b>Jeden z dziewięciu wydziałów Politechniki Gdańskiej.</b><br/><br/>
 Prowadzone kierunki studiów i specjalności:<br/><br/>
 <b>Fizyka techniczna</b><br/>
@@ -223,10 +212,9 @@ Prowadzone kierunki studiów i specjalności:<br/><br/>
 Absolwenci wydziału są cenionymi specjalistami i łatwo znajdują zatrudnienie w różnych dziedzinach przemysłu.
         ]]>
     </string>
-
     <string name="ydp_name">Young Digital Planet SA (Gdańsk)</string>
     <string name="ydp_text">
-         <![CDATA[
+<![CDATA[
 <b>Największy w Polsce producent i wydawca edukacyjnych programów komputerowych.</b><br/><br/>
 Firma działa na rynku oprogramowania od 1990 roku. Jest dostawcą systemów szkoleniowych i treści edukacyjnych,
 opartych na technologiach informacyjnych, dla klientów indywidualnych, instytucji oświatowych
@@ -240,10 +228,9 @@ efektywnością. Jego realizację stanowią uznane i wielokrotnie nagradzane ser
 &bull; Lekcjotek@
         ]]>
     </string>
-
     <string name="malmberg_name">L.C.G. Malmberg B.V. (Den Bosch, Holandia)</string>
     <string name="malmberg_text">
-         <![CDATA[
+<![CDATA[
 <b>Znany, działający od lat i wiodący w Holandii wydawca rozwiązań edukacyjnych</b>, pomagających uczniom w procesie
 uczenia się za pomocą systemów multimedialnych oraz nowoczesnych technologii ICT.<br/><br/>
 Firma rozwija interdyscyplinarne metodologie nauczania (Pluspunt, Biologie voor jou, Taalblokken,
@@ -252,12 +239,11 @@ w sumie ponad 2500 tytułów).
         ]]>
     </string>
 
-<!-- Teksty pomocy -->
+    <!-- Teksty pomocy -->
 
     <string name="txt_title_help">Pomoc</string>
-
     <string name="txt_help_tytulowa">
-         <![CDATA[
+<![CDATA[
 <b>Na tym ekranie można:</b><br/><br/>
 
 &bull; przeczytać podstawowe informacje o projekcie,<br/><br/>
@@ -277,79 +263,47 @@ w ramach których realizowany jest projekt<br/>
          ]]>
     </string>
 
-<!-- Komunikaty -->
-
-    <string name="msg_no_network">
-        Do pobrania e-doświadczenia niezbędne jest połączenie z Internetem.\n\nSprawdź swoje połączenie sieciowe
-        i spróbuj ponownie.
-    </string>
-
-    <string name="msg_ed_not_yet_produced">
-        Niestety, to e-doświadczenie nie jest jeszcze gotowe.\n\ne-Doświadczenia są produkowane sukcesywnie\ni będą
-        udostępniane tak szybko, jak to tylko możliwe.
-    </string>
-
-    <string name="msg_no_file_on_server">
-        Wystąpił nieoczekiwany błąd serwera.\nPrzepraszamy i prosimy spróbować później.
-    </string>
-
-    <string name="msg_internal_error001">
-        Wystąpił nieoczekiwany błąd aplikacji (kod: 001).\nPrzepraszamy i prosimy spróbować później.
-        Jeżeli błąd będzie się powtarzał, prosimy o kontakt z autorem programu.
-    </string>
-
-    <string name="msg_cant_make_dir">
-        Nie można utworzyć katalogu na karcie pamięci! Proszę spróbować z inną kartą.
-    </string>
-
-    <string name="msg_title_error">Błąd!</string>
-
-    <string name="dlg_unpacking">Pobieranie zakończone.\nTrwa rozpakowywanie plików, proszę czekać...</string>
-
-    <string name="dlg_downloading">Pobieranie danych (ok. %1$d MB), proszę czekać... </string>
-
-    <string name="msg_download_cancelled">Operacja została anulowana przez użytkownika</string>
+    <!-- elementy stringów -->
+        <string name="MANUAL_NAME_PREFIX">"cwiczenia_"</string>
     
+    <!-- Komunikaty -->
+
+    <string name="msg_no_network">        Do pobrania e-doświadczenia niezbędne jest połączenie z Internetem.\n\nSprawdź swoje połączenie sieciowe
+        i spróbuj ponownie.</string>
+    <string name="msg_ed_not_yet_produced">        Niestety, to e-doświadczenie nie jest jeszcze gotowe.\n\ne-Doświadczenia są produkowane sukcesywnie\ni będą
+        udostępniane tak szybko, jak to tylko możliwe.</string>
+    <string name="msg_no_file_on_server">        Wystąpił nieoczekiwany błąd serwera.\nPrzepraszamy i prosimy spróbować później.</string>
+    <string name="msg_internal_error001">        Wystąpił nieoczekiwany błąd aplikacji (kod: 001).\nPrzepraszamy i prosimy spróbować później.
+        Jeżeli błąd będzie się powtarzał, prosimy o kontakt z autorem programu.</string>
+    <string name="msg_cant_make_dir">        Nie można utworzyć katalogu na karcie pamięci! Proszę spróbować z inną kartą.</string>
+    <string name="msg_title_error">Błąd!</string>
+    <string name="dlg_unpacking">Pobieranie zakończone.\nTrwa rozpakowywanie plików, proszę czekać...</string>
+    <string name="dlg_downloading">Pobieranie danych (ok. %1$d MB), proszę czekać... </string>
+    <string name="msg_download_cancelled">Operacja została anulowana przez użytkownika</string>
     <string name="msg_to_less_space">Zbyt mało miejsca na karcie SD!\nPobranie e-doświadczeń nie będzie możliwe.</string>
-
     <string name="msg_no_pdf_reader">Aby obejrzeć podręcznik, zainstaluj czytnik plików PDF</string>
-
-    <string name="msg_screen_not_supported">
-        Ta aplikacja wymaga ekranu o rozdzielczości co najmniej 1280 x 800 pikseli.
-    </string>
-
+    <string name="msg_screen_not_supported">        Ta aplikacja wymaga ekranu o rozdzielczości co najmniej 1280 x 800 pikseli.</string>
     <string name="msg_title_info">Informacja</string>
     <string name="msg_title_question">Pytanie</string>
-    <string name="msg_download_ed_question">
-        Aby uruchomić to e-doświadczenie, wymagane jest jednorazowe pobranie dodatkowych danych z Internetu.\n
+    <string name="msg_download_ed_question">        Aby uruchomić to e-doświadczenie, wymagane jest jednorazowe pobranie dodatkowych danych z Internetu.\n
         \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
-        \n\nCzy pobrać dane teraz?
-    </string>
-    <string name="msg_download_ed_update_question">
-        Znaleziono aktualizację tego e-doświadczenia.\n
+        \n\nCzy pobrać dane teraz?</string>
+    <string name="msg_download_ed_update_question">        Znaleziono aktualizację tego e-doświadczenia.\n
         \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
-        \n\nCzy pobrać aktualizację teraz?
-    </string>
-    <string name="msg_install_flash_question">
-        Aby uruchamiać e-doświadczenia, wymagane jest zainstalowanie Adobe Flash Playera.
-        \n\nCzy uruchomić Market?
-    </string>
-
+        \n\nCzy pobrać aktualizację teraz?</string>
+    <string name="msg_install_flash_question">        Aby uruchamiać e-doświadczenia, wymagane jest zainstalowanie Adobe Flash Playera.
+        \n\nCzy uruchomić Market?</string>
     <string name="msg_starting_ed">Uruchamianie e-doświadczenia...</string>
-
-    <string name="msg_manual_not_available">
-        Przepraszamy, podręcznik do tego e-doświadczenia nie został jeszcze przygotowany.
-    </string>
-
+    <string name="msg_manual_not_available">        Przepraszamy, podręcznik do tego e-doświadczenia nie został jeszcze przygotowany.</string>
     <string name="msg_switch_to_en">Switched to English</string>
     <string name="msg_already_en">You are already using English version...</string>
     <string name="msg_switch_to_pl">Przełączono na język polski</string>
     <string name="msg_already_pl">Już używasz wersji polskojęzycznej...</string>
 
-<!-- Informacje o e-doświadczeniach -->
+    <!-- Informacje o e-doświadczeniach -->
 
     <string name="ed_info_wahadlo">
-         <![CDATA[
+<![CDATA[
 <b>Wahadło</b> możemy wyobrażać sobie jako kulkę zawieszoną swobodnie na nici.
 Głównym założeniem modelu <b>wahadła matematycznego</b> jest to, aby kulka ta
 była punktowa, a cała masa wahadła skupiała się właśnie w niej.
@@ -374,7 +328,7 @@ w pełni wykorzystać jego możliwości również na tabletach.
          ]]>
     </string>
     <string name="ed_cwiczenie_wahadlo">
-         <![CDATA[
+<![CDATA[
 <b>Ćwiczenie - jam zmierzyć okres podstawowy drgań wahadła matematycznego?</b><br/><br/>
 &bull; Proponujemy na początek zmierzyć okres podstawowy, czyli czas jednego wahnięcia wahadła. 
 Do tego doświadczenia potrzebne nam będzie wahadło suwakowe oraz kulka.<br/>
@@ -397,9 +351,8 @@ wykonanych pomiarów?<br/>
 Więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
-
     <string name="ed_info_lawa">
-         <![CDATA[
+<![CDATA[
 e-Doświadczenie <b>Ława optyczna</b> zostało w całości poświęcone soczewkom.
 <b>Soczewka</b> to proste urządzenie optyczne, składające się z jednego lub kilku sklejonych razem
 bloków przezroczystego materiału, zwykle szkła, ale też różnych tworzyw sztucznych, żeli lub minerałów.<br/><br/>
@@ -413,7 +366,7 @@ Ponadto, można zbudować lunetę i mikroskop.
          ]]>
     </string>
     <string name="ed_cwiczenie_lawa">
-         <![CDATA[
+<![CDATA[
 <b>Ćwiczenie - badanie soczewek skupiających</b><br/><br/>
 &bull; Montujemy na ławie źródło światła z dowolnym filtrem.<br/>
 &bull; Z zestawu soczewek szklanych o różnych ogniskowych wybieramy dowolną soczewkę 
@@ -432,9 +385,8 @@ i sprawdźmy czy można zaobserwować obraz pozorny.<br/>
 Więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
-
     <string name="ed_info_rzuty">
-         <![CDATA[
+<![CDATA[
 <b>Rzutem</b> nazywamy ruch w jednorodnym polu grawitacyjnym z
 pewną prędkością początkową, skierowaną wzdłuż, w poprzek lub
 pod skosem względem linii pola.<br/><br/>
@@ -449,7 +401,7 @@ pod skosem względem linii pola.<br/><br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_rzuty">
-         <![CDATA[
+<![CDATA[
 <b>Ćwiczenie - rzut poziomy przy ustalonej prędkości</b><br/>
 &bull; Wybierz z Narzędzi (pierwsza ikona od lewej) następujące elementy: 
 dowolną kulkę, planszę z siatką pomiarową, linijkę, stelaż do wyrzutni oraz wyrzutnię 
@@ -488,9 +440,8 @@ czas spadku swobodnego, a od czego nie zależy? <br/>
 Więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
-
     <string name="ed_info_bryla">
-         <![CDATA[
+<![CDATA[
 <b>Bryła sztywna</b> to modelowe ciało fizyczne, które nie deformuje się pod wpływem sił,
 czyli &minus; inaczej mówiąc &minus; odległości między punktami ciała się nie zmieniają.<br/><br/>
 Z pojęciem bryły sztywnej nieodłącznie związane jest pojęcie wahadła fizycznego.
@@ -505,7 +456,7 @@ wokół osi nie przechodzącej przez środek masy bryły.<br/><br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_bryla">
-         <![CDATA[
+<![CDATA[
 <b>Ćwiczenie - wyznaczanie środka masy bryły sztywnej</b><br/><br/>
 &bull; Wybierz z Narzędzi bryłę z zakładki "Środek masy" wraz z potrzebnymi narzędziami.<br/>
 &bull; Zawieś kątomierz na statywie.<br/>
@@ -529,9 +480,8 @@ aby narysować jej oś stabilnego zawieszenia.<br/>
 Więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
-
     <string name="ed_info_rownia">
-         <![CDATA[
+<![CDATA[
 <b>Równią pochyłą</b> nazywamy płaską powierzchnię, nachyloną pod pewnym kątem do poziomu.
 Równia pochyła jest jedną z sześciu klasycznych <b>maszyn prostych</b>, tzn. takich,
 które zmieniają kierunek lub wartość siły (pozostałymi są: dźwignia, kołowrót, blok, klin i śruba).<br/><br/>
@@ -548,7 +498,7 @@ poruszających się z zadanym przyspieszeniem.
          ]]>
     </string>
     <string name="ed_cwiczenie_rownia">
-         <![CDATA[
+<![CDATA[
 <b>Ćwiczenie - jakim ruchem poruszają się klocki na równi?</b><br/><br/>
 &bull; Wybierz dowolny klocek z Narzędzi. Możesz także według własnego uznania wybrać 
 nakładkę na klocek lub równię.<br/>
@@ -571,24 +521,43 @@ Czy Twoje wnioski będą takie same?<br/>
 Więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
-
     <string name="ed_info_einstein">
-         <![CDATA[
-<b>Eksperymenty myślowe Einsteina...</b>             
+<![CDATA[
+<b>Eksperymenty myślowe Einsteina</b> przybliżają zagadnienia Szczególnej Teorii Względności. 
+Jak brzmią najważniejsze założenia tej weorii, otóż:<br/>
+&bull; wszystkie prawa przyrody (w szczególnosci fizyki) są takie same bez względu na to, 
+czy obserwujemy je z układu nie poruszającego sią, czy z ruchomego, ale poruszającego sią
+bez przyśpieszenia (czyli układu inercjalnego) oraz<br/>
+&bull; prędkość światła jest zawsze stała w danym ośrodku. Jest to jednocześnie największa prędkość, 
+z którą może być przekazywana energia.<br/>
+
+&bull; Niektóre wnioski <b>szczególnej teorii względności</b> są sprzeczne z intuicją:<br/>
+&bull; Dylatacja czasu — czas jaki mija pomiędzy dwoma zdarzeniami nie jest jednoznacznie określony, 
+lecz zależy od obserwatora.<br/>   
+&bull; Względność jednoczesności — dwa zdarzenia określone przez jednego obserwatora jako jednoczesne, 
+mogą nie być jednoczesne dla innego obserwatora.<br/>
+&bull; Kontrakcja przestrzeni — odległości między punktami zależą od układu. 
+Wszystkie poruszające się przedmioty obserwujemy jako krótsze.<br/>
+&bull; Masa jest równoważna energii a związek między tymi wielkościami opisuje wzór E = m c^2.<br/> 
+&bull; Relatywistyczne skrócenie długości — wraz ze wzrostem prędkości następuje skrócenie 
+obiektu zgodnie z kierunkiem w którym obiekt się przemieszcza. 
+Relatywistyczne skrócenie obiektu zawsze wyniesie tyle samo procent dla danej prędkości.<br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_einstein">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
+<![CDATA[
+<b>Propozycja ćwiczenia:</b> Zastanówmy się jak dwóch obserwatorów ogląda świat?<br/>
+Jednym obserwatorem niech będzie osoba na ziemii, drugim osoba w rakiecie. 
+Rakieta oddala się od ziemii z pewną prędkością. <br/>
+Załóżmy, że osoba pozostająca na ziemii widzi co dzieje się w rakiecie. 
+Kosmonaucie w rakiecie w pewnej chwili zaczyna rosnac broda i rosnie przez pewien czas dt. <br/>
+Ile czasu  rosnie mu broda wg. obserwatora na ziemii (czyli ile wynosi Dt )?
 <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
-
     <string name="ed_info_astro">
-         <![CDATA[
+<![CDATA[
 <b>Ciałem niebieskim</b> nazywamy dowolny obiekt fizyczny (czyli przedmiot
 rozciągły w czasie i przestrzeni) występujący w przestrzeni
 kosmicznej, czyli poza obszarem ziemskiej atmosfery (umownie
@@ -615,7 +584,7 @@ w pełni wykorzystać jego możliwości również na tabletach.
          ]]>
     </string>
     <string name="ed_cwiczenie_astro">
-         <![CDATA[
+<![CDATA[
 <b>Ćwiczenia -  badanie Układu Słonecznego</b><br/><br/>
 &bull; Wybierz na pasku narzędzi "Układy ciał niebieskich", a następnie wybierz UKŁAD SŁONECZNY.<br/>
 &bull; Przed uruchomieniem doświadczenia, korzystając z okienka nawigacji znajdującego się 
@@ -637,9 +606,8 @@ w czasie swojego życia, dostać się na kraniec naszego Układu Słonecznego?<b
 Więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
-
     <string name="ed_info_zderzenia">
-         <![CDATA[
+<![CDATA[
 <b>Zderzenie</b> to relatywnie krótkie zdarzenie, podczas którego poruszające się ciała
 oddziałują na siebie pewnymi siłami. W <b>zderzeniach sprężystych</b>, całkowita energia kinetyczna ciał
 po zderzeniu jest równa całkowitej energii kinetycznej ciał przed zderzeniem.
@@ -658,7 +626,7 @@ Jako ciekawostkę, do e-doświadczenia załączono symulację bilardu.
          ]]>
     </string>
     <string name="ed_cwiczenie_zderzenia">
-         <![CDATA[
+<![CDATA[
 <b>Ćwiczenie - zderzenie centralne czołowe</b><br/>
 &bull; Wybierz z Narzędzi (pierwsza ikonka od lewej) dwie takie same kulki
 (obie stalowe, szklane, uranowe lub niklowe).<br/>
@@ -693,14 +661,21 @@ początkowe prędkości i położenia wystrzeliwanej kulki.<br/><br/>
 Więcej ćwiczeń można znaleźć w podręczniku.<br/>
          ]]>
     </string>
-
     <string name="ed_info_ciecze">
-         <![CDATA[
-<b>Mechanika cieczy...</b>         
+<![CDATA[
+<b>Ciecz </b> jest stanem skupienia materii pośrednim między ciałem stałym a gazem.
+Ciało fizyczne będące <b>cieczą</b> trudno zmienia objętość, ale jednocześnie łatwo zmienia kształt. 
+Dlatego w przypadku <b>cieczy</b> obserwujemy, że przyjmuje kształt naczynia, w którym się znajduje.
+
+Za pomocą tego doświadczenia można m.in.:<br/>
+&bull; zapoznać się z paradoksem hydrostatycznym,<br/>
+&bull; obserwować siłę wyporu na podstawie różnych cieczy i pływaków,<br/>
+&bull; wyznaczać gęstość cieczy,<br/>
+&bull; zmierzyć ciśnienie hydrostatyczne.<br/> 
          ]]>
     </string>
     <string name="ed_cwiczenie_ciecze">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
@@ -708,14 +683,13 @@ Więcej ćwiczeń można znaleźć w podręczniku.<br/>
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
-
     <string name="ed_info_drgania">
-         <![CDATA[
+<![CDATA[
 <b>Drgania mechaniczne...</b>           
          ]]>
     </string>
     <string name="ed_cwiczenie_drgania">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
@@ -723,14 +697,13 @@ Więcej ćwiczeń znajduje się w podręczniku.
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
-    
-	<string name="ed_info_gazy">
-         <![CDATA[
+    <string name="ed_info_gazy">
+<![CDATA[
 <b>Właściwości gazów...</b>           
          ]]>
     </string>
     <string name="ed_cwiczenie_gazy">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
@@ -738,14 +711,13 @@ Więcej ćwiczeń znajduje się w podręczniku.
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
-
-	<string name="ed_info_pole_elektryczne">
-         <![CDATA[
+    <string name="ed_info_pole_elektryczne">
+<![CDATA[
 <b>Pole elektryczne...</b>           
          ]]>
     </string>
     <string name="ed_cwiczenie_pole_elektryczne">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
@@ -753,14 +725,13 @@ Więcej ćwiczeń znajduje się w podręczniku.
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
-    
     <string name="ed_info_prad_staly">
-         <![CDATA[
+<![CDATA[
 <b>Obwody prądu stałego...</b>           
          ]]>
     </string>
     <string name="ed_cwiczenie_prad_staly">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
@@ -768,14 +739,13 @@ Więcej ćwiczeń znajduje się w podręczniku.
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
-    
     <string name="ed_info_dzwiek">
-         <![CDATA[
+<![CDATA[
 <b>Laboratorium dzwięku...</b>           
          ]]>
     </string>
     <string name="ed_cwiczenie_dzwiek">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
@@ -783,44 +753,41 @@ Więcej ćwiczeń znajduje się w podręczniku.
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
-    
     <string name="ed_info_kalorymetria">
-         <![CDATA[
+<![CDATA[
 <b>Kalorymetria...</b>           
          ]]>
     </string>
     <string name="ed_cwiczenie_kalorymetria">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
 <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
-    </string>  
-   
+    </string>
     <string name="ed_info_kondensatory">
-         <![CDATA[
+<![CDATA[
 <b>Kondensatory...</b>           
          ]]>
     </string>
     <string name="ed_cwiczenie_kondensatory">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
 <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
-    </string>  
-    
+    </string>
     <string name="ed_info_pole_magnetyczne">
-         <![CDATA[
+<![CDATA[
 <b>Pole magnetyczne...</b>           
          ]]>
     </string>
     <string name="ed_cwiczenie_pole_magnetyczne">
-         <![CDATA[
+<![CDATA[
 <b>Propozycja ćwiczenia:</b><br/>
 &bull;
 
@@ -828,6 +795,5 @@ Więcej ćwiczeń znajduje się w podręczniku.
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
-    
- 
+
 </resources>

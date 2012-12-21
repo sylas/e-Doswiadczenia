@@ -4,12 +4,19 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
+import android.graphics.AvoidXfermode;
+import android.graphics.Shader.TileMode;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.Html;
 import android.util.FloatMath;
+import android.util.Log;
+import android.util.MonthDisplayHelper;
 import android.util.TypedValue;
 import android.view.*;
+import android.view.MotionEvent.PointerCoords;
+import android.view.ScaleGestureDetector.OnScaleGestureListener;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.widget.Button;
@@ -17,6 +24,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 import java.io.File;
+import java.util.Locale;
+import java.util.Map;
 
 /**
  * Wyświetlenie szczegółów e-doświadczenia.
@@ -25,23 +34,30 @@ import java.io.File;
  *
  * @author sylas
  */
-public class DetailsED extends Activity implements OnTouchListener {
+public class DetailsED extends Activity /*implements OnTouchListener*/ {
 
     TextView info;
     public static String pathToManual;
     VideoView videoED;
-    private final String MANUAL_CORE_PATH = "/assets/scenarios/";
-    private final String MANUAL_NAME_PREFIX = "podrecznik_";
+    private final String MANUAL_CORE_PATH = "/assets/scenarios/"; 
     private final String PDF_FILE_EXTENSION = ".pdf";
     public static final String MIME_TYPE_PDF = "application/pdf";
     // Stany dla obsługi gestów:
-    static final int NONE = 0;
-    static final int DRAG = 1;
-    static final int ZOOM = 2;
-    int mode = NONE;
-    private float oldDist;
-    private float newDist;
+   // static final int NONE = 0;
+   // static final int DRAG = 1;
+   // static final int ZOOM = 2;
+   // int mode = NONE;
+   // private float oldDist;
+   // private float newDist;
+    
+    ScaleGestureDetector myScaleGestureDetector;
+	MyScaleListener myListener;
 
+	private float myCurrentSpan=1f;
+	private float myPrevSpan=1f;	
+    
+    
+    
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,16 +75,35 @@ public class DetailsED extends Activity implements OnTouchListener {
         videoED = (VideoView) this.findViewById(R.id.video_view);
         String uri = "android.resource://" + getPackageName() + File.separator + ED.edMovie;
         videoED.setVideoURI(Uri.parse(uri));
+        String name = new String();
+        try{
+        	name = ED.edSubDir.substring(0, ED.edSubDir.indexOf("_"));
+        }catch(IndexOutOfBoundsException indEx){
+        	name = ED.edSubDir;
+        }
 
-        pathToManual = ListED.ED_BASE_DIR + ED.edSubDir + MANUAL_CORE_PATH
-                + MANUAL_NAME_PREFIX + ED.edSubDir + PDF_FILE_EXTENSION;
+        pathToManual = ListED.ED_BASE_DIR + ED.edSubDir + MANUAL_CORE_PATH + getString(R.string.MANUAL_NAME_PREFIX) 
+        			+ name + PDF_FILE_EXTENSION; 
+   
+        //obsługa pinch zoom
+        myListener = new MyScaleListener();
+        myScaleGestureDetector = new ScaleGestureDetector(getApplicationContext(), myListener);  
+      
+        View.OnTouchListener onTouchTekst = new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				// TODO Auto-generated method stub
+				
+		    	myScaleGestureDetector.onTouchEvent(event);
 
-
-
-        // Obsługa gestów
-        info.setOnTouchListener(this);
-
-
+				return true;
+			}
+		};
+		
+		// Obsługa gestów
+        info.setOnTouchListener(onTouchTekst);
+        
         // Przycisk - Uruchom ED
         Button aboutEDBtn = (Button) findViewById(R.id.buttonRunED);
         aboutEDBtn.setOnClickListener(new OnClickListener() {
@@ -88,6 +123,7 @@ public class DetailsED extends Activity implements OnTouchListener {
 
                 if (canDisplayPdf(DetailsED.this)) {
                     File file = new File(pathToManual);
+                    Boolean test= file.exists();
                     if (file.exists()) { // Podrecznik istnieje
                         Intent intent = new Intent();
                         intent.setDataAndType(Uri.parse("file:///" + pathToManual), MIME_TYPE_PDF);
@@ -116,19 +152,55 @@ public class DetailsED extends Activity implements OnTouchListener {
 
     }
 
-    public boolean onTouch(View v, MotionEvent event) {
+
+   // public boolean onTouch(View v, MotionEvent event) {
         // Handle touch events here...
-        switch (event.getAction() & MotionEvent.ACTION_MASK) {
 
-            case MotionEvent.ACTION_POINTER_DOWN:
-                oldDist = spacing(event);
-                if (oldDist > 10f) {
-                    mode = ZOOM;
-                }
-                break;
+    	
+/*    	if (action == MotionEvent.ACTION_MOVE && !myScaleGestureDetector.isInProgress()) {
+  
+        	
+ 			float textSize = info.getTextSize();  
+ 			Log.i(TitlePage.TAG, "początkowy rozmiar tekstu" + String.valueOf(textSize)); 	
+ 	
+ 			if(myCurrentSpan > myScaleGestureDetector.getCurrentSpan() && textSize >= 15){
+ 				textSize-=5;
+ 				Log.i(TitlePage.TAG,"rozmiar tekstu po zmniejszeniu " + String.valueOf(textSize));
+ 				info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
+ 				 return true;
+ 			}
+           if (myCurrentSpan < myScaleGestureDetector.getCurrentSpan() && textSize <= 40) {
+        	   textSize+=5;
+               Log.i(TitlePage.TAG, "rozmiar tekstu po zwiększeniu" + String.valueOf(textSize));
+               info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
+               return true;
+           }
+           
+    	}*/
+    	// return true;
+   // }
+    	/*
+    	switch (event.getAction() & MotionEvent.ACTION_MASK) {
+    	   case MotionEvent.ACTION_DOWN:
+    	   //A pressed gesture has started, the motion contains the initial starting location.
 
-            case MotionEvent.ACTION_MOVE:
-                if (mode == ZOOM) {
+    		   
+    	   break;
+    	   case MotionEvent.ACTION_POINTER_DOWN:
+    	    //A non-primary pointer has gone down.
+
+        		
+        		
+    		   oldDist = spacing(event);
+               if (oldDist > 10f) {
+                   mode = ZOOM;
+               }
+               break;
+
+           case MotionEvent.ACTION_MOVE:
+    		   
+        	   
+        	   if (mode == ZOOM) {
                     newDist = spacing(event);
 
                     if (newDist > 10f) {
@@ -147,11 +219,34 @@ public class DetailsED extends Activity implements OnTouchListener {
                     }
                 }
                 break;
-        }
+    	   case MotionEvent.ACTION_UP:
+    		   //A pressed gesture has finished.
 
-        return true;
+    		   float tmpSpan = 0;
+    		   tmpSpan = myScaleGestureDetector.getCurrentSpan();
+    		   if(tmpSpan > myCurrentSpan){
+    			   float textSize = info.getTextSize();
+                   if (textSize <= 40) {
+                       textSize++;
+                   }
+                   info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
+    		   }
+    		   
+    		   if(tmpSpan < myCurrentSpan){
+    			   float textSize = info.getTextSize();
+                   if (textSize >= 15) {
+                       textSize--;
+                   }
+                   info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
 
-    }
+    		   break;
+       	   case MotionEvent.ACTION_POINTER_UP:
+       	    //A non-primary pointer has gone up.
+       		   break;
+       		   
+    	}*/
+
+      
 
     private float spacing(MotionEvent event) {
         if (event.getPointerCount() == 2) { // jeżeli dwa punkty, to oblicz odległość
@@ -161,7 +256,7 @@ public class DetailsED extends Activity implements OnTouchListener {
         }
         return 0;
     }
-
+    
     private static boolean canDisplayPdf(Context context) {
         PackageManager packageManager = context.getPackageManager();
         Intent testIntent = new Intent(Intent.ACTION_VIEW);
@@ -210,6 +305,32 @@ public class DetailsED extends Activity implements OnTouchListener {
         }
 
     }
+    
+    private void scaleText(float currSpan, float prevSpan, float textSize){
 
-
+    	if(currSpan > prevSpan && textSize <= 40){
+    		textSize++;    
+	    	info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
+    	}
+    	else if(currSpan < prevSpan && textSize >= 15){
+    		textSize--;
+	    	info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
+    	}     			
+    }
+    
+    
+    
+    private class MyScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
+    	
+    	@Override
+		public boolean onScale(ScaleGestureDetector myDetector) {
+    		
+    		myCurrentSpan = myDetector.getCurrentSpan();
+    		myPrevSpan = myDetector.getPreviousSpan();
+    		scaleText(myCurrentSpan,myPrevSpan, info.getTextSize());
+    	
+			return true;
+		}
+	}
+   
 }

@@ -41,13 +41,14 @@ public class ListED extends Activity {
     //private int edFileZIPSize;
     private static volatile boolean downloadingED;
     private final float ONE_GB = 1048576.0F;
-    private final String PREFS_UPDATE_SUFFIX = "_update";
+    //private final String PREFS_UPDATE_SUFFIX = "_update";
+    //private final String PREFS_DATE_MODF_SUFFIX = "_date";
+    
     private final String PREFS_SIZE_SUFFIX = "_size";
     private final String PREFS_DIR_SIZE_SUFFIX = "_dirsize";
-    private final String PREFS_DATE_MODF_SUFFIX = "_date";
     private final static String ADOBE_FLASH_PACKAGE_NAME = "com.adobe.flashplayer";
     public final static String ED_SDCARD_DIR = "e-doswiadczenia";
-    private final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
+   // private final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
     public static final String ED_BASE_DIR = Environment.getExternalStorageDirectory().getAbsolutePath()
             + File.separator + ED_SDCARD_DIR + File.separator;
     public static final String ED_SERVER_ROOT = "http://127.0.0.1:" + Integer.toString(TitlePage.WWW_SERVER_PORT) + File.separator;
@@ -65,7 +66,7 @@ public class ListED extends Activity {
         setContentView(R.layout.list_ed);
      
         //pobieranie instalacji flasha, jeżeli zachodzi taka potrzeba		
-           
+            
         if(!isFlashAvailable(this)){
 			askForDownloadingFlash();	
 		}
@@ -85,13 +86,20 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_wahadlo);
                     ED.edMovie = R.raw.wahadlo;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
         });
-
+        
 // Lawa optyczna
         Button button1 = (Button) findViewById(R.id.button1);
         button1.setOnClickListener(new OnClickListener() {
@@ -106,8 +114,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_lawa);
                     ED.edMovie = R.raw.lawa;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -127,8 +142,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_rownia);
                     ED.edMovie = R.raw.rownia;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -148,8 +170,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_zderzenia);
                     ED.edMovie = R.raw.zderzenia;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -169,8 +198,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_rzuty);
                     ED.edMovie = R.raw.rzuty;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -190,8 +226,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_astro);
                     ED.edMovie = R.raw.astro;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -211,8 +254,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_ciecze);
                     ED.edMovie = R.raw.ciecze;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -232,8 +282,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_bryla);
                     ED.edMovie = R.raw.bryla;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -253,12 +310,19 @@ public class ListED extends Activity {
                      ED.edInfoRun = getString(R.string.ed_cwiczenie_gazy);
                      ED.edMovie = R.raw.gazy;
 
-                     if (edIsDownloaded()) {
-                         startActivity(new Intent(ListED.this, DetailsED.class));
+                     if (edIsDownloaded()) {                    	
+                     	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                 		//Preferences(MODE_PRIVATE);
+                     	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                     		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                     	}
+                     	else{
+                     		startActivity(new Intent(ListED.this, DetailsED.class));
+                     	}
                      }
                  }
-            }
-        });
+             }
+         });
 
 // Drgania mechaniczne
         Button button10 = (Button) findViewById(R.id.button10);
@@ -274,13 +338,20 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_drgania);
                     ED.edMovie = R.raw.drgania;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
         });
-
+        
 //pole elektryczne
         Button button11 = (Button) findViewById(R.id.button11);
         button11.setOnClickListener(new OnClickListener() {
@@ -295,13 +366,20 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_pole_elektryczne);
                     ED.edMovie = R.raw.pole_elektryczne;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
         });
-
+        
 //prąd stały
         Button button12 = (Button) findViewById(R.id.button12);
         button12.setOnClickListener(new OnClickListener() {
@@ -316,8 +394,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_prad_staly);
                     ED.edMovie = R.raw.prad_staly;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -337,12 +422,19 @@ public class ListED extends Activity {
 	                ED.edInfoRun = getString(R.string.ed_cwiczenie_dzwiek);
 	                ED.edMovie = R.raw.dzwiek;
 	
-	                if (edIsDownloaded()) {
-	                    startActivity(new Intent(ListED.this, DetailsED.class));
-	                }
-	            }
-	        }
-	    });
+	                if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
+                    }
+                }
+            }
+        });
 
 //kalorymetria
         Button button14 = (Button) findViewById(R.id.button14);
@@ -358,12 +450,19 @@ public class ListED extends Activity {
 	                ED.edInfoRun = getString(R.string.ed_cwiczenie_kalorymetria);
 	                ED.edMovie = R.raw.kalorymetria;
 	
-	                if (edIsDownloaded()) {
-	                    startActivity(new Intent(ListED.this, DetailsED.class));
-	                }
-	            }
-	        }
-	    });
+	                if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
+                    }
+                }
+            }
+        });
 
 //kondensatory
         Button button15 = (Button) findViewById(R.id.button15);
@@ -379,12 +478,19 @@ public class ListED extends Activity {
 	                ED.edInfoRun = getString(R.string.ed_cwiczenie_kondensatory);
 	                ED.edMovie = R.raw.kondensatory;
 	
-	                if (edIsDownloaded()) {
-	                    startActivity(new Intent(ListED.this, DetailsED.class));
-	                }
-	            }
-	        }
-	    });
+	                if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
+                    }
+                }
+            }
+        });
 
 //pole magnetyczne
         Button button16 = (Button) findViewById(R.id.button16);
@@ -400,12 +506,19 @@ public class ListED extends Activity {
 	                ED.edInfoRun = getString(R.string.ed_cwiczenie_pole_magnetyczne);
 	                ED.edMovie = R.raw.pole_magnetyczne;
 	
-	                if (edIsDownloaded()) {
-	                    startActivity(new Intent(ListED.this, DetailsED.class));
-	                }
-	            }
-	        }
-	    });
+	                if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
+                    }
+                }
+            }
+        });
 
 /////////////////////////////////cewki i indukcja//////////////////////////////////////////////////////
         Button button17 = (Button) findViewById(R.id.button17);
@@ -499,8 +612,15 @@ public class ListED extends Activity {
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_einstein);
                     ED.edMovie = R.raw.einstein;
 
-                    if (edIsDownloaded()) {
-                        startActivity(new Intent(ListED.this, DetailsED.class));
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
                     }
                 }
             }
@@ -615,8 +735,8 @@ public class ListED extends Activity {
             // TODO Sprawdzic, czy nie da sie zastosowac semafora.
 
             // Sprawdzenie, czy jest ustawiona flaga "update" w preferencjach danego e-d
-            SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
-            boolean isUpdateAvialable = edLocalData.getBoolean(ED.edSubDir + PREFS_UPDATE_SUFFIX, false);
+            SharedPreferences edLocalData = getSharedPreferences("TitlePage",MODE_PRIVATE);
+            boolean isUpdateAvialable = edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX, false);
 
             if (isUpdateAvialable && isInternetOn()) {
                 // Jest nowsza wersja e-d, pytanie o pobranie - pytanie, czy pobrac
@@ -725,7 +845,7 @@ public class ListED extends Activity {
             File edFolder = new File(ED_BASE_DIR + ED.edSubDir); // Folder z e-d
             int edDirSize = getFolderSize(edFolder);
 
-            SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
+            SharedPreferences edLocalData = getSharedPreferences("TitlePage",MODE_PRIVATE);
             // Wczytujemy zapisaną w preferencjach wartosc rozmiaru katalogu danego e-d
             int edSavedDirSize = edLocalData.getInt(ED.edSubDir + PREFS_DIR_SIZE_SUFFIX, 0);
 
@@ -786,30 +906,38 @@ public class ListED extends Activity {
                 String fileName = edRemoteZipFileName[0];
 
                 final int BUFFER_SIZE = 1024;
-
+                URL url = new URL(TitlePage.ED_REMOTE_REPOSITORY + fileURL); // plik do pobrania
+                
                 // Sprawdzenie, czy plik istnieje na serwerze
-                if (!fileExistsOnServer(ED_REMOTE_REPOSITORY + fileURL)) {
+                if (!fileExistsOnServer(url.toString())) {
                     return 0;
                 }
 
-                URL url = new URL(ED_REMOTE_REPOSITORY + fileURL); // plik do pobrania
-
-                File file = new File(ED_BASE_DIR + fileName); // Plik lokalny
-
                 // Otwiera polaczenie
                 URLConnection ucon = url.openConnection();
+
+                // Wczytanie preferencji               
+                SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                long edSavedModifiedDate = edLocalData.getLong(ED.edSubDir+ TitlePage.PREFS_DATE_MODF_SUFFIX,0); 
+                long tmp = ucon.getLastModified();
+                if (edSavedModifiedDate == 0 || edSavedModifiedDate != tmp) {
+                    // Stworzenie nowego klucza bądź uaktualnienie starego
+                    SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
+                    edLocalDataEditor.putLong(ED.edSubDir+TitlePage.PREFS_DATE_MODF_SUFFIX,tmp);
+                    edLocalDataEditor.apply();
+                }
+
+                File file = new File(ED_BASE_DIR + fileName); // Plik lokalny
 
                 // Pobierz wielkosc zdalnego pliku
                 ED.edFileZIPSize = ucon.getContentLength();
                 dlgDownloading = String.format(getString(R.string.dlg_downloading), (int) (ED.edFileZIPSize / ONE_GB));
 
-                // Wczytanie preferencji
-                SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
-
                 // Wczytujemy zapisaną w preferencjach wartosc rozmiaru pliku danego e-d
                 // Zwróci zero, jak klucza jeszcze nie ma - pierwsze pobranie e-d
                 int edSavedFileSize = edLocalData.getInt(ED.edSubDir + PREFS_SIZE_SUFFIX, 0);
-                long edSavedModifiedDate = edLocalData.getLong(ED.edName + PREFS_DATE_MODF_SUFFIX,0);
+
               
                 if (edSavedFileSize == 0 || edSavedFileSize != ED.edFileZIPSize) {
                     // Stworzenie nowego klucza bądź uaktualnienie starego
@@ -817,14 +945,6 @@ public class ListED extends Activity {
                     edLocalDataEditor.putInt(ED.edSubDir + PREFS_SIZE_SUFFIX, ED.edFileZIPSize);
                     edLocalDataEditor.apply();
                 }
-                                 
-                else if (edSavedModifiedDate == 0 || edSavedModifiedDate != ED.edLastModification) {
-                    // Stworzenie nowego klucza bądź uaktualnienie starego
-                    SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
-                    edLocalDataEditor.putLong(ED.edName+PREFS_DATE_MODF_SUFFIX,ED.edLastModification);
-                    edLocalDataEditor.apply();
-                }
-                //
 
                 // Definiuje InputStreams do odczytu z URLConnection
                 InputStream is = ucon.getInputStream();
@@ -896,9 +1016,9 @@ public class ListED extends Activity {
             if (result == 1) { // Wszystko OK, starujemy e-doswiadczenie
 
                 // Wyczyszczenie flagi "update" w preferencjach
-                SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
+                SharedPreferences edLocalData = getSharedPreferences("TitlePage",MODE_PRIVATE);
                 SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
-                edLocalDataEditor.putBoolean(ED.edSubDir + PREFS_UPDATE_SUFFIX, false);
+                edLocalDataEditor.putBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX, false);
 
                 // Obliczenie i zapisanie w preferencjach rozmiaru katalogu z e-d
                 File edFolder = new File(ED_BASE_DIR + ED.edSubDir);

@@ -9,29 +9,29 @@
 
     <string name="txt_list_ed">List of e-experiments</string>
 
-    <string name="ed_name_wahadlo">Simple\npendulum</string>
+    <string name="ed_name_wahadlo">Simple pendulum</string>
     <string name="ed_name_lawa">Optical bench</string>
     <string name="ed_name_rownia">Inclined plane</string>
-    <string name="ed_name_zderzenia">Elastic\nand inelastic collisions</string>
+    <string name="ed_name_zderzenia">Elastic and inelastic collisions</string>
     <string name="ed_name_rzuty">Throws</string>
-    <string name="ed_name_astro">The movement\nof celestial\nbodies</string>
-    <string name="ed_name_ciecze">Fluid\nmechanics</string>
+    <string name="ed_name_astro">The movement of celestial bodies</string>
+    <string name="ed_name_ciecze">Fluid mechanics</string>
     <string name="ed_name_bryla">Solid body</string>
-    <string name="ed_name_gazy">Properties\nof gases</string>
-    <string name="ed_name_drgania">Mechanical\nvibration</string>
+    <string name="ed_name_gazy">Properties of gases</string>
+    <string name="ed_name_drgania">Mechanical vibration</string>
     <string name="ed_name_pole_elektryczne">Electric field</string>
     <string name="ed_name_obwody_pradu_stalego">DC circuits</string>
-    <string name="ed_name_dzwiek">Sound\nlaboratory</string>
+    <string name="ed_name_dzwiek">Sound laboratory</string>
     <string name="ed_name_kalorymetria">Calorimetry</string>
     <string name="ed_name_kondensatory">Capacitors</string>
     <string name="ed_name_pole_magnetyczne">Magnetic field</string>
-    <string name="ed_name_cewki_i_indukcja">Coils\nand induction</string>
-    <string name="ed_name_optyka_geometryczna">Polarization\nand refraction\nof light</string>
+    <string name="ed_name_cewki_i_indukcja">Coils and induction</string>
+    <string name="ed_name_optyka_geometryczna">Polarization and refraction of light</string>
     <string name="ed_name_rlc">RLC circuits</string>
-    <string name="ed_name_korpuskularna">Corpuscular\nnature of light\nand matter</string>
-    <string name="ed_name_interferencja">Interference\nand diffraction\nof light</string>
+    <string name="ed_name_korpuskularna">Corpuscular nature of light and matter</string>
+    <string name="ed_name_interferencja">Interference and diffraction of light</string>
     <string name="ed_name_fizyka_atomowa">Spectroscopy</string>
-    <string name="ed_name_einstein">Einstein\'s\nthought\nexperiments</string>
+    <string name="ed_name_einstein">Einstein\'s thought experiments</string>
 
 <!-- Przyciski -->
 
@@ -50,7 +50,7 @@
     <string name="btn_www_project">web page</string>
     <string name="btn_facebook">facebook</string>
     <string name="btn_run_ed">run</string>
-    <string name="btn_run_manual">display manual (PL)</string>
+    <string name="btn_run_manual">display manual</string>
 
 <!-- Teksty strony tytułowej -->
 
@@ -276,7 +276,11 @@ w ramach których realizowany jest projekt<br/>
 (<i>poprzez tapnięcie na przyciskach w centralnej części ekranu)</i>.
          ]]>
     </string>
-
+    
+<!-- elementy stringów -->
+        <string name="MANUAL_NAME_PREFIX">exercises_</string>
+        
+        
 <!-- Komunikaty -->
     
     <string name="msg_no_network">
@@ -484,19 +488,6 @@ Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
 
-    <string name="ed_info_einstein">
-         <![CDATA[
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_einstein">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
 
     <string name="ed_info_astro">
          <![CDATA[
@@ -580,5 +571,42 @@ Powtórz ćwiczenie, ustalając różne prędkości początkowe kulki oraz zmien
 Więcej ćwiczeń można znaleźć w podręczniku.
          ]]>
     </string>
+ 
+ <string name="ed_info_einstein">
+<![CDATA[
+<b>Eksperymenty myślowe Einsteina</b> przybliżają zagadnienia Szczególnej Teorii Względności. 
+Jak brzmią najważniejsze założenia tej weorii, otóż:<br/>
+&bull; wszystkie prawa przyrody (w szczególnosci fizyki) są takie same bez względu na to, 
+czy obserwujemy je z układu nie poruszającego sią, czy z ruchomego, ale poruszającego sią
+bez przyśpieszenia (czyli układu inercjalnego) oraz<br/>
+&bull; prędkość światła jest zawsze stała w danym ośrodku. Jest to jednocześnie największa prędkość, 
+z którą może być przekazywana energia.<br/>
 
+&bull; Niektóre wnioski <b>szczególnej teorii względności</b> są sprzeczne z intuicją:<br/>
+&bull; Dylatacja czasu — czas jaki mija pomiędzy dwoma zdarzeniami nie jest jednoznacznie określony, 
+lecz zależy od obserwatora.<br/>   
+&bull; Względność jednoczesności — dwa zdarzenia określone przez jednego obserwatora jako jednoczesne, 
+mogą nie być jednoczesne dla innego obserwatora.<br/>
+&bull; Kontrakcja przestrzeni — odległości między punktami zależą od układu. 
+Wszystkie poruszające się przedmioty obserwujemy jako krótsze.<br/>
+&bull; Masa jest równoważna energii a związek między tymi wielkościami opisuje wzór E = m c^2.<br/> 
+&bull; Relatywistyczne skrócenie długości — wraz ze wzrostem prędkości następuje skrócenie 
+obiektu zgodnie z kierunkiem w którym obiekt się przemieszcza. 
+Relatywistyczne skrócenie obiektu zawsze wyniesie tyle samo procent dla danej prędkości.<br/>
+         ]]>
+         </string>
+    
+    <string name="ed_cwiczenie_einstein">
+<![CDATA[
+<b>Propozycja ćwiczenia:</b> Zastanówmy się jak dwóch obserwatorów ogląda świat?<br/>
+Jednym obserwatorem niech będzie osoba na ziemii, drugim osoba w rakiecie. 
+Rakieta oddala się od ziemii z pewną prędkością. <br/>
+Załóżmy, że osoba pozostająca na ziemii widzi co dzieje się w rakiecie. 
+Kosmonaucie w rakiecie w pewnej chwili zaczyna rosnac broda i rosnie przez pewien czas dt. <br/>
+Ile czasu  rosnie mu broda wg. obserwatora na ziemii (czyli ile wynosi Dt )?
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+    
 </resources>

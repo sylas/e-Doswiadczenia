@@ -58,8 +58,13 @@ public class TitlePage extends Activity implements OnGestureListener {
 	public static int WWW_SERVER_PORT;
 	public static final int MAX_PORT = 65535;
 
-	private static final String TAG = "MyActivity";  
+	public static final String TAG = "EDOSIE";  
 	public static Boolean updateDone = false;
+	public static final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
+	public static final String PREFS_UPDATE_SUFFIX = "_update";
+	public static final String PREFS_DATE_MODF_SUFFIX = "_date";
+
+	
 	/**
 	 * Called when the activity is first created.
 	 */
@@ -445,11 +450,6 @@ public class TitlePage extends Activity implements OnGestureListener {
 	 */
 	public class CheckForEDUpdates extends AsyncTask<String, Void, Void> {
 
-
-		private final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
-		private final String PREFS_UPDATE_SUFFIX = "_update";
-		private final String PREFS_DATE_MODF_SUFFIX = "_date";
-
 		@Override
 		protected Void doInBackground(String... filenames) {
 
@@ -475,16 +475,22 @@ public class TitlePage extends Activity implements OnGestureListener {
 							// Pobierz datę ostatniej zmiany zdalnego pliku
 							lastModification = conn.getLastModified();
 						}
-						conn.disconnect();
+						conn.disconnect();				
 						//Zapisz / porównaj ustawienia w Preferencjach
-						SharedPreferences edLocalData = getPreferences(MODE_PRIVATE);
-						long edSavedModificationDate = edLocalData.getInt(edName + PREFS_DATE_MODF_SUFFIX, 0);
-
+						SharedPreferences edSavedData = getPreferences(MODE_PRIVATE);				
+						long edModificationDate = edSavedData.getLong(edName + PREFS_DATE_MODF_SUFFIX, 0);
+						
 						// Zwróci zero, jak klucza nie ma     
-						if (edSavedModificationDate == 0 || edSavedModificationDate != lastModification) {
+						if (edModificationDate == 0 || edModificationDate < lastModification) {
 							// Zapisujemy info o aktualizacji do preferencji
-							SharedPreferences.Editor edLocalDataEditor = edLocalData.edit();
+							SharedPreferences.Editor edLocalDataEditor = edSavedData.edit();
 							edLocalDataEditor.putBoolean(edName + PREFS_UPDATE_SUFFIX, true);
+							edLocalDataEditor.apply();
+						}
+						else if (edModificationDate > lastModification) {
+							// Zapisujemy info o aktualizacji do preferencji
+							SharedPreferences.Editor edLocalDataEditor = edSavedData.edit();
+							edLocalDataEditor.putBoolean(edName + PREFS_UPDATE_SUFFIX, false);
 							edLocalDataEditor.apply();
 						}
 					}

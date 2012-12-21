@@ -3,21 +3,11 @@
  */
 package pl.gda.pg.mif.edoswiadczenia;
 
-import java.util.Dictionary;
-import java.util.List;
 import java.util.Map;
 
-import pl.gda.pg.mif.edoswiadczenia.InfoForUser.myDialog;
-
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.app.DialogFragment;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.os.Bundle;
 import android.view.Gravity;
-import android.widget.EditText;
 import android.widget.Toast;
 
 /**
@@ -45,54 +35,6 @@ public class InfoForUser extends Activity{
 		toast.setGravity(Gravity.CENTER, 0, 0);
 		toast.show();
 	}
-	
-	public class myDialog extends DialogFragment {
-		    private EditText mEditText;
-		 // Empty constructor required for DialogFragment
-		    public myDialog() {
-		        
-		    }
-
-/*		    @Override
-		    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-		            Bundle savedInstanceState) {
-		        View view = inflater.inflate(R.layout.fragment_edit_name, container);
-		        mEditText = (EditText) view.findViewById(R.id.txt_your_name);
-		        getDialog().setTitle("Hello");
-
-		        return view;
-		    }*/
-
-		@Override
-	    public Dialog onCreateDialog(Bundle savedInstanceState) {
-			// 1. Instantiate an AlertDialog.Builder with its constructor
-			AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-			// 3. Get the AlertDialog from create()
-			return builder.create();
-	    }
-	}
 }
 
-/*new AlertDialog.Builder(ListED.this).setTitle(getString(R.string.msg_title_question)).setMessage(getString(R.string.msg_install_flash_question)).setPositiveButton(getString(R.string.btn_yes),
-        new DialogInterface.OnClickListener() {
 
-            public void onClick(DialogInterface dialog,
-                    int which) {
-                
-            	Downloading flash = new Downloading(getApplicationContext());
-            	flash.downloadFlash();
-            	// Przekierowanie do marketu
-                //Uri marketUri = Uri.parse(ADOBE_FLASH_MARKET_URL);
-                // Można też tak (bezposrednio do marketu)...:
-                //Uri marketUri = Uri.parse("market://details?id=com.adobe.flashplayer");
-                // ... ale np. emulator nie rozpoznaje protokulu "market"
-                //Intent marketIntent = new Intent(Intent.ACTION_VIEW, marketUri);
-                //startActivity(marketIntent);
-            }
-        }).setNegativeButton(getString(R.string.btn_no),
-        new DialogInterface.OnClickListener() {
-
-            public void onClick(DialogInterface dialog,
-                    int which) {
-            }
-        }).setIcon(R.drawable.ic_question).show();*/
