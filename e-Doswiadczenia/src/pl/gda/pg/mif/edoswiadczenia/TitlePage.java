@@ -501,6 +501,7 @@ public class TitlePage extends Activity implements OnGestureListener {
 			}
 			return null;
 		}
+		
 	}
 
 }

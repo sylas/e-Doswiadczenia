@@ -350,6 +350,11 @@ w ramach których realizowany jest projekt<br/>
     <string name="msg_switch_to_pl">Przełączono na język polski</string>
     <string name="msg_already_pl">Już używasz wersji polskojęzycznej...</string>
 
+    <string name="msg_no_premission">  "Application doesn't have premission to write on external storage."</string> 
+    <string name="msg_no_sd"> "External Storage isn't available." </string>
+    <string name="msg_no_flash">  Flash not installed! This application require Adobe Flash Player. 
+        Downloading will start automatically. </string>
+    
 <!-- Informacje o e-doświadczeniach -->
 
     <string name="ed_info_wahadlo">

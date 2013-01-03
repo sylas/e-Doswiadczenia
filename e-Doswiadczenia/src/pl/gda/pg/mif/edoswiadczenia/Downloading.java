@@ -15,6 +15,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Environment;
+import android.widget.Toast;
 
 
 /**
@@ -22,7 +23,7 @@ import android.os.Environment;
  * 
  */
 
-public class Downloading {
+public class Downloading extends ListED{
 
 	private Object tmp;
 	private DownloadManager mang;
@@ -40,7 +41,6 @@ public class Downloading {
 	boolean mExternalStorageAvailable = false;
 	boolean mExternalStorageWriteable = false;
 	private final String flashPackageName = "com.adobe.flashplayer";
-	private final InfoForUser notificationDialog = new InfoForUser();
 	
 	
 	public Downloading(Context c){
@@ -61,12 +61,12 @@ public class Downloading {
 	        mExternalStorageAvailable = true;
 	        mExternalStorageWriteable = false;
 	        //przekazanie informacji użytkownikowi
-	        notificationDialog.pushInfoToUser(0,10);
+	        Toast.makeText(getApplicationContext(), getString(R.string.msg_no_premission), Toast.LENGTH_LONG).show();
 	        }
 	    else {
 	        mExternalStorageAvailable = mExternalStorageWriteable = false;
 	      //przekazanie informacji użytkownikowi
-	        notificationDialog.pushInfoToUser(1,10);
+	        Toast.makeText(getApplicationContext(), getString(R.string.msg_no_sd), Toast.LENGTH_LONG).show();
 	        }
 	}
 
