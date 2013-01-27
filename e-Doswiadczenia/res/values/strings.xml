@@ -672,9 +672,9 @@ Więcej ćwiczeń można znaleźć w podręczniku.<br/>
     <string name="ed_info_ciecze">
 <![CDATA[
 <b>Ciecz </b> jest stanem skupienia materii pośrednim między ciałem stałym a gazem.
-Ciało fizyczne będące <b>cieczą</b> trudno zmienia objętość, ale jednocześnie łatwo zmienia kształt. 
-Dlatego w przypadku <b>cieczy</b> obserwujemy, że przyjmuje kształt naczynia, w którym się znajduje.
-
+Ciało fizyczne będące <b>cieczą</b> trudno zmienia objętość, ale jednocześnie łatwo zmienia 
+kształt.  Dlatego w&nbsp;przypadku <b>cieczy</b> obserwujemy, że przyjmuje kształt naczynia, w którym się znajduje.
+<br/><br/>
 Za pomocą tego doświadczenia można m.in.:<br/>
 &bull; zapoznać się z paradoksem hydrostatycznym,<br/>
 &bull; obserwować siłę wyporu na podstawie różnych cieczy i pływaków,<br/>
@@ -686,17 +686,32 @@ Za pomocą tego doświadczenia można m.in.:<br/>
 <![CDATA[
 <b> Ćwiczenie – paradoks hydrostatyczny</b>
 <p>
-Uruchom ciekawostkę. Wlej rtęć do wszystkich naczyń ustawionych na stole poza wysokim szklanym cylindrem umieszczonym z lewej strony. W każdym naczyniu wysokość słupa wody jest taka sama. Ile będzie wynosiło ciśnienie hydrostatyczne w poszczególnych naczyniach? Uruchom doświadczenie i przekonaj się czy miałeś rację. </p>
-&bull; Nalej rtęci również do ostatniego naczynia. Czy ciśnienie będzie niższe czy wyższe niż w pozostałych naczyniach? A może będzie takie samo? <br/>
-&bull; Powtórz doświadczenie używając wody morskiej. Czy ciśnienie w naczyniach zmieniło się? Zastanów się czym rtęć i woda morska się różnią? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku. 
+Uruchom ciekawostkę. Wlej rtęć do wszystkich naczyń ustawionych na stole poza wysokim
+ szklanym cylindrem umieszczonym z lewej strony. W każdym naczyniu wysokość słupa wody
+  jest taka sama. Ile będzie wynosiło ciśnienie hydrostatyczne w poszczególnych naczyniach?
+   Uruchom doświadczenie i przekonaj się czy miałeś rację. </p>
+&bull; Nalej rtęci również do ostatniego naczynia. Czy ciśnienie będzie niższe czy wyższe 
+niż w pozostałych naczyniach? A może będzie takie samo? <br/>
+&bull; Powtórz doświadczenie używając wody morskiej. Czy ciśnienie w naczyniach zmieniło się? 
+Zastanów się czym rtęć i woda morska się różnią? <br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku. <br/>
 
          ]]>
     </string>
     <string name="ed_info_drgania">
 <![CDATA[
  <p>
-<b> Drgania mechaniczne</b> to rodzaj ruchu, podczas którego pewne wielkości fizyczne naprzemiennie rosną i maleją w czasie. Przykładami takiego ruchu są: ruch wahadła albo ruch ciężarka zawieszonego na sprężynie. Przyjrzyjmy się bliżej ruchowi ciężarka zawieszonego na drgającej sprężynie. Ruch drgający sprężyny jest ruchem okresowym, tzn.: możemy znaleźć sekwencje powtarzające się w podczas jego trwania – oscylowanie wokół punktu równowagi. Jest również ruchem harmonicznym, ponieważ powstaje pod wpływem siły, która działa w przeciwnym kierunku niż została rozciągnięta (ściśnięta) sprężyna. Siła ta wynika z posiadanej przez sprężynę cechy zwanej współczynnikiem sprężystości. Ściśnięta lub rozciągnięta sprężyna będzie znajdować się z stanie niezrównoważonym i w zależności od wielkości współczynnika sprężystości z różną intensywnością będzie dążyć do osiągnięcia stanu równowagi. 
+<b> Drgania mechaniczne</b> to rodzaj ruchu, podczas którego pewne wielkości fizyczne 
+naprzemiennie rosną i maleją w czasie. Przykładami takiego ruchu są: ruch wahadła albo
+ ruch ciężarka zawieszonego na sprężynie. Przyjrzyjmy się bliżej ruchowi ciężarka zawieszonego
+  na drgającej sprężynie. Ruch drgający sprężyny jest ruchem okresowym, tzn.: możemy 
+  znaleźć sekwencje powtarzające się w podczas jego trwania – oscylowanie wokół punktu równowagi.
+   Jest również ruchem harmonicznym, ponieważ powstaje pod wpływem siły, która działa 
+   w przeciwnym kierunku niż została rozciągnięta (ściśnięta) sprężyna. Siła ta wynika 
+   z posiadanej przez sprężynę cechy zwanej współczynnikiem sprężystości. Ściśnięta
+ lub rozciągnięta sprężyna będzie znajdować się w&nbsp;stanie niezrównoważonym i w zależności od 
+ wielkości współczynnika sprężystości z różną intensywnością będzie dążyć do osiągnięcia 
+ stanu równowagi. 
 </p>
 Za pomocą tego e-doświadczenia można  m. in: <br/>
 &bull; wyznaczyć okres drgań, <br/>
@@ -717,7 +732,7 @@ Z Narzędzi wybierz statyw, pudełko z ciężarkami, jedną sprężynę np.: mie
 &bull; Jakie było minimalne i maksymalne położenie ciężarka podczas drgania sprężyny (w razie potrzeby skorzystaj z nagrania kamery)? <br/>
 &bull; Ile wynosi współczynnik sprężystości badanej sprężyny? <br/>
 &bull; W oknie warunków fizycznych wybierz inną planetę, i ponownie przeprowadź pomiar. Czy współczynnik sprężystości badanej sprężyny się zmienił? Dlaczego tak się stało? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku. 
+Więcej ćwiczeń znajduje się w podręczniku. <br/>
 
          ]]>
     </string>
@@ -758,15 +773,23 @@ Wlej oliwę do kuwety, a potem rozsyp chininę. Kryształki chininy pod wpływem
 &bull; Teraz również drugą elektrodę podłącz do dodatniego gniazda. Na zasilaczu pozostaw napięcie 20V. Czy wektory sił pola elektrycznego będą układały się tak jak poprzednio? <br/>
 &bull; Powtórz doświadczenie z elektrodami oddalonymi od siebie o 20cm, a potem 30 cm. Co się zmieniło? <br/>
 &bull; Co możesz powiedzieć o wartości siły, która działa na ładunek umieszczony w dowolnym punkcie pola jednorodnego? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku. 
+Więcej ćwiczeń znajduje się w podręczniku. <br/>
 
          ]]>
     </string>
     <string name="ed_info_prad_staly">
 <![CDATA[
 <p>
-<b> Prądem elektrycznym<b/> nazywamy uporządkowany ruch ładunków elektrycznych w przestrzeni. Przyjmuje się, że prąd płynie od punktu (punktów) o wyższym potencjale do punktu (punktów) o niższym potencjale, a więc kierunek przepływu prądu jest zgodny z kierunkiem ruchu ładunków dodatnich w polu elektrycznym. Prąd stały (ang. direct current, DC) charakteryzuje się stałą wartością natężenia oraz kierunkiem przepływu, w odróżnieniu od prądu przemiennego (AC, ang. alternating current). <br/>
-<b> Obwód elektryczny prądu stałego<b/> to układ, który składa się ze źródła prądu lub napięcia i innych elementów obwodu, np.: oporników, kondensatorów, cewek, diod ... . Elementy te są połączone ze źródłem za pomocą przewodów, dzięki którym do wszystkich elementów układu dopływa prąd. 
+<b> Prądem elektrycznym<b/> nazywamy uporządkowany ruch ładunków elektrycznych w przestrzeni.
+ Przyjmuje się, że prąd płynie od punktu (punktów) o wyższym potencjale do punktu (punktów) 
+ o&nbsp;niższym potencjale, a więc kierunek przepływu prądu jest zgodny z kierunkiem ruchu 
+ ładunków dodatnich w polu elektrycznym. Prąd stały (ang. direct current, DC) charakteryzuje się 
+ stałą wartością natężenia oraz kierunkiem przepływu, w odróżnieniu od prądu przemiennego 
+ (AC,&nbsp;ang.&nbsp;alternating&nbsp;current). <br/>
+<b> Obwód elektryczny prądu stałego<b/> to układ, który składa się ze źródła prądu lub
+ napięcia i innych elementów obwodu, np.: oporników, kondensatorów, cewek, diod ... . Elementy 
+ te są połączone ze&nbsp;źródłem za pomocą przewodów, dzięki którym do wszystkich
+  elementów układu dopływa prąd. 
 </p>
 Za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; poznać prawo Ohma, <br/>
@@ -784,20 +807,35 @@ Za pomocą tego e-doświadczenia można m. in: <br/>
 <p>Z Narzędzi wybierz układ nr 1. Zwrócić uwagę, że w przygotowanym obwodzie elektrycznym amperomierz włączony jest do obwodu szeregowo, a woltomierz równolegle. Zmierz przygotowanemu opornikowi zależność natężenia prądu od napięcia. Dane zapisz w tabeli, a następnie wykonaj wykres U(I). Czy jest to zależność liniowa? </p>
 &bull; Czy stosunek napięcia mierzonego na końcach przewodnika do natężenia prądu płynącego przez przewodnik jest stała? <br/>
 &bull; Powtórz doświadczenie dla oporników 1 Ω, 100 Ω, R1. Ile wynosi opór R1? Czy opór zależy od napięcia albo od natężenia? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
     <string name="ed_info_dzwiek">
 <![CDATA[
 <p>
-<b> Dźwięk</b>, to fala akustyczna rozchodząca się w ośrodku. Tym co zmienia się w ośrodku podczas rozprzestrzeniania się dźwięku są gęstość ośrodka i jego ciśnienie. Fala dźwiękowa wywołuje w ośrodku cykliczne zagęszczenia i rozrzedzenia jego cząstek (np.: powietrza albo wody). </br>
-Rozchodzący się dźwięk jest falą podłużną tzn.: kierunek zgęszczania się i rozrzedzania się cząsteczek jest zgodny z kierunkiem rozchodzenia się fali. Szczyty i doliny fali dźwiękowej poruszają się z określoną prędkością (tzw. prędkość dźwięku) i po dotarciu do odbiornika – ludzkiego ucha – tworzą wrażenie dźwięku. Człowiek słyszy dźwięki o częstościach od 16 Hz do 20 kHz. Drgania o mniejszej częstości nazywane są infradźwiękami, a o wyższej ultradźwiękami. 
+<b> Dźwięk</b>, to fala akustyczna rozchodząca się w ośrodku. Tym co zmienia się w ośrodku
+ podczas rozprzestrzeniania się dźwięku są gęstość ośrodka i jego ciśnienie. Fala dźwiękowa 
+ wywołuje w&nbsp;ośrodku cykliczne zagęszczenia i rozrzedzenia jego cząstek (np.: powietrza albo wody). </br>
+Rozchodzący się dźwięk jest falą podłużną tzn.: kierunek zgęszczania się i rozrzedzania się
+ cząsteczek jest zgodny z kierunkiem rozchodzenia się fali. Szczyty i doliny fali dźwiękowej 
+ poruszają się z określoną prędkością (tzw. prędkość dźwięku) i po dotarciu do odbiornika
+  – ludzkiego ucha – tworzą wrażenie dźwięku. Człowiek słyszy dźwięki o częstościach 
+  od&nbsp;16&nbsp;Hz&nbsp;do&nbsp;20&nbsp;kHz. Drgania o mniejszej częstości nazywane są infradźwiękami, a o wyższej ultradźwiękami. 
 </p>
 Za pomocą tego e-doświadczenia można m. in: <br/>
-&bull; zaobserwować rezonans akustyczny (Zjawisko rezonansu zachodzi, gdy częstotliwości drgań są do siebie dopasowane. Polega ono na przekazaniu energii drgań od jednego kamertonu do drugiego. Przy prawidłowo nastrojonych kamertonach wzbudzony kamerton ma taką samą częstotliwość drgań tonu podstawowego jak ustawiony obok drugi ale niewzbudzony.), <br/>
-&bull; zaobserwować interferencję (Fale dźwiękowe nie rozchodzą się w przestrzeni w odosobnieniu, po napotkaniu innych fal akustycznych nakładają sie na siebie. Przy szczególnych warunkach fale mogą się wzajemnie wzmacniać lub wygaszać.), <br/>
-&bull; zmierzyć częstotliwość dudnień (Dudnienia powstają przy nałożeniu się na siebie dwóch fal harmonicznych o jednakowych amplitudach i nieznacznie różniących się częstościach. Słyszymy wówczas cyklicznie powtarzające się wzrosty i zaniki natężenia dźwięku. Przykładowo: dudniący dźwięk powstający ze złożenia dwóch dźwięków źle zestrojonych instrumentów muzycznych.), <br/>
+&bull; zaobserwować rezonans akustyczny (Zjawisko rezonansu zachodzi, gdy częstotliwości drgań
+ są&nbsp;do&nbsp;siebie dopasowane. Polega ono na przekazaniu energii drgań od jednego kamertonu do
+  drugiego. Przy prawidłowo nastrojonych kamertonach wzbudzony kamerton ma taką samą 
+  częstotliwość drgań tonu podstawowego jak ustawiony obok drugi ale niewzbudzony.), <br/>
+&bull; zaobserwować interferencję (Fale dźwiękowe nie rozchodzą się w przestrzeni
+ w odosobnieniu, po&nbsp;napotkaniu innych fal akustycznych nakładają sie na siebie. 
+ Przy szczególnych warunkach fale mogą się wzajemnie wzmacniać lub wygaszać.), <br/>
+&bull; zmierzyć częstotliwość dudnień (Dudnienia powstają przy nałożeniu się na siebie
+ dwóch fal harmonicznych o jednakowych amplitudach i nieznacznie różniących się
+  częstościach. Słyszymy wówczas cyklicznie powtarzające się wzrosty i zaniki 
+  natężenia dźwięku. Przykładowo: dudniący dźwięk powstający ze złożenia dwóch 
+  dźwięków źle zestrojonych instrumentów muzycznych.), <br/>
 &bull; wyznaczyć częstości drgań kamertonu. <br/>
        
          ]]>
@@ -810,7 +848,7 @@ Kamertony zamocowane są na pudełkach rezonansowych i umieszczone są w niewiel
 &bull; Czy drugi kamerton zaczął wibrować? <br/>
 &bull;  Jeżeli nie to zmień częstotliwość drgań drugiego kamertonu o 0,5 Hz. <br/>
 &bull; Przy jakiej częstotliwości kamertony wpadną w rezonans? Czy istotna jest kolejność wzbudzania kamertonów? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
@@ -842,15 +880,22 @@ Odczytaj i zapisz stan kalorymetru przed pomiarem. Doprowadź wodę w parowniku 
 &bull; Zważ kalorymetr i oblicz ile skropliło się wody? <br/>
 &bull; Jeżeli nie zważyłeś kalorymetru przed pomiarem, to musisz powtórzyć pomiar. <br/>
  &bull; Zanotuj również ile czasu trwało skraplanie. Czy wiedząc ile wody skropliło się w określonym czasie możesz wyznaczyć ciepło parowania wody? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
     <string name="ed_info_kondensatory">
 <![CDATA[
 <p>
-<b> Kondensator</b> jest urządzeniem służącym do gromadzenia ładunku elektrycznego. Każdy <b> kondensator</b>  składa się z przewodników (okładek) rozdzielonych warstwa dielektrykiem. Aby zgromadzić ładunek elektryczny trzeba doprowadzić napięcia do okładek kondensatora. Po odłączeniu od źródła napięcia siły przyciągania elektrostatycznego utrzymują ładunki na okładkach. </br>
-Cechą charakterystyczną kondensatora jest jego pojemność czyli zdolność do gromadzenia ładunku. Szczególnym rodzajem kondensatora jest kondensator płaski. Jest on zbudowany z dwóch równoległych metalowych płytek oddalonych od siebie o pewną odległość np.: kondensator powietrzny - między jego okładkami znajduje się powietrze. </p>
+<b> Kondensator</b> jest urządzeniem służącym do gromadzenia ładunku elektrycznego. 
+Każdy&nbsp;<b>kondensator</b>  składa się z przewodników (okładek) rozdzielonych warstwą 
+dielektrykiem. Aby&nbsp;zgromadzić ładunek elektryczny trzeba doprowadzić napięcia do okładek 
+kondensatora. Po&nbsp;odłączeniu od źródła napięcia siły przyciągania elektrostatycznego 
+utrzymują ładunki na okładkach. </br>
+Cechą charakterystyczną kondensatora jest jego pojemność czyli zdolność do&nbsp;gromadzenia ładunku. 
+Szczególnym rodzajem kondensatora jest kondensator płaski. Jest&nbsp;on&nbsp;zbudowany z dwóch 
+równoległych metalowych płytek oddalonych od siebie o pewną odległość np.: kondensator 
+powietrzny - między jego okładkami znajduje się powietrze. </p>
 Za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zapoznać się z budową kondensatora płaskiego, <br/>
 &bull; nauczyć się zasad łączenia szeregowego i równoległego kondensatorów, <br/>
@@ -872,7 +917,7 @@ Zmierz pojemność każdego z kondensatorów oraz całego układu. Zanotuj pojem
 </p>
 &bull; Powyższe doświadczenie powtórz dla układu kondensatorów połączonych równolegle. Użyj tych samych kondensatorów. <br/> 
 &bull; Czy łączna pojemność układu zmieniła się? Dlaczego tak się stało? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
@@ -902,16 +947,26 @@ Ułóż dwa magnesy sztabkowe jeden ponad kompasem, a drugi poniżej. Obydwa mag
 &bull; Jak wyglądają linie sił pola magnetycznego pomiędzy magnesami? Rozsyp opiłki na stoliku, czy twoje przypuszczenia potwierdziły się? </p>
 &bull; Obróć magnesy o 180°, czy układ linii sił pola się zmienił? <br/>
 &bull; Obróć tylko jeden magnes o 180°, czy układ linii sił pola się zmienił? Z czego to wynika? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
    
 <string name="ed_info_cewki_i_indukcja">
 <![CDATA[
-<p>Indukcją elektromagnetyczna wykorzystywana jest w wielu urządzeniach, np.: elektromagnesach, transformatorach. Cewkę nawiniętą na ferromagnetyczny rdzeń nazywamy elektromagnesem. Służy on do generowania pola magnetycznego. Gdy przez cewkę przepływa prąd elektryczny, to powstaje pole magnetyczne. Pole to oddziaływuje na ferromagnetyczny rdzeń umieszczony wewnątrz cewki powodując jego magnesowanie. Jednocześnie pole magnetyczne cewki ulega wzmocnieniu. 
+<p>Indukcją elektromagnetyczna wykorzystywana jest w wielu urządzeniach, np.: elektromagnesach, 
+transformatorach. Cewkę nawiniętą na ferromagnetyczny rdzeń nazywamy elektromagnesem. 
+Służy on do generowania pola magnetycznego. Gdy przez cewkę przepływa prąd elektryczny, 
+to&nbsp;powstaje pole magnetyczne. Pole to oddziaływuje na ferromagnetyczny rdzeń umieszczony
+ wewnątrz cewki powodując jego magnesowanie. Jednocześnie pole magnetyczne cewki ulega wzmocnieniu. 
 </p> <p>
-Do budowy transformatora również wykorzystuje się cewki wykonane z przewodzącego materiału oraz rdzeń. W przypadku transformatora rdzeń ma kształt kanciastej litery O. Na pionowych ramioniach umieszczone są dwie cewki, jedną nazywamy uzwojeniem pierwotnym, a drugą uzwojeniem wtórnym. Gdy do uzwojenia pierwotnego podłączymy źródło przemiennego napięcia, to popłynie w nim przemienny prąd elektryczny. Wywoła to w rdzeniu transformatora indukcję przemiennego pola magnetycznego. Pole przenikając przez uzwojenie wtórne powoduje powstanie zmiennej siły elektromotorycznej (SEM). </p>
+Do budowy transformatora również wykorzystuje się cewki wykonane z przewodzącego materiału oraz 
+rdzeń. W przypadku transformatora rdzeń ma kształt kanciastej litery O. Na pionowych ramioniach
+ umieszczone są dwie cewki, jedną nazywamy uzwojeniem pierwotnym, a drugą uzwojeniem wtórnym.
+  Gdy do uzwojenia pierwotnego podłączymy źródło przemiennego napięcia, to popłynie w nim 
+  przemienny prąd elektryczny. Wywoła to w rdzeniu transformatora indukcję przemiennego 
+  pola magnetycznego. Pole przenikając przez uzwojenie wtórne powoduje powstanie 
+  zmiennej siły elektromotorycznej (SEM). </p>
 Za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zapoznać się ze zjawiskiem indukcji elektromagnetycznej, <br/>
 &bull; zbudować transformator, <br/>
@@ -931,14 +986,18 @@ Za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; Wykonaj kolejne pomiary dla napięć wejściowych równych 9 V, 6V, 3V, 0V. Wykonaj wykres U<sub>2</sub>(U<sub>1</sub>). Czy jest to zależność liniowa? <br/>
 &bull; Czy wielkość napięcia w uzwojeniu wtórnym zmieni się, jeżeli użyjesz cewki o większej liczbie zwojów? <br/>
 &bull; Wybierz cewkę uzwojenia pierwotnego tak, aby miała dwukrotnie mniej zwojów niż w uzwojenie wtórne. Zrób pomiary dla takich samych napięć wejściowych jak poprzednio i wykonaj wykres U<sub>2</sub>(U<sub>1</sub>). <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string> 
    
 <string name="ed_info_optyka_geometryczna">
 <![CDATA[
-<p><b>Optyka geometryczna </b> to dział fizyki zajmujący się wyjaśnianiem zjawisk świetlnych przy pomocy geometrii. W tej teorii promienie świetlne traktowane są jako półproste, mające swój początek w źródle światła (dzieje się tak w przypadku promieni rozchodzących się w jednym ośrodku, jeżeli promień światła będzie pokonywał granicę dwóch różnych ośrodków, to wystąpi tzw. załamanie promienia świetlnego). </p> <p>
+<p><b>Optyka geometryczna </b> to dział fizyki zajmujący się wyjaśnianiem zjawisk świetlnych
+ przy&nbsp;pomocy geometrii. W tej teorii promienie świetlne traktowane są jako półproste, 
+ mające swój początek w źródle światła (dzieje się tak w przypadku promieni rozchodzących się 
+ w jednym ośrodku, jeżeli&nbsp;promień światła będzie pokonywał granicę dwóch różnych ośrodków, 
+ to wystąpi tzw. załamanie promienia świetlnego). </p> <p>
 <b>Optyka geometryczna</b> zajmuje się zjawiskami: <br/>
 &bull; odbicia światła, <br/>
 &bull; całkowitego wewnętrznego odbicia światła, <br/>
@@ -977,7 +1036,15 @@ Obwód elektryczny RLC składa się z: <br/>
 &bull; rezystora R, <br/>
 &bull; cewki L, <br/>
 &bull; kondensatora C. </p> <p>
-Włączenie rezystora do obwodu powoduje straty energii i wydzielanie się ciepła. Całkowita energia układu będzie z czasem malała – w układzie pojawiają się wówczas drgania tłumione. Jeżeli spełnione są szczególne warunki to w układzie RLC można zaobserwować rezonans napięć lub prądów. Rezonans napięć występuje przy szeregowym połączeniu RLC. Polega on na tym, że przy określonej częstotliwości sygnałów w obwodzie suma napięć na cewce oraz kondensatorze jest równa zero. Rezonans prądów występuje przy równoległym połączeniu RLC. Przy określonej częstotliwości suma prądów płynący przez cewkę i kondensator wynosi zero. Obydwa te zjawiska mogą być bardzo groźne w przypadku bardziej złożonych układów, ponieważ niektóre z elementów mogą się uszkodzić. </p>
+Włączenie rezystora do obwodu powoduje straty energii i wydzielanie się ciepła. Całkowita energia 
+układu będzie z czasem malała – w układzie pojawiają się wówczas drgania tłumione. Jeżeli 
+spełnione są szczególne warunki to w układzie RLC można zaobserwować rezonans napięć 
+lub&nbsp;prądów. Rezonans napięć występuje przy szeregowym połączeniu RLC. Polega on na tym, 
+że&nbsp;przy&nbsp;określonej częstotliwości sygnałów w obwodzie suma napięć na cewce oraz
+ kondensatorze jest równa zero. Rezonans prądów występuje przy równoległym połączeniu RLC. 
+ Przy określonej częstotliwości suma prądów płynący przez cewkę i kondensator wynosi zero.
+  Obydwa te zjawiska mogą być bardzo groźne w przypadku bardziej złożonych układów, ponieważ 
+  niektóre z elementów mogą się uszkodzić. </p>
 Za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; obserwować na oscyloskopie przebiegi napięcia i natężenia prądu w obwodzie RLC, <br/>
 &bull; zmierzyć napięcie w funkcji czasu na różnych elementach obwodu elektrycznych za pomocą oscyloskopu, <br/> 
@@ -994,7 +1061,7 @@ Wybierz z Narzędzi: układ szeregowy LC, generator impulsów, oscyloskop, dwie 
 &bull; W jakim stanie znajduje się układ doświadczalny? Zmieniając częstotliwość i amplitudę znajdź inny stabilny stan układu. Dlaczego obserwujesz dudnienia w badanym układzie? <br/>
 &bull; Wybierz z pudełka inną cewkę, a potem kondensator czy stan układu się zmienił? <br/><br/>
 
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>   
@@ -1002,7 +1069,14 @@ Więcej ćwiczeń znajduje się w podręczniku.
 <string name="ed_info_korpuskularna">
 <![CDATA[
 <p>
-Dualizm korpuskularno – falowy jest postulatem głoszącym, że światło ma dwoistą naturę. Po raz pierwszy został przedstawiony na początku dwudziestego wieku. Wg tej teorii w pewnych sytuacjach światło zachowuje się jak fala, a w innych jak cząstka. Przykładowo zjawiska interferencji światła wyjaśniane są za pomocą falowej teorii światła. Wzmacnianie lub osłabianie wiązek świetlnych tłumaczone jest nakładaniem się fal świetlnych w fazach zgodnych lub przeciwnych. Teoria czysto korpuskularna (traktująca światło jako zbiór cząstek) nie może tego wyjaśnić. Dla równowagi przy pomocy teorii falowej nie można wyjaśnić efektu fotoelektrycznego. Dlatego przyjęto, że światło ma naturą korpuskularno-falową. </p>
+Dualizm korpuskularno – falowy jest postulatem głoszącym, że światło ma dwoistą naturę. 
+Po&nbsp;raz&nbsp;pierwszy został przedstawiony na początku dwudziestego wieku. Wg tej teorii w&nbsp;pewnych 
+sytuacjach światło zachowuje się jak fala, a w innych jak cząstka. Przykładowo zjawiska
+ interferencji światła wyjaśniane są za pomocą falowej teorii światła. Wzmacnianie lub 
+ osłabianie wiązek świetlnych tłumaczone jest nakładaniem się fal świetlnych w fazach zgodnych 
+ lub&nbsp;przeciwnych. Teoria czysto korpuskularna (traktująca światło jako zbiór cząstek)
+  nie może tego wyjaśnić. Dla równowagi przy pomocy teorii falowej nie można wyjaśnić 
+  efektu fotoelektrycznego. Dlatego przyjęto, że światło ma naturą korpuskularno-falową. </p>
 Za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zaobserwować widmo ciągłe i widmo charakterystyczne promieniowania rentgenowskiego, <br/>
 &bull; zapoznać się z budową i zasadą działania lampy rentgenowskiej w skali nano, <br/>
@@ -1027,7 +1101,14 @@ Więcej ćwiczeń znajduje się w podręczniku.
 <string name="ed_info_interferencja">
 <![CDATA[
 <p>
-<b> Interferencja</b> jest zjawiskiem nakładania się na siebie dwu lub więcej fal. Nakładające się na siebie fale mogą się wzajemnie wzmocnić lub osłabić. Białe światło nie ma jednej określonej długości fali, interferencję w tym przypadku jest bardzo trudno zaobserwować. O wiele łatwiej zaobserwować interferencję wykorzystując światło monochromatyczne, np.: lasera. Kierując wiązkę laserową na ekran przed którym znajduje się układ szczelin (najczęściej siatkę dyfrakcyjną) możemy uzyskać obraz składający się z naprzemiennie ułożonych jasnych i ciemnych prążków . Jest to tzw. doświadczenie Younga. </p>
+<b> Interferencja</b> jest zjawiskiem nakładania się na siebie dwu lub więcej fal. 
+Nakładające się na siebie fale mogą się wzajemnie wzmocnić lub osłabić. 
+Białe światło nie ma jednej określonej długości fali, interferencję w tym przypadku 
+jest bardzo trudno zaobserwować. O wiele łatwiej zaobserwować interferencję wykorzystując 
+światło monochromatyczne, np.: lasera. Kierując wiązkę laserową na ekran przed którym 
+znajduje się układ szczelin (najczęściej siatkę dyfrakcyjną) możemy uzyskać obraz 
+składający się z naprzemiennie ułożonych jasnych i ciemnych prążków . 
+Jest to tzw. doświadczenie Younga. </p>
 Za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zobaczyć dyfrakcję i interferencję fal świetlnych, <br/>
 &bull; zaobserwować dyfrakcję i interferencję fal wodnych, <br/>
@@ -1049,7 +1130,7 @@ Wybierz z Narzędzi: laser RGBU, ekran i ławę optyczną oraz płytkę do wycin
 <p>
 &bull; Czy fala świetlna o innej długości przechodząca przez płytkę dyfrakcyjną utworzy inny wzór na ekranie? Sprawdź to dla wiązek o innej barwie. </p>
 &bull; Powtórz doświadczenie wycinając kolejno otwór kwadratowy i trójkątny. Czy wzór wygląda tak samo, jak w przypadku otworu okrągłego? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
@@ -1076,7 +1157,7 @@ Za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; Co wyraża wynik wyświetlony na monitorze spektrometru masowego? <br/>
  &bull; Jaki jest wiek badanego przedmiotu? Skorzystaj z tablic fizycznych, żeby go określić. <br/>
 &bull; Zapisz wynik i wykonaj badanie ponownie dla innych przedmiotów. <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+Więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>    
