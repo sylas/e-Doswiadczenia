@@ -165,22 +165,27 @@ public final class R {
     }
     public static final class raw {
         public static final int astro=0x7f040000;
-        public static final int bryla=0x7f040001;
-        public static final int ciecze=0x7f040002;
-        public static final int drgania=0x7f040003;
-        public static final int dzwiek=0x7f040004;
-        public static final int einstein=0x7f040005;
-        public static final int gazy=0x7f040006;
-        public static final int kalorymetria=0x7f040007;
-        public static final int kondensatory=0x7f040008;
-        public static final int lawa=0x7f040009;
-        public static final int pole_elektryczne=0x7f04000a;
-        public static final int pole_magnetyczne=0x7f04000b;
-        public static final int prad_staly=0x7f04000c;
-        public static final int rownia=0x7f04000d;
-        public static final int rzuty=0x7f04000e;
-        public static final int wahadlo=0x7f04000f;
-        public static final int zderzenia=0x7f040010;
+        public static final int atomowa=0x7f040001;
+        public static final int bryla=0x7f040002;
+        public static final int cewki=0x7f040003;
+        public static final int ciecze=0x7f040004;
+        public static final int drgania=0x7f040005;
+        public static final int dyfrakcja=0x7f040006;
+        public static final int dzwiek=0x7f040007;
+        public static final int einstein=0x7f040008;
+        public static final int gazy=0x7f040009;
+        public static final int geometryczna=0x7f04000a;
+        public static final int kalorymetria=0x7f04000b;
+        public static final int kondensatory=0x7f04000c;
+        public static final int lawa=0x7f04000d;
+        public static final int pole_elektryczne=0x7f04000e;
+        public static final int pole_magnetyczne=0x7f04000f;
+        public static final int prad_staly=0x7f040010;
+        public static final int rlc=0x7f040011;
+        public static final int rownia=0x7f040012;
+        public static final int rzuty=0x7f040013;
+        public static final int wahadlo=0x7f040014;
+        public static final int zderzenia=0x7f040015;
     }
     public static final class string {
         /**  elementy stringów 

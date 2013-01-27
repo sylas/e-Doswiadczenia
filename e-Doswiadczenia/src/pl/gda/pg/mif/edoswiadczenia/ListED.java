@@ -389,7 +389,7 @@ public class ListED extends Activity {
                 if (!downloadingED) {
                     ED.edSubDir = "rzuty";
                     ED.edFileSWFName = "throws.swf";
-                    ED.edName = getString(R.string.ed_name_rzuty);
+                    ED.edName = getString(R.string.ed_name_obwody_pradu_stalego);
 	                ED.edInfo = getString(R.string.ed_info_prad_staly);
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_prad_staly);
                     ED.edMovie = R.raw.rzuty;
@@ -441,10 +441,10 @@ public class ListED extends Activity {
                 if (!downloadingED) {
                     ED.edSubDir = "rzuty";
                     ED.edFileSWFName = "throws.swf";
-                    ED.edName = getString(R.string.ed_name_rzuty);
+                    ED.edName = getString(R.string.ed_name_dzwiek);
 	                ED.edInfo = getString(R.string.ed_info_dzwiek);
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_dzwiek);
-                    ED.edMovie = R.raw.rzuty;
+                    ED.edMovie = R.raw.dzwiek;
 
                     if (edIsDownloaded()) {                    	
                     	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
@@ -577,10 +577,10 @@ public class ListED extends Activity {
                 if (!downloadingED) {
                     ED.edSubDir = "rzuty";
                     ED.edFileSWFName = "throws.swf";
-                    ED.edName = getString(R.string.ed_name_rzuty);
+                    ED.edName = getString(R.string.ed_name_cewki_i_indukcja);
 	                ED.edInfo = getString(R.string.ed_info_cewki_i_indukcja);
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_cewki_i_indukcja);
-                    ED.edMovie = R.raw.rzuty;
+                    ED.edMovie = R.raw.cewki;
 
                     if (edIsDownloaded()) {                    	
                     	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
@@ -631,10 +631,10 @@ public class ListED extends Activity {
                       if (!downloadingED) {
                           ED.edSubDir = "rzuty";
                           ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_rzuty);
+                          ED.edName = getString(R.string.ed_name_optyka_geometryczna);
       	                  ED.edInfo = getString(R.string.ed_info_optyka_geometryczna);
                           ED.edInfoRun = getString(R.string.ed_cwiczenie_optyka_geometryczna);
-                          ED.edMovie = R.raw.rzuty;
+                          ED.edMovie = R.raw.geometryczna;
 
                           if (edIsDownloaded()) {                    	
                           	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
@@ -684,10 +684,10 @@ public class ListED extends Activity {
                       if (!downloadingED) {
                           ED.edSubDir = "rzuty";
                           ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_rzuty);
+                          ED.edName = getString(R.string.ed_name_rlc);
       	                  ED.edInfo = getString(R.string.ed_info_rlc);
                           ED.edInfoRun = getString(R.string.ed_cwiczenie_rlc);
-                          ED.edMovie = R.raw.rzuty;
+                          ED.edMovie = R.raw.rlc;
 
                           if (edIsDownloaded()) {                    	
                           	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
@@ -739,7 +739,7 @@ public class ListED extends Activity {
                       if (!downloadingED) {
                           ED.edSubDir = "rzuty";
                           ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_rzuty);
+                          ED.edName = getString(R.string.ed_name_korpuskularna);
       	                  ED.edInfo = getString(R.string.ed_info_korpuskularna);
                           ED.edInfoRun = getString(R.string.ed_cwiczenie_korpuskularna);
                           ED.edMovie = R.raw.rzuty;
@@ -792,10 +792,10 @@ public class ListED extends Activity {
                       if (!downloadingED) {
                           ED.edSubDir = "rzuty";
                           ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_rzuty);
+                          ED.edName = getString(R.string.ed_name_interferencja);
       	                  ED.edInfo = getString(R.string.ed_info_interferencja);
                           ED.edInfoRun = getString(R.string.ed_cwiczenie_interferencja);
-                          ED.edMovie = R.raw.rzuty;
+                          ED.edMovie = R.raw.dyfrakcja;
 
                           if (edIsDownloaded()) {                    	
                           	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
@@ -844,10 +844,10 @@ public class ListED extends Activity {
                       if (!downloadingED) {
                           ED.edSubDir = "rzuty";
                           ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_rzuty);
+                          ED.edName = getString(R.string.ed_name_fizyka_atomowa);
       	                  ED.edInfo = getString(R.string.ed_info_fizyka_atomowa);
                           ED.edInfoRun = getString(R.string.ed_cwiczenie_fizyka_atomowa);
-                          ED.edMovie = R.raw.rzuty;
+                          ED.edMovie = R.raw.atomowa;
 
                           if (edIsDownloaded()) {                    	
                           	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
