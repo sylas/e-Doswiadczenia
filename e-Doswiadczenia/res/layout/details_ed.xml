@@ -86,13 +86,13 @@
 
             <Button
                 android:id="@+id/buttonRunManual"
+                style="@style/InfoButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="left|center"
                 android:paddingLeft="40dp"
                 android:text="@string/btn_run_manual"
-                android:textSize="20dp"
-                style="@style/InfoButton"/>
+                android:textSize="20dp" />
 
         </TableRow>
         
@@ -112,10 +112,11 @@
             android:id="@+id/textEDInfo"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:textSize="18dp"
-            android:textColor="@color/white"
+            android:gravity="fill_horizontal"
             android:lineSpacingMultiplier="1.18"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
 
     </ScrollView>
 

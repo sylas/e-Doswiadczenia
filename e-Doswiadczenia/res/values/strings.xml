@@ -693,7 +693,7 @@ Więcej ćwiczeń znajduje się w podręczniku.
     </string>
     <string name="ed_info_drgania">
 <![CDATA[
-<b>Drgania mechaniczne...</b>           
+            
          ]]>
     </string>
     <string name="ed_cwiczenie_drgania">
@@ -803,5 +803,94 @@ Więcej ćwiczeń znajduje się w podręczniku.
 Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
+   
+<string name="ed_info_cewki_i_indukcja">
+<![CDATA[
+<b>Pole magnetyczne...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_cewki_i_indukcja">
+<![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
 
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string> 
+   
+<string name="ed_info_optyka_geometryczna">
+<![CDATA[
+<b>Pole magnetyczne...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_optyka_geometryczna">
+<![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string> 
+   
+<string name="ed_info_rlc">
+<![CDATA[
+<b>Pole magnetyczne...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_rlc">
+<![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>   
+   
+<string name="ed_info_korpuskularna">
+<![CDATA[
+<b>Pole magnetyczne...</b>           
+         ]]>
+    </string>
+<string name="ed_cwiczenie_korpuskularna">
+<![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>   
+    
+<string name="ed_info_interferencja">
+<![CDATA[
+<b>Pole magnetyczne...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_interferencja">
+<![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>
+    
+    <string name="ed_info_fizyka_atomowa">
+<![CDATA[
+<b>Pole magnetyczne...</b>           
+         ]]>
+    </string>
+    <string name="ed_cwiczenie_fizyka_atomowa">
+<![CDATA[
+<b>Propozycja ćwiczenia:</b><br/>
+&bull;
+
+<br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku.
+         ]]>
+    </string>    
 </resources>
