@@ -383,8 +383,31 @@ public class ListED extends Activity {
 //prąd stały
         Button button12 = (Button) findViewById(R.id.button12);
         button12.setOnClickListener(new OnClickListener() {
-
+      /////// tmp ////////////
             @Override
+            public void onClick(View v) {
+                if (!downloadingED) {
+                    ED.edSubDir = "rzuty";
+                    ED.edFileSWFName = "throws.swf";
+                    ED.edName = getString(R.string.ed_name_rzuty);
+	                ED.edInfo = getString(R.string.ed_info_prad_staly);
+                    ED.edInfoRun = getString(R.string.ed_cwiczenie_prad_staly);
+                    ED.edMovie = R.raw.rzuty;
+
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
+                    }
+                }
+            }
+        });
+/*            @Override
             public void onClick(View v) {
                 if (!downloadingED) {
                     ED.edSubDir = "obwody_pradu_stalego";
@@ -406,13 +429,38 @@ public class ListED extends Activity {
                     }
                 }
             }
-        });
+        });*/
 
 //laboratorium dzwieku
         Button button13 = (Button) findViewById(R.id.button13);
         button13.setOnClickListener(new OnClickListener() {
 
+/////// tmp ////////////
             @Override
+            public void onClick(View v) {
+                if (!downloadingED) {
+                    ED.edSubDir = "rzuty";
+                    ED.edFileSWFName = "throws.swf";
+                    ED.edName = getString(R.string.ed_name_rzuty);
+	                ED.edInfo = getString(R.string.ed_info_dzwiek);
+                    ED.edInfoRun = getString(R.string.ed_cwiczenie_dzwiek);
+                    ED.edMovie = R.raw.rzuty;
+
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
+                    }
+                }
+            }
+        });
+
+/*            @Override
             public void onClick(View v) {
                 if (!downloadingED) {
 	                ED.edSubDir = "laboratorium_dzwieku";
@@ -434,7 +482,7 @@ public class ListED extends Activity {
                     }
                 }
             }
-        });
+        });*/
 
 //kalorymetria
         Button button14 = (Button) findViewById(R.id.button14);
@@ -523,80 +571,321 @@ public class ListED extends Activity {
 /////////////////////////////////cewki i indukcja//////////////////////////////////////////////////////
         Button button17 = (Button) findViewById(R.id.button17);
         button17.setOnClickListener(new OnClickListener() {
-
+            /////// tmp ////////////
             @Override
             public void onClick(View v) {
-                if (downloadingED) {
-                    return;
+                if (!downloadingED) {
+                    ED.edSubDir = "rzuty";
+                    ED.edFileSWFName = "throws.swf";
+                    ED.edName = getString(R.string.ed_name_rzuty);
+	                ED.edInfo = getString(R.string.ed_info_cewki_i_indukcja);
+                    ED.edInfoRun = getString(R.string.ed_cwiczenie_cewki_i_indukcja);
+                    ED.edMovie = R.raw.rzuty;
+
+                    if (edIsDownloaded()) {                    	
+                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                		//Preferences(MODE_PRIVATE);
+                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                    	}
+                    	else{
+                    		startActivity(new Intent(ListED.this, DetailsED.class));
+                    	}
+                    }
                 }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
             }
         });
+/*         
+        @Override
+        public void onClick(View v) {
+            if (!downloadingED) {
+                ED.edSubDir = "cewki_i_indukcja";
+                ED.edFileSWFName = ""
+                ED.edName = getString(R.string.ed_name_cewki_i_indukcja);
+                ED.edInfo = getString(R.string.ed_info_cewki_i_indukcja);
+                ED.edInfoRun = getString(R.string.ed_cwiczenie_cewki_i_indukcja);
+                ED.edMovie = R.raw.cewki_i_indukcja;
 
+                if (edIsDownloaded()) {                    	
+                	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+            		//Preferences(MODE_PRIVATE);
+                	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                	}
+                	else{
+                		startActivity(new Intent(ListED.this, DetailsED.class));
+                	}
+                }
+            }
+        }
+    });
+*/
+        
 /////////////////////////////////zjawisko polaryzacji i zalamania swiatla////////////////////////
         Button button18 = (Button) findViewById(R.id.button18);
         button18.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+      /////// tmp ////////////
+                  @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "rzuty";
+                          ED.edFileSWFName = "throws.swf";
+                          ED.edName = getString(R.string.ed_name_rzuty);
+      	                  ED.edInfo = getString(R.string.ed_info_optyka_geometryczna);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_optyka_geometryczna);
+                          ED.edMovie = R.raw.rzuty;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });
+/*            @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "optyka_geometryczna";
+                          ED.edFileSWFName = ""
+                          ED.edName = getString(R.string.ed_name_optyka_geometryczna);
+      	                  ED.edInfo = getString(R.string.ed_info_optyka_geometryczna);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_optyka_geometryczna);
+                          ED.edMovie = R.raw.optyka_geometryczna;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });
+        */
 
 /////////////////////////////////uklady RLC///////////////////////////////////////////////
         Button button19 = (Button) findViewById(R.id.button19);
         button19.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+      /////// tmp ////////////
+                  @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "rzuty";
+                          ED.edFileSWFName = "throws.swf";
+                          ED.edName = getString(R.string.ed_name_rzuty);
+      	                  ED.edInfo = getString(R.string.ed_info_rlc);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_rlc);
+                          ED.edMovie = R.raw.rzuty;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });
+/*          
+
+                  @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "uklady_RLC";
+                          ED.edFileSWFName = ""
+                          ED.edName = getString(R.string.ed_name_rlc);
+      	                  ED.edInfo = getString(R.string.ed_info_rlc);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_rlc);
+                          ED.edMovie = R.raw.rlc;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });
+*/
 
 /////////////////////////////////korpuskularna natura swiatła i materii///////////////////////
         Button button20 = (Button) findViewById(R.id.button20);
         button20.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+      /////// tmp ////////////
+                  @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "rzuty";
+                          ED.edFileSWFName = "throws.swf";
+                          ED.edName = getString(R.string.ed_name_rzuty);
+      	                  ED.edInfo = getString(R.string.ed_info_korpuskularna);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_korpuskularna);
+                          ED.edMovie = R.raw.rzuty;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });
+/*         
+                  @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "korpuskularna_natura_swiatla";
+                          ED.edFileSWFName = ""
+                          ED.edName = getString(R.string.ed_name_korpuskularna);
+      	                  ED.edInfo = getString(R.string.ed_name_korpuskularna);
+                           ED.edInfoRun = getString(R.string.ed_cwiczenie_korpuskularna);
+                          ED.edMovie = R.raw.korpuskularna;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });*/
 
 /////////////////////////////////interferencja i dyfrakcja//////////////////////////////////////
         Button button21 = (Button) findViewById(R.id.button21);
         button21.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+      /////// tmp ////////////
+                  @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "rzuty";
+                          ED.edFileSWFName = "throws.swf";
+                          ED.edName = getString(R.string.ed_name_rzuty);
+      	                  ED.edInfo = getString(R.string.ed_info_interferencja);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_interferencja);
+                          ED.edMovie = R.raw.rzuty;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });
+/*            @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "interferencja_i_dyfrakcja";
+                          ED.edFileSWFName = ""
+                          ED.edName = getString(R.string.ed_name_interferencja);
+      	                ED.edInfo = getString(R.string.ed_info_interferencja);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_interferencja);
+                          ED.edMovie = R.raw.interferencja;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });*/
 
 /////////////////////////////////spektroskopia////////////////////////////////////////////
         Button button22 = (Button) findViewById(R.id.button22);
         button22.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                if (downloadingED) {
-                    return;
-                }
-                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
-            }
-        });
+      /////// tmp ////////////
+                  @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "rzuty";
+                          ED.edFileSWFName = "throws.swf";
+                          ED.edName = getString(R.string.ed_name_rzuty);
+      	                  ED.edInfo = getString(R.string.ed_info_fizyka_atomowa);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_fizyka_atomowa);
+                          ED.edMovie = R.raw.rzuty;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });
+/*        
+                             @Override
+                  public void onClick(View v) {
+                      if (!downloadingED) {
+                          ED.edSubDir = "fizyka_atomowa";
+                          ED.edFileSWFName = ""
+                          ED.edName = getString(R.string.ed_name_fizyka_atomowa);
+      	                ED.edInfo = getString(R.string.ed_name_fizyka_atomowa);
+                          ED.edInfoRun = getString(R.string.ed_cwiczenie_fizyka_atomowa);
+                          ED.edMovie = R.raw.fizyka_atomowa;
+
+                          if (edIsDownloaded()) {                    	
+                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
+                      		//Preferences(MODE_PRIVATE);
+                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
+                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
+                          	}
+                          	else{
+                          		startActivity(new Intent(ListED.this, DetailsED.class));
+                          	}
+                          }
+                      }
+                  }
+              });*/
 
 // Eksperymenty myslowe Einsteina
         Button button23 = (Button) findViewById(R.id.button23);

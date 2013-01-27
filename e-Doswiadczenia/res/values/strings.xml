@@ -11,7 +11,7 @@
     <string name="ed_name_wahadlo">Wahadło matematyczne</string>
     <string name="ed_name_lawa">Ława optyczna</string>
     <string name="ed_name_rownia">Równia pochyła</string>
-    <string name="ed_name_zderzenia">Zderzenia sprężyste\ni niesprężyste</string>
+    <string name="ed_name_zderzenia">Zderzenia sprężyste i niesprężyste</string>
     <string name="ed_name_rzuty">Rzuty</string>
     <string name="ed_name_astro">Ruch ciał niebieskich</string>
     <string name="ed_name_ciecze">Mechanika cieczy</string>
@@ -20,7 +20,7 @@
     <string name="ed_name_drgania">Drgania mechaniczne</string>
     <string name="ed_name_pole_elektryczne">Pole elektryczne</string>
     <string name="ed_name_obwody_pradu_stalego">Obwody prądu stałego</string>
-    <string name="ed_name_dzwiek">Laboratorium\ndzwięku</string>
+    <string name="ed_name_dzwiek">Laboratorium dzwięku</string>
     <string name="ed_name_kalorymetria">Kalorymetria</string>
     <string name="ed_name_kondensatory">Kondensatory</string>
     <string name="ed_name_pole_magnetyczne">Pole magnetyczne</string>
@@ -684,25 +684,41 @@ Za pomocą tego doświadczenia można m.in.:<br/>
     </string>
     <string name="ed_cwiczenie_ciecze">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
+<b> Ćwiczenie – paradoks hydrostatyczny</b>
+<p>
+Uruchom ciekawostkę. Wlej rtęć do wszystkich naczyń ustawionych na stole poza wysokim szklanym cylindrem umieszczonym z lewej strony. W każdym naczyniu wysokość słupa wody jest taka sama. Ile będzie wynosiło ciśnienie hydrostatyczne w poszczególnych naczyniach? Uruchom doświadczenie i przekonaj się czy miałeś rację. </p>
+&bull; Nalej rtęci również do ostatniego naczynia. Czy ciśnienie będzie niższe czy wyższe niż w pozostałych naczyniach? A może będzie takie samo? <br/>
+&bull; Powtórz doświadczenie używając wody morskiej. Czy ciśnienie w naczyniach zmieniło się? Zastanów się czym rtęć i woda morska się różnią? <br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku. 
 
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
     <string name="ed_info_drgania">
 <![CDATA[
+ <p>
+<b> Drgania mechaniczne</b> to rodzaj ruchu, podczas którego pewne wielkości fizyczne naprzemiennie rosną i maleją w czasie. Przykładami takiego ruchu są: ruch wahadła albo ruch ciężarka zawieszonego na sprężynie. Przyjrzyjmy się bliżej ruchowi ciężarka zawieszonego na drgającej sprężynie. Ruch drgający sprężyny jest ruchem okresowym, tzn.: możemy znaleźć sekwencje powtarzające się w podczas jego trwania – oscylowanie wokół punktu równowagi. Jest również ruchem harmonicznym, ponieważ powstaje pod wpływem siły, która działa w przeciwnym kierunku niż została rozciągnięta (ściśnięta) sprężyna. Siła ta wynika z posiadanej przez sprężynę cechy zwanej współczynnikiem sprężystości. Ściśnięta lub rozciągnięta sprężyna będzie znajdować się z stanie niezrównoważonym i w zależności od wielkości współczynnika sprężystości z różną intensywnością będzie dążyć do osiągnięcia stanu równowagi. 
+</p>
+Za pomocą tego e-doświadczenia można  m. in: <br/>
+&bull; wyznaczyć okres drgań, <br/>
+&bull; określić współczynnik sprężystości, <br/>
+&bull; określić zależności wychylenia sprężyny od przyłożonej do niej siły, <br/>
+&bull; określić zależności okresu drgań własnych sprężyny od masy. <br/>
+<p>
+W doświadczeniu „drgania mechaniczne” możemy obserwować ruch drgający sprężyn obciążonych ciężarkami w różnych układach odniesienia tj.: w pociągu, windzie i na innych planetach. Można również zbudować układ pomiarowy w celu obserwacji drgań układów sprężyn połączonych szeregowo lub równolegle. W ramach wykonywanych doświadczeń można empirycznie przekonać się o słuszności znanych zależności z podręczników szkolnych. </p>
             
          ]]>
     </string>
     <string name="ed_cwiczenie_drgania">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
+<b> Ćwiczenie – wyznaczenie współczynnika sprężystości drgającej sprężyny</b>
+<p> 
+Z Narzędzi wybierz statyw, pudełko z ciężarkami, jedną sprężynę np.: miedzianą. W oknie warunków fizycznych wybierz dowolną planetę, na której będzie przeprowadzany pomiar. Umieść sprężynę na statywie. Następnie wybierz dwa ciężarki i zawieś je na sprężynie (maksymalnie możesz zawiesić 300 g). Rozciągnij sprężynę i uruchom doświadczenie. 
+</p>
+&bull; Jakie było minimalne i maksymalne położenie ciężarka podczas drgania sprężyny (w razie potrzeby skorzystaj z nagrania kamery)? <br/>
+&bull; Ile wynosi współczynnik sprężystości badanej sprężyny? <br/>
+&bull; W oknie warunków fizycznych wybierz inną planetę, i ponownie przeprowadź pomiar. Czy współczynnik sprężystości badanej sprężyny się zmienił? Dlaczego tak się stało? <br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku. 
 
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
     <string name="ed_info_gazy">
@@ -721,137 +737,281 @@ Więcej ćwiczeń znajduje się w podręczniku.
     </string>
     <string name="ed_info_pole_elektryczne">
 <![CDATA[
-<b>Pole elektryczne...</b>           
+<p>
+Wyobraźmy sobie przestrzeń w której znajdują się ładunki elektryczne. <b>Polem elektrycznym</b> nazywamy obszar w którym na umieszczone ładunki elektryczne oddziaływują siły elektrostatyczne. Każdy z ładunków elektrycznych jest źródłem pola elektrycznego. </br>
+Wybierzmy jeden z tych ładunków i nazwijmy go ładunkiem próbnym. Na ładunek próbny działają siły elektrostatyczne pochodzące od innych ładunków elektrycznych umieszczonych w omawianym obszarze. Równocześnie ładunek próbny oddziaływuje na inne ładunki siłą, która jest tym większa im silniejsze jest źródło pola elektrycznego. Im rzadziej rozmieszczone są ładunki w przestrzeni, tym słabsze są oddziaływania między nimi (maleją ze wzrostem odległości między ładunkami).
+</p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; zaobserwować podstawowe zagadnienia elektrostatyki, np.: rozkład i kształt pola elektrycznego pochodzącego od naładowanych ciał, <br/>
+&bull; zmierzyć potencjał w dowolnym punkcie wytworzonego pola elektrycznego, <br/>
+&bull; określić położenie linii ekwipotencjalnych, <br/>
+&bull; w ciekawostce możemy przeprowadzić eksperyment Millikana, który pokazuje jak wyznacza się ładunek elementarny. <br/>
+        
          ]]>
     </string>
     <string name="ed_cwiczenie_pole_elektryczne">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
+<b>Ćwiczenie – działanie kondensatora płaskiego</b>
+<p>Wybierz z Narzędzi kuwetę, papier, dwie elektrody płaskie, zasilacz, dwa przewody: niebieski i czerwony, chininę. W kuwecie ułóż elektrody równolegle, w odległości 10 cm od siebie. Pierwszą elektrodę połącz przewodem z dodatnim gniazdem zasilacza. Drugą podłącz do ujemnego gniazda. Na zasilaczu ustaw napięcie 20V i rozpocznij doświadczenie. Jak ułożą się wektory sił pola elektrycznego pomiędzy elektrodami? </p>
+Wlej oliwę do kuwety, a potem rozsyp chininę. Kryształki chininy pod wpływem pola elektrycznego będą się układały zgodnie z liniami sił pola elektrycznego. Ponownie uruchom doświadczenie. </br>
+&bull; Czy kryształki chininy ułożyły się zgodnie z twoimi przewidywaniami? Czy uzyskane pole elektryczne jest jednorodne? <br/>
+&bull; Teraz również drugą elektrodę podłącz do dodatniego gniazda. Na zasilaczu pozostaw napięcie 20V. Czy wektory sił pola elektrycznego będą układały się tak jak poprzednio? <br/>
+&bull; Powtórz doświadczenie z elektrodami oddalonymi od siebie o 20cm, a potem 30 cm. Co się zmieniło? <br/>
+&bull; Co możesz powiedzieć o wartości siły, która działa na ładunek umieszczony w dowolnym punkcie pola jednorodnego? <br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku. 
 
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
     <string name="ed_info_prad_staly">
 <![CDATA[
-<b>Obwody prądu stałego...</b>           
+<p>
+<b> Prądem elektrycznym<b/> nazywamy uporządkowany ruch ładunków elektrycznych w przestrzeni. Przyjmuje się, że prąd płynie od punktu (punktów) o wyższym potencjale do punktu (punktów) o niższym potencjale, a więc kierunek przepływu prądu jest zgodny z kierunkiem ruchu ładunków dodatnich w polu elektrycznym. Prąd stały (ang. direct current, DC) charakteryzuje się stałą wartością natężenia oraz kierunkiem przepływu, w odróżnieniu od prądu przemiennego (AC, ang. alternating current). <br/>
+<b> Obwód elektryczny prądu stałego<b/> to układ, który składa się ze źródła prądu lub napięcia i innych elementów obwodu, np.: oporników, kondensatorów, cewek, diod ... . Elementy te są połączone ze źródłem za pomocą przewodów, dzięki którym do wszystkich elementów układu dopływa prąd. 
+</p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; poznać prawo Ohma, <br/>
+&bull; poznać prawa Kirchhoffa, <br/>
+&bull; nauczyć się zasad łączenia szeregowego i równoległego żarówek oraz oporników, <br/>
+&bull; zaprojektować własny obwód elektryczny prądu stałego, <br/>
+&bull; określić wpływ sposobu łączenia elementów składowych układu (oporników, żarówek) na jego działanie, <br/>
+&bull; zmierzyć natężenie prądu płynące w obwodzie lub napięcie na różnych elementach obwodu elektrycznego. <br/>
+         
          ]]>
     </string>
     <string name="ed_cwiczenie_prad_staly">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
+<b>Ćwiczenie – prawo Ohma</b>
+<p>Z Narzędzi wybierz układ nr 1. Zwrócić uwagę, że w przygotowanym obwodzie elektrycznym amperomierz włączony jest do obwodu szeregowo, a woltomierz równolegle. Zmierz przygotowanemu opornikowi zależność natężenia prądu od napięcia. Dane zapisz w tabeli, a następnie wykonaj wykres U(I). Czy jest to zależność liniowa? </p>
+&bull; Czy stosunek napięcia mierzonego na końcach przewodnika do natężenia prądu płynącego przez przewodnik jest stała? <br/>
+&bull; Powtórz doświadczenie dla oporników 1 Ω, 100 Ω, R1. Ile wynosi opór R1? Czy opór zależy od napięcia albo od natężenia? <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string>
     <string name="ed_info_dzwiek">
 <![CDATA[
-<b>Laboratorium dzwięku...</b>           
+<p>
+<b> Dźwięk</b>, to fala akustyczna rozchodząca się w ośrodku. Tym co zmienia się w ośrodku podczas rozprzestrzeniania się dźwięku są gęstość ośrodka i jego ciśnienie. Fala dźwiękowa wywołuje w ośrodku cykliczne zagęszczenia i rozrzedzenia jego cząstek (np.: powietrza albo wody). </br>
+Rozchodzący się dźwięk jest falą podłużną tzn.: kierunek zgęszczania się i rozrzedzania się cząsteczek jest zgodny z kierunkiem rozchodzenia się fali. Szczyty i doliny fali dźwiękowej poruszają się z określoną prędkością (tzw. prędkość dźwięku) i po dotarciu do odbiornika – ludzkiego ucha – tworzą wrażenie dźwięku. Człowiek słyszy dźwięki o częstościach od 16 Hz do 20 kHz. Drgania o mniejszej częstości nazywane są infradźwiękami, a o wyższej ultradźwiękami. 
+</p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; zaobserwować rezonans akustyczny (Zjawisko rezonansu zachodzi, gdy częstotliwości drgań są do siebie dopasowane. Polega ono na przekazaniu energii drgań od jednego kamertonu do drugiego. Przy prawidłowo nastrojonych kamertonach wzbudzony kamerton ma taką samą częstotliwość drgań tonu podstawowego jak ustawiony obok drugi ale niewzbudzony.), <br/>
+&bull; zaobserwować interferencję (Fale dźwiękowe nie rozchodzą się w przestrzeni w odosobnieniu, po napotkaniu innych fal akustycznych nakładają sie na siebie. Przy szczególnych warunkach fale mogą się wzajemnie wzmacniać lub wygaszać.), <br/>
+&bull; zmierzyć częstotliwość dudnień (Dudnienia powstają przy nałożeniu się na siebie dwóch fal harmonicznych o jednakowych amplitudach i nieznacznie różniących się częstościach. Słyszymy wówczas cyklicznie powtarzające się wzrosty i zaniki natężenia dźwięku. Przykładowo: dudniący dźwięk powstający ze złożenia dwóch dźwięków źle zestrojonych instrumentów muzycznych.), <br/>
+&bull; wyznaczyć częstości drgań kamertonu. <br/>
+       
          ]]>
     </string>
     <string name="ed_cwiczenie_dzwiek">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
+<b>Ćwiczenie – rezonans akustyczny</b>
+<p>
+Kamertony zamocowane są na pudełkach rezonansowych i umieszczone są w niewielkiej odległości od siebie. Otwory pudełek znajdują się naprzeciwko siebie. Ustaw częstotliwość pierwszego kamertonu na 440 Hz, a drugiego na 445 HZ. Wzbudź pierwszy kamerton, a po chwili zatrzymaj go. <br/>
+&bull; Czy drugi kamerton zaczął wibrować? <br/>
+&bull;  Jeżeli nie to zmień częstotliwość drgań drugiego kamertonu o 0,5 Hz. <br/>
+&bull; Przy jakiej częstotliwości kamertony wpadną w rezonans? Czy istotna jest kolejność wzbudzania kamertonów? <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string>
     <string name="ed_info_kalorymetria">
 <![CDATA[
-<b>Kalorymetria...</b>           
+<p>
+<b> Kalorymetria</b> (łac. calor = ciepło) - dział nauki zajmujący się rozwijaniem technik pomiaru ciepła powstającego w wyniku reakcji chemicznych i rozmaitych procesów fizycznych. W doświadczeniu korzystamy głównie z przyrządu laboratoryjnego (kalorymetru) służącego do pomiaru ciepła wydzielanego lub pobieranego podczas procesów chemicznych i fizycznych. 
+<p/><p>
+Kalorymetr wykorzystywany jest przede wszystkim do wyznaczania: <br/>
+&bull; ciepła właściwego cieczy, <br/>
+&bull; ciepła właściwego ciał stałych, <br/>
+&bull; ciepła topnienia,<br/>
+&bull; ciepła parowania. <br/> </br>
+W ciekawostce doświadczenia „kalorymetria” można zapoznać się z działaniem bomby kalorycznej. Jest to specjalny rodzaj kalorymetru przystosowanego do pomiaru gwałtownie przebiegających procesów. Proces inicjowany jest np.: poprzez iskrę elektryczną. Przebiegające spalanie materiału umieszczonego w kalorymetrze ogrzewa powietrze, które się tam znajduje. Intensywność procesu przekłada się na wzrost temperatury oraz objętości powietrza wydostającego się z kalorymetru. 
+</p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; wyznaczyć pojemność cieplną kalorymetru, <br/>
+&bull; określić ciepło właściwe dostępnych w doświadczeniu metali, <br/>
+&bull; określić ciepło topnienia lodu i parowania cieczy, <br/>
+&bull; wyznaczyć wartość kaloryczną produktów spożywczych. <br/>
+           
          ]]>
     </string>
     <string name="ed_cwiczenie_kalorymetria">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
+<b>Ćwiczenie – pomiar ciepła parowania wody</b>
+<p>
+Odczytaj i zapisz stan kalorymetru przed pomiarem. Doprowadź wodę w parowniku do wrzenia. Następnie połącz parownik z kalorymetrem (przycisk WŁÓŻ RURKĘ). Gdy temperatura na termometrze przestanie się podnosić wyjmij rurkę z kalorymetru. </p>
+&bull; Zważ kalorymetr i oblicz ile skropliło się wody? <br/>
+&bull; Jeżeli nie zważyłeś kalorymetru przed pomiarem, to musisz powtórzyć pomiar. <br/>
+ &bull; Zanotuj również ile czasu trwało skraplanie. Czy wiedząc ile wody skropliło się w określonym czasie możesz wyznaczyć ciepło parowania wody? <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string>
     <string name="ed_info_kondensatory">
 <![CDATA[
-<b>Kondensatory...</b>           
+<p>
+<b> Kondensator</b> jest urządzeniem służącym do gromadzenia ładunku elektrycznego. Każdy <b> kondensator</b>  składa się z przewodników (okładek) rozdzielonych warstwa dielektrykiem. Aby zgromadzić ładunek elektryczny trzeba doprowadzić napięcia do okładek kondensatora. Po odłączeniu od źródła napięcia siły przyciągania elektrostatycznego utrzymują ładunki na okładkach. </br>
+Cechą charakterystyczną kondensatora jest jego pojemność czyli zdolność do gromadzenia ładunku. Szczególnym rodzajem kondensatora jest kondensator płaski. Jest on zbudowany z dwóch równoległych metalowych płytek oddalonych od siebie o pewną odległość np.: kondensator powietrzny - między jego okładkami znajduje się powietrze. </p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; zapoznać się z budową kondensatora płaskiego, <br/>
+&bull; nauczyć się zasad łączenia szeregowego i równoległego kondensatorów, <br/>
+&bull; określić wpływ sposobu łączenia kondensatorów na jego obwodu elektrycznego, <br/>  
+&bull; zmierzyć pojemności zastępcze różnych układów kondensatorów, <br/>
+&bull; określić wpływ różnych materiałów dielektrycznych na pojemność kondensatora. <br/>
+      
          ]]>
     </string>
     <string name="ed_cwiczenie_kondensatory">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
+<b> Ćwiczenie – szeregowe i równoległe łączenie kondensatorów</b>
+<p>
+Wybierz z Narzędzi miernik pojemności, dwa przewody, płytkę perforowaną i pudełko z kondensatorami. Na macie umieść cztery kondensatory. Połącz je szeregowo – uważaj nie zamykaj obwodu. Co się stanie, jeżeli będziesz mierzyć pojemność zamkniętego obwodu? </p>
+<p>
+Zmierz pojemność każdego z kondensatorów oraz całego układu. Zanotuj pojemności. </br>
+&bull; Jak zmienia się pojemność układu kondensatorów połączonych szeregowo? </br>
+&bull; Na podstawie obserwacji wymyśl wzór. 
+</p>
+&bull; Powyższe doświadczenie powtórz dla układu kondensatorów połączonych równolegle. Użyj tych samych kondensatorów. <br/> 
+&bull; Czy łączna pojemność układu zmieniła się? Dlaczego tak się stało? <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string>
     <string name="ed_info_pole_magnetyczne">
 <![CDATA[
-<b>Pole magnetyczne...</b>           
+<p>
+<b> Pole magnetyczne</b>  obserwujemy pomiędzy dwoma biegunami ciała o właściwościach magnetycznych. W odróżnieniu od pola elektrycznego jest ono bezźródłowe. Pojedynczy ładunek elektryczny wytwarza samoistnie pola elektryczne. Aby zaobserwować <b> pole magnetyczne</b>  potrzebny jest dipol, czyli układ dwóch różnoimiennych ładunków elektrycznych lub biegunów magnetycznych. 
+</p><p>
+Najstarszym znanym magnesem jest magnetyt. Jeżeli z bryły magnetytu wyciosałoby kilka sztabek, to każda z nich posiadałaby takie same właściwości magnetyczne. Każda sztabka nadal posiadałaby: dwa różnoimienne bieguny (tak jak wcześniej cała bryłka rudy), przyciągałaby opiłki żelaza. Układ linii sił <b> pola magnetycznego</b>  dla każdej z nich byłby niemal identyczny. 
+</p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; zaobserwować kształt linii pola magnetycznego pochodzącego od magnesów o różnym kształcie, <br/>
+&bull; zobaczyć kształt linii pola magnetycznego pochodzącego od przewodników, w których płynie prąd, <br/>
+&bull; wyznaczyć kształt linii pola magnetycznego, <br/>
+&bull; zapoznać się z właściwościami magnetycznymi różnych materiałów. <br/>
+        
          ]]>
     </string>
     <string name="ed_cwiczenie_pole_magnetyczne">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
+<b> Ćwiczenie – badanie linii sił pola magnetycznego</b>
+<p>
+Wybierz z Narzędzi: matę, opiłki żelaza, kompas, dwa magnesy sztabkowe oraz stolik. Wyjmij kompas z pudełka i połóż go na środku stolika. Co wskazuje kompas? </br>
+Z lewej strony kompasu połóż jeden magnes sztabkowy. Wysuń magnes maksymalnie w lewo. Dlaczego wskazanie kompasu zmieniło się? </p> 
+<p>
+Ułóż dwa magnesy sztabkowe jeden ponad kompasem, a drugi poniżej. Obydwa magnesy ułóż niebieskimi biegunami w stronę kompasu. <br/>
+&bull; Jak wyglądają linie sił pola magnetycznego pomiędzy magnesami? Rozsyp opiłki na stoliku, czy twoje przypuszczenia potwierdziły się? </p>
+&bull; Obróć magnesy o 180°, czy układ linii sił pola się zmienił? <br/>
+&bull; Obróć tylko jeden magnes o 180°, czy układ linii sił pola się zmienił? Z czego to wynika? <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string>
    
 <string name="ed_info_cewki_i_indukcja">
 <![CDATA[
-<b>Pole magnetyczne...</b>           
+<p>Indukcją elektromagnetyczna wykorzystywana jest w wielu urządzeniach, np.: elektromagnesach, transformatorach. Cewkę nawiniętą na ferromagnetyczny rdzeń nazywamy elektromagnesem. Służy on do generowania pola magnetycznego. Gdy przez cewkę przepływa prąd elektryczny, to powstaje pole magnetyczne. Pole to oddziaływuje na ferromagnetyczny rdzeń umieszczony wewnątrz cewki powodując jego magnesowanie. Jednocześnie pole magnetyczne cewki ulega wzmocnieniu. 
+</p> <p>
+Do budowy transformatora również wykorzystuje się cewki wykonane z przewodzącego materiału oraz rdzeń. W przypadku transformatora rdzeń ma kształt kanciastej litery O. Na pionowych ramioniach umieszczone są dwie cewki, jedną nazywamy uzwojeniem pierwotnym, a drugą uzwojeniem wtórnym. Gdy do uzwojenia pierwotnego podłączymy źródło przemiennego napięcia, to popłynie w nim przemienny prąd elektryczny. Wywoła to w rdzeniu transformatora indukcję przemiennego pola magnetycznego. Pole przenikając przez uzwojenie wtórne powoduje powstanie zmiennej siły elektromotorycznej (SEM). </p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; zapoznać się ze zjawiskiem indukcji elektromagnetycznej, <br/>
+&bull; zbudować transformator, <br/>
+&bull; zapoznać się z działaniem silnika elektrycznego, prądnicy i różnic między nimi, <br/>
+&bull; poznać sposoby pomiaru siły elektrodynamicznej, <br/>
+&bull; zaobserwować linie pola magnetycznego magnesu/cewki, <br/>
+&bull; zmierzyć wartość SEM indukcji, <br/>
+&bull; zmierzyć wartość siły elektrodynamicznej.
+         
          ]]>
     </string>
     <string name="ed_cwiczenie_cewki_i_indukcja">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
+<b> Ćwiczenie – pomiar napięcia w uzwojeniu wtórnym transformatora</b>
+<p>Wybierz z Narzędzi: zasilacz, woltomierz, dwa przewody niebieskie, dwa przewody czerwone, rdzeń żelazny, dwie cewki o czterystu zwojach (parametr N). Umieść cewki na rdzeniu, ale nie zamykaj go. Lewa cewka będzie pełniła rolę uzwojenia pierwotnego. Podłącz ją do zasilacza. Prawą cewkę podłącz do woltomierza – uzwojenie wtórne. Przełącz zasilacz i woltomierz w tryb pracy z prądem przemiennym. Następnie na zasilaczu ustaw napięcie 12 V. </p>
+&bull; Jakie napięcie zostało wyindukowane w uzwojeniu wtórnym? Czy jeżeli zamienisz cewki miejscami to wynik pomiaru będzie taki sam? <br/>
+&bull; Wykonaj kolejne pomiary dla napięć wejściowych równych 9 V, 6V, 3V, 0V. Wykonaj wykres U<sub>2</sub>(U<sub>1</sub>). Czy jest to zależność liniowa? <br/>
+&bull; Czy wielkość napięcia w uzwojeniu wtórnym zmieni się, jeżeli użyjesz cewki o większej liczbie zwojów? <br/>
+&bull; Wybierz cewkę uzwojenia pierwotnego tak, aby miała dwukrotnie mniej zwojów niż w uzwojenie wtórne. Zrób pomiary dla takich samych napięć wejściowych jak poprzednio i wykonaj wykres U<sub>2</sub>(U<sub>1</sub>). <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string> 
    
 <string name="ed_info_optyka_geometryczna">
 <![CDATA[
-<b>Pole magnetyczne...</b>           
+<p><b>Optyka geometryczna </b> to dział fizyki zajmujący się wyjaśnianiem zjawisk świetlnych przy pomocy geometrii. W tej teorii promienie świetlne traktowane są jako półproste, mające swój początek w źródle światła (dzieje się tak w przypadku promieni rozchodzących się w jednym ośrodku, jeżeli promień światła będzie pokonywał granicę dwóch różnych ośrodków, to wystąpi tzw. załamanie promienia świetlnego). </p> <p>
+<b>Optyka geometryczna</b> zajmuje się zjawiskami: <br/>
+&bull; odbicia światła, <br/>
+&bull; całkowitego wewnętrznego odbicia światła, <br/>
+&bull; załamania światła, <br/>
+&bull; rozszczepienia światła białego, <br/>
+&bull; abberacji sferycznej lub chromatyczna. <br/><br/>
+Geometryczna interpretacja zjawisk optycznych nie obejmuje bardzo wielu zagadnień związanych z naturą światła, ale jest bardzo przydatna np.: do opisu schematów działania przyrządów optycznych – aparatów fotograficznych, lornetek i teleskopów, itp. </p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; obserwować przebieg promieni świetlnych przez różne soczewki i zwierciadła, <br/>
+&bull; obserwować podwójne załamanie się światła z użyciem kryształu dwójłomnego, <br/>
+&bull; obserwować przechodzenie fali elektromagnetycznej przez polaroid, <br/>
+&bull; zmierzyć kąty padania, załamania i odbicia promieni światła w różnych ośrodkach, <br/>
+&bull; wyznaczyć współczynnik załamania światła, <br/>
+&bull; wyznaczyć kąt graniczny całkowitego wewnętrznego odbicia na granicy ośrodków, <br/>
+&bull; określić kąt Brewstera. <br/>
+        
          ]]>
     </string>
     <string name="ed_cwiczenie_optyka_geometryczna">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
+<b>Ćwiczenie – badanie właściwości skupiających soczewek wykonanych z różnych materiałów<b>
+<p>Wybierz z Narzędzi: matę, laser oraz pudełko z soczewkami. Ustaw laser, aby wyświetlał pięć wiązek o długości fali 485 nm. Wyjmij z pudełka soczewkę wypukłą wykonaną ze szkła, której współczynnik załamania wynosi 1,5, promień jest równy 20 cm, a wysokość - 12 cm. Ustaw ją w odległości 5 cm od lasera (na obrzeżach maty znajduje się opis w cm). Uruchom laser przyciskiem na obudowie. <br/> Czy soczewka skupia promienie lasera, czy je rozprasza? Czy dla wiązek światła o innej długości fali soczewka będzie działała tak samo? Sprawdź to. </p>
+&bull; Ustaw soczewkę pod kątem 45 ° w stosunku do lewej krawędzi maty. Czy soczewka nadal skupia promienie? <br/>
+&bull; Powtórz ćwiczenie dla soczewek wykonanych z innych materiałów, ale o promieniu równym 20 cm, a wysokości - 12 cm. Zacznij od soczewki wykonanej z powietrza. <br/> Dlaczego uzyskałeś inny wynik niż poprzednio? <br/>
+&bull; Następnie zbadaj soczewkę diamentową i krzemową. Zastanów się co powoduje niedokładność skupiania promieni świetlnych? <br/>
+&bull; Powtórz powyższą analizę zmieniając liczbę promieni padających na soczewkę. Czy zmiana liczby promieni ma wpływ na jakość skupiania? <br/><br/>
+Więcej ćwiczeń znajduje się w podręczniku. <br/>
 
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string> 
    
 <string name="ed_info_rlc">
 <![CDATA[
-<b>Pole magnetyczne...</b>           
+<p> 
+Obwód elektryczny RLC składa się z: <br/>
+&bull; rezystora R, <br/>
+&bull; cewki L, <br/>
+&bull; kondensatora C. </p> <p>
+Włączenie rezystora do obwodu powoduje straty energii i wydzielanie się ciepła. Całkowita energia układu będzie z czasem malała – w układzie pojawiają się wówczas drgania tłumione. Jeżeli spełnione są szczególne warunki to w układzie RLC można zaobserwować rezonans napięć lub prądów. Rezonans napięć występuje przy szeregowym połączeniu RLC. Polega on na tym, że przy określonej częstotliwości sygnałów w obwodzie suma napięć na cewce oraz kondensatorze jest równa zero. Rezonans prądów występuje przy równoległym połączeniu RLC. Przy określonej częstotliwości suma prądów płynący przez cewkę i kondensator wynosi zero. Obydwa te zjawiska mogą być bardzo groźne w przypadku bardziej złożonych układów, ponieważ niektóre z elementów mogą się uszkodzić. </p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; obserwować na oscyloskopie przebiegi napięcia i natężenia prądu w obwodzie RLC, <br/>
+&bull; zmierzyć napięcie w funkcji czasu na różnych elementach obwodu elektrycznych za pomocą oscyloskopu, <br/> 
+&bull; zmierzyć natężenie prądu w funkcji czasu za pomocą sondy prądowej połączonej z oscyloskopem, <br/>
+&bull; wyznaczyć częstotliwość drgań układu LC i RLC. <br/>
+         
          ]]>
     </string>
     <string name="ed_cwiczenie_rlc">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
+<b> Ćwiczenie dudnienia w układach LC</b>
+<p>
+Wybierz z Narzędzi: układ szeregowy LC, generator impulsów, oscyloskop, dwie sondy napięciowe. Podłącz generator impulsów do obwodu umieszczonego na płytce perforowanej. Ustaw częstotliwość generowanego sygnału na 2000 Hz oraz jego amplitudę na 2,12 V. Podłącz sondy napięciowe do kanałów oscyloskopu i równolegle - pierwszą do cewki, a drugą do kondensatora. Na oscyloskopie ustaw taką samą podziałkę na obu kanałach oscyloskopu, np.: 5 V, a krok czasowy na 0,2 ms. </p>
+&bull; W jakim stanie znajduje się układ doświadczalny? Zmieniając częstotliwość i amplitudę znajdź inny stabilny stan układu. Dlaczego obserwujesz dudnienia w badanym układzie? <br/>
+&bull; Wybierz z pudełka inną cewkę, a potem kondensator czy stan układu się zmienił? <br/><br/>
 
-<br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string>   
    
 <string name="ed_info_korpuskularna">
 <![CDATA[
-<b>Pole magnetyczne...</b>           
+<p>
+Dualizm korpuskularno – falowy jest postulatem głoszącym, że światło ma dwoistą naturę. Po raz pierwszy został przedstawiony na początku dwudziestego wieku. Wg tej teorii w pewnych sytuacjach światło zachowuje się jak fala, a w innych jak cząstka. Przykładowo zjawiska interferencji światła wyjaśniane są za pomocą falowej teorii światła. Wzmacnianie lub osłabianie wiązek świetlnych tłumaczone jest nakładaniem się fal świetlnych w fazach zgodnych lub przeciwnych. Teoria czysto korpuskularna (traktująca światło jako zbiór cząstek) nie może tego wyjaśnić. Dla równowagi przy pomocy teorii falowej nie można wyjaśnić efektu fotoelektrycznego. Dlatego przyjęto, że światło ma naturą korpuskularno-falową. </p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; zaobserwować widmo ciągłe i widmo charakterystyczne promieniowania rentgenowskiego, <br/>
+&bull; zapoznać się z budową i zasadą działania lampy rentgenowskiej w skali nano, <br/>
+&bull; poznać mechanizm comptonowskiego rozpraszania fotonów na słabo związanych elektronach, <br/>
+&bull; poznać budowę i zasadę działania fotokomórki, <br/>
+&bull; zapoznać się z mechanizmem powstawania fotoprądu, <br/>
+&bull; zmierzyć położenie pików w widmie charakterystycznym, <br/>
+&bull; określić stałą Plancka. <br/>
+          
          ]]>
     </string>
 <string name="ed_cwiczenie_korpuskularna">
@@ -866,31 +1026,58 @@ Więcej ćwiczeń znajduje się w podręczniku.
     
 <string name="ed_info_interferencja">
 <![CDATA[
-<b>Pole magnetyczne...</b>           
+<p>
+<b> Interferencja</b> jest zjawiskiem nakładania się na siebie dwu lub więcej fal. Nakładające się na siebie fale mogą się wzajemnie wzmocnić lub osłabić. Białe światło nie ma jednej określonej długości fali, interferencję w tym przypadku jest bardzo trudno zaobserwować. O wiele łatwiej zaobserwować interferencję wykorzystując światło monochromatyczne, np.: lasera. Kierując wiązkę laserową na ekran przed którym znajduje się układ szczelin (najczęściej siatkę dyfrakcyjną) możemy uzyskać obraz składający się z naprzemiennie ułożonych jasnych i ciemnych prążków . Jest to tzw. doświadczenie Younga. </p>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; zobaczyć dyfrakcję i interferencję fal świetlnych, <br/>
+&bull; zaobserwować dyfrakcję i interferencję fal wodnych, <br/>
+&bull; zapoznać się z doświadczeniem Younga, <br/>
+&bull; wyznaczyć odległość między szczelinami siatki dyfrakcyjnej, <br/>
+&bull; zmierzyć odległość między wyświetlonymi prążkami interferencyjnymi. <br/>
+        
          ]]>
     </string>
     <string name="ed_cwiczenie_interferencja">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
+<b>Ćwiczenie – interferencja światła</b>
+<p>
+Wybierz z Narzędzi: laser RGBU, ekran i ławę optyczną oraz płytkę do wycinania własnych szczelin - z zakładki pt.: płytki dyfrakcyjne. < /p>
+&bull; Zaznacz płytkę dyfrakcyjną i naciśnij przycisk WYTNIJ (znajduje się w panelu bocznym). Zacznij od wycięcia na środku płytki jednego okrągłego otworu. Umieść płytkę dyfrakcyjną na ławie optycznej. <br/>
+<p>
+&bull; Następnie zamontuj laser na końcu ławy optycznej. Wybierz dowolny kolor lasera, np.: czerwony. Rozpocznij doświadczenie uruchamiając laser. </p>
+&bull; Jaki obraz powstał po przejściu światła przez płytkę dyfrakcyjną? Żeby lepiej zobaczyć wzór zaznacz w panelu bocznym opcję: widok ekranu. Jakie zjawisko fizyczne powoduje ten efekt świetlny? <br/>
+<p>
+&bull; Czy fala świetlna o innej długości przechodząca przez płytkę dyfrakcyjną utworzy inny wzór na ekranie? Sprawdź to dla wiązek o innej barwie. </p>
+&bull; Powtórz doświadczenie wycinając kolejno otwór kwadratowy i trójkątny. Czy wzór wygląda tak samo, jak w przypadku otworu okrągłego? <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string>
     
     <string name="ed_info_fizyka_atomowa">
 <![CDATA[
-<b>Pole magnetyczne...</b>           
+<p>
+Radioaktywność, to umiejętność emitowania przez pierwiastki promieniowania jądrowego. Promieniowanie to powstaje w wyniku samoistnej przemiany jąder atomowych. Cała materia emituje promieniowanie o różnym natężeniu i charakterze. </p>
+Promieniowanie możemy podzielić na dwie grupy:<br/>
+&bull; promieniowanie jonizujące (alfa, beta, gamma, UV, X), <br/>
+&bull; promieniowanie niejonizujące (podczerwone, radiowe, mikrofalowe, światło widzialne). <br/><br/>
+Za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; określić położenie poszczególnych linii widmowych atomów helu i wodoru oraz długości odpowiadających im fal, <br/>
+&bull; wyznaczać aktywność promieniotwórczą wybranych materiałów, <br/>
+&bull; określić okres połowicznego zaniku wybranych, <br/>
+&bull; zbadać wiek wybranych przedmiotów poprzez badanie rozpadu izotopu C14. <br/>
+          
          ]]>
     </string>
     <string name="ed_cwiczenie_fizyka_atomowa">
 <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
+<b>Ćwiczenie – określenie wieku przedmiotu</b>
+<p>Wybierz z Narzędzi sumeryjską tabliczkę (znajduje się ona w zakładce laboratorium datowania węglem). W prawym dolnym rogu laboratorium, na stoliku znajduje się urządzenie do przygotowywania próbek. Włącz go przyciskiem na obudowie, a następnie włóż tabliczkę do jego wnętrza. Próbkę umieść w źródle jonów węgla i rozpocznij eksperyment uruchamiając spektrometr masowy. Podczas pomiaru możesz obejrzeć wnętrze aparatury pomiarowej. </p>
+&bull; Co wyraża wynik wyświetlony na monitorze spektrometru masowego? <br/>
+ &bull; Jaki jest wiek badanego przedmiotu? Skorzystaj z tablic fizycznych, żeby go określić. <br/>
+&bull; Zapisz wynik i wykonaj badanie ponownie dla innych przedmiotów. <br/><br/>
 Więcej ćwiczeń znajduje się w podręczniku.
+
          ]]>
     </string>    
 </resources>
