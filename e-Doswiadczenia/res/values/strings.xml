@@ -262,6 +262,47 @@ w ramach których realizowany jest projekt<br/>
 (<i>poprzez tapnięcie na przyciskach w centralnej części ekranu)</i>.
          ]]>
     </string>
+    
+     <string name="txt_help_listED">
+<![CDATA[
+<b>Na tym ekranie można:</b>
+<p>
+&bull; zobaczyć komplet e-doświadczeń
+</p>
+<p>
+&bull; przejść do wybranego e-doświadczenia lub cofnąć się do strony tytulowej.<br/>
+(<i>poprzez tapnięcie na przycisk wstecz</i>)
+</p>
+</p>
+&bull; Aby zmienić język aplikacji cofnij się do porzedniego ekranu<br/>
+(<i>poprzez tapnięcie na ikonach w belce narzędziowej u góry ekranu</i>).
+ </p>
+         ]]>
+</string>   
+
+<string name="txt_help_szczegolyED">
+<![CDATA[
+<b>Na tym ekranie można:</b>
+<p>
+&bull; przeczytać informacje dot. zjawisk fizycznych będących tematem e-dowiadczenia,
+</p>
+<p>
+&bull; uruchomić e-doświadczenie<br/>
+(<i>poprzez tapnięcie na przycisk uruchom</i>),
+</p>
+
+&bull; wyświetlić podręcznik przygotowany do edowiadczenia,<br/>
+(<i>poprzez tapnięcie na przycisku podręcznik </i>),
+(<i>książka udostępniana jest w formacie pdf i otwierana jest przez program zewnętrzny</i>),
+</p>
+<p>
+&bull; cofnąć się do strony tytulowej,<br/>
+(<i>poprzez tapnięcie na przycisk powrót</i>),
+</p>
+&bull; aby zmienić język aplikacji cofnij się do ekranu początkowego.
+ </p>
+         ]]>
+</string>
 
     <!-- elementy stringów -->
         <string name="MANUAL_NAME_PREFIX">"cwiczenia_"</string>

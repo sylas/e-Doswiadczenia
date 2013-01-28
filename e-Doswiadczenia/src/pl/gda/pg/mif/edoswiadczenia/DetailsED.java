@@ -1,7 +1,9 @@
 package pl.gda.pg.mif.edoswiadczenia;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
@@ -298,13 +300,41 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
         // Obsługa wybranych pozycji z menu
         switch (item.getItemId()) {
             case R.id.menu_help:
-                Toast.makeText(getApplicationContext(), "Tu będzie pomoc", Toast.LENGTH_SHORT).show();
+                showHelp();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
 
     }
+    
+	private void showHelp() {
+		// Wyswietlamy pomoc w postaci "custom alertDialog"
+		AlertDialog.Builder builder;
+		AlertDialog alertDialog;
+		
+		LayoutInflater inflater = (LayoutInflater)DetailsED.this.getSystemService(LAYOUT_INFLATER_SERVICE);
+		View layout = inflater.inflate(R.layout.help_popup,
+				(ViewGroup) findViewById(R.id.pomoc_popup));
+
+		String title = getString(R.string.txt_title_help);
+		String body = getString(R.string.txt_help_szczegolyED);
+
+		TextView text = (TextView) layout.findViewById(R.id.text_help_popup);
+		text.setText(Html.fromHtml(body));
+
+		builder = new AlertDialog.Builder(DetailsED.this).setTitle(title).
+				setNeutralButton(getString(R.string.btn_close),
+						new DialogInterface.OnClickListener() {
+
+					public void onClick(DialogInterface dialog, int which) {
+					}
+				}).setIcon(R.drawable.ic_menu_help);
+		builder.setView(layout);
+		alertDialog = builder.create();
+		alertDialog.show();
+
+	}
     
     private void scaleText(float currSpan, float prevSpan, float textSize){
 

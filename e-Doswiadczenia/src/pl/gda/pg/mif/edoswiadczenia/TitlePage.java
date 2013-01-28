@@ -11,6 +11,7 @@ import java.util.Random;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Application;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -350,12 +351,13 @@ public class TitlePage extends Activity implements OnGestureListener {
 
 	}
 
+	
 	private void showHelp() {
 		// Wyswietlamy pomoc w postaci "custom alertDialog"
 		AlertDialog.Builder builder;
 		AlertDialog alertDialog;
-
-		LayoutInflater inflater = (LayoutInflater) TitlePage.this.getSystemService(LAYOUT_INFLATER_SERVICE);
+		
+		LayoutInflater inflater = (LayoutInflater)TitlePage.this.getSystemService(LAYOUT_INFLATER_SERVICE);
 		View layout = inflater.inflate(R.layout.help_popup,
 				(ViewGroup) findViewById(R.id.pomoc_popup));
 

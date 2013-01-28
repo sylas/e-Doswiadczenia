@@ -17,12 +17,16 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.StatFs;
 import android.os.StrictMode;
+import android.text.Html;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -1398,16 +1402,46 @@ public class ListED extends Activity {
     /*
      * Obsługa ActionBar-u.
      */
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Obsługa wybranych pozycji z menu
         switch (item.getItemId()) {
-            case R.id.menu_help:
-                Toast.makeText(getApplicationContext(), "Tu będzie pomoc", Toast.LENGTH_SHORT).show();
+            case R.id.menu_help:   	
+    			showHelp();
+            	
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
 
     }
+    
+	private void showHelp() {
+		// Wyswietlamy pomoc w postaci "custom alertDialog"
+		AlertDialog.Builder builder;
+		AlertDialog alertDialog;
+		
+		LayoutInflater inflater = (LayoutInflater)ListED.this.getSystemService(LAYOUT_INFLATER_SERVICE);
+		View layout = inflater.inflate(R.layout.help_popup,
+				(ViewGroup) findViewById(R.id.pomoc_popup));
+
+		String title = getString(R.string.txt_title_help);
+		String body = getString(R.string.txt_help_listED);
+
+		TextView text = (TextView) layout.findViewById(R.id.text_help_popup);
+		text.setText(Html.fromHtml(body));
+
+		builder = new AlertDialog.Builder(ListED.this).setTitle(title).
+				setNeutralButton(getString(R.string.btn_close),
+						new DialogInterface.OnClickListener() {
+
+					public void onClick(DialogInterface dialog, int which) {
+					}
+				}).setIcon(R.drawable.ic_menu_help);
+		builder.setView(layout);
+		alertDialog = builder.create();
+		alertDialog.show();
+
+	}
 }
