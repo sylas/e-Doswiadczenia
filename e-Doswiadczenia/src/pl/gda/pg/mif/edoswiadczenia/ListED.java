@@ -256,7 +256,7 @@ public class ListED extends Activity {
                     ED.edName = getString(R.string.ed_name_ciecze);
                     ED.edInfo = getString(R.string.ed_info_ciecze);
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_ciecze);
-                    ED.edMovie = R.raw.ciecze;
+                    //ED.edMovie = R.raw.ciecze;
 
                     if (edIsDownloaded()) {                    	
                     	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
@@ -336,11 +336,11 @@ public class ListED extends Activity {
             public void onClick(View v) {
                 if (!downloadingED) {
                     ED.edSubDir = "drgania_mechaniczne";
-                    ED.edFileSWFName = "vibra.swf";
+                    ED.edFileSWFName = "drgania.swf";
                     ED.edName = getString(R.string.ed_name_drgania);
                     ED.edInfo = getString(R.string.ed_info_drgania);
                     ED.edInfoRun = getString(R.string.ed_cwiczenie_drgania);
-                    ED.edMovie = R.raw.drgania;
+                   // ED.edMovie = R.raw.drgania;
 
                     if (edIsDownloaded()) {                    	
                     	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);

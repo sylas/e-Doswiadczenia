@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Nazwa aplikacji -->
+    <!-- nazwa aplikacji -->
 
-    <string name="app_name">e-Doświadczenia w fizyce</string>
+    <string name="app_name">e-doświadczenia w fizyce</string>
 
-    <!-- Nazwy e-doświadczeń -->
+    <!-- nazwy e-doświadczeń -->
 
-    <string name="txt_list_ed">Lista e-doświadczeń</string>
-    <string name="ed_name_wahadlo">Wahadło matematyczne</string>
-    <string name="ed_name_lawa">Ława optyczna</string>
-    <string name="ed_name_rownia">Równia pochyła</string>
-    <string name="ed_name_zderzenia">Zderzenia sprężyste i niesprężyste</string>
-    <string name="ed_name_rzuty">Rzuty</string>
-    <string name="ed_name_astro">Ruch ciał niebieskich</string>
-    <string name="ed_name_ciecze">Mechanika cieczy</string>
-    <string name="ed_name_bryla">Bryła sztywna</string>
-    <string name="ed_name_gazy">Właściwości gazów</string>
-    <string name="ed_name_drgania">Drgania mechaniczne</string>
-    <string name="ed_name_pole_elektryczne">Pole elektryczne</string>
-    <string name="ed_name_obwody_pradu_stalego">Obwody prądu stałego</string>
-    <string name="ed_name_dzwiek">Laboratorium dzwięku</string>
-    <string name="ed_name_kalorymetria">Kalorymetria</string>
-    <string name="ed_name_kondensatory">Kondensatory</string>
-    <string name="ed_name_pole_magnetyczne">Pole magnetyczne</string>
-    <string name="ed_name_cewki_i_indukcja">Cewki i indukcja</string>
-    <string name="ed_name_optyka_geometryczna">Zjawisko polaryzacji i załamania światła</string>
-    <string name="ed_name_rlc">Układy RLC</string>
-    <string name="ed_name_korpuskularna">Korpuskularna natura światła i materii</string>
-    <string name="ed_name_interferencja">Interferencja i dyfrakcja światła</string>
-    <string name="ed_name_fizyka_atomowa">Spektroskopia</string>
-    <string name="ed_name_einstein">Eksperymenty myślowe Einsteina</string>
+    <string name="txt_list_ed">lista e-doświadczeń</string>
+    <string name="ed_name_wahadlo">wahadło matematyczne</string>
+    <string name="ed_name_lawa">ława optyczna</string>
+    <string name="ed_name_rownia">równia pochyła</string>
+    <string name="ed_name_zderzenia">zderzenia sprężyste i niesprężyste</string>
+    <string name="ed_name_rzuty">rzuty</string>
+    <string name="ed_name_astro">ruch ciał niebieskich</string>
+    <string name="ed_name_ciecze">mechanika cieczy</string>
+    <string name="ed_name_bryla">bryła sztywna</string>
+    <string name="ed_name_gazy">właściwości gazów</string>
+    <string name="ed_name_drgania">drgania mechaniczne</string>
+    <string name="ed_name_pole_elektryczne">pole elektryczne</string>
+    <string name="ed_name_obwody_pradu_stalego">obwody prądu stałego</string>
+    <string name="ed_name_dzwiek">laboratorium dzwięku</string>
+    <string name="ed_name_kalorymetria">kalorymetria</string>
+    <string name="ed_name_kondensatory">kondensatory</string>
+    <string name="ed_name_pole_magnetyczne">pole magnetyczne</string>
+    <string name="ed_name_cewki_i_indukcja">cewki i indukcja</string>
+    <string name="ed_name_optyka_geometryczna">zjawisko polaryzacji i załamania światła</string>
+    <string name="ed_name_rlc">układy rlc</string>
+    <string name="ed_name_korpuskularna">korpuskularna natura światła i materii</string>
+    <string name="ed_name_interferencja">interferencja i dyfrakcja światła</string>
+    <string name="ed_name_fizyka_atomowa">spektroskopia</string>
+    <string name="ed_name_einstein">eksperymenty myślowe einsteina</string>
 
-    <!-- Przyciski -->
+    <!-- przyciski -->
 
-    <string name="btn_yes">Tak</string>
-    <string name="btn_no">Nie</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_close">Zamknij</string>
-    <string name="btn_view_www">Strona WWW</string>
+    <string name="btn_yes">tak</string>
+    <string name="btn_no">nie</string>
+    <string name="btn_ok">ok</string>
+    <string name="btn_close">zamknij</string>
+    <string name="btn_view_www">strona www</string>
     <string name="btn_back">&#160;&#160;&#160;powrót</string>
     <string name="btn_info">informacje</string>
     <string name="btn_list_ed">e-doświadczenia</string>
@@ -51,200 +51,202 @@
     <string name="btn_run_ed">uruchom</string>
     <string name="btn_run_manual">wyświetl podręcznik</string>
 
-    <!-- Teksty strony tytułowej -->
+    <!-- teksty strony tytułowej -->
 
-    <string name="txt_title1">        Aplikacja wykonana w ramach innowacyjnego projektu testującego pt. „e-Doświadczenia w fizyce”,
-        \nwspółfinansowanego ze środków Unii Europejskiej w ramach Europejskiego Funduszu Społecznego</string>
-    <string name="txt_title2">Pomysł i realizacja:</string>
-    <string name="txt_title3">        Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej\n
-        przy wsparciu Young Digital Planet SA oraz L.C.G. Malmberg B.V.</string>
+    <string name="txt_title1">        aplikacja wykonana w ramach innowacyjnego projektu testującego pt. „e-doświadczenia w fizyce”,
+        \nwspółfinansowanego ze środków unii europejskiej w ramach europejskiego funduszu społecznego
+</string>
+    <string name="txt_title2">pomysł i realizacja:</string>
+    <string name="txt_title3">        politechnika gdańska, wydział fizyki technicznej i matematyki stosowanej\n
+        przy wsparciu young digital planet sa oraz l.c.g. malmberg b.v.
+</string>
 
-    <!-- Teksty strony informacyjnej -->
+    <!-- teksty strony informacyjnej -->
 
     <string name="info_choose">
-<![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font></h1>
-<b>Wybierz informacje do wyświetlenia, korzystając z menu po lewej stronie.</b>
+<![cdata[
+<h1><font color="#22dafe">e-doświadczenia w fizyce</font></h1>
+<b>wybierz informacje do wyświetlenia, korzystając z menu po lewej stronie.</b>
          ]]>
     </string>
     <string name="info_project_text">
-<![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O projekcie</h1>
+<![cdata[
+<h1><font color="#22dafe">e-doświadczenia w fizyce</font><br/>o projekcie</h1>
 
-W ramach innowacyjnego projektu testującego pt. <b>„e-Doświadczenia w fizyce”</b> wytwarzamy oraz testujemy
+w ramach innowacyjnego projektu testującego pt. <b>„e-doświadczenia w fizyce”</b> wytwarzamy oraz testujemy
 w wybranych szkołach ponadgminazjalnych nowatorskie rozwiązania programowe,
 polegające na (testowym) włączeniu do lekcji fizyki tzw. <b>e-doświadczeń</b> &minus;
 wirtualnych doświadczeń fizycznych, jako uzupełnienie doświadczeń rzeczywistych.
-Następnie będziemy starali się o włączenie e-doświadczeń do głównego nurtu polityki oświatowej,
+następnie będziemy starali się o włączenie e-doświadczeń do głównego nurtu polityki oświatowej,
 tzn. planujemy sprawić, żeby stały się one częścią programów nauczania fizyki
 w szkołach ponadgimnazjalnych.<br/><br/>
-e-Doświadczenia będą sukcesywnie produkowane i testowane do końca 2012 roku.
-Swoim zakresem będą obejmowały większość zagadnień omawianych na lekcjach fizyki w szkołach
+e-doświadczenia będą sukcesywnie produkowane i testowane do końca 2012 roku.
+swoim zakresem będą obejmowały większość zagadnień omawianych na lekcjach fizyki w szkołach
 ponadgimnazjalnych, w tym zagadnienia objęte rozszerzonym programem nauczania.<br/><br/>
 
-Pomysł na projekt narodził się w wyniku przeprowadzonej analizy i diagnozy problemów związanych
-z nauczaniem fizyki w polskich szkołach. Ideą przewodnią projektu jest znana wszystkim maksyma Konfucjusza:
-<b>„Powiesz mi &minus; wkrótce zapomnę, pokażesz mi &minus; może zapamiętam,
+pomysł na projekt narodził się w wyniku przeprowadzonej analizy i diagnozy problemów związanych
+z nauczaniem fizyki w polskich szkołach. ideą przewodnią projektu jest znana wszystkim maksyma konfucjusza:
+<b>„powiesz mi &minus; wkrótce zapomnę, pokażesz mi &minus; może zapamiętam,
 pozwolisz dotknąć a zrozumiem”.</b><br/></br>
         ]]>
     </string>
     <string name="info_ed_text">
-<![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O e-doświadczeniach</h1>
-Głównym produktem projektu jest <b>zestaw 23 wirtualnych e-doświadczeń z fizyki</b>,
+<![cdata[
+<h1><font color="#22dafe">e-doświadczenia w fizyce</font><br/>o e-doświadczeniach</h1>
+głównym produktem projektu jest <b>zestaw 23 wirtualnych e-doświadczeń z fizyki</b>,
 w postaci programów komputerowych, obejmujących różne działy fizyki.
-Programy te są głównie przeznaczone do uruchamiania przy użyciu klasycznych komputerów,
+programy te są głównie przeznaczone do uruchamiania przy użyciu klasycznych komputerów,
 jednak podjęliśmy próbę przeniesienia ich na tablety (choć wiążą się z tym pewne ograniczenia, opisane
 w zakładce „o aplikacji”).<br/><br/>
 
-Mocno podkreślamy, że absolutnie <b>nie chcemy zastępować doświadczeń rzeczywistych</b>
+mocno podkreślamy, że absolutnie <b>nie chcemy zastępować doświadczeń rzeczywistych</b>
 (są one niezastąpione w dydaktyce), chcemy je wspierać.
-e-Doświadczenia mają na celu pokazanie zagadnień fizycznych w szerszej perspektywie.
-Dzięki swoim możliwościom pozwolą bowiem na głębsze zrozumienie problemów, pozwolą na budowanie lepiej rozumianych
+e-doświadczenia mają na celu pokazanie zagadnień fizycznych w szerszej perspektywie.
+dzięki swoim możliwościom pozwolą bowiem na głębsze zrozumienie problemów, pozwolą na budowanie lepiej rozumianych
 modeli, ciągów przyczynowo-skutkowych i zbiorów zależności, niezbędnych do opisu zjawisk fizycznych.<br/><br/>
 
-Dzięki e-Doświadczeniom nauczyciele będą mogli zilustrować daną partię materiału teoretycznego
+dzięki e-doświadczeniom nauczyciele będą mogli zilustrować daną partię materiału teoretycznego
 przy pomocy komputera, bez obawy zniszczenia drogiego sprzętu doświadczalnego.
-Z kolei uczniowie będą mogli samodzielne powtórzyć dane ćwiczenie w domu.<br/><br/>
+z kolei uczniowie będą mogli samodzielne powtórzyć dane ćwiczenie w domu.<br/><br/>
 
-Przewidziana jest <b>daleko idąca możliwość ingerencji w przebieg e-doświadczeń</b>,
+przewidziana jest <b>daleko idąca możliwość ingerencji w przebieg e-doświadczeń</b>,
 co umożliwia uczniowi przyswojenie wiedzy oraz pobudzenie i rozwinięcie zainteresowań badawczych. <br/><br/>
 
-Staramy się, aby e-doświadczenia były <b>w jak największym stopniu zbliżone do rzeczywistości</b>.
-Wpisują się one w schemat <b>zaprojektuj - zbuduj – wykonaj – przeanalizuj – przedstaw wyniki</b>,
-gdzie istotne jest uczenie się na błędach. Chcemy bowiem zmusić uczniów do działania, nawet jeśli sprowadzałoby
-się to do działania metodą prób i błędów. Zgodnie z naszym doświadczeniem, uzyskanie nawet niewłaściwych wyników,
+staramy się, aby e-doświadczenia były <b>w jak największym stopniu zbliżone do rzeczywistości</b>.
+wpisują się one w schemat <b>zaprojektuj - zbuduj – wykonaj – przeanalizuj – przedstaw wyniki</b>,
+gdzie istotne jest uczenie się na błędach. chcemy bowiem zmusić uczniów do działania, nawet jeśli sprowadzałoby
+się to do działania metodą prób i błędów. zgodnie z naszym doświadczeniem, uzyskanie nawet niewłaściwych wyników,
 które skonfrontowane z tymi prawidłowymi zmuszą do myślenia „gdzie i jaki popełniłem błąd?”,
 ma ogromną wartość dydaktyczną: motywuje do wyciągania wniosków i ciągłych poszukiwań właściwego rozwiązania
 problemu, wymuszając w ten sposób aktywność naukową.<br/><br/>
 
-Wszystkim e-doświadczeniom towarzyszą <b>podręczniki w formie zeszytów ćwiczeń</b>. Gorąco zachęcamy do zapoznania
+wszystkim e-doświadczeniom towarzyszą <b>podręczniki w formie zeszytów ćwiczeń</b>. gorąco zachęcamy do zapoznania
 się z nimi jeszcze przed uruchomieniem danego e-doświadczenia.<br/><br/>
 
         ]]>
     </string>
     <string name="info_app_text">
-<![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O aplikacji</h1>
+<![cdata[
+<h1><font color="#22dafe">e-doświadczenia w fizyce</font><br/>o aplikacji</h1>
 
-e-Doświadczenia produkowane są w technologii <b>Adobe Flash / Adobe Air</b>, dzięki czemu mogą być używane
+e-doświadczenia produkowane są w technologii <b>adobe flash / adobe air</b>, dzięki czemu mogą być używane
 na większości komputerów, niezależnie od używanego systemu operacyjnego czy rodzaju procesora.
-Niestety, technologia ta na tabletach daleka jest od doskonałości - występują ograniczenia związane
+niestety, technologia ta na tabletach daleka jest od doskonałości - występują ograniczenia związane
 z wydajnością aplikacji oraz z dostosowaniem jej do ekranów dotykowych.<br/><br/>
-Podczas używania e-doświadczeń <b>mogą zatem pojawić się następujące problemy:</b><br/>
-&bull; niewystarczająca wydajność w e-doświadczeniach wykorzystujących grafikę 3D
-(np. Wahadło matematyczne, Ruch ciał niebieskich), skutkująca „klatkowaniem” animacji,<br/>
-&bull; utrudniony dostęp do niektórych, niewielkich elementów (np. filtr w Ławie optycznej); czasem trzeba kilku
+podczas używania e-doświadczeń <b>mogą zatem pojawić się następujące problemy:</b><br/>
+&bull; niewystarczająca wydajność w e-doświadczeniach wykorzystujących grafikę 3d
+(np. wahadło matematyczne, ruch ciał niebieskich), skutkująca „klatkowaniem” animacji,<br/>
+&bull; utrudniony dostęp do niektórych, niewielkich elementów (np. filtr w ławie optycznej); czasem trzeba kilku
 prób, aby „podnieść” dany element,<br/>
 &bull; nie można uruchamiać podręczników z wnętrza e-doświadczeń; w zamian zostały one udostępnione
 bezpośrednio z aplikacji.<br/><br/>
 
-Przed uruchomieniem, dane e-Doświadczenie jest pobierane z Internetu do pamięci wewnętrznej urządzenia.
-Jest to operacja jednorazowa, do momentu skasowania go z pamięci bądź opublikowania nowszej wersji.<br/><br/>
+przed uruchomieniem, dane e-doświadczenie jest pobierane z internetu do pamięci wewnętrznej urządzenia.
+jest to operacja jednorazowa, do momentu skasowania go z pamięci bądź opublikowania nowszej wersji.<br/><br/>
 
-<font color="#22DAFE">Autor aplikacji</font><br/>
-Paweł Syty &minus; Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej<br/><br/>
-<font color="#22DAFE">Opracowanie graficzne aplikacji</font><br/>
-Rafał Buczek &minus; Crea.pl<br/><br/>
-<font color="#22DAFE">Opracowanie i produkcja e-doświadczeń:</font><br/>
-Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej<br/>
-Young Digital Planet SA<br/>
-L.C.G. Malmberg B.V. (Holandia)
+<font color="#22dafe">autor aplikacji</font><br/>
+paweł syty &minus; politechnika gdańska, wydział fizyki technicznej i matematyki stosowanej<br/><br/>
+<font color="#22dafe">opracowanie graficzne aplikacji</font><br/>
+rafał buczek &minus; crea.pl<br/><br/>
+<font color="#22dafe">opracowanie i produkcja e-doświadczeń:</font><br/>
+politechnika gdańska, wydział fizyki technicznej i matematyki stosowanej<br/>
+young digital planet sa<br/>
+l.c.g. malmberg b.v. (holandia)
         ]]>
     </string>
 
-    <!-- Teksty w popupach o programie i partnerach -->
+    <!-- teksty w popupach o programie i partnerach -->
 
-    <string name="pokl_name">Program Operacyjny Kapitał Ludzki</string>
+    <string name="pokl_name">program operacyjny kapitał ludzki</string>
     <string name="pokl_text">
-<![CDATA[
-Program Kapitał Ludzki jest jednym z programów służących realizacji Narodowych Strategicznych Ram Odniesienia
-2007-2013 i obejmuje całość interwencji Europejskiego Funduszu Społecznego (EFS) w Polsce. Stanowi on odpowiedź
-na wyzwania, jakie przed państwami członkowskimi UE, w tym również Polską, stawia odnowiona Strategia Lizbońska.
+<![cdata[
+program kapitał ludzki jest jednym z programów służących realizacji narodowych strategicznych ram odniesienia
+2007-2013 i obejmuje całość interwencji europejskiego funduszu społecznego (efs) w polsce. stanowi on odpowiedź
+na wyzwania, jakie przed państwami członkowskimi ue, w tym również polską, stawia odnowiona strategia lizbońska.
 <br/><br/>
-Do wyzwań tych należą: uczynienie z Europy bardziej atrakcyjnego miejsca do lokowania inwestycji
+do wyzwań tych należą: uczynienie z europy bardziej atrakcyjnego miejsca do lokowania inwestycji
 i podejmowania pracy, rozwijanie wiedzy i innowacji oraz tworzenie większej liczby trwałych miejsc pracy.
         ]]>
     </string>
-    <string name="efs_name">Europejski Fundusz Społeczny</string>
+    <string name="efs_name">europejski fundusz społeczny</string>
     <string name="efs_text">
-<![CDATA[
-Europejski Fundusz Społeczny (EFS) jest jednym z funduszy strukturalnych UE. Został stworzony, by redukować
-różnice w zamożności i jakości życia we wszystkich państwach członkowskich i regionach UE.<br/><br/>
-Fundusz promuje spójność gospodarczą i społeczną oraz promocją zatrudnienia w UE. Pomaga państwom członkowskim,
+<![cdata[
+europejski fundusz społeczny (efs) jest jednym z funduszy strukturalnych ue. został stworzony, by redukować
+różnice w zamożności i jakości życia we wszystkich państwach członkowskich i regionach ue.<br/><br/>
+fundusz promuje spójność gospodarczą i społeczną oraz promocją zatrudnienia w ue. pomaga państwom członkowskim,
 sprawiając, że siła robocza i firmy są lepiej przygotowane do stawienia czoła nowym, globalnym wyzwaniom.
         ]]>
     </string>
-    <string name="pg_name">Politechnika Gdańska</string>
+    <string name="pg_name">politechnika gdańska</string>
     <string name="pg_text">
-<![CDATA[
-<b>Największa i najstarsza w północnej Polsce państwowa uczelnia wyższa o profilu technicznym,
-z siedzibą w Gdańsku.</b><br/><br/>
-Obejmuje 9 wydziałów, na których studiuje ponad 24 tysiące studentów na studiach
+<![cdata[
+<b>największa i najstarsza w północnej polsce państwowa uczelnia wyższa o profilu technicznym,
+z siedzibą w gdańsku.</b><br/><br/>
+obejmuje 9 wydziałów, na których studiuje ponad 24 tysiące studentów na studiach
 inżynierskich i magisterskich (stacjonarnych i niestacjonarnych), a także ponad 400 słuchaczy studiów
-doktoranckich. Dodatkowo, prowadzona jest na szeroką skalę
+doktoranckich. dodatkowo, prowadzona jest na szeroką skalę
 wymiana międzynarodowa studentów i pracowników.<br/><br/>
-W ogólnopolskich rankingach uczelni wyższych
-Politechnika Gdańska zajmuje od dawna jedno z czołowych miejsc.
+w ogólnopolskich rankingach uczelni wyższych
+politechnika gdańska zajmuje od dawna jedno z czołowych miejsc.
         ]]>
     </string>
-    <string name="ftims_name">Wydział Fizyki Technicznej i Matematyki Stosowanej PG</string>
+    <string name="ftims_name">wydział fizyki technicznej i matematyki stosowanej pg</string>
     <string name="ftims_text">
-<![CDATA[
-<b>Jeden z dziewięciu wydziałów Politechniki Gdańskiej.</b><br/><br/>
-Prowadzone kierunki studiów i specjalności:<br/><br/>
-<b>Fizyka techniczna</b><br/>
-&bull; Fizyka stosowana<br/>
-&bull; Konwersja energii<br/>
-&bull; Informatyka stosowana<br/>
-&bull; Nanotechnologia<br/>
-&bull; Fizyka środowiska<br/><br/>
+<![cdata[
+<b>jeden z dziewięciu wydziałów politechniki gdańskiej.</b><br/><br/>
+prowadzone kierunki studiów i specjalności:<br/><br/>
+<b>fizyka techniczna</b><br/>
+&bull; fizyka stosowana<br/>
+&bull; konwersja energii<br/>
+&bull; informatyka stosowana<br/>
+&bull; nanotechnologia<br/>
+&bull; fizyka środowiska<br/><br/>
 
-<b>Matematyka</b><br/>
-&bull; Matematyka stosowana<br/>
-&bull; Matematyka finansowa<br/>
-&bull; Biomatematyka<br/><br/>
+<b>matematyka</b><br/>
+&bull; matematyka stosowana<br/>
+&bull; matematyka finansowa<br/>
+&bull; biomatematyka<br/><br/>
 
-<b>Inżynieria materiałowa</b><br/>
-&bull; Inżynieria materiałów funkcjonalnych<br/>
-&nbsp;&nbsp;(wspólnie z wydziałami: Chemicznym<br/>&nbsp;&nbsp;i Mechanicznym)<br/><br/>
+<b>inżynieria materiałowa</b><br/>
+&bull; inżynieria materiałów funkcjonalnych<br/>
+&nbsp;&nbsp;(wspólnie z wydziałami: chemicznym<br/>&nbsp;&nbsp;i mechanicznym)<br/><br/>
 
-Absolwenci wydziału są cenionymi specjalistami i łatwo znajdują zatrudnienie w różnych dziedzinach przemysłu.
+absolwenci wydziału są cenionymi specjalistami i łatwo znajdują zatrudnienie w różnych dziedzinach przemysłu.
         ]]>
     </string>
-    <string name="ydp_name">Young Digital Planet SA (Gdańsk)</string>
+    <string name="ydp_name">young digital planet sa (gdańsk)</string>
     <string name="ydp_text">
-<![CDATA[
-<b>Największy w Polsce producent i wydawca edukacyjnych programów komputerowych.</b><br/><br/>
-Firma działa na rynku oprogramowania od 1990 roku. Jest dostawcą systemów szkoleniowych i treści edukacyjnych,
+<![cdata[
+<b>największy w polsce producent i wydawca edukacyjnych programów komputerowych.</b><br/><br/>
+firma działa na rynku oprogramowania od 1990 roku. jest dostawcą systemów szkoleniowych i treści edukacyjnych,
 opartych na technologiach informacyjnych, dla klientów indywidualnych, instytucji oświatowych
 oraz przedsiębiorstw.<br/><br/>
-Celem firmy jest dostarczanie rozwiązań, które charakteryzują się najwyższą jakością oraz sprawdzoną
-efektywnością. Jego realizację stanowią uznane i wielokrotnie nagradzane serie produktów, m.in.:<br/><br/>
-&bull; EuroPlus+<br/>
-&bull; eduSensus<br/>
-&bull; portal Nauczyciel.pl<br/>
-&bull; eduROM<br/>
-&bull; Lekcjotek@
+celem firmy jest dostarczanie rozwiązań, które charakteryzują się najwyższą jakością oraz sprawdzoną
+efektywnością. jego realizację stanowią uznane i wielokrotnie nagradzane serie produktów, m.in.:<br/><br/>
+&bull; europlus+<br/>
+&bull; edusensus<br/>
+&bull; portal nauczyciel.pl<br/>
+&bull; edurom<br/>
+&bull; lekcjotek@
         ]]>
     </string>
-    <string name="malmberg_name">L.C.G. Malmberg B.V. (Den Bosch, Holandia)</string>
+    <string name="malmberg_name">l.c.g. malmberg b.v. (den bosch, holandia)</string>
     <string name="malmberg_text">
-<![CDATA[
-<b>Znany, działający od lat i wiodący w Holandii wydawca rozwiązań edukacyjnych</b>, pomagających uczniom w procesie
-uczenia się za pomocą systemów multimedialnych oraz nowoczesnych technologii ICT.<br/><br/>
-Firma rozwija interdyscyplinarne metodologie nauczania (Pluspunt, Biologie voor jou, Taalblokken,
+<![cdata[
+<b>znany, działający od lat i wiodący w holandii wydawca rozwiązań edukacyjnych</b>, pomagających uczniom w procesie
+uczenia się za pomocą systemów multimedialnych oraz nowoczesnych technologii ict.<br/><br/>
+firma rozwija interdyscyplinarne metodologie nauczania (pluspunt, biologie voor jou, taalblokken,
 w sumie ponad 2500 tytułów).
-Świadczy usługi doradcze, szkoleniowe, badawcze m.in. w zakresie e-learnigu.
+świadczy usługi doradcze, szkoleniowe, badawcze m.in. w zakresie e-learnigu.
         ]]>
     </string>
 
-    <!-- Teksty pomocy -->
+    <!-- teksty pomocy -->
 
-    <string name="txt_title_help">Pomoc</string>
+    <string name="txt_title_help">pomoc</string>
     <string name="txt_help_tytulowa">
-<![CDATA[
-<b>Na tym ekranie można:</b><br/><br/>
+<![cdata[
+<b>na tym ekranie można:</b><br/><br/>
 
 &bull; przeczytać podstawowe informacje o projekcie,<br/><br/>
 
@@ -263,37 +265,36 @@ w ramach których realizowany jest projekt<br/>
          ]]>
     </string>
     
-     <string name="txt_help_listED">
-<![CDATA[
-<b>Na tym ekranie można:</b>
+     <string name="txt_help_listed">
+<![cdata[
+<b>na tym ekranie można:</b>
 <p>
-&bull; zobaczyć komplet e-doświadczeń
+&bull; zobaczyć komplet e-doświadczeń,
 </p>
 <p>
-&bull; przejść do wybranego e-doświadczenia lub cofnąć się do strony tytulowej.<br/>
+&bull; przejść do wybranego e-doświadczenia lub cofnąć się do strony tytulowej,<br/>
 (<i>poprzez tapnięcie na przycisk wstecz</i>)
 </p>
 </p>
-&bull; Aby zmienić język aplikacji cofnij się do porzedniego ekranu<br/>
+&bull; aby zmienić język aplikacji cofnij się do porzedniego ekranu<br/>
 (<i>poprzez tapnięcie na ikonach w belce narzędziowej u góry ekranu</i>).
  </p>
          ]]>
 </string>   
 
-<string name="txt_help_szczegolyED">
-<![CDATA[
-<b>Na tym ekranie można:</b>
+<string name="txt_help_szczegolyed">
+<![cdata[
+<b>na tym ekranie można:</b>
 <p>
 &bull; przeczytać informacje dot. zjawisk fizycznych będących tematem e-dowiadczenia,
 </p>
 <p>
-&bull; uruchomić e-doświadczenie<br/>
+&bull; uruchomić e-doświadczenie,<br/>
 (<i>poprzez tapnięcie na przycisk uruchom</i>),
 </p>
 
 &bull; wyświetlić podręcznik przygotowany do edowiadczenia,<br/>
-(<i>poprzez tapnięcie na przycisku podręcznik </i>),
-(<i>książka udostępniana jest w formacie pdf i otwierana jest przez program zewnętrzny</i>),
+(<i>poprzez tapnięcie na przycisku podręcznik - książka udostępniana jest w formacie pdf i otwierana jest przez program zewnętrzny</i>),
 </p>
 <p>
 &bull; cofnąć się do strony tytulowej,<br/>
@@ -305,61 +306,71 @@ w ramach których realizowany jest projekt<br/>
 </string>
 
     <!-- elementy stringów -->
-        <string name="MANUAL_NAME_PREFIX">"cwiczenia_"</string>
+        <string name="manual_name_prefix">"cwiczenia_"</string>
     
-    <!-- Komunikaty -->
+    <!-- komunikaty -->
 
-    <string name="msg_no_network">        Do pobrania e-doświadczenia niezbędne jest połączenie z Internetem.\n\nSprawdź swoje połączenie sieciowe
-        i spróbuj ponownie.</string>
-    <string name="msg_ed_not_yet_produced">        Niestety, to e-doświadczenie nie jest jeszcze gotowe.\n\ne-Doświadczenia są produkowane sukcesywnie\ni będą
-        udostępniane tak szybko, jak to tylko możliwe.</string>
-    <string name="msg_no_file_on_server">        Wystąpił nieoczekiwany błąd serwera.\nPrzepraszamy i prosimy spróbować później.</string>
-    <string name="msg_internal_error001">        Wystąpił nieoczekiwany błąd aplikacji (kod: 001).\nPrzepraszamy i prosimy spróbować później.
-        Jeżeli błąd będzie się powtarzał, prosimy o kontakt z autorem programu.</string>
-    <string name="msg_cant_make_dir">        Nie można utworzyć katalogu na karcie pamięci! Proszę spróbować z inną kartą.</string>
-    <string name="msg_title_error">Błąd!</string>
-    <string name="dlg_unpacking">Pobieranie zakończone.\nTrwa rozpakowywanie plików, proszę czekać...</string>
-    <string name="dlg_downloading">Pobieranie danych (ok. %1$d MB), proszę czekać... </string>
-    <string name="msg_download_cancelled">Operacja została anulowana przez użytkownika</string>
-    <string name="msg_to_less_space">Zbyt mało miejsca na karcie SD!\nPobranie e-doświadczeń nie będzie możliwe.</string>
-    <string name="msg_no_pdf_reader">Aby obejrzeć podręcznik, zainstaluj czytnik plików PDF</string>
-    <string name="msg_screen_not_supported">        Ta aplikacja wymaga ekranu o rozdzielczości co najmniej 1280 x 800 pikseli.</string>
-    <string name="msg_title_info">Informacja</string>
-    <string name="msg_title_question">Pytanie</string>
-    <string name="msg_download_ed_question">        Aby uruchomić to e-doświadczenie, wymagane jest jednorazowe pobranie dodatkowych danych z Internetu.\n
-        \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
-        \n\nCzy pobrać dane teraz?</string>
-    <string name="msg_download_ed_update_question">        Znaleziono aktualizację tego e-doświadczenia.\n
-        \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
-        \n\nCzy pobrać aktualizację teraz?</string>
+    <string name="msg_no_network">        do pobrania e-doświadczenia niezbędne jest połączenie z internetem.\n\nsprawdź swoje połączenie sieciowe
+        i spróbuj ponownie.
+</string>
+    <string name="msg_ed_not_yet_produced">        niestety, to e-doświadczenie nie jest jeszcze gotowe.\n\ne-doświadczenia są produkowane sukcesywnie\ni będą
+        udostępniane tak szybko, jak to tylko możliwe.
+</string>
+    <string name="msg_no_file_on_server">        wystąpił nieoczekiwany błąd serwera.\nprzepraszamy i prosimy spróbować później.
+</string>
+    <string name="msg_internal_error001">        wystąpił nieoczekiwany błąd aplikacji (kod: 001).\nprzepraszamy i prosimy spróbować później.
+        jeżeli błąd będzie się powtarzał, prosimy o kontakt z autorem programu.
+</string>
+    <string name="msg_cant_make_dir">        nie można utworzyć katalogu na karcie pamięci! proszę spróbować z inną kartą.
+</string>
+    <string name="msg_title_error">błąd!</string>
+    <string name="dlg_unpacking">pobieranie zakończone.\ntrwa rozpakowywanie plików, proszę czekać...</string>
+    <string name="dlg_downloading">pobieranie danych (ok. %1$d mb), proszę czekać... </string>
+    <string name="msg_download_cancelled">operacja została anulowana przez użytkownika</string>
+    <string name="msg_to_less_space">zbyt mało miejsca na karcie sd!\npobranie e-doświadczeń nie będzie możliwe.</string>
+    <string name="msg_no_pdf_reader">aby obejrzeć podręcznik, zainstaluj czytnik plików pdf</string>
+    <string name="msg_screen_not_supported">        ta aplikacja wymaga ekranu o rozdzielczości co najmniej 1280 x 800 pikseli.
+</string>
+    <string name="msg_title_info">informacja</string>
+    <string name="msg_title_question">pytanie</string>
+    <string name="msg_download_ed_question">        aby uruchomić to e-doświadczenie, wymagane jest jednorazowe pobranie dodatkowych danych z internetu.\n
+        \nrozmiar danych do pobrania może się wahać\nod 5 do 45 mb - sugerowane jest użycie połączenia wifi.
+        \n\nczy pobrać dane teraz?
+</string>
+    <string name="msg_download_ed_update_question">        znaleziono aktualizację tego e-doświadczenia.\n
+        \nrozmiar danych do pobrania może się wahać\nod 5 do 45 mb - sugerowane jest użycie połączenia wifi.
+        \n\nczy pobrać aktualizację teraz?
+</string>
 <!--
-   <string name="msg_install_flash_question">        Aby uruchamiać e-doświadczenia, wymagane jest zainstalowanie Adobe Flash Playera.
-        \n\nCzy uruchomić Market?</string>
+   <string name="msg_install_flash_question">        aby uruchamiać e-doświadczenia, wymagane jest zainstalowanie adobe flash playera.
+        \n\nczy uruchomić market?
+</string>
  -->
-    <string name="msg_starting_ed">Uruchamianie e-doświadczenia...</string>
-    <string name="msg_manual_not_available">        Przepraszamy, podręcznik do tego e-doświadczenia nie został jeszcze przygotowany.</string>
-    <string name="msg_switch_to_en">Switched to English</string>
-    <string name="msg_already_en">You are already using English version...</string>
-    <string name="msg_switch_to_pl">Przełączono na język polski</string>
-    <string name="msg_already_pl">Już używasz wersji polskojęzycznej...</string>
+    <string name="msg_starting_ed">uruchamianie e-doświadczenia...</string>
+    <string name="msg_manual_not_available">        przepraszamy, podręcznik do tego e-doświadczenia nie został jeszcze przygotowany.
+</string>
+    <string name="msg_switch_to_en">switched to english</string>
+    <string name="msg_already_en">you are already using english version...</string>
+    <string name="msg_switch_to_pl">przełączono na język polski</string>
+    <string name="msg_already_pl">już używasz wersji polskojęzycznej...</string>
 
-    <string name="msg_no_premission">Apliakcja nie ma uprawnień do zapisu.</string> 
-    <string name="msg_no_sd"> Karta SD nie jest dostępna. </string>
-    <string name="msg_no_flash"> Adobe Flash nie jest zainstalowany! E-Doświadczenia w fizyce wymagają Adobe Flash Player. 
-       Pobieranie rozpocznie się automatycznie. </string>
+    <string name="msg_no_premission">apliakcja nie ma uprawnień do zapisu.</string> 
+    <string name="msg_no_sd"> karta sd nie jest dostępna. </string>
+    <string name="msg_no_flash"> adobe flash nie jest zainstalowany! e-doświadczenia w fizyce wymagają adobe flash player. 
+       pobieranie rozpocznie się automatycznie. </string>
 
 
-    <!-- Informacje o e-doświadczeniach -->
+    <!-- informacje o e-doświadczeniach -->
 
     <string name="ed_info_wahadlo">
-<![CDATA[
-<b>Wahadło</b> możemy wyobrażać sobie jako kulkę zawieszoną swobodnie na nici.
-Głównym założeniem modelu <b>wahadła matematycznego</b> jest to, aby kulka ta
+<![cdata[
+<b>wahadło</b> możemy wyobrażać sobie jako kulkę zawieszoną swobodnie na nici.
+głównym założeniem modelu <b>wahadła matematycznego</b> jest to, aby kulka ta
 była punktowa, a cała masa wahadła skupiała się właśnie w niej.
-Nić, na której zawieszona jest kulka traktujemy jako nieważką (zaniedbujemy jej masę)
+nić, na której zawieszona jest kulka traktujemy jako nieważką (zaniedbujemy jej masę)
 oraz nierozciągliwą (nie zmienia ona swojej długości).<br/><br/>
 
-<b>Za pomocą tego e-doświadczenia można m. in:</b><br/>
+<b>za pomocą tego e-doświadczenia można m. in:</b><br/>
 &bull; zbadać okres podstawowy drgań wahadła matematycznego,<br/>
 &bull; zaobserwować zmiany energii kinetycznej i potencjalnej,<br/>
 &bull; poznać jeden z wielu sposobów na wyznaczenie przyspieszenia
@@ -367,80 +378,80 @@ grawitacyjnego,<br/>
 &bull; sprawdzić, jak wygląda ruch wahadła w przyspieszającej windzie bądź pociągu,<br/>
 &bull; prowadzić obserwację wahadła matematycznego w warunkach,
 w których trudno się znaleźć w świecie rzeczywistym, np. na innych planetach,<br/>
-&bull; obserwować ruch wahadła Foucaulta.<br/><br/>
+&bull; obserwować ruch wahadła foucaulta.<br/><br/>
 
-<big><b>Uwaga!</b></big><br/>Ze względu na prowadzenie czasochłonnych obliczeń
+<big><b>uwaga!</b></big><br/>ze względu na prowadzenie czasochłonnych obliczeń
 oraz wykorzystanie trójwymiarowej grafiki, animacja wahadła najprawdopodobniej
 będzie dość powolna (maksymalnie kilka klatek/s).
-Ciągle pracujemy nad optymalizacją tego e-doświadczenia tak, aby można było
+ciągle pracujemy nad optymalizacją tego e-doświadczenia tak, aby można było
 w pełni wykorzystać jego możliwości również na tabletach.
          ]]>
     </string>
     <string name="ed_cwiczenie_wahadlo">
-<![CDATA[
-<b>Ćwiczenie - jam zmierzyć okres podstawowy drgań wahadła matematycznego?</b><br/><br/>
-&bull; Proponujemy na początek zmierzyć okres podstawowy, czyli czas jednego wahnięcia wahadła. 
-Do tego doświadczenia potrzebne nam będzie wahadło suwakowe oraz kulka.<br/>
-&bull; Przyczepiamy kulkę do nitki, która przymocowana jest do statywu.<br/>
-&bull; Ustalamy długość nici oraz kąt wychylenia i naciskamy ZAAKCEPTUJ USTAWIENIA.<br/>
-&bull; Aby uruchomić wahadło, naciskamy URUCHOM.<br/>
-&bull; Po jednym pełnym okresie zatrzymujemy stoper i wynik zapisujemy do tabeli.<br/>
-&bull; Postarajmy się teraz jak najdokładniej przeprowadzić ponownie to samo doświadczenie. 
-Mierząc pełne okresy, za każdym razem zapisujemy wynik w tabeli. 
-Doświadczenie powtarzamy przynajmniej 5 razy.<br/>
-&bull; Następnie przyjrzyjmy się otrzymanym wynikom i odpowiedzmy sobie na pytanie: 
+<![cdata[
+<b>ćwiczenie - jam zmierzyć okres podstawowy drgań wahadła matematycznego?</b><br/><br/>
+&bull; proponujemy na początek zmierzyć okres podstawowy, czyli czas jednego wahnięcia wahadła. 
+do tego doświadczenia potrzebne nam będzie wahadło suwakowe oraz kulka.<br/>
+&bull; przyczepiamy kulkę do nitki, która przymocowana jest do statywu.<br/>
+&bull; ustalamy długość nici oraz kąt wychylenia i naciskamy zaakceptuj ustawienia.<br/>
+&bull; aby uruchomić wahadło, naciskamy uruchom.<br/>
+&bull; po jednym pełnym okresie zatrzymujemy stoper i wynik zapisujemy do tabeli.<br/>
+&bull; postarajmy się teraz jak najdokładniej przeprowadzić ponownie to samo doświadczenie. 
+mierząc pełne okresy, za każdym razem zapisujemy wynik w tabeli. 
+doświadczenie powtarzamy przynajmniej 5 razy.<br/>
+&bull; następnie przyjrzyjmy się otrzymanym wynikom i odpowiedzmy sobie na pytanie: 
 czy udało nam się dokładnie powtórzyć doświadczenie, czyli czy otrzymane wyniki pomiarów 
 okresu podstawowego są sobie równe?<br/>
-&bull; Czy twoim zdaniem odchylenia od poszczególnych zmierzonych w ten sposób wielkości 
+&bull; czy twoim zdaniem odchylenia od poszczególnych zmierzonych w ten sposób wielkości 
 są duże czy małe?<br/>
-&bull; Jak uważasz, skąd biorą się te odchylenia i jakie czynniki mają wpływ na dokładność 
+&bull; jak uważasz, skąd biorą się te odchylenia i jakie czynniki mają wpływ na dokładność 
 wykonanych pomiarów?<br/>
-&bull; Zastanów się, czy istnieją bardziej dokładne sposoby na zmierzenie okresu podstawowego?<br/>
+&bull; zastanów się, czy istnieją bardziej dokładne sposoby na zmierzenie okresu podstawowego?<br/>
 <br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
     <string name="ed_info_lawa">
-<![CDATA[
-e-Doświadczenie <b>Ława optyczna</b> zostało w całości poświęcone soczewkom.
-<b>Soczewka</b> to proste urządzenie optyczne, składające się z jednego lub kilku sklejonych razem
+<![cdata[
+e-doświadczenie <b>ława optyczna</b> zostało w całości poświęcone soczewkom.
+<b>soczewka</b> to proste urządzenie optyczne, składające się z jednego lub kilku sklejonych razem
 bloków przezroczystego materiału, zwykle szkła, ale też różnych tworzyw sztucznych, żeli lub minerałów.<br/><br/>
 
-Dzięki temu e-doświadczeniu można zapoznać się z wiedzą z zakresu optyki geometrycznej.
-Można poznać własności soczewek i podstawowe parametry je charakteryzujące. Dodatkowo, stanowi ono
+dzięki temu e-doświadczeniu można zapoznać się z wiedzą z zakresu optyki geometrycznej.
+można poznać własności soczewek i podstawowe parametry je charakteryzujące. dodatkowo, stanowi ono
 doskonałą ilustrację podstawowych wzorów opisujących soczewki.<br/><br/>
 
-Układając odpowiednio soczewki na ławie optycznej, można otrzymać różne obrazy rzeczywiste jak i pozorne.
-Ponadto, można zbudować lunetę i mikroskop.
+układając odpowiednio soczewki na ławie optycznej, można otrzymać różne obrazy rzeczywiste jak i pozorne.
+ponadto, można zbudować lunetę i mikroskop.
          ]]>
     </string>
     <string name="ed_cwiczenie_lawa">
-<![CDATA[
-<b>Ćwiczenie - badanie soczewek skupiających</b><br/><br/>
-&bull; Montujemy na ławie źródło światła z dowolnym filtrem.<br/>
-&bull; Z zestawu soczewek szklanych o różnych ogniskowych wybieramy dowolną soczewkę 
+<![cdata[
+<b>ćwiczenie - badanie soczewek skupiających</b><br/><br/>
+&bull; montujemy na ławie źródło światła z dowolnym filtrem.<br/>
+&bull; z zestawu soczewek szklanych o różnych ogniskowych wybieramy dowolną soczewkę 
 skupiającą (taką o dodatniej wartości ogniskowej) i montujemy ją na ławie optycznej.<br/>
 <br/>
-&bull; Po drugiej stronie soczewki, na razie w dowolnej odległości, montujemy ekran.<br/>
-&bull; Źródło światła ustawiamy kolejno: przed ogniskiem soczewki, 
+&bull; po drugiej stronie soczewki, na razie w dowolnej odległości, montujemy ekran.<br/>
+&bull; źródło światła ustawiamy kolejno: przed ogniskiem soczewki, 
 w ognisku i w odległości większej niż ogniskowa przed soczewką.<br/>
-&bull; Dla każdego z tych trzech przypadków sprawdzamy, czy powstaje obraz na ekranie.<br/>
-&bull; Jeżeli obraz na ekranie jest niewyraźny, spróbuj przesuwać ekranem wzdłuż ławy optycznej 
+&bull; dla każdego z tych trzech przypadków sprawdzamy, czy powstaje obraz na ekranie.<br/>
+&bull; jeżeli obraz na ekranie jest niewyraźny, spróbuj przesuwać ekranem wzdłuż ławy optycznej 
 tak, aby uzyskać najlepszy rezultat.<br/>
-&bull; Jeśli nie obserwujemy żadnego obrazu na ekranie, popatrzmy przez soczewkę 
+&bull; jeśli nie obserwujemy żadnego obrazu na ekranie, popatrzmy przez soczewkę 
 i sprawdźmy czy można zaobserwować obraz pozorny.<br/>
-&bull; Proponujemy powtórzyć ćwiczenie dla innych soczewek skupiających z tego zestawu.<br/>
+&bull; proponujemy powtórzyć ćwiczenie dla innych soczewek skupiających z tego zestawu.<br/>
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
     <string name="ed_info_rzuty">
-<![CDATA[
-<b>Rzutem</b> nazywamy ruch w jednorodnym polu grawitacyjnym z
+<![cdata[
+<b>rzutem</b> nazywamy ruch w jednorodnym polu grawitacyjnym z
 pewną prędkością początkową, skierowaną wzdłuż, w poprzek lub
 pod skosem względem linii pola.<br/><br/>
 
-<b>Za pomocą tego e-doświadczenia można:</b><br/>
+<b>za pomocą tego e-doświadczenia można:</b><br/>
 &bull; badać rzuty<br/>
 &nbsp;&nbsp; - pionowe,<br/>&nbsp;&nbsp; -  poziome,<br/>&nbsp;&nbsp; -  ukośne,<br/>
 &bull; badać rzuty, podczas których od rzuconego ciała odłącza się jego część,<br/>
@@ -450,273 +461,273 @@ pod skosem względem linii pola.<br/><br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_rzuty">
-<![CDATA[
-<b>Ćwiczenie - rzut poziomy przy ustalonej prędkości</b><br/>
-&bull; Wybierz z Narzędzi (pierwsza ikona od lewej) następujące elementy: 
+<![cdata[
+<b>ćwiczenie - rzut poziomy przy ustalonej prędkości</b><br/>
+&bull; wybierz z narzędzi (pierwsza ikona od lewej) następujące elementy: 
 dowolną kulkę, planszę z siatką pomiarową, linijkę, stelaż do wyrzutni oraz wyrzutnię 
 i matę tłumiącą odbicia.<br/>
-&bull; Ustaw stelaż z lewej strony maty i ustaw na nim wyrzutnię na pewnej wysokości.
-Nastaw kąt nachylenia wyrzutni równy 0 stopni (czyli poziomo) 
+&bull; ustaw stelaż z lewej strony maty i ustaw na nim wyrzutnię na pewnej wysokości.
+nastaw kąt nachylenia wyrzutni równy 0 stopni (czyli poziomo) 
 oraz ustaw dowolną prędkość początkową kulki.<br/>
-&bull; URUCHOM doświadczenie.<br/>
-&bull; Ustal zasięg rzutu, tzn. odległość, jaką kulka przebyła w poziomie. 
-Do dokładnych pomiarów położenia użyj linijki.<br/>
-&bull; Powtórz ćwiczenie parokrotnie przy tej samej prędkości początkowej.
-Za każdym razem zmień wysokość, na jakiej znajduje się wyrzutnia.<br/>
-&bull; Zastanów się, od czego zależy zasięg rzutu.<br/><br/>
+&bull; uruchom doświadczenie.<br/>
+&bull; ustal zasięg rzutu, tzn. odległość, jaką kulka przebyła w poziomie. 
+do dokładnych pomiarów położenia użyj linijki.<br/>
+&bull; powtórz ćwiczenie parokrotnie przy tej samej prędkości początkowej.
+za każdym razem zmień wysokość, na jakiej znajduje się wyrzutnia.<br/>
+&bull; zastanów się, od czego zależy zasięg rzutu.<br/><br/>
 
-<b>Ćwiczenie - spadek swobodny</b><br/>
-&bull;Wybierz z Narzędzi dwa statywy z elektromagnesem oraz dwie kulki 
-o różnych średnicach. Zmontuj odpowiednio zestaw, ustalając dla obu kulek identyczną 
-wysokość początkową i upuść kulki włączając przycisk URUCHOM 
+<b>ćwiczenie - spadek swobodny</b><br/>
+&bull;wybierz z narzędzi dwa statywy z elektromagnesem oraz dwie kulki 
+o różnych średnicach. zmontuj odpowiednio zestaw, ustalając dla obu kulek identyczną 
+wysokość początkową i upuść kulki włączając przycisk uruchom 
 (obie kulki zostaną zwolnione jednocześnie).<br/>
-&bull; Jaki czas upływa pomiędzy spadkiem obu kulek? Jeśli bezpośrednią obserwacją 
+&bull; jaki czas upływa pomiędzy spadkiem obu kulek? jeśli bezpośrednią obserwacją 
 nie jesteś w stanie tego dokładnie określić, posłuż się nagraniem z kamery. 
-Zanotuj swoje spostrzeżenia. <br/>
-&bull; Przeprowadź ćwiczenie, ustalając wysokości początkowe kulek na stelażu, 
+zanotuj swoje spostrzeżenia. <br/>
+&bull; przeprowadź ćwiczenie, ustalając wysokości początkowe kulek na stelażu, 
 tak aby odległość między podłożem i ich dolnymi wierzchołkami była identyczna dla obu.<br/>
-&bull; Jaki jest w tym przypadku czas upływający pomiędzy lądowaniami kulek? 
-Wyjaśnij. Dlaczego tak istotne jest założenie o równej odległości wierzchołków od podłoża, 
+&bull; jaki jest w tym przypadku czas upływający pomiędzy lądowaniami kulek? 
+wyjaśnij. dlaczego tak istotne jest założenie o równej odległości wierzchołków od podłoża, 
 a nie środków kulek? <br/>
-&bull; Powtórz ćwiczenie, zmieniając wysokości początkowe oraz rozmiar obu badanych kulek. 
-Dostępne są cztery kulki o różnych średnicach i co za tym idzie o różnych masach. 
-Pamiętaj, aby ustalać jednakową odległość wierzchołków od podłoża. <br/>
-&bull; Jakie są Twoje wnioski? Czy jesteś w stanie powiedzieć, od czego zależy 
+&bull; powtórz ćwiczenie, zmieniając wysokości początkowe oraz rozmiar obu badanych kulek. 
+dostępne są cztery kulki o różnych średnicach i co za tym idzie o różnych masach. 
+pamiętaj, aby ustalać jednakową odległość wierzchołków od podłoża. <br/>
+&bull; jakie są twoje wnioski? czy jesteś w stanie powiedzieć, od czego zależy 
 czas spadku swobodnego, a od czego nie zależy? <br/>
-&bull; Czy jesteś w stanie wyciągnąć ogólne wnioski dotyczące rzutów, które obserwowałeś?
+&bull; czy jesteś w stanie wyciągnąć ogólne wnioski dotyczące rzutów, które obserwowałeś?
 
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
     <string name="ed_info_bryla">
-<![CDATA[
-<b>Bryła sztywna</b> to modelowe ciało fizyczne, które nie deformuje się pod wpływem sił,
+<![cdata[
+<b>bryła sztywna</b> to modelowe ciało fizyczne, które nie deformuje się pod wpływem sił,
 czyli &minus; inaczej mówiąc &minus; odległości między punktami ciała się nie zmieniają.<br/><br/>
-Z pojęciem bryły sztywnej nieodłącznie związane jest pojęcie wahadła fizycznego.
-<b>Wahadłem fizycznym</b> nazywamy bryłę sztywną, wykonującą drgania
+z pojęciem bryły sztywnej nieodłącznie związane jest pojęcie wahadła fizycznego.
+<b>wahadłem fizycznym</b> nazywamy bryłę sztywną, wykonującą drgania
 wokół osi nie przechodzącej przez środek masy bryły.<br/><br/>
 
-<b>Za pomocą tego e-doświadczenia można m. in:</b><br/>
+<b>za pomocą tego e-doświadczenia można m. in:</b><br/>
 &bull; zmierzyć okres wahadła fizycznego,<br/>
 &bull; wyznaczać środki mas figur o nieregularnych kształtach,<br/>
 &bull; badać moment bezwładności różnych figur, w tym własnoręcznie stworzonych,<br/>
-&bull; badać zachowanie tzw. wahadła Oberbecka.
+&bull; badać zachowanie tzw. wahadła oberbecka.
          ]]>
     </string>
     <string name="ed_cwiczenie_bryla">
-<![CDATA[
-<b>Ćwiczenie - wyznaczanie środka masy bryły sztywnej</b><br/><br/>
-&bull; Wybierz z Narzędzi bryłę z zakładki "Środek masy" wraz z potrzebnymi narzędziami.<br/>
-&bull; Zawieś kątomierz na statywie.<br/>
-&bull; Kliknij na bryłę, a następnie na przycisk WYBIERZ PUNKT ZACZEPIENIA.<br/>
+<![cdata[
+<b>ćwiczenie - wyznaczanie środka masy bryły sztywnej</b><br/><br/>
+&bull; wybierz z narzędzi bryłę z zakładki "środek masy" wraz z potrzebnymi narzędziami.<br/>
+&bull; zawieś kątomierz na statywie.<br/>
+&bull; kliknij na bryłę, a następnie na przycisk wybierz punkt zaczepienia.<br/>
 <br/>
-&bull; Przed uruchomieniem doświadczenia zastanów się i spróbuj odgadnąć, 
+&bull; przed uruchomieniem doświadczenia zastanów się i spróbuj odgadnąć, 
 w którym miejscu bryły powinien być jej środek masy.<br/>
 <br/>
-&bull; W otwartym oknie kliknij w miejscu najbliższym punktowi, w którym uważasz, 
-że znajduje się środek masy. Możesz zmieniać punkt zaczepienia klikając w innym miejscu na bryle.<br/>
-&bull; Zamknij okno i powieś bryłę na statywie.<br/>
-&bull; Uruchom doświadczenie.<br/>
-&bull; Po ustabilizowaniu się bryły, kliknij na nią jednokrotnie prawym przyciskiem myszy, 
+&bull; w otwartym oknie kliknij w miejscu najbliższym punktowi, w którym uważasz, 
+że znajduje się środek masy. możesz zmieniać punkt zaczepienia klikając w innym miejscu na bryle.<br/>
+&bull; zamknij okno i powieś bryłę na statywie.<br/>
+&bull; uruchom doświadczenie.<br/>
+&bull; po ustabilizowaniu się bryły, kliknij na nią jednokrotnie prawym przyciskiem myszy, 
 aby narysować jej oś stabilnego zawieszenia.<br/>
-&bull; Dwukrotnie kliknij na bryłę, by ponownie położyć ją na stole.<br/>
-&bull; Wybierz inny punkt zaczepienia i powtórz pomiar. Zrób tak kilkakrotnie.<br/>
-&bull; Czy jesteś w stanie wskazać środek masy? Czy spodziewałeś się go w takim miejscu?<br/>
-&bull; Powtórz doświadczenie dla innych brył.<br/>
-&bull; Dlaczego w niektórych bryłach środek masy znajduje się poza bryłą? Uzasadnij.<br/>
+&bull; dwukrotnie kliknij na bryłę, by ponownie położyć ją na stole.<br/>
+&bull; wybierz inny punkt zaczepienia i powtórz pomiar. zrób tak kilkakrotnie.<br/>
+&bull; czy jesteś w stanie wskazać środek masy? czy spodziewałeś się go w takim miejscu?<br/>
+&bull; powtórz doświadczenie dla innych brył.<br/>
+&bull; dlaczego w niektórych bryłach środek masy znajduje się poza bryłą? uzasadnij.<br/>
 <br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
     <string name="ed_info_rownia">
-<![CDATA[
-<b>Równią pochyłą</b> nazywamy płaską powierzchnię, nachyloną pod pewnym kątem do poziomu.
-Równia pochyła jest jedną z sześciu klasycznych <b>maszyn prostych</b>, tzn. takich,
+<![cdata[
+<b>równią pochyłą</b> nazywamy płaską powierzchnię, nachyloną pod pewnym kątem do poziomu.
+równia pochyła jest jedną z sześciu klasycznych <b>maszyn prostych</b>, tzn. takich,
 które zmieniają kierunek lub wartość siły (pozostałymi są: dźwignia, kołowrót, blok, klin i śruba).<br/><br/>
 
-Za pomocą tego e-doświadczenia można m.in.:<br/>
+za pomocą tego e-doświadczenia można m.in.:<br/>
 &bull; badać ruch przyspieszony,<br/>
 &bull; badać prawa dotyczące siły tarcia,<br/>
 &bull; poznać metodę wyznaczenia współczynnika tarcia<br/>,
 &bull; przekonać się, od czego zależy współczynnik tarcia.<br/><br/>
 
-Dodatkowo, wirtualne e-doświadczenie umożliwia także obserwacje w warunkach,
+dodatkowo, wirtualne e-doświadczenie umożliwia także obserwacje w warunkach,
 które bardzo trudno jest wytworzyć w laboratorium: w windzie i pociągu,
 poruszających się z zadanym przyspieszeniem.
          ]]>
     </string>
     <string name="ed_cwiczenie_rownia">
-<![CDATA[
-<b>Ćwiczenie - jakim ruchem poruszają się klocki na równi?</b><br/><br/>
-&bull; Wybierz dowolny klocek z Narzędzi. Możesz także według własnego uznania wybrać 
+<![cdata[
+<b>ćwiczenie - jakim ruchem poruszają się klocki na równi?</b><br/><br/>
+&bull; wybierz dowolny klocek z narzędzi. możesz także według własnego uznania wybrać 
 nakładkę na klocek lub równię.<br/>
-&bull; Połóż klocek w górnej części równi (w dowolnym punkcie). Zanotuj jego położenie.<br/>
-&bull; Nachyl równię pod kątem większym od $35^\circ$ (zwróć uwagę, że na kątomierzu odczytujemy kąt, 
+&bull; połóż klocek w górnej części równi (w dowolnym punkcie). zanotuj jego położenie.<br/>
+&bull; nachyl równię pod kątem większym od $35^\circ$ (zwróć uwagę, że na kątomierzu odczytujemy kąt, 
 jaki równia tworzy ze stołem, a nie kąt, przy którym umieszczony jest kątomierz!)<br/>
-&bull;   Wciśnij URUCHOM.<br/>
-&bull; Po dotarciu klocka do końca równi, odtwórz nagranie z kamery.<br/>
-&bull; Dla przynajmniej 6 punktów, zapisz w tabeli położenie klocka co 0,1 s. 
-Sporządź wykres przebytej drogi w zależności od czasu.<br/>
-&bull; Wykonaj drugi wykres: wyznacz prędkość chwilową ciała od czasu dzieląc drogę przebytą 
+&bull;   wciśnij uruchom.<br/>
+&bull; po dotarciu klocka do końca równi, odtwórz nagranie z kamery.<br/>
+&bull; dla przynajmniej 6 punktów, zapisz w tabeli położenie klocka co 0,1 s. 
+sporządź wykres przebytej drogi w zależności od czasu.<br/>
+&bull; wykonaj drugi wykres: wyznacz prędkość chwilową ciała od czasu dzieląc drogę przebytą 
 przez ciało w ciągu 0,1 s przez 0,1 s.<br/>
-&bull; Przyjrzyj się otrzymanym wykresom. Jaki ruch on przedstawia? Jakie parametry ruchu 
+&bull; przyjrzyj się otrzymanym wykresom. jaki ruch on przedstawia? jakie parametry ruchu 
 jesteś w stanie ustalić na ich podstawie?<br/>
-&bull; Powtórz ćwiczenie, wybierając różne nakładki na klocki oraz równię. 
-Czy Twoje wnioski będą takie same?<br/>
-&bull; Czy istotne jest, w którym punkcie równi położysz klocek?<br/>
-&bull; Co się stanie, jeśli będziesz zmieniać kąt nachylenia równi?
+&bull; powtórz ćwiczenie, wybierając różne nakładki na klocki oraz równię. 
+czy twoje wnioski będą takie same?<br/>
+&bull; czy istotne jest, w którym punkcie równi położysz klocek?<br/>
+&bull; co się stanie, jeśli będziesz zmieniać kąt nachylenia równi?
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
     <string name="ed_info_einstein">
-<![CDATA[
-<b>Eksperymenty myślowe Einsteina</b> przybliżają zagadnienia Szczególnej Teorii Względności. 
-Jak brzmią najważniejsze założenia tej weorii, otóż:<br/>
+<![cdata[
+<b>eksperymenty myślowe einsteina</b> przybliżają zagadnienia szczególnej teorii względności. 
+jak brzmią najważniejsze założenia tej weorii, otóż:<br/>
 &bull; wszystkie prawa przyrody (w szczególnosci fizyki) są takie same bez względu na to, 
 czy obserwujemy je z układu nie poruszającego sią, czy z ruchomego, ale poruszającego sią
 bez przyśpieszenia (czyli układu inercjalnego) oraz<br/>
-&bull; prędkość światła jest zawsze stała w danym ośrodku. Jest to jednocześnie największa prędkość, 
+&bull; prędkość światła jest zawsze stała w danym ośrodku. jest to jednocześnie największa prędkość, 
 z którą może być przekazywana energia.<br/>
 
-&bull; Niektóre wnioski <b>szczególnej teorii względności</b> są sprzeczne z intuicją:<br/>
-&bull; Dylatacja czasu — czas jaki mija pomiędzy dwoma zdarzeniami nie jest jednoznacznie określony, 
+&bull; niektóre wnioski <b>szczególnej teorii względności</b> są sprzeczne z intuicją:<br/>
+&bull; dylatacja czasu — czas jaki mija pomiędzy dwoma zdarzeniami nie jest jednoznacznie określony, 
 lecz zależy od obserwatora.<br/>   
-&bull; Względność jednoczesności — dwa zdarzenia określone przez jednego obserwatora jako jednoczesne, 
+&bull; względność jednoczesności — dwa zdarzenia określone przez jednego obserwatora jako jednoczesne, 
 mogą nie być jednoczesne dla innego obserwatora.<br/>
-&bull; Kontrakcja przestrzeni — odległości między punktami zależą od układu. 
-Wszystkie poruszające się przedmioty obserwujemy jako krótsze.<br/>
-&bull; Masa jest równoważna energii a związek między tymi wielkościami opisuje wzór E = m c^2.<br/> 
-&bull; Relatywistyczne skrócenie długości — wraz ze wzrostem prędkości następuje skrócenie 
+&bull; kontrakcja przestrzeni — odległości między punktami zależą od układu. 
+wszystkie poruszające się przedmioty obserwujemy jako krótsze.<br/>
+&bull; masa jest równoważna energii a związek między tymi wielkościami opisuje wzór e = m c^2.<br/> 
+&bull; relatywistyczne skrócenie długości — wraz ze wzrostem prędkości następuje skrócenie 
 obiektu zgodnie z kierunkiem w którym obiekt się przemieszcza. 
-Relatywistyczne skrócenie obiektu zawsze wyniesie tyle samo procent dla danej prędkości.<br/>
+relatywistyczne skrócenie obiektu zawsze wyniesie tyle samo procent dla danej prędkości.<br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_einstein">
-<![CDATA[
-<b>Propozycja ćwiczenia:</b> Zastanówmy się jak dwóch obserwatorów ogląda świat?<br/>
-Jednym obserwatorem niech będzie osoba na ziemii, drugim osoba w rakiecie. 
-Rakieta oddala się od ziemii z pewną prędkością. <br/>
-Załóżmy, że osoba pozostająca na ziemii widzi co dzieje się w rakiecie. 
-Kosmonaucie w rakiecie w pewnej chwili zaczyna rosnac broda i rosnie przez pewien czas dt. <br/>
-Ile czasu  rosnie mu broda wg. obserwatora na ziemii (czyli ile wynosi Dt )?
+<![cdata[
+<b>propozycja ćwiczenia:</b> zastanówmy się jak dwóch obserwatorów ogląda świat?<br/>
+jednym obserwatorem niech będzie osoba na ziemii, drugim osoba w rakiecie. 
+rakieta oddala się od ziemii z pewną prędkością. <br/>
+załóżmy, że osoba pozostająca na ziemii widzi co dzieje się w rakiecie. 
+kosmonaucie w rakiecie w pewnej chwili zaczyna rosnac broda i rosnie przez pewien czas dt. <br/>
+ile czasu  rosnie mu broda wg. obserwatora na ziemii (czyli ile wynosi dt )?
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
     <string name="ed_info_astro">
-<![CDATA[
-<b>Ciałem niebieskim</b> nazywamy dowolny obiekt fizyczny (czyli przedmiot
+<![cdata[
+<b>ciałem niebieskim</b> nazywamy dowolny obiekt fizyczny (czyli przedmiot
 rozciągły w czasie i przestrzeni) występujący w przestrzeni
 kosmicznej, czyli poza obszarem ziemskiej atmosfery (umownie
-granicą jest tzw. linia K&aacute;rm&aacute;na, znajdująca się 100 km nad
-powierzchnią Ziemi).<br/><br/>
+granicą jest tzw. linia k&aacute;rm&aacute;na, znajdująca się 100 km nad
+powierzchnią ziemi).<br/><br/>
 
-Ciałem niebieskim może być także układ obiektów i struktur
-powiązanych ze sobą siłami grawitacji. Jako ciała niebieskie
+ciałem niebieskim może być także układ obiektów i struktur
+powiązanych ze sobą siłami grawitacji. jako ciała niebieskie
 klasyfikujemy miedzy innymi: gromady galaktyk, galaktyki,
-gwiazdy, układy planetarne, planety, księżyce. Jak widać, rozmiary
+gwiazdy, układy planetarne, planety, księżyce. jak widać, rozmiary
 i struktury ciał niebieskich są bardzo różne, zatem i ich ruch może
 zdecydowanie się różnić.
 <br/><br/>
-Za pomocą e-doświadczenia można zbadać model Układu Słonecznego,
-poznać prawa Keplera, wyznaczyć prędkości kosmiczne i trajektorie planet
+za pomocą e-doświadczenia można zbadać model układu słonecznego,
+poznać prawa keplera, wyznaczyć prędkości kosmiczne i trajektorie planet
 oraz dowiedzieć się, czym jest układ podwójnej gwiazdy.
-Jest to również niepowtarzalna okazja do zbudowania własnego układu planetarnego.<br/><br/>
+jest to również niepowtarzalna okazja do zbudowania własnego układu planetarnego.<br/><br/>
 
-<big><b>Uwaga!</b></big><br/>Ze względu na prowadzenie czasochłonnych obliczeń
+<big><b>uwaga!</b></big><br/>ze względu na prowadzenie czasochłonnych obliczeń
 oraz wykorzystanie grafiki trójwymiarowej, animacja wahadła najprawdopodobniej
 będzie dość powolna (maksymalnie kilka klatek/s).
-Ciągle pracujemy nad optymalizacją tego e-doświadczenia, tak, aby można było
+ciągle pracujemy nad optymalizacją tego e-doświadczenia, tak, aby można było
 w pełni wykorzystać jego możliwości również na tabletach.
          ]]>
     </string>
     <string name="ed_cwiczenie_astro">
-<![CDATA[
-<b>Ćwiczenia -  badanie Układu Słonecznego</b><br/><br/>
-&bull; Wybierz na pasku narzędzi "Układy ciał niebieskich", a następnie wybierz UKŁAD SŁONECZNY.<br/>
-&bull; Przed uruchomieniem doświadczenia, korzystając z okienka nawigacji znajdującego się 
+<![cdata[
+<b>ćwiczenia -  badanie układu słonecznego</b><br/><br/>
+&bull; wybierz na pasku narzędzi "układy ciał niebieskich", a następnie wybierz układ słoneczny.<br/>
+&bull; przed uruchomieniem doświadczenia, korzystając z okienka nawigacji znajdującego się 
 z prawej strony ekranu, postaraj się zlokalizować wszystkie planety znajdujące się w układzie.<br/>
 <br/>
-&bull; Na panelu dolnym, w zakładce "Konfiguracja", zaznacz opcję "Pokaż trajektorie".<br/>
-&bull; Aby zaoszczędzić na czasie, możesz przyspieszyć upływ czasu poprzez wybranie 
-odpowiedniej wartości w rozwijanym menu, w zakładce "Konfiguracja".<br/>
-&bull; Ukryj panel dolny poprzez kliknięcie na guzik UKRYJ PANEL, a następnie uruchom doświadczenie 
-poprzez wciśnięcie URUCHOM.<br/>
-&bull; Korzystając z przycisków nawigacji ustaw układ tak, aby było widać jak najwięcej 
+&bull; na panelu dolnym, w zakładce "konfiguracja", zaznacz opcję "pokaż trajektorie".<br/>
+&bull; aby zaoszczędzić na czasie, możesz przyspieszyć upływ czasu poprzez wybranie 
+odpowiedniej wartości w rozwijanym menu, w zakładce "konfiguracja".<br/>
+&bull; ukryj panel dolny poprzez kliknięcie na guzik ukryj panel, a następnie uruchom doświadczenie 
+poprzez wciśnięcie uruchom.<br/>
+&bull; korzystając z przycisków nawigacji ustaw układ tak, aby było widać jak najwięcej 
 trajektorii planet.<br/>
-&bull; Dalej możesz swobodnie nawigować po układzie, by jak najlepiej poznać działanie 
+&bull; dalej możesz swobodnie nawigować po układzie, by jak najlepiej poznać działanie 
 i możliwości doświadczenia.<br/>
-&bull; Jakie są twoje wnioski na temat rozmiarów układu i poszczególnych planet, 
-oraz odległości między nimi? Czy przy możliwościach obecnej technologii, człowiek jest w stanie, 
-w czasie swojego życia, dostać się na kraniec naszego Układu Słonecznego?<br/>
+&bull; jakie są twoje wnioski na temat rozmiarów układu i poszczególnych planet, 
+oraz odległości między nimi? czy przy możliwościach obecnej technologii, człowiek jest w stanie, 
+w czasie swojego życia, dostać się na kraniec naszego układu słonecznego?<br/>
 <br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
          ]]>
     </string>
     <string name="ed_info_zderzenia">
-<![CDATA[
-<b>Zderzenie</b> to relatywnie krótkie zdarzenie, podczas którego poruszające się ciała
-oddziałują na siebie pewnymi siłami. W <b>zderzeniach sprężystych</b>, całkowita energia kinetyczna ciał
+<![cdata[
+<b>zderzenie</b> to relatywnie krótkie zdarzenie, podczas którego poruszające się ciała
+oddziałują na siebie pewnymi siłami. w <b>zderzeniach sprężystych</b>, całkowita energia kinetyczna ciał
 po zderzeniu jest równa całkowitej energii kinetycznej ciał przed zderzeniem.
-Z kolei w <b>zderzeniach niesprężystych</b>, końcowa energia kinetyczna jest mniejsza od energii kinetycznej
+z kolei w <b>zderzeniach niesprężystych</b>, końcowa energia kinetyczna jest mniejsza od energii kinetycznej
 przed zderzeniem (w takim przypadku część energii jest tracona na różne procesy towarzyszące zderzeniu,
 jak np. wydzielanie ciepła).<br/><br/>
 
-Za pomocą tego e-doświadczenia można m.in.:<br/>
+za pomocą tego e-doświadczenia można m.in.:<br/>
 &bull; badać zasadę zachowania pędu,<br/>
 &bull; badać oraz zasadę zachowania energii,<br/>
-&bull; obserwować zachowanie tzw. kołyski Newtona,<br/>
+&bull; obserwować zachowanie tzw. kołyski newtona,<br/>
 &bull; nauczyć się metody mierzenia czasu zderzeń metalowych kul.<br/><br/>
 
-Jako ciekawostkę, do e-doświadczenia załączono symulację bilardu.
+jako ciekawostkę, do e-doświadczenia załączono symulację bilardu.
 
          ]]>
     </string>
     <string name="ed_cwiczenie_zderzenia">
-<![CDATA[
-<b>Ćwiczenie - zderzenie centralne czołowe</b><br/>
-&bull; Wybierz z Narzędzi (pierwsza ikonka od lewej) dwie takie same kulki
+<![cdata[
+<b>ćwiczenie - zderzenie centralne czołowe</b><br/>
+&bull; wybierz z narzędzi (pierwsza ikonka od lewej) dwie takie same kulki
 (obie stalowe, szklane, uranowe lub niklowe).<br/>
-&bull; Jedną z nich umieść przy wyrzutni, a drugą na środku maty.
-Ustaw je tak, aby ich środki znajdowały się w tej samej linii siatki.<br/>
-&bull; Ustal dowolną prędkość początkową dla kulki i wystrzel ją.<br/>
-&bull; Jak będą poruszały się kulki po zderzeniu?
-Powtórz ćwiczenie, ustalając różne prędkości początkowe kulki oraz zmieniając rodzaj kulek
-(obie muszą być z tego samego materiału). Czy ich zachowanie będzie takie same?
+&bull; jedną z nich umieść przy wyrzutni, a drugą na środku maty.
+ustaw je tak, aby ich środki znajdowały się w tej samej linii siatki.<br/>
+&bull; ustal dowolną prędkość początkową dla kulki i wystrzel ją.<br/>
+&bull; jak będą poruszały się kulki po zderzeniu?
+powtórz ćwiczenie, ustalając różne prędkości początkowe kulki oraz zmieniając rodzaj kulek
+(obie muszą być z tego samego materiału). czy ich zachowanie będzie takie same?
 
 <br/><br/>
-<b>Ćwiczenie - zasady zachowania w zderzeniach centralnych skośnych</b><br/>
-&bull; Wybierz z Narzędzi dwie dowolne kulki i zanotuj ich masy.<br/>
-&bull; Jedną kulkę umieść przy wyrzutni, drugą ustaw na środku maty.
-Przesuń wyrzutnię tak, aby środek wyrzucanej kulki nie znajdował się na tej samej linii siatki,
-co środek kulki z centrum maty. Zwróć uwagę na to, żeby środki kul
+<b>ćwiczenie - zasady zachowania w zderzeniach centralnych skośnych</b><br/>
+&bull; wybierz z narzędzi dwie dowolne kulki i zanotuj ich masy.<br/>
+&bull; jedną kulkę umieść przy wyrzutni, drugą ustaw na środku maty.
+przesuń wyrzutnię tak, aby środek wyrzucanej kulki nie znajdował się na tej samej linii siatki,
+co środek kulki z centrum maty. zwróć uwagę na to, żeby środki kul
 były na liniach wystarczająco bliskich siebie tak, aby zderzenie
 w ogóle nastąpiło.<br/>
-&bull; Ustal dowolną wartość prędkości początkowej dla wystrzeliwanej kulki
-i zapisz ją. Wystrzel kulkę.<br/>
-&bull;  Używając nagrania z Kamery ustal, jakie są wartości prędkości
-końcowych obu kul. W tym celu musisz ustalić, jaką drogę przebywa
+&bull; ustal dowolną wartość prędkości początkowej dla wystrzeliwanej kulki
+i zapisz ją. wystrzel kulkę.<br/>
+&bull;  używając nagrania z kamery ustal, jakie są wartości prędkości
+końcowych obu kul. w tym celu musisz ustalić, jaką drogę przebywa
 każda z kul w ustalonym czasie.<br/>
-&bull; Posługując się nagraniem ustal, pod jakim kątem kulki zostały odbite.
-Dzięki temu będziesz mógł wyznaczyć składowe wektorów prędkości
+&bull; posługując się nagraniem ustal, pod jakim kątem kulki zostały odbite.
+dzięki temu będziesz mógł wyznaczyć składowe wektorów prędkości
 w kierunku poziomym oraz pionowym.<br/>
-&bull;  Sprawdź, czy spełnione są: zasada zachowania energii oraz zasada zachowania pędu.
-Odpowiednie wzory znajdziesz w podręczniku.<br/>
-&bull;  Powtórz ćwiczenia, wybierając inne kulki oraz zmieniając
+&bull;  sprawdź, czy spełnione są: zasada zachowania energii oraz zasada zachowania pędu.
+odpowiednie wzory znajdziesz w podręczniku.<br/>
+&bull;  powtórz ćwiczenia, wybierając inne kulki oraz zmieniając
 początkowe prędkości i położenia wystrzeliwanej kulki.<br/><br/>
 
-Więcej ćwiczeń można znaleźć w podręczniku.<br/>
+więcej ćwiczeń można znaleźć w podręczniku.<br/>
          ]]>
     </string>
     <string name="ed_info_ciecze">
-<![CDATA[
-<b>Ciecz </b> jest stanem skupienia materii pośrednim między ciałem stałym a gazem.
-Ciało fizyczne będące <b>cieczą</b> trudno zmienia objętość, ale jednocześnie łatwo zmienia 
-kształt.  Dlatego w&nbsp;przypadku <b>cieczy</b> obserwujemy, że przyjmuje kształt naczynia, w którym się znajduje.
+<![cdata[
+<b>ciecz </b> jest stanem skupienia materii pośrednim między ciałem stałym a gazem.
+ciało fizyczne będące <b>cieczą</b> trudno zmienia objętość, ale jednocześnie łatwo zmienia 
+kształt.  dlatego w&nbsp;przypadku <b>cieczy</b> obserwujemy, że przyjmuje kształt naczynia, w którym się znajduje.
 <br/><br/>
-Za pomocą tego doświadczenia można m.in.:<br/>
+za pomocą tego doświadczenia można m.in.:<br/>
 &bull; zapoznać się z paradoksem hydrostatycznym,<br/>
 &bull; obserwować siłę wyporu na podstawie różnych cieczy i pływaków,<br/>
 &bull; wyznaczać gęstość cieczy,<br/>
@@ -724,117 +735,164 @@ Za pomocą tego doświadczenia można m.in.:<br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_ciecze">
-<![CDATA[
-<b> Ćwiczenie – paradoks hydrostatyczny</b>
+<![cdata[
+<b> ćwiczenie – paradoks hydrostatyczny</b>
 <p>
-Uruchom ciekawostkę. Wlej rtęć do wszystkich naczyń ustawionych na stole poza wysokim
- szklanym cylindrem umieszczonym z lewej strony. W każdym naczyniu wysokość słupa wody
-  jest taka sama. Ile będzie wynosiło ciśnienie hydrostatyczne w poszczególnych naczyniach?
-   Uruchom doświadczenie i przekonaj się czy miałeś rację. </p>
-&bull; Nalej rtęci również do ostatniego naczynia. Czy ciśnienie będzie niższe czy wyższe 
-niż w pozostałych naczyniach? A może będzie takie samo? <br/>
-&bull; Powtórz doświadczenie używając wody morskiej. Czy ciśnienie w naczyniach zmieniło się? 
-Zastanów się czym rtęć i woda morska się różnią? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku. <br/>
+uruchom ciekawostkę. wlej rtęć do&nbsp;wszystkich naczyń ustawionych na&nbsp;stole poza wysokim
+ szklanym cylindrem umieszczonym z lewej strony. w każdym naczyniu wysokość słupa wody
+  jest taka sama. ile będzie wynosiło ciśnienie hydrostatyczne w&nbsp;poszczególnych naczyniach?
+   uruchom doświadczenie i przekonaj się czy miałeś rację. </p>
+&bull; nalej rtęci również do ostatniego naczynia. czy ciśnienie będzie niższe czy wyższe 
+niż w pozostałych naczyniach? a może będzie takie&nbsp;samo? <br/>
+&bull; powtórz doświadczenie używając wody morskiej. czy ciśnienie w&nbsp;naczyniach zmieniło się? 
+zastanów się czym rtęć i woda morska się różnią? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku. <br/>
 
          ]]>
     </string>
     <string name="ed_info_drgania">
-<![CDATA[
+<![cdata[
  <p>
-<b> Drgania mechaniczne</b> to rodzaj ruchu, podczas którego pewne wielkości fizyczne 
-naprzemiennie rosną i maleją w czasie. Przykładami takiego ruchu są: ruch wahadła albo
- ruch ciężarka zawieszonego na sprężynie. Przyjrzyjmy się bliżej ruchowi ciężarka zawieszonego
-  na drgającej sprężynie. Ruch drgający sprężyny jest ruchem okresowym, tzn.: możemy 
+<b> drgania mechaniczne</b> to rodzaj ruchu, podczas którego pewne wielkości fizyczne 
+naprzemiennie rosną i maleją w czasie. przykładami takiego ruchu są: ruch wahadła albo
+ ruch ciężarka zawieszonego na sprężynie. przyjrzyjmy się bliżej ruchowi ciężarka zawieszonego
+  na drgającej sprężynie. ruch drgający sprężyny jest ruchem okresowym, tzn.: możemy 
   znaleźć sekwencje powtarzające się w podczas jego trwania – oscylowanie wokół punktu równowagi.
-   Jest również ruchem harmonicznym, ponieważ powstaje pod wpływem siły, która działa 
-   w przeciwnym kierunku niż została rozciągnięta (ściśnięta) sprężyna. Siła ta wynika 
-   z posiadanej przez sprężynę cechy zwanej współczynnikiem sprężystości. Ściśnięta
+   jest również ruchem harmonicznym, ponieważ powstaje pod wpływem siły, która działa 
+   w przeciwnym kierunku niż została rozciągnięta (ściśnięta) sprężyna. siła ta wynika 
+   z posiadanej przez sprężynę cechy zwanej współczynnikiem sprężystości. ściśnięta
  lub rozciągnięta sprężyna będzie znajdować się w&nbsp;stanie niezrównoważonym i w zależności od 
  wielkości współczynnika sprężystości z różną intensywnością będzie dążyć do osiągnięcia 
  stanu równowagi. 
 </p>
-Za pomocą tego e-doświadczenia można  m. in: <br/>
+za pomocą tego e-doświadczenia można  m. in: <br/>
 &bull; wyznaczyć okres drgań, <br/>
 &bull; określić współczynnik sprężystości, <br/>
 &bull; określić zależności wychylenia sprężyny od przyłożonej do niej siły, <br/>
 &bull; określić zależności okresu drgań własnych sprężyny od masy. <br/>
 <p>
-W doświadczeniu „drgania mechaniczne” możemy obserwować ruch drgający sprężyn obciążonych ciężarkami w różnych układach odniesienia tj.: w pociągu, windzie i na innych planetach. Można również zbudować układ pomiarowy w celu obserwacji drgań układów sprężyn połączonych szeregowo lub równolegle. W ramach wykonywanych doświadczeń można empirycznie przekonać się o słuszności znanych zależności z podręczników szkolnych. </p>
+w doświadczeniu „drgania mechaniczne” możemy obserwować ruch drgający sprężyn obciążonych ciężarkami 
+w różnych układach odniesienia tj.: w pociągu, windzie i na innych planetach. można również zbudować
+ układ pomiarowy w celu obserwacji drgań układów sprężyn połączonych szeregowo lub równolegle. 
+ w ramach wykonywanych doświadczeń można empirycznie przekonać się o słuszności znanych zależności
+  z podręczników szkolnych. </p>
             
          ]]>
     </string>
     <string name="ed_cwiczenie_drgania">
-<![CDATA[
-<b> Ćwiczenie – wyznaczenie współczynnika sprężystości drgającej sprężyny</b>
+<![cdata[
+<b> ćwiczenie – wyznaczenie współczynnika sprężystości drgającej sprężyny</b>
 <p> 
-Z Narzędzi wybierz statyw, pudełko z ciężarkami, jedną sprężynę np.: miedzianą. W oknie warunków fizycznych wybierz dowolną planetę, na której będzie przeprowadzany pomiar. Umieść sprężynę na statywie. Następnie wybierz dwa ciężarki i zawieś je na sprężynie (maksymalnie możesz zawiesić 300 g). Rozciągnij sprężynę i uruchom doświadczenie. 
+z narzędzi wybierz statyw, pudełko z&nbsp;ciężarkami, jedną sprężynę np.: miedzianą. w oknie
+ warunków fizycznych wybierz dowolną planetę, na której będzie przeprowadzany pomiar. 
+ umieść sprężynę na statywie. następnie wybierz dwa ciężarki i&nbsp;zawieś je na sprężynie
+  (maksymalnie możesz zawiesić 300&nbsp;g). rozciągnij sprężynę i uruchom doświadczenie. 
 </p>
-&bull; Jakie było minimalne i maksymalne położenie ciężarka podczas drgania sprężyny (w razie potrzeby skorzystaj z nagrania kamery)? <br/>
-&bull; Ile wynosi współczynnik sprężystości badanej sprężyny? <br/>
-&bull; W oknie warunków fizycznych wybierz inną planetę, i ponownie przeprowadź pomiar. Czy współczynnik sprężystości badanej sprężyny się zmienił? Dlaczego tak się stało? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku. <br/>
+&bull; jakie było minimalne i maksymalne położenie ciężarka podczas drgania sprężyny
+ (w razie potrzeby skorzystaj z nagrania kamery)? <br/>
+&bull; ile wynosi współczynnik sprężystości badanej sprężyny? <br/>
+&bull; w oknie warunków fizycznych wybierz inną planetę, i ponownie przeprowadź pomiar.
+ czy&nbsp;współczynnik sprężystości badanej sprężyny się zmienił? dlaczego tak się stało? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku. <br/>
 
          ]]>
     </string>
     <string name="ed_info_gazy">
-<![CDATA[
-<b>Właściwości gazów...</b>           
+<![cdata[
+<p>
+<b>gaz</b> jest stanem skupienia materii, w którym ciało fizyczne zajmuje całą dostępną mu przestrzeń. pomiędzy cząsteczkami gazu występują  niewielkie oddziaływania, a ich energia jest większa niż  w przypadku cząsteczek związanych w ciele stałym. cząsteczki gazu poruszają się w chaotyczny sposób zderzając się ze sobą  oraz powierzchniami je ograniczającymi. dlatego w gazie niewielka ilość cząsteczek 
+ może znajdować się na bardzo dużym obszarze.
+  </p>                          
+    <p>                     
+gaz doskonały to matematyczny model gazu, w którym:
+&bull; pomijane są oddziałania międzycząsteczkowych,</br>
+&bull;  cząsteczki znajdują się w ciągłym chaotycznym ruchu,</br>
+&bull; przyjmuje się, że zderzenia cząsteczek są doskonale sprężyste,</br>
+&bull; objętość zajmowana przez cząstki (gdyby wszystkie cząsteczki gazu i ułożyć jedna obok drugiej) jest pomijana w stosunku do objętości zajmowanej przez gaz,
+</p>
+ <p>
+w e-doświadczeniu można m.in.:
+&bull; zbudować układ pomiarowy do obserwacji zachowania się wybranych gazów w określonych warunkach fizycznych,</br>
+&bull; obserwować przemiany termodynamiczne: izobaryczną, izochoryczną, izotermiczną lub adiabatyczną.</br>
+&bull; wykonać pomiary ciśnienia, temeratury i objętości gazu w cylindrze. 
+</p>  
+    
          ]]>
     </string>
     <string name="ed_cwiczenie_gazy">
-<![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
+<![cdata[
+<b> ćwiczenie - badanie zachowania się gazu doskonałego </b> <p>
+wybierz z menu narzędzia: cylinder z tłokiem, palnik bunsena,piankę izolującą, zestaw ciężarków,
+ butlę z gazem idealnym 1 atomowym. </ p>
+•  zaloz na cylinder piankę izolującą i ustaw cylinder na palniku.  uruchom doświadczenie. 
+z butli wpuść do cylindra 3 porcje gazu. 
+zapoznaj się z jego parametrami. na tłoku umieść 3 dowolne ciężarki. 
+w tooltipie cylindra umieszczone są dodatkowe informacje zapoznaj się z nimi. 
+podgrzej gaz w cylindrze. pobierz dane pomiarowe do tabeli (przycisk termo). 
+który z parametrów (temperatura, objętosc, cinienie) ulegl zmianie podczas pomiaru?
+następnie wykonaj wykres zależnoci objętoci od zamian temperatury. 
+• wyłącz palnik. zablokuj położenie tłoka, a następnie znowu podgrzej gaz. 
+pobierz dane pomiarowe do tabeli (przycisk termo). Następnie wykonaj ten sam wykres. 
+Przeanalizuj wyniki.
+powtórz ćwiczenie dla różnych ciężarków. <br/>
 
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>
     <string name="ed_info_pole_elektryczne">
-<![CDATA[
+<![cdata[
 <p>
-Wyobraźmy sobie przestrzeń w której znajdują się ładunki elektryczne. <b>Polem elektrycznym</b> nazywamy obszar w którym na umieszczone ładunki elektryczne oddziaływują siły elektrostatyczne. Każdy z ładunków elektrycznych jest źródłem pola elektrycznego. </br>
-Wybierzmy jeden z tych ładunków i nazwijmy go ładunkiem próbnym. Na ładunek próbny działają siły elektrostatyczne pochodzące od innych ładunków elektrycznych umieszczonych w omawianym obszarze. Równocześnie ładunek próbny oddziaływuje na inne ładunki siłą, która jest tym większa im silniejsze jest źródło pola elektrycznego. Im rzadziej rozmieszczone są ładunki w przestrzeni, tym słabsze są oddziaływania między nimi (maleją ze wzrostem odległości między ładunkami).
+wyobraźmy sobie przestrzeń w której znajdują się ładunki elektryczne. <b>polem elektrycznym</b> nazywamy obszar w którym na umieszczone ładunki elektryczne oddziaływują siły elektrostatyczne. każdy z ładunków elektrycznych jest źródłem pola elektrycznego. </br>
+wybierzmy jeden z tych ładunków i nazwijmy go ładunkiem próbnym. na ładunek próbny działają siły elektrostatyczne pochodzące od innych ładunków elektrycznych umieszczonych w omawianym obszarze. równocześnie ładunek próbny oddziaływuje na inne ładunki siłą, która jest tym większa im silniejsze jest źródło pola elektrycznego. im rzadziej rozmieszczone są ładunki w przestrzeni, tym słabsze są oddziaływania między nimi (maleją ze wzrostem odległości między ładunkami).
 </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zaobserwować podstawowe zagadnienia elektrostatyki, np.: rozkład i kształt pola elektrycznego pochodzącego od naładowanych ciał, <br/>
 &bull; zmierzyć potencjał w dowolnym punkcie wytworzonego pola elektrycznego, <br/>
 &bull; określić położenie linii ekwipotencjalnych, <br/>
-&bull; w ciekawostce możemy przeprowadzić eksperyment Millikana, który pokazuje jak wyznacza się ładunek elementarny. <br/>
+&bull; w ciekawostce możemy przeprowadzić eksperyment millikana, który pokazuje jak wyznacza się ładunek elementarny. <br/>
         
          ]]>
     </string>
     <string name="ed_cwiczenie_pole_elektryczne">
-<![CDATA[
-<b>Ćwiczenie – działanie kondensatora płaskiego</b>
-<p>Wybierz z Narzędzi kuwetę, papier, dwie elektrody płaskie, zasilacz, dwa przewody: niebieski i czerwony, chininę. W kuwecie ułóż elektrody równolegle, w odległości 10 cm od siebie. Pierwszą elektrodę połącz przewodem z dodatnim gniazdem zasilacza. Drugą podłącz do ujemnego gniazda. Na zasilaczu ustaw napięcie 20V i rozpocznij doświadczenie. Jak ułożą się wektory sił pola elektrycznego pomiędzy elektrodami? </p>
-Wlej oliwę do kuwety, a potem rozsyp chininę. Kryształki chininy pod wpływem pola elektrycznego będą się układały zgodnie z liniami sił pola elektrycznego. Ponownie uruchom doświadczenie. </br>
-&bull; Czy kryształki chininy ułożyły się zgodnie z twoimi przewidywaniami? Czy uzyskane pole elektryczne jest jednorodne? <br/>
-&bull; Teraz również drugą elektrodę podłącz do dodatniego gniazda. Na zasilaczu pozostaw napięcie 20V. Czy wektory sił pola elektrycznego będą układały się tak jak poprzednio? <br/>
-&bull; Powtórz doświadczenie z elektrodami oddalonymi od siebie o 20cm, a potem 30 cm. Co się zmieniło? <br/>
-&bull; Co możesz powiedzieć o wartości siły, która działa na ładunek umieszczony w dowolnym punkcie pola jednorodnego? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku. <br/>
+<![cdata[
+<b>ćwiczenie – działanie kondensatora płaskiego</b>
+<p>wybierz z narzędzi kuwetę, papier, dwie elektrody płaskie, zasilacz, dwa przewody: niebieski 
+i czerwony, chininę. w kuwecie ułóż elektrody równolegle, w odległości 10 cm od siebie. 
+pierwszą elektrodę połącz przewodem z dodatnim gniazdem zasilacza. drugą podłącz do&nbsp;ujemnego 
+gniazda. na zasilaczu ustaw napięcie 20v i rozpocznij doświadczenie. jak ułożą się wektory
+ sił pola elektrycznego pomiędzy elektrodami? </p>
+wlej oliwę do kuwety, a potem rozsyp chininę. kryształki chininy pod wpływem pola elektrycznego
+ będą się układały zgodnie z liniami sił pola elektrycznego. ponownie uruchom doświadczenie. </br>
+&bull; czy kryształki chininy ułożyły się zgodnie z twoimi przewidywaniami? czy uzyskane 
+pole elektryczne jest jednorodne? <br/><br/>
+&bull; teraz również drugą elektrodę podłącz do dodatniego gniazda. na&nbsp;zasilaczu pozostaw
+ napięcie 20v. czy wektory sił pola elektrycznego będą układały się tak jak poprzednio? <br/>
+&bull; powtórz doświadczenie z elektrodami oddalonymi od siebie o&nbsp;20&nbsp;cm, a potem 30&nbsp;cm. 
+co&nbsp;się&nbsp;zmieniło? <br/>
+&bull; co możesz powiedzieć o wartości siły, która działa na ładunek umieszczony w
+ dowolnym punkcie pola jednorodnego? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku. <br/>
 
          ]]>
     </string>
     <string name="ed_info_prad_staly">
-<![CDATA[
+<![cdata[
 <p>
-<b> Prądem elektrycznym<b/> nazywamy uporządkowany ruch ładunków elektrycznych w przestrzeni.
- Przyjmuje się, że prąd płynie od punktu (punktów) o wyższym potencjale do punktu (punktów) 
+<b> prądem elektrycznym</b> nazywamy uporządkowany ruch ładunków elektrycznych w przestrzeni.
+ przyjmuje się, że prąd płynie od punktu (punktów) o wyższym potencjale do punktu (punktów) 
  o&nbsp;niższym potencjale, a więc kierunek przepływu prądu jest zgodny z kierunkiem ruchu 
- ładunków dodatnich w polu elektrycznym. Prąd stały (ang. direct current, DC) charakteryzuje się 
+ ładunków dodatnich w polu elektrycznym. prąd stały (ang. direct current, dc) charakteryzuje się 
  stałą wartością natężenia oraz kierunkiem przepływu, w odróżnieniu od prądu przemiennego 
- (AC,&nbsp;ang.&nbsp;alternating&nbsp;current). <br/>
-<b> Obwód elektryczny prądu stałego<b/> to układ, który składa się ze źródła prądu lub
- napięcia i innych elementów obwodu, np.: oporników, kondensatorów, cewek, diod ... . Elementy 
+ (ac,&nbsp;ang.&nbsp;alternating&nbsp;current). <br/>
+<b> obwód elektryczny prądu stałego</b> to układ, który składa się ze źródła prądu lub
+ napięcia i innych elementów obwodu, np.: oporników, kondensatorów, cewek, diod ... . elementy 
  te są połączone ze&nbsp;źródłem za pomocą przewodów, dzięki którym do wszystkich
   elementów układu dopływa prąd. 
 </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
-&bull; poznać prawo Ohma, <br/>
-&bull; poznać prawa Kirchhoffa, <br/>
+za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; poznać prawo ohma, <br/>
+&bull; poznać prawa kirchhoffa, <br/>
 &bull; nauczyć się zasad łączenia szeregowego i równoległego żarówek oraz oporników, <br/>
 &bull; zaprojektować własny obwód elektryczny prądu stałego, <br/>
 &bull; określić wpływ sposobu łączenia elementów składowych układu (oporników, żarówek) na jego działanie, <br/>
@@ -843,44 +901,49 @@ Za pomocą tego e-doświadczenia można m. in: <br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_prad_staly">
-<![CDATA[
-<b>Ćwiczenie – prawo Ohma</b>
-<p>Z Narzędzi wybierz układ nr 1. Zwrócić uwagę, że w przygotowanym obwodzie elektrycznym amperomierz włączony jest do obwodu szeregowo, a woltomierz równolegle. Zmierz przygotowanemu opornikowi zależność natężenia prądu od napięcia. Dane zapisz w tabeli, a następnie wykonaj wykres U(I). Czy jest to zależność liniowa? </p>
-&bull; Czy stosunek napięcia mierzonego na końcach przewodnika do natężenia prądu płynącego przez przewodnik jest stała? <br/>
-&bull; Powtórz doświadczenie dla oporników 1 Ω, 100 Ω, R1. Ile wynosi opór R1? Czy opór zależy od napięcia albo od natężenia? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+<![cdata[
+<b>ćwiczenie – prawo ohma</b>
+<p>z narzędzi wybierz układ nr 1. zwrócić uwagę, że w przygotowanym obwodzie elektrycznym amperomierz 
+włączony jest do obwodu szeregowo, a woltomierz równolegle. zmierz przygotowanemu opornikowi zależność 
+natężenia prądu od napięcia. dane zapisz w tabeli, następnie wykonaj wykres u(i). czy&nbsp;jest to 
+zależność liniowa? </p>
+&bull; czy stosunek napięcia mierzonego na końcach przewodnika do&nbsp;natężenia prądu płynącego 
+przez przewodnik jest stała? <br/>
+&bull; powtórz doświadczenie dla&nbsp;oporników 1 ω, 100 ω, r1. ile wynosi opór r1? 
+czy opór zależy od napięcia albo od natężenia? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
     <string name="ed_info_dzwiek">
-<![CDATA[
+<![cdata[
 <p>
-<b> Dźwięk</b>, to fala akustyczna rozchodząca się w ośrodku. Tym co zmienia się w ośrodku
- podczas rozprzestrzeniania się dźwięku są gęstość ośrodka i jego ciśnienie. Fala dźwiękowa 
+<b> dźwięk</b>, to fala akustyczna rozchodząca się w ośrodku. tym co zmienia się w ośrodku
+ podczas rozprzestrzeniania się dźwięku są gęstość ośrodka i jego ciśnienie. fala dźwiękowa 
  wywołuje w&nbsp;ośrodku cykliczne zagęszczenia i rozrzedzenia jego cząstek (np.: powietrza albo wody). </br>
-Rozchodzący się dźwięk jest falą podłużną tzn.: kierunek zgęszczania się i rozrzedzania się
- cząsteczek jest zgodny z kierunkiem rozchodzenia się fali. Szczyty i doliny fali dźwiękowej 
- poruszają się z określoną prędkością (tzw. prędkość dźwięku) i po dotarciu do odbiornika&nbsp;–&nbsp;ludzkiego ucha – tworzą wrażenie dźwięku. Człowiek słyszy dźwięki o częstościach 
-  od&nbsp;16&nbsp;Hz&nbsp;do&nbsp;20&nbsp;kHz. Drgania o mniejszej częstości nazywane są infradźwiękami, a o wyższej ultradźwiękami. 
+rozchodzący się dźwięk jest falą podłużną tzn.: kierunek zgęszczania się i rozrzedzania się
+ cząsteczek jest zgodny z kierunkiem rozchodzenia się fali. szczyty i doliny fali dźwiękowej 
+ poruszają się z określoną prędkością (tzw. prędkość dźwięku) i po dotarciu do odbiornika&nbsp;–&nbsp;ludzkiego ucha – tworzą wrażenie dźwięku. człowiek słyszy dźwięki o częstościach 
+  od&nbsp;16&nbsp;hz&nbsp;do&nbsp;20&nbsp;khz. drgania o mniejszej częstości nazywane są infradźwiękami, a o wyższej ultradźwiękami. 
 </p>
 <p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zaobserwować rezonans akustyczny </br>
-Zjawisko rezonansu zachodzi, gdy częstotliwości drgań
- są&nbsp;do&nbsp;siebie dopasowane. Polega ono na przekazaniu energii drgań od jednego kamertonu do
-  drugiego. Przy prawidłowo nastrojonych kamertonach wzbudzony kamerton ma taką samą 
+zjawisko rezonansu zachodzi, gdy częstotliwości drgań
+ są&nbsp;do&nbsp;siebie dopasowane. polega ono na przekazaniu energii drgań od jednego kamertonu do
+  drugiego. przy prawidłowo nastrojonych kamertonach wzbudzony kamerton ma taką samą 
   częstotliwość drgań tonu podstawowego jak ustawiony obok drugi ale niewzbudzony.
    <br/> <br/>
 &bull; zaobserwować interferencję</br>
- Fale dźwiękowe nie rozchodzą się w przestrzeni
+ fale dźwiękowe nie rozchodzą się w przestrzeni
  w odosobnieniu, po&nbsp;napotkaniu innych fal akustycznych nakładają sie na siebie. 
- Przy szczególnych warunkach fale mogą się wzajemnie wzmacniać lub wygaszać.
+ przy szczególnych warunkach fale mogą się wzajemnie wzmacniać lub wygaszać.
   <br/> <br/>
 &bull; zmierzyć częstotliwość dudnień</br>
-Dudnienia powstają przy nałożeniu się na siebie
+dudnienia powstają przy nałożeniu się na siebie
  dwóch fal harmonicznych o jednakowych amplitudach i nieznacznie różniących się
-  częstościach. Słyszymy wówczas cyklicznie powtarzające się wzrosty i zaniki 
-  natężenia dźwięku. Przykładowo: dudniący dźwięk powstający ze złożenia dwóch 
+  częstościach. słyszymy wówczas cyklicznie powtarzające się wzrosty i zaniki 
+  natężenia dźwięku. przykładowo: dudniący dźwięk powstający ze złożenia dwóch 
   dźwięków źle zestrojonych instrumentów muzycznych. <br/>
    <br/> <br/>
 &bull; wyznaczyć częstości drgań kamertonu. 
@@ -889,30 +952,32 @@ Dudnienia powstają przy nałożeniu się na siebie
          ]]>
     </string>
     <string name="ed_cwiczenie_dzwiek">
-<![CDATA[
-<b>Ćwiczenie – rezonans akustyczny</b>
+<![cdata[
+<b>ćwiczenie – rezonans akustyczny</b>
 <p>
-Kamertony zamocowane są na pudełkach rezonansowych i umieszczone są w niewielkiej odległości od siebie. Otwory pudełek znajdują się naprzeciwko siebie. Ustaw częstotliwość pierwszego kamertonu na 440 Hz, a drugiego na 445 HZ. Wzbudź pierwszy kamerton, a po chwili zatrzymaj go. <br/>
-&bull; Czy drugi kamerton zaczął wibrować? <br/>
-&bull;  Jeżeli nie to zmień częstotliwość drgań drugiego kamertonu o 0,5 Hz. <br/>
-&bull; Przy jakiej częstotliwości kamertony wpadną w rezonans? Czy istotna jest kolejność wzbudzania kamertonów? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+kamertony zamocowane są na&nbsp;pudełkach rezonansowych i&nbsp;umieszczone są w niewielkiej 
+odległości od siebie. otwory pudełek znajdują się naprzeciwko siebie. ustaw częstotliwość 
+pierwszego kamertonu na&nbsp;440&nbsp;hz, a drugiego na 445 hz. wzbudź pierwszy kamerton, a&nbsp;po chwili zatrzymaj go. <br/>
+&bull; czy drugi kamerton zaczął wibrować? <br/>
+&bull;  jeżeli nie to zmień częstotliwość drgań drugiego kamertonu o 0,5&nbsp;hz. <br/>
+&bull; przy jakiej częstotliwości kamertony wpadną w rezonans? czy istotna jest kolejność wzbudzania kamertonów? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
     <string name="ed_info_kalorymetria">
-<![CDATA[
+<![cdata[
 <p>
-<b> Kalorymetria</b> (łac. calor = ciepło) - dział nauki zajmujący się rozwijaniem technik pomiaru ciepła powstającego w wyniku reakcji chemicznych i rozmaitych procesów fizycznych. W doświadczeniu korzystamy głównie z przyrządu laboratoryjnego (kalorymetru) służącego do pomiaru ciepła wydzielanego lub pobieranego podczas procesów chemicznych i fizycznych. 
+<b> kalorymetria</b> (łac. calor = ciepło) - dział nauki zajmujący się rozwijaniem technik pomiaru ciepła powstającego w wyniku reakcji chemicznych i rozmaitych procesów fizycznych. w doświadczeniu korzystamy głównie z przyrządu laboratoryjnego (kalorymetru) służącego do pomiaru ciepła wydzielanego lub pobieranego podczas procesów chemicznych i fizycznych. 
 <p/><p>
-Kalorymetr wykorzystywany jest przede wszystkim do wyznaczania: <br/>
+kalorymetr wykorzystywany jest przede wszystkim do wyznaczania: <br/>
 &bull; ciepła właściwego cieczy, <br/>
 &bull; ciepła właściwego ciał stałych, <br/>
 &bull; ciepła topnienia,<br/>
 &bull; ciepła parowania. <br/> </br>
-W ciekawostce doświadczenia „kalorymetria” można zapoznać się z działaniem bomby kalorycznej. Jest to specjalny rodzaj kalorymetru przystosowanego do pomiaru gwałtownie przebiegających procesów. Proces inicjowany jest np.: poprzez iskrę elektryczną. Przebiegające spalanie materiału umieszczonego w kalorymetrze ogrzewa powietrze, które się tam znajduje. Intensywność procesu przekłada się na wzrost temperatury oraz objętości powietrza wydostającego się z kalorymetru. 
+w ciekawostce doświadczenia „kalorymetria” można zapoznać się z działaniem bomby kalorycznej. jest to specjalny rodzaj kalorymetru przystosowanego do pomiaru gwałtownie przebiegających procesów. proces inicjowany jest np.: poprzez iskrę elektryczną. przebiegające spalanie materiału umieszczonego w kalorymetrze ogrzewa powietrze, które się tam znajduje. intensywność procesu przekłada się na wzrost temperatury oraz objętości powietrza wydostającego się z kalorymetru. 
 </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; wyznaczyć pojemność cieplną kalorymetru, <br/>
 &bull; określić ciepło właściwe dostępnych w doświadczeniu metali, <br/>
 &bull; określić ciepło topnienia lodu i parowania cieczy, <br/>
@@ -921,30 +986,32 @@ Za pomocą tego e-doświadczenia można m. in: <br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_kalorymetria">
-<![CDATA[
-<b>Ćwiczenie – pomiar ciepła parowania wody</b>
+<![cdata[
+<b>ćwiczenie – pomiar ciepła parowania wody</b>
 <p>
-Odczytaj i zapisz stan kalorymetru przed pomiarem. Doprowadź wodę w parowniku do wrzenia. Następnie połącz parownik z kalorymetrem (przycisk WŁÓŻ RURKĘ). Gdy temperatura na termometrze przestanie się podnosić wyjmij rurkę z kalorymetru. </p>
-&bull; Zważ kalorymetr i oblicz ile skropliło się wody? <br/>
-&bull; Jeżeli nie zważyłeś kalorymetru przed pomiarem, to musisz powtórzyć pomiar. <br/>
- &bull; Zanotuj również ile czasu trwało skraplanie. Czy wiedząc ile wody skropliło się w określonym czasie możesz wyznaczyć ciepło parowania wody? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+odczytaj i zapisz stan kalorymetru przed pomiarem. doprowadź wodę w&nbsp;parowniku do wrzenia. 
+następnie połącz parownik z kalorymetrem (przycisk włóż rurkę). gdy&nbsp;temperatura na
+ termometrze przestanie się podnosić wyjmij rurkę z kalorymetru. </p>
+&bull; zważ kalorymetr i oblicz ile skropliło się wody? <br/>
+&bull; jeżeli nie zważyłeś kalorymetru przed pomiarem, to musisz powtórzyć pomiar. <br/>
+ &bull; zanotuj również ile czasu trwało skraplanie. czy wiedząc ile wody skropliło się w określonym czasie możesz wyznaczyć ciepło parowania wody? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
     <string name="ed_info_kondensatory">
-<![CDATA[
+<![cdata[
 <p>
-<b> Kondensator</b> jest urządzeniem służącym do gromadzenia ładunku elektrycznego. 
-Każdy&nbsp;<b>kondensator</b>  składa się z przewodników (okładek) rozdzielonych warstwą 
-dielektrykiem. Aby&nbsp;zgromadzić ładunek elektryczny trzeba doprowadzić napięcia do okładek 
-kondensatora. Po&nbsp;odłączeniu od źródła napięcia siły przyciągania elektrostatycznego 
+<b> kondensator</b> jest urządzeniem służącym do gromadzenia ładunku elektrycznego. 
+każdy&nbsp;<b>kondensator</b>  składa się z przewodników (okładek) rozdzielonych warstwą 
+dielektrykiem. aby&nbsp;zgromadzić ładunek elektryczny trzeba doprowadzić napięcia do okładek 
+kondensatora. po&nbsp;odłączeniu od źródła napięcia siły przyciągania elektrostatycznego 
 utrzymują ładunki na okładkach. </br>
-Cechą charakterystyczną kondensatora jest jego pojemność czyli zdolność do&nbsp;gromadzenia ładunku. 
-Szczególnym rodzajem kondensatora jest kondensator płaski. Jest&nbsp;on&nbsp;zbudowany z dwóch 
+cechą charakterystyczną kondensatora jest jego pojemność czyli zdolność do&nbsp;gromadzenia ładunku. 
+szczególnym rodzajem kondensatora jest kondensator płaski. jest&nbsp;on&nbsp;zbudowany z dwóch 
 równoległych metalowych płytek oddalonych od siebie o pewną odległość np.: kondensator 
 powietrzny - między jego okładkami znajduje się powietrze. </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zapoznać się z budową kondensatora płaskiego, <br/>
 &bull; nauczyć się zasad łączenia szeregowego i równoległego kondensatorów, <br/>
 &bull; określić wpływ sposobu łączenia kondensatorów na jego obwodu elektrycznego, <br/>  
@@ -954,29 +1021,31 @@ Za pomocą tego e-doświadczenia można m. in: <br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_kondensatory">
-<![CDATA[
-<b> Ćwiczenie – szeregowe i równoległe łączenie kondensatorów</b>
+<![cdata[
+<b> ćwiczenie – szeregowe i równoległe łączenie kondensatorów</b>
 <p>
-Wybierz z Narzędzi miernik pojemności, dwa przewody, płytkę perforowaną i pudełko z kondensatorami. Na macie umieść cztery kondensatory. Połącz je szeregowo – uważaj nie zamykaj obwodu. Co się stanie, jeżeli będziesz mierzyć pojemność zamkniętego obwodu? </p>
+wybierz z narzędzi miernik pojemności, dwa przewody, płytkę perforowaną i pudełko z kondensatorami. 
+na macie umieść cztery kondensatory. połącz je szeregowo – uważaj nie zamykaj obwodu. 
+co się stanie, jeżeli będziesz mierzyć pojemność zamkniętego obwodu? </p>
 <p>
-Zmierz pojemność każdego z kondensatorów oraz całego układu. Zanotuj pojemności. </br>
-&bull; Jak zmienia się pojemność układu kondensatorów połączonych szeregowo? </br>
-&bull; Na podstawie obserwacji wymyśl wzór. 
+zmierz pojemność każdego z kondensatorów oraz całego układu.</br>
+&bull; jak zmienia się pojemność układu kondensatorów połączonych szeregowo? </br>
+&bull; na podstawie obserwacji wymyśl wzór. 
 </p>
-&bull; Powyższe doświadczenie powtórz dla układu kondensatorów połączonych równolegle. Użyj tych samych kondensatorów. <br/> 
-&bull; Czy łączna pojemność układu zmieniła się? Dlaczego tak się stało? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+&bull; powyższe doświadczenie powtórz dla układu kondensatorów połączonych równolegle. użyj tych samych kondensatorów. <br/> 
+&bull; czy łączna pojemność układu zmieniła się? dlaczego tak się stało? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
     <string name="ed_info_pole_magnetyczne">
-<![CDATA[
+<![cdata[
 <p>
-<b> Pole magnetyczne</b>  obserwujemy pomiędzy dwoma biegunami ciała o właściwościach magnetycznych. W odróżnieniu od pola elektrycznego jest ono bezźródłowe. Pojedynczy ładunek elektryczny wytwarza samoistnie pola elektryczne. Aby zaobserwować <b> pole magnetyczne</b>  potrzebny jest dipol, czyli układ dwóch różnoimiennych ładunków elektrycznych lub biegunów magnetycznych. 
+<b> pole magnetyczne</b>  obserwujemy pomiędzy dwoma biegunami ciała o właściwościach magnetycznych. w odróżnieniu od pola elektrycznego jest ono bezźródłowe. pojedynczy ładunek elektryczny wytwarza samoistnie pola elektryczne. aby zaobserwować <b> pole magnetyczne</b>  potrzebny jest dipol, czyli układ dwóch różnoimiennych ładunków elektrycznych lub biegunów magnetycznych. 
 </p><p>
-Najstarszym znanym magnesem jest magnetyt. Jeżeli z bryły magnetytu wyciosałoby kilka sztabek, to każda z nich posiadałaby takie same właściwości magnetyczne. Każda sztabka nadal posiadałaby: dwa różnoimienne bieguny (tak jak wcześniej cała bryłka rudy), przyciągałaby opiłki żelaza. Układ linii sił <b> pola magnetycznego</b>  dla każdej z nich byłby niemal identyczny. 
+najstarszym znanym magnesem jest magnetyt. jeżeli z bryły magnetytu wyciosałoby kilka sztabek, to każda z nich posiadałaby takie same właściwości magnetyczne. każda sztabka nadal posiadałaby: dwa różnoimienne bieguny (tak jak wcześniej cała bryłka rudy), przyciągałaby opiłki żelaza. układ linii sił <b> pola magnetycznego</b>  dla każdej z nich byłby niemal identyczny. 
 </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zaobserwować kształt linii pola magnetycznego pochodzącego od magnesów o różnym kształcie, <br/>
 &bull; zobaczyć kształt linii pola magnetycznego pochodzącego od przewodników, w których płynie prąd, <br/>
 &bull; wyznaczyć kształt linii pola magnetycznego, <br/>
@@ -985,227 +1054,259 @@ Za pomocą tego e-doświadczenia można m. in: <br/>
          ]]>
     </string>
     <string name="ed_cwiczenie_pole_magnetyczne">
-<![CDATA[
-<b> Ćwiczenie – badanie linii sił pola magnetycznego</b>
+<![cdata[
+<b> ćwiczenie – badanie linii sił pola magnetycznego</b>
 <p>
-Wybierz z Narzędzi: matę, opiłki żelaza, kompas, dwa magnesy sztabkowe oraz stolik. Wyjmij kompas z pudełka i połóż go na środku stolika. Co wskazuje kompas? </br>
-Z lewej strony kompasu połóż jeden magnes sztabkowy. Wysuń magnes maksymalnie w lewo. Dlaczego wskazanie kompasu zmieniło się? </p> 
+wybierz z narzędzi: matę, opiłki żelaza, kompas, dwa magnesy sztabkowe oraz stolik. 
+wyjmij kompas z&nbsp;pudełka 
+i połóż go na środku stolika. co wskazuje kompas? </br>
+z lewej strony kompasu połóż jeden magnes sztabkowy. wysuń magnes maksymalnie w lewo. 
+dlaczego wskazanie kompasu zmieniło się? </p> 
 <p>
-Ułóż dwa magnesy sztabkowe jeden ponad kompasem, a drugi poniżej. Obydwa magnesy ułóż niebieskimi biegunami w stronę kompasu. <br/>
-&bull; Jak wyglądają linie sił pola magnetycznego pomiędzy magnesami? Rozsyp opiłki na stoliku, czy twoje przypuszczenia potwierdziły się? </p>
-&bull; Obróć magnesy o 180°, czy układ linii sił pola się zmienił? <br/>
-&bull; Obróć tylko jeden magnes o 180°, czy układ linii sił pola się zmienił? Z czego to wynika? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+ułóż dwa magnesy sztabkowe jeden ponad kompasem, a drugi poniżej. obydwa magnesy ułóż niebieskimi
+ biegunami w stronę kompasu. <br/>
+&bull; jak wyglądają linie sił pola magnetycznego pomiędzy magnesami? rozsyp opiłki na stoliku,
+ czy twoje przypuszczenia potwierdziły się? </p>
+&bull; obróć magnesy o 180°, czy układ linii sił pola się zmienił? <br/>
+&bull; obróć tylko jeden magnes o 180°, czy układ linii sił pola się zmienił? z&nbsp;czego to wynika? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
    
 <string name="ed_info_cewki_i_indukcja">
-<![CDATA[
-<p>Indukcją elektromagnetyczna wykorzystywana jest w wielu urządzeniach, np.: elektromagnesach, 
-transformatorach. Cewkę nawiniętą na ferromagnetyczny rdzeń nazywamy elektromagnesem. 
-Służy on do generowania pola magnetycznego. Gdy przez cewkę przepływa prąd elektryczny, 
-to&nbsp;powstaje pole magnetyczne. Pole to oddziaływuje na ferromagnetyczny rdzeń umieszczony
- wewnątrz cewki powodując jego magnesowanie. Jednocześnie pole magnetyczne cewki ulega wzmocnieniu. 
+<![cdata[
+<p>indukcją elektromagnetyczna wykorzystywana jest w wielu urządzeniach, np.: elektromagnesach, 
+transformatorach. cewkę nawiniętą na ferromagnetyczny rdzeń nazywamy elektromagnesem. 
+służy on do generowania pola magnetycznego. gdy przez cewkę przepływa prąd elektryczny, 
+to&nbsp;powstaje pole magnetyczne. pole to oddziaływuje na ferromagnetyczny rdzeń umieszczony
+ wewnątrz cewki powodując jego magnesowanie. jednocześnie pole magnetyczne cewki ulega wzmocnieniu. 
 </p> <p>
-Do budowy transformatora również wykorzystuje się cewki wykonane z przewodzącego materiału oraz 
-rdzeń. W przypadku transformatora rdzeń ma kształt kanciastej litery O. Na pionowych ramioniach
+do budowy transformatora również wykorzystuje się cewki wykonane z przewodzącego materiału oraz 
+rdzeń. w przypadku transformatora rdzeń ma kształt kanciastej litery o. na pionowych ramioniach
  umieszczone są dwie cewki, jedną nazywamy uzwojeniem pierwotnym, a drugą uzwojeniem wtórnym.
-  Gdy do uzwojenia pierwotnego podłączymy źródło przemiennego napięcia, to popłynie w nim 
-  przemienny prąd elektryczny. Wywoła to w rdzeniu transformatora indukcję przemiennego 
-  pola magnetycznego. Pole przenikając przez uzwojenie wtórne powoduje powstanie 
-  zmiennej siły elektromotorycznej (SEM). </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+  gdy do uzwojenia pierwotnego podłączymy źródło przemiennego napięcia, to popłynie w nim 
+  przemienny prąd elektryczny. wywoła to w rdzeniu transformatora indukcję przemiennego 
+  pola magnetycznego. pole przenikając przez uzwojenie wtórne powoduje powstanie 
+  zmiennej siły elektromotorycznej (sem). </p>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zapoznać się ze zjawiskiem indukcji elektromagnetycznej, <br/>
 &bull; zbudować transformator, <br/>
 &bull; zapoznać się z działaniem silnika elektrycznego, prądnicy i różnic między nimi, <br/>
 &bull; poznać sposoby pomiaru siły elektrodynamicznej, <br/>
 &bull; zaobserwować linie pola magnetycznego magnesu/cewki, <br/>
-&bull; zmierzyć wartość SEM indukcji, <br/>
+&bull; zmierzyć wartość sem indukcji, <br/>
 &bull; zmierzyć wartość siły elektrodynamicznej.
          
          ]]>
     </string>
     <string name="ed_cwiczenie_cewki_i_indukcja">
-<![CDATA[
-<b> Ćwiczenie – pomiar napięcia w uzwojeniu wtórnym transformatora</b>
-<p>Wybierz z Narzędzi: zasilacz, woltomierz, dwa przewody niebieskie, dwa przewody czerwone, rdzeń żelazny, dwie cewki o czterystu zwojach (parametr N). Umieść cewki na rdzeniu, ale nie zamykaj go. Lewa cewka będzie pełniła rolę uzwojenia pierwotnego. Podłącz ją do zasilacza. Prawą cewkę podłącz do woltomierza – uzwojenie wtórne. Przełącz zasilacz i woltomierz w tryb pracy z prądem przemiennym. Następnie na zasilaczu ustaw napięcie 12 V. </p>
-&bull; Jakie napięcie zostało wyindukowane w uzwojeniu wtórnym? Czy jeżeli zamienisz cewki miejscami to wynik pomiaru będzie taki sam? <br/>
-&bull; Wykonaj kolejne pomiary dla napięć wejściowych równych 9 V, 6V, 3V, 0V. Wykonaj wykres U<sub>2</sub>(U<sub>1</sub>). Czy jest to zależność liniowa? <br/>
-&bull; Czy wielkość napięcia w uzwojeniu wtórnym zmieni się, jeżeli użyjesz cewki o większej liczbie zwojów? <br/>
-&bull; Wybierz cewkę uzwojenia pierwotnego tak, aby miała dwukrotnie mniej zwojów niż w uzwojenie wtórne. Zrób pomiary dla takich samych napięć wejściowych jak poprzednio i wykonaj wykres U<sub>2</sub>(U<sub>1</sub>). <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+<![cdata[
+<b> ćwiczenie – pomiar napięcia w uzwojeniu wtórnym transformatora</b>
+<p>wybierz z narzędzi: zasilacz, woltomierz, dwa przewody niebieskie, dwa przewody czerwone, rdzeń żelazny, dwie cewki o czterystu zwojach (parametr n). umieść cewki na rdzeniu, ale nie zamykaj go. lewa cewka będzie pełniła rolę uzwojenia pierwotnego. podłącz ją do zasilacza. prawą cewkę podłącz do woltomierza – uzwojenie wtórne. przełącz zasilacz i woltomierz w tryb pracy z prądem przemiennym. następnie na zasilaczu ustaw napięcie 12 v. </p>
+&bull; jakie napięcie zostało wyindukowane w uzwojeniu wtórnym? czy jeżeli zamienisz cewki miejscami to wynik pomiaru będzie taki sam? <br/>
+&bull; wykonaj kolejne pomiary dla napięć wejściowych równych 9 v, 6v, 3v, 0v. wykonaj wykres u<sub>2</sub>(u<sub>1</sub>). czy jest to zależność liniowa? <br/>
+&bull; czy wielkość napięcia w uzwojeniu wtórnym zmieni się, jeżeli użyjesz cewki o większej liczbie zwojów? <br/>
+&bull; wybierz cewkę uzwojenia pierwotnego tak, aby miała dwukrotnie mniej zwojów niż w uzwojenie wtórne. zrób pomiary dla takich samych napięć wejściowych jak poprzednio i wykonaj wykres u<sub>2</sub>(u<sub>1</sub>). <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string> 
    
 <string name="ed_info_optyka_geometryczna">
-<![CDATA[
-<p><b>Optyka geometryczna </b> to dział fizyki zajmujący się wyjaśnianiem zjawisk świetlnych
- przy&nbsp;pomocy geometrii. W tej teorii promienie świetlne traktowane są jako półproste, 
+<![cdata[
+<p><b>optyka geometryczna </b> to dział fizyki zajmujący się wyjaśnianiem zjawisk świetlnych
+ przy&nbsp;pomocy geometrii. w tej teorii promienie świetlne traktowane są jako półproste, 
  mające swój początek w źródle światła (dzieje się tak w przypadku promieni rozchodzących się 
  w jednym ośrodku, jeżeli&nbsp;promień światła będzie pokonywał granicę dwóch różnych ośrodków, 
  to wystąpi tzw. załamanie promienia świetlnego). </p> <p>
-<b>Optyka geometryczna</b> zajmuje się zjawiskami: <br/>
+<b>optyka geometryczna</b> zajmuje się zjawiskami: <br/>
 &bull; odbicia światła, <br/>
 &bull; całkowitego wewnętrznego odbicia światła, <br/>
 &bull; załamania światła, <br/>
 &bull; rozszczepienia światła białego, <br/>
 &bull; abberacji sferycznej lub chromatyczna. <br/><br/>
-Geometryczna interpretacja zjawisk optycznych nie obejmuje bardzo wielu zagadnień związanych z naturą światła, ale jest bardzo przydatna np.: do opisu schematów działania przyrządów optycznych – aparatów fotograficznych, lornetek i teleskopów, itp. </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+geometryczna interpretacja zjawisk optycznych nie obejmuje bardzo wielu zagadnień związanych z naturą światła, ale jest bardzo przydatna np.: do opisu schematów działania przyrządów optycznych – aparatów fotograficznych, lornetek i teleskopów, itp. </p>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; obserwować przebieg promieni świetlnych przez różne soczewki i zwierciadła, <br/>
 &bull; obserwować podwójne załamanie się światła z użyciem kryształu dwójłomnego, <br/>
 &bull; obserwować przechodzenie fali elektromagnetycznej przez polaroid, <br/>
 &bull; zmierzyć kąty padania, załamania i odbicia promieni światła w różnych ośrodkach, <br/>
 &bull; wyznaczyć współczynnik załamania światła, <br/>
 &bull; wyznaczyć kąt graniczny całkowitego wewnętrznego odbicia na granicy ośrodków, <br/>
-&bull; określić kąt Brewstera. <br/>
+&bull; określić kąt brewstera. <br/>
         
          ]]>
     </string>
     <string name="ed_cwiczenie_optyka_geometryczna">
-<![CDATA[
-<b>Ćwiczenie – badanie właściwości skupiających soczewek wykonanych z różnych materiałów<b>
-<p>Wybierz z Narzędzi: matę, laser oraz pudełko z soczewkami. Ustaw laser, aby wyświetlał pięć wiązek o długości fali 485 nm. Wyjmij z pudełka soczewkę wypukłą wykonaną ze szkła, której współczynnik załamania wynosi 1,5, promień jest równy 20 cm, a wysokość - 12 cm. Ustaw ją w odległości 5 cm od lasera (na obrzeżach maty znajduje się opis w cm). Uruchom laser przyciskiem na obudowie. <br/> Czy soczewka skupia promienie lasera, czy je rozprasza? Czy dla wiązek światła o innej długości fali soczewka będzie działała tak samo? Sprawdź to. </p>
-&bull; Ustaw soczewkę pod kątem 45 ° w stosunku do lewej krawędzi maty. Czy soczewka nadal skupia promienie? <br/>
-&bull; Powtórz ćwiczenie dla soczewek wykonanych z innych materiałów, ale o promieniu równym 20 cm, a wysokości - 12 cm. Zacznij od soczewki wykonanej z powietrza. <br/> Dlaczego uzyskałeś inny wynik niż poprzednio? <br/>
-&bull; Następnie zbadaj soczewkę diamentową i krzemową. Zastanów się co powoduje niedokładność skupiania promieni świetlnych? <br/>
-&bull; Powtórz powyższą analizę zmieniając liczbę promieni padających na soczewkę. Czy zmiana liczby promieni ma wpływ na jakość skupiania? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku. <br/>
+<![cdata[
+<b>ćwiczenie – badanie właściwości skupiających soczewek wykonanych z różnych materiałów<b>
+<p>wybierz z narzędzi: matę, laser oraz pudełko z soczewkami. ustaw laser, aby wyświetlał pięć 
+wiązek o długości fali 485 nm. wyjmij z pudełka soczewkę wypukłą wykonaną ze&nbsp;szkła, której
+ współczynnik załamania wynosi 1,5, promień jest równy 20 cm, a wysokość - 12 cm. ustaw ją w 
+ odległości 5 cm od lasera (na obrzeżach maty znajduje się opis w cm). uruchom laser przyciskiem 
+ na&nbsp;obudowie. <br/> czy soczewka skupia promienie lasera, czy je rozprasza? czy dla wiązek
+  światła o innej długości fali soczewka będzie działała tak samo? sprawdź to. </p>
+&bull; ustaw soczewkę pod kątem 45° w&nbsp;stosunku do lewej krawędzi maty. czy soczewka nadal 
+skupia promienie? <br/>
+&bull; powtórz ćwiczenie dla soczewek wykonanych z innych materiałów, ale&nbsp;o promieniu równym 20 cm,
+ a&nbsp;wysokości - 12 cm. zacznij od&nbsp;soczewki wykonanej z powietrza. <br/> dlaczego uzyskałeś inny
+  wynik niż&nbsp;poprzednio? <br/>
+&bull; następnie zbadaj soczewkę diamentową i krzemową. zastanów się co powoduje niedokładność 
+skupiania promieni świetlnych? <br/>
+&bull; powtórz powyższą analizę zmieniając liczbę promieni padających na soczewkę. czy zmiana
+ liczby promieni ma wpływ na jakość skupiania? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku. <br/>
 
          ]]>
     </string> 
    
 <string name="ed_info_rlc">
-<![CDATA[
+<![cdata[
 <p> 
-Obwód elektryczny RLC składa się z: <br/>
-&bull; rezystora R, <br/>
-&bull; cewki L, <br/>
-&bull; kondensatora C. </p> <p>
-Włączenie rezystora do obwodu powoduje straty energii i wydzielanie się ciepła. Całkowita energia 
-układu będzie z czasem malała – w układzie pojawiają się wówczas drgania tłumione. Jeżeli 
-spełnione są szczególne warunki to w układzie RLC można zaobserwować rezonans napięć 
-lub&nbsp;prądów. Rezonans napięć występuje przy szeregowym połączeniu RLC. Polega on na tym, 
+obwód elektryczny rlc składa się z: <br/>
+&bull; rezystora r, <br/>
+&bull; cewki l, <br/>
+&bull; kondensatora c. </p> <p>
+włączenie rezystora do obwodu powoduje straty energii i wydzielanie się ciepła. całkowita energia 
+układu będzie z czasem malała – w układzie pojawiają się wówczas drgania tłumione. jeżeli 
+spełnione są szczególne warunki to w układzie rlc można zaobserwować rezonans napięć 
+lub&nbsp;prądów. rezonans napięć występuje przy szeregowym połączeniu rlc. polega on na tym, 
 że&nbsp;przy&nbsp;określonej częstotliwości sygnałów w obwodzie suma napięć na cewce oraz
- kondensatorze jest równa zero. Rezonans prądów występuje przy równoległym połączeniu RLC. 
- Przy określonej częstotliwości suma prądów płynący przez cewkę i kondensator wynosi zero.
-  Obydwa te zjawiska mogą być bardzo groźne w przypadku bardziej złożonych układów, ponieważ 
+ kondensatorze jest równa zero. rezonans prądów występuje przy równoległym połączeniu rlc. 
+ przy określonej częstotliwości suma prądów płynący przez cewkę i kondensator wynosi zero.
+  obydwa te zjawiska mogą być bardzo groźne w przypadku bardziej złożonych układów, ponieważ 
   niektóre z elementów mogą się uszkodzić. </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
-&bull; obserwować na oscyloskopie przebiegi napięcia i natężenia prądu w obwodzie RLC, <br/>
+za pomocą tego e-doświadczenia można m. in: <br/>
+&bull; obserwować na oscyloskopie przebiegi napięcia i natężenia prądu w obwodzie rlc, <br/>
 &bull; zmierzyć napięcie w funkcji czasu na różnych elementach obwodu elektrycznych za pomocą oscyloskopu, <br/> 
 &bull; zmierzyć natężenie prądu w funkcji czasu za pomocą sondy prądowej połączonej z oscyloskopem, <br/>
-&bull; wyznaczyć częstotliwość drgań układu LC i RLC. <br/>
+&bull; wyznaczyć częstotliwość drgań układu lc i rlc. <br/>
          
          ]]>
     </string>
     <string name="ed_cwiczenie_rlc">
-<![CDATA[
-<b> Ćwiczenie dudnienia w układach LC</b>
+<![cdata[
+<b> ćwiczenie dudnienia w układach lc</b>
 <p>
-Wybierz z Narzędzi: układ szeregowy LC, generator impulsów, oscyloskop, dwie sondy napięciowe. Podłącz generator impulsów do obwodu umieszczonego na płytce perforowanej. Ustaw częstotliwość generowanego sygnału na 2000 Hz oraz jego amplitudę na 2,12 V. Podłącz sondy napięciowe do kanałów oscyloskopu i równolegle - pierwszą do cewki, a drugą do kondensatora. Na oscyloskopie ustaw taką samą podziałkę na obu kanałach oscyloskopu, np.: 5 V, a krok czasowy na 0,2 ms. </p>
-&bull; W jakim stanie znajduje się układ doświadczalny? Zmieniając częstotliwość i amplitudę znajdź inny stabilny stan układu. Dlaczego obserwujesz dudnienia w badanym układzie? <br/>
-&bull; Wybierz z pudełka inną cewkę, a potem kondensator czy stan układu się zmienił? <br/><br/>
+wybierz z narzędzi: układ szeregowy lc, generator impulsów, oscyloskop, dwie sondy napięciowe.
+ podłącz generator impulsów do obwodu umieszczonego na płytce perforowanej. ustaw częstotliwość
+  generowanego sygnału na 2000 hz oraz jego amplitudę na 2,12 v. podłącz sondy napięciowe do kanałów 
+  oscyloskopu i równolegle -&nbsp;pierwszą do cewki, a drugą do&nbsp;kondensatora. na oscyloskopie ustaw taką 
+  samą podziałkę na obu kanałach oscyloskopu, np.: 5&nbsp;v, a&nbsp;krok czasowy na 0,2 ms. </p>
+&bull; w jakim stanie znajduje się układ doświadczalny? zmieniając częstotliwość i amplitudę znajdź 
+inny stabilny stan układu. dlaczego obserwujesz dudnienia w badanym układzie? <br/>
+&bull; wybierz z pudełka inną cewkę, a&nbsp;potem kondensator czy stan układu się zmienił? <br/><br/>
 
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>   
    
 <string name="ed_info_korpuskularna">
-<![CDATA[
+<![cdata[
 <p>
-Dualizm korpuskularno – falowy jest postulatem głoszącym, że światło ma dwoistą naturę. 
-Po&nbsp;raz&nbsp;pierwszy został przedstawiony na początku dwudziestego wieku. Wg tej teorii w&nbsp;pewnych 
-sytuacjach światło zachowuje się jak fala, a w innych jak cząstka. Przykładowo zjawiska
- interferencji światła wyjaśniane są za pomocą falowej teorii światła. Wzmacnianie lub 
+dualizm korpuskularno – falowy jest postulatem głoszącym, że światło ma dwoistą naturę. 
+po&nbsp;raz&nbsp;pierwszy został przedstawiony na początku dwudziestego wieku. wg tej teorii w&nbsp;pewnych 
+sytuacjach światło zachowuje się jak fala, a w innych jak cząstka. przykładowo zjawiska
+ interferencji światła wyjaśniane są za pomocą falowej teorii światła. wzmacnianie lub 
  osłabianie wiązek świetlnych tłumaczone jest nakładaniem się fal świetlnych w fazach zgodnych 
- lub&nbsp;przeciwnych. Teoria czysto korpuskularna (traktująca światło jako zbiór cząstek)
-  nie może tego wyjaśnić. Dla równowagi przy pomocy teorii falowej nie można wyjaśnić 
-  efektu fotoelektrycznego. Dlatego przyjęto, że światło ma naturą korpuskularno-falową. </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+ lub&nbsp;przeciwnych. teoria czysto korpuskularna (traktująca światło jako zbiór cząstek)
+  nie może tego wyjaśnić. dla równowagi przy pomocy teorii falowej nie można wyjaśnić 
+  efektu fotoelektrycznego. dlatego przyjęto, że światło ma naturą korpuskularno-falową. </p>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zaobserwować widmo ciągłe i widmo charakterystyczne promieniowania rentgenowskiego, <br/>
 &bull; zapoznać się z budową i zasadą działania lampy rentgenowskiej w skali nano, <br/>
 &bull; poznać mechanizm comptonowskiego rozpraszania fotonów na słabo związanych elektronach, <br/>
 &bull; poznać budowę i zasadę działania fotokomórki, <br/>
 &bull; zapoznać się z mechanizmem powstawania fotoprądu, <br/>
 &bull; zmierzyć położenie pików w widmie charakterystycznym, <br/>
-&bull; określić stałą Plancka. <br/>
+&bull; określić stałą plancka. <br/>
           
          ]]>
     </string>
 <string name="ed_cwiczenie_korpuskularna">
-<![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
+<![cdata[
+<b>propozycja ćwiczenia:</b><br/>
 &bull;
 
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+więcej ćwiczeń znajduje się w podręczniku.
          ]]>
     </string>   
     
 <string name="ed_info_interferencja">
-<![CDATA[
+<![cdata[
 <p>
-<b> Interferencja</b> jest zjawiskiem nakładania się na siebie dwu lub więcej fal. 
-Nakładające się na siebie fale mogą się wzajemnie wzmocnić lub osłabić. 
-Białe światło nie ma jednej określonej długości fali, interferencję w tym przypadku 
-jest bardzo trudno zaobserwować. O wiele łatwiej zaobserwować interferencję wykorzystując 
-światło monochromatyczne, np.: lasera. Kierując wiązkę laserową na ekran przed którym 
+<b> interferencja</b> jest zjawiskiem nakładania się na siebie dwu lub więcej fal. 
+nakładające się na siebie fale mogą się wzajemnie wzmocnić lub osłabić. 
+białe światło nie ma jednej określonej długości fali, interferencję w tym przypadku 
+jest bardzo trudno zaobserwować. o wiele łatwiej zaobserwować interferencję wykorzystując 
+światło monochromatyczne, np.: lasera. kierując wiązkę laserową na ekran przed którym 
 znajduje się układ szczelin (najczęściej siatkę dyfrakcyjną) możemy uzyskać obraz 
 składający się z naprzemiennie ułożonych jasnych i ciemnych prążków . 
-Jest to tzw. doświadczenie Younga. </p>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+jest to tzw. doświadczenie younga. </p>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; zobaczyć dyfrakcję i interferencję fal świetlnych, <br/>
 &bull; zaobserwować dyfrakcję i interferencję fal wodnych, <br/>
-&bull; zapoznać się z doświadczeniem Younga, <br/>
+&bull; zapoznać się z doświadczeniem younga, <br/>
 &bull; wyznaczyć odległość między szczelinami siatki dyfrakcyjnej, <br/>
 &bull; zmierzyć odległość między wyświetlonymi prążkami interferencyjnymi. <br/>
         
          ]]>
     </string>
     <string name="ed_cwiczenie_interferencja">
-<![CDATA[
-<b>Ćwiczenie – interferencja światła</b>
+<![cdata[
+<b>ćwiczenie – interferencja światła</b>
 <p>
-Wybierz z Narzędzi: laser RGBU, ekran i ławę optyczną oraz płytkę do wycinania własnych szczelin - z zakładki pt.: płytki dyfrakcyjne. < /p>
-&bull; Zaznacz płytkę dyfrakcyjną i naciśnij przycisk WYTNIJ (znajduje się w panelu bocznym). Zacznij od wycięcia na środku płytki jednego okrągłego otworu. Umieść płytkę dyfrakcyjną na ławie optycznej. <br/>
+wybierz z narzędzi: laser rgbu, ekran i ławę optyczną oraz płytkę do&nbsp;wycinania własnych szczelin
+ -&nbsp;z&nbsp;zakładki pt.: płytki dyfrakcyjne. </p>
+&bull; zaznacz płytkę dyfrakcyjną i&nbsp;naciśnij przycisk wytnij (znajduje się w panelu bocznym). 
+zacznij od&nbsp;wycięcia na środku płytki jednego okrągłego otworu. umieść płytkę dyfrakcyjną na 
+ławie optycznej. <br/>
 <p>
-&bull; Następnie zamontuj laser na końcu ławy optycznej. Wybierz dowolny kolor lasera, np.: czerwony. Rozpocznij doświadczenie uruchamiając laser. </p>
-&bull; Jaki obraz powstał po przejściu światła przez płytkę dyfrakcyjną? Żeby lepiej zobaczyć wzór zaznacz w panelu bocznym opcję: widok ekranu. Jakie zjawisko fizyczne powoduje ten efekt świetlny? <br/>
+&bull; następnie zamontuj laser na końcu ławy optycznej. wybierz dowolny kolor lasera, np.: czerwony.
+ rozpocznij doświadczenie uruchamiając laser. </p>
+&bull; jaki obraz powstał po przejściu światła przez płytkę dyfrakcyjną? żeby lepiej zobaczyć wzór
+ zaznacz w&nbsp;panelu bocznym opcję: widok ekranu. jakie zjawisko fizyczne powoduje ten efekt 
+ świetlny? <br/>
 <p>
-&bull; Czy fala świetlna o innej długości przechodząca przez płytkę dyfrakcyjną utworzy inny wzór na ekranie? Sprawdź to dla wiązek o innej barwie. </p>
-&bull; Powtórz doświadczenie wycinając kolejno otwór kwadratowy i trójkątny. Czy wzór wygląda tak samo, jak w przypadku otworu okrągłego? <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+&bull; czy fala świetlna o innej długości przechodząca przez płytkę dyfrakcyjną utworzy inny wzór
+ na ekranie? sprawdź to dla wiązek o innej barwie. </p>
+&bull; powtórz doświadczenie wycinając kolejno otwór kwadratowy i trójkątny. czy wzór wygląda
+ tak samo, jak&nbsp;w&nbsp;przypadku otworu okrągłego? <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>
     
     <string name="ed_info_fizyka_atomowa">
-<![CDATA[
+<![cdata[
 <p>
-Radioaktywność, to umiejętność emitowania przez pierwiastki promieniowania jądrowego. Promieniowanie to powstaje w wyniku samoistnej przemiany jąder atomowych. Cała materia emituje promieniowanie o różnym natężeniu i charakterze. </p>
-Promieniowanie możemy podzielić na dwie grupy:<br/>
-&bull; promieniowanie jonizujące (alfa, beta, gamma, UV, X), <br/>
+radioaktywność, to umiejętność emitowania przez pierwiastki promieniowania jądrowego. promieniowanie to powstaje w wyniku samoistnej przemiany jąder atomowych. cała materia emituje promieniowanie o różnym natężeniu i charakterze. </p>
+promieniowanie możemy podzielić na dwie grupy:<br/>
+&bull; promieniowanie jonizujące (alfa, beta, gamma, uv, x), <br/>
 &bull; promieniowanie niejonizujące (podczerwone, radiowe, mikrofalowe, światło widzialne). <br/><br/>
-Za pomocą tego e-doświadczenia można m. in: <br/>
+za pomocą tego e-doświadczenia można m. in: <br/>
 &bull; określić położenie poszczególnych linii widmowych atomów helu i wodoru oraz długości odpowiadających im fal, <br/>
 &bull; wyznaczać aktywność promieniotwórczą wybranych materiałów, <br/>
 &bull; określić okres połowicznego zaniku wybranych, <br/>
-&bull; zbadać wiek wybranych przedmiotów poprzez badanie rozpadu izotopu C14. <br/>
+&bull; zbadać wiek wybranych przedmiotów poprzez badanie rozpadu izotopu c14. <br/>
           
          ]]>
     </string>
     <string name="ed_cwiczenie_fizyka_atomowa">
-<![CDATA[
-<b>Ćwiczenie – określenie wieku przedmiotu</b>
-<p>Wybierz z Narzędzi sumeryjską tabliczkę (znajduje się ona w zakładce laboratorium datowania węglem). W prawym dolnym rogu laboratorium, na stoliku znajduje się urządzenie do przygotowywania próbek. Włącz go przyciskiem na obudowie, a następnie włóż tabliczkę do jego wnętrza. Próbkę umieść w źródle jonów węgla i rozpocznij eksperyment uruchamiając spektrometr masowy. Podczas pomiaru możesz obejrzeć wnętrze aparatury pomiarowej. </p>
-&bull; Co wyraża wynik wyświetlony na monitorze spektrometru masowego? <br/>
- &bull; Jaki jest wiek badanego przedmiotu? Skorzystaj z tablic fizycznych, żeby go określić. <br/>
-&bull; Zapisz wynik i wykonaj badanie ponownie dla innych przedmiotów. <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.<br/>
+<![cdata[
+<b>ćwiczenie – określenie wieku przedmiotu</b>
+<p>wybierz z narzędzi sumeryjską tabliczkę (znajduje się ona w&nbsp;zakładce laboratorium datowania 
+węglem). w prawym dolnym rogu laboratorium, na stoliku znajduje się urządzenie do przygotowywania 
+próbek. włącz go przyciskiem na&nbsp;obudowie, a następnie włóż tabliczkę do jego wnętrza. próbkę 
+umieść w&nbsp;źródle jonów węgla i rozpocznij eksperyment uruchamiając spektrometr masowy. 
+podczas pomiaru możesz obejrzeć wnętrze aparatury pomiarowej. </p>
+&bull; co wyraża wynik wyświetlony na monitorze spektrometru masowego? <br/>
+ &bull; jaki jest wiek badanego przedmiotu? skorzystaj z tablic fizycznych, żeby go określić. <br/>
+&bull; zapisz wynik i wykonaj badanie ponownie dla innych przedmiotów. <br/><br/>
+więcej ćwiczeń znajduje się w podręczniku.<br/>
 
          ]]>
     </string>    
