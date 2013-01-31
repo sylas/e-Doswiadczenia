@@ -259,6 +259,7 @@ public final class R {
         public static final int ed_info_rownia=0x7f060063;
         public static final int ed_info_rzuty=0x7f06005f;
         /**  Informacje o e-doświadczeniach 
+ Informacje o e-doświadczeniach 
          */
         public static final int ed_info_wahadlo=0x7f06005b;
         public static final int ed_info_zderzenia=0x7f060069;

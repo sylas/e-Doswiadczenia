@@ -328,5 +328,163 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
        
 <!-- Informacje o e-doświadczeniach -->
 
+	<string name="ed_info_wahadlo">
+		<![CDATA[  
+<p>We can imagine <b> a pendulum </b> as a ball freely hanging on a strand. The main assumption of 
+<b> mathematical pendulum model </b> is that the ball is a point and the whole mass of the pendulum is containted there. 
+The strand which the ball hangs on is treated as weightless (neglecting its mass) and inextensible 
+(it does not change its length.) </p>
+<p> <b> In this e-experiment, you can: </b> <br/>
+&bull; examine the basic period of oscilations of the mathematical pendulum, <br/>
+&bull; observe changes in kinetic and potential energy, <br/>
+&bull; learn about one of the many ways to determine the gravitational acceleration, <br/>
+&bull; see how the movement of the pendulum proceeds in an accelerating elevator or a train, <br/>
+&bull; observe the mathematical pendulum in an environment which is difficult to find in the everyday world, such as other planets, <br/>
+&bull; watch the Foucault&apos;s pendulum. </p>
+<big> <b> Note: </b> </big> <br/> Due to the time-consuming calculations and usage of three-dimensional graphics, 
+pendulum animation is rather quite slow (down to several fps). 
+We still working on the optimization of the e-experiment so that you can take full advantage of its features also on tablets.
+		]]>      
+	</string>
+	
+	<string name="ed_cwiczenie_wahadlo">
+		<![CDATA[  
+<b> Exercise - how to measure the base period of oscilations of the mathematical pendulum </b> <p>
+&bull; At the beginning we propose to measure the base period of the pendulum i.e. time of one oscilation of the pendulum. For this experiment we will need a sliding pendulum and a ball. <br/>
+&bull;  Put together strand and a tripod, then attach  the ball to the strand.<br/>
+&bull; Set the length of the thread and its angle. After that press ACCEPT SETTINGS. <br/>
+&bull; To start motion of the pendulum, press START. <br/>
+&bull; After one full period stop the timer and save the result into a table. <br/>
+&bull; Now let us perform as accurately as possible the same experiment again. Measure the full periods, writing each time the result into the table. Repeat the experiment at least 5 times. <br/>
+&bull;  Next, let&apos;s look at the obtained results and try to answer the question: did we succeed in repeating the experiment accurately? That is, were the results of measurements of the base period equal? <br/>
+&bull; Do you think that the deviations from the individual values measured in this way are large or small? <br/>
+&bull; What do you think, from where do these variations come and what are factors influencing the accuracy of measurements? <br/>
+&bull; Consider whether there are more accurate ways to measure the base period? <br/><br/>
+Further exercises are in the textbook. <br/>
+		]]>      
+	</string>
+	<string name="ed_info_lawa">
+		<![CDATA[       
+The e-experiment <b> Optical Bench </b> has been entirely devoted to lenses. <b> The lens </b> is a simple optical device, consisting of one or more blocks of a transparent material glued together - usually glass, but also can be a variety of plastics, gels or minerals. <br/>
+
+With this e-experiment you can learn about geometrical optics. You will familiarize with properties of the lens and the basic parameters characterizing them. In addition, it is a perfect illustration for the basic equations describing the lens. <br/>
+Arranging appropriate lens on the optical bench, you can get different images: real and apparent. In addition, you can build a telescope and a microscope.	  
+		]]>     
+	</string>
+		
+	<string name="ed_cwiczenie_lawa">
+		<![CDATA[       
+ <b> Exercise - studying properties of a focusing lens </b> <br/>
+&bull; Mount the light source on the bench with any filter. <br/>
+&bull; From a set of glass lenses of different focal length choose any focusing lens (that with positive values of focal length) and mount it on the optical bench. <br/>
+&bull; For the time being, mount the screen at any distance on the other side of the lens. <br/>
+&bull; Try placing the light source in various positions: nearer to the lens than the focal length, exactly in the focal point and in a distance further than the focal length. <br/>
+&bull; For each of these three cases, check whether the image is projected onto the screen. <br/>
+&bull; If the image is not sharp, try to move the screen along the optical bench in order to get the best result. <br/>
+&bull; If you do not observe any image on your screen, look through the lens and see if you can observe the virtual image. <br/>
+&bull; Repeat the exercise for the other focusing lenses within this set. <br/><br/>
+Further exercises are in the textbook. <br/>
+		]]> 
+	</string>
+
+	<string name="ed_info_rzuty">
+		<![CDATA[ 
+<b> The throw </b> is defined as a uniform motion in a gravitational field with a certain initial velocity, directed along, across or at an angle to the lines of the field. <br/>
+<b> With this e-experiment, you can: </ b> <br/>
+&bull; examine the throws: <br/>
+- vertical, <br/> - horizontal, <br/> - pitched, <br/>
+&bull; examine cases where a part detaches from the thrown body, <br/>
+&bull; watch how the rotation of the ball affects its bounce, <br/>
+&bull; observe the throws in a windy conditions, <br/>
+&bull; observe the throws in a noninertial frames of reference.    	        
+		]]>      
+	</string>
+	
+	<string name="ed_cwiczenie_rzuty">
+		<![CDATA[        
+	  <b> Exercise - horizontal projection with a fixed velocity </ b> <br/>
+&bull; Select from the Tools (the first icon from the left) the following: any ball, a board with a measuring grid, a tripod, a launcher and a rebound-damping mat. <br/>
+&bull; Adjust the tripod to the left of the mat and position the launcher at a certain height. Adjust the angle of the launcher to 0 degrees (horizontally) and set any initial velocity of the ball. <br/>
+&bull; RUN the e-experiment. <br/>
+&bull; Determine the range of the throw, i.e. the distance the ball has traveled horizontally. For accurate measurements of the position, use a ruler. <br/>
+&bull; Repeat the exercise several times with the same initial speed. Every time change the height of the launcher. <br/>
+&bull; Consider what determines the range of projection. <br/>
+
+<b> Exercise - free fall </b> <br/>
+&bull; Select from the Tools: two tripods with electromagnet and two balls of different diameters. Assemble the set properly and for both of the balls set the same initial height. Drop them by pressing START button (both balls are released at the same time). <br/>
+&bull;  What is the difference between the times of the balls&apos; fall? If in a direct observation you were unable to accurately determine it, use a video from a camera. Write down your observations. <br/>
+&bull;  Perform the exercise by fixing up the starting height of the balls on tripods, so that the distance between the ground and their undersides will be the same. <br/>
+&bull; What is in this case the time interval between the landings of the balls? Explain. Why is it important to ensure that the ground is equidistant from undersides of the balls, not to their centers? <br/>
+&bull; Repeat this exercise, changing the starting height and the size of both examined balls. There are four balls with different diameters and consequently having different masses. Be sure to set the same distance from the ground to the undersides. <br/>
+&bull; What are your conclusions? Are you able to tell what determines the duration of free fall and what does not? <br/>
+&bull; Are you able to write some general conclusions from the experiment?
+<br/><br/>
+Further exercises are in the textbook. <br/>		
+		 ]]>      
+	 </string>
+	 
+    <string name="ed_info_bryla">
+		<![CDATA[ 
+ <b> A rigid body </b> is a mathematical model of the physical body, which does not deform under the influence of forces, that is - in other words - the distance between the points of the body does not change. <br/>
+With the notion of a rigid body is inextricably linked to the concept of a physical pendulum. <b> The physical pendulum </b> is a rigid body, performing oscilations around the axis that does not pass through the center of the pendulum’s mass. <br/>
+<b> With this e-experiment, you can among others: </b> <br/>
+&bull; Measure the period of the physical pendulum, <br/>
+&bull; find the center of mass of  irregularly shaped figures, <br/>
+&bull; examine the moment of inertia of various shapes – you can create your own, <br/>
+&bull; examine the behavior of the so-called Oberbeck pendulum.
+		 ]]>      
+	 </string>
+	
+    <string name="ed_cwiczenie_bryla">
+		<![CDATA[     
+<b> Exercise – determining the center of mass of a rigid body </b> <br/>
+&bull; Select from the Tools: a rigid body (from the card "center of mass"), along with the necessary tools. <br/>
+&bull; Place a protractor on the tripod. <br/>
+&bull; Before you start your experiment, try to guess where in the body would be the center of mass. <br/>
+&bull; Click on the block, and then press SELECT ANCHOR POINT. <br/>
+&bull; In the opened window click on the location closest to the point in which you think, that is located the center of mass. You can change the anchor point by clicking elsewhere on the block. <br/>
+&bull; Close the window and hang the body on the tripod. <br/>
+&bull; Start experiment. <br/>
+&bull; After the block stabilizes, click on it once (with the right mouse button) to draw the axis of a stable suspension. <br/>
+&bull; Double-click on the block to put it back on the table. <br/>
+&bull; Select a different anchor point and repeat the measurement. Do this several times. <br/>
+&bull; Were you able to identify the center of mass? Did you expect it to be in this place? <br/>
+&bull; Repeat the experiment for other rigid bodies. <br/>
+&bull; Why some solids have center of mass located outside of  the lump? Explain. <br/><br/>
+Further exercises are in the textbook. <br/>		  
+		]]>    
+	</string>
+	
+   <string name="ed_info_rownia">
+		<![CDATA[       
+ <b> The inclined plane </b> is a flat surface, inclined at an angle to the horizontal plane. Inclined plane is one of the six classical <b> simple machines </b>, i.e. those that change the direction or value of the force (the others are: lever, winch, block, wedge and screw). <br/>
+In this e-experiment, you can do among others: <br/>
+&bull; examine the accelerated movement, <br/>
+&bull; examine the law of friction, <br/>
+&bull; familiarize yourself with methods of determining the coefficient of the friction <br/>,
+&bull; find out what determines the coefficient of friction. <br/>
+In addition the virtual experiment also allows observations under conditions that are difficult to produce in the laboratory, like observations in the elevator or the train, moving with specified acceleration.
+		  ]]>     
+	</string>
+	
+	<string name="ed_cwiczenie_rownia">
+		<![CDATA[     
+<b> Exercise - how do the blocks move on an inclined plane? </ b> <br/>
+&bull; Select any block from the Tools. You can also choose various modifications for the block or inclined plane. <br/>
+&bull; Put the block on top of the inclined plane (at any point). Make a note of its location. <br/>
+&bull; Rise the inclined plane to an angle greater from $ 35 ^ \ circ $ (note that the angle in question is formed between the inclined plane and the table, not at the point where the protractor is visible!) <br/>
+&bull; Press START. <br/>
+&bull; After block reaches the end of the inclined plane, review the recording from the camera. <br/>
+&bull; For every successive 0.1 second, write down into the table the positions of the block. Write at least 6 different points. Make a chart of the distance related to the time. <br/>
+&bull; Make a second chart presenting the instantaneous speed of the body. For that purpose, divide the distance traveled by the body within each step of the time, by the length of the step of the time (0.1 s).<br/>
+&bull;  Look at received charts. What kind of movement do they represent? What parameters of the movement are you able to derive from the charts? <br/>
+&bull; Repeat this exercise, selecting different modifications for the blocks or inclined plane. Will your conclusions be the same? <br/>
+&bull; Does it matter, which point of the inclined plane you are placing the block at? <br/>
+&bull; What happens if you change the angle of the inclined plane? <br/><br/>
+Further exercises are in the textbook. <br/>   
+		 ]]>  
+	</string>
+   
+    
  </resources>  
     
