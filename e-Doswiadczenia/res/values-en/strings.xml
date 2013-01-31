@@ -438,7 +438,7 @@ With the notion of a rigid body is inextricably linked to the concept of a physi
     <string name="ed_cwiczenie_bryla">
 		<![CDATA[     
 <b> Exercise – determining the center of mass of a rigid body </b> <br/>
-&bull; Select from the Tools: a rigid body (from the card "center of mass"), along with the necessary tools. <br/>
+&bull; Select from the Tools: a rigid body (from the card &quot;center of mass&quot;), along with the necessary tools. <br/>
 &bull; Place a protractor on the tripod. <br/>
 &bull; Before you start your experiment, try to guess where in the body would be the center of mass. <br/>
 &bull; Click on the block, and then press SELECT ANCHOR POINT. <br/>
@@ -469,7 +469,7 @@ In addition the virtual experiment also allows observations under conditions tha
 	
 	<string name="ed_cwiczenie_rownia">
 		<![CDATA[     
-<b> Exercise - how do the blocks move on an inclined plane? </ b> <br/>
+<b> Exercise - how do the blocks move on an inclined plane? </b> <br/>
 &bull; Select any block from the Tools. You can also choose various modifications for the block or inclined plane. <br/>
 &bull; Put the block on top of the inclined plane (at any point). Make a note of its location. <br/>
 &bull; Rise the inclined plane to an angle greater from $ 35 ^ \ circ $ (note that the angle in question is formed between the inclined plane and the table, not at the point where the protractor is visible!) <br/>
@@ -477,14 +477,353 @@ In addition the virtual experiment also allows observations under conditions tha
 &bull; After block reaches the end of the inclined plane, review the recording from the camera. <br/>
 &bull; For every successive 0.1 second, write down into the table the positions of the block. Write at least 6 different points. Make a chart of the distance related to the time. <br/>
 &bull; Make a second chart presenting the instantaneous speed of the body. For that purpose, divide the distance traveled by the body within each step of the time, by the length of the step of the time (0.1 s).<br/>
-&bull;  Look at received charts. What kind of movement do they represent? What parameters of the movement are you able to derive from the charts? <br/>
+&bull; Look at received charts. What kind of movement do they represent? What parameters of the movement are you able to derive from the charts? <br/>
 &bull; Repeat this exercise, selecting different modifications for the blocks or inclined plane. Will your conclusions be the same? <br/>
 &bull; Does it matter, which point of the inclined plane you are placing the block at? <br/>
 &bull; What happens if you change the angle of the inclined plane? <br/><br/>
 Further exercises are in the textbook. <br/>   
 		 ]]>  
 	</string>
+       
+	<string name="ed_info_einstein">
+		<![CDATA[   
+<b> The Einstein&apos;s intelectual experiments </b> introduce the issues of the Special Theory of Relativity. The most important foundations of this theory are: <br/>
+&bull;  all the laws of nature (especially physics) are same regardless of where we observe them from, either the system does not move itself, or it is moving, but moves  without acceleration (or inertial frame) and <br/>
+&bull;  the speed of light is always constant in a given medium. It is also the highest speed at which the energy can be transferred. <br/>
+&bull;  Some conclusions of <b> special relativity </b> is counterintuitive: <br/>
+&bull;  Time dilation - time which passes between the two events is not clearly defined, but depends on the observer. <br/>
+&bull;  Relativity of simultaneity - two events defined by one observer as a simultaneous, may not be simultaneous for another observer. <br/>
+&bull;  Contraction of space - the distance between the points are dependent on the system. All moving objects we observe as shorter. <br/>
+&bull;  Energy is equivalent to mass and the relationship between these values are described by the model E = mc ^ 2 <br/><br/>
+    		     
+		 ]]>   
+	 </string>
    
-    
+	<string name="ed_cwiczenie_einstein">
+		<![CDATA[  
+<b> exercise: </ b> Consider how the two observers see the world? <br/>
+Let the first observer be a person on the ground, and the second - person in the rocket. The rocket is moving away from earth at a certain speed. <br/>
+Assume that the person staying on the ground can see what is happening in the rocket. At some point of the time the astronaut in the rocket starts to grow a beard and is growing it for a certain time dt. <br/>
+How long his beard grows according to the observer on the Earth (ie, what is the dt)?<br/><br/>
+Further exercises are in the textbook. <br/>		       
+		]]>    
+	</string>
+	    
+	<string name="ed_info_astro">
+		<![CDATA[   
+<b> The celestial body  </ b> is any physical object (the object expanded in time and space) occurring in cosmic space, which is outside the Earth&apos;s atmosphere (conventionally limit is called. Kármán line, located just 100 km above the the Earth&apos;s surface). <br/>
+<br/><br/>
+Using the e-experiment you can explore the model of the solar system, learn about Kepler&apos;s laws, calculate cosmic speeds and trajectories of planets and find out what the double star system is. It is also a unique opportunity to build your own solar system. <br/>
+<big> <b> Note: </ b> </ big> <br/> Due to the running time-consuming calculations and the use of three-dimensional graphics, animation of the solar system is likely to be quite slow (down to several fps). Still working on the optimization of the e-experiment so that you can take full advantage of its features also tablets.	      
+		]]>   
+	 </string>
+   
+
+	<string name="ed_cwiczenie_astro">
+		<![CDATA[  
+<b> Exercise - examination of the solar system </b> <br/>
+&bull;  Select a toolbar &quot;systems of celestial bodies&quot;, and then select the SOLAR SYSTEM. <br/>
+&bull;  Before starting the experiment, using the navigation pane on the right side of the screen, try to locate all the planets in the system. <br/><br/>
+&bull;  In the bottom panel, choose the &quot;Settings&quot; card and select &quot;Show trajectories&quot;. <br/>
+&bull;  To save your time, you can speed up the flow of the time by selecting the appropriate value from the drop down menu from &quot;Settings&quot;. <br/>
+&bull;  Hide the bottom panel by clicking on the HIDE PANEL button, and then run the experiment by pressing START. <br/>
+&bull;  Use the navigation buttons to adjust the system so that you could see as much as possible of trajectories of planets. <br/>
+&bull;  After that you can still navigate through the system easily to further investigate the principles of construction of the solar system, and further experiment with various settings. <br/>
+&bull;  What are your conclusions about:<br/>
+ - the size of the system,<br/>
+ - size of individual planets,<br/>
+ - the distance between planets? <br/>
+&bull;  Does a man, using capabilities of current technology, is able, at the time of his life, get on the edge of our solar system? <br/><br/>
+Further exercises are in the textbook. <br/>		       
+		]]>    
+	</string>
+
+	<string name="ed_info_zderzenia">
+		<![CDATA[  
+<b> Collision </b> is a relatively short event, during which the moving body interact with certain forces. In the elastic <b> collisions </b> the total kinetic energy of the bodies after the collision is equal to the total kinetic energy of the bodies before the collision. In turn in the inelastic <b> collisions </b> the final kinetic energy is less than the kinetic energy before the collision (in this case, part of the energy is lost in the various processes associated with the collision, such as heat). <br/> <br/>
+In this e-experiment, you can do among others: <br/>
+&bull;  examine the principle of conservation of the momentum, <br/>
+&bull;  investigate the principle of conservation of the energy, <br/>
+&bull;  observe the behavior of the so-called Newton&apos;  s cradle, <br/>
+&bull;  learn methods of measuring time of collisions. <br/>
+As a curiosity is attached an experiment to simulate pool game.		    
+	   ]]>    
+   </string>
+
+	<string name="ed_cwiczenie_zderzenia">
+		<![CDATA[ 
+<b> Exercise - front central collision </ b> <br/>
+&bull;  Select from the Tools (the first icon from the left): two identical balls (both steel, glass, uranium or nickel). <br/>
+&bull;  Place one of them at launcher and the other in the middle of the mat. Adjust them so that their centers are in the same grid line. <br/>
+&bull;  Set any initial velocity for the ball and shoot it. <br/>
+&bull;  How will the balls move after the collision? Repeat the exercise, setting different initial ball velocity and changing the type of balls (both must be of the same material). Will their behavior be the same?
+<br/><br/>
+
+<b> Exercise - the principle of conservation in the angular central collisions </ b> <br/>
+&bull;  Select from the Tools any two balls and note their weight. <br/>
+&bull;  With one ball placed at the launcher and second set in the middle of the mat, move the launcher so that the center of the thrown ball is not on the same grid line as the center of ball lying on the mat. Pay attention to the fact that the middles of balls should be on the lines close enough to each other so that the collision occurrs at all. <br/>
+&bull;  Specify the initial velocity of any ejected ball and note it. Shoot the ball. <br/>
+&bull;  Use the camera recording to determine what are the values of the final velocities of the two balls. To do this, you need to determine how far each ball moves during a fixed period of time. <br/>
+&bull;  Using the recording find out at what angle balls have been rebound. This will help you determine the components of the velocity vectors in the horizontal and vertical directions. <br/>
+&bull;  Verify that both the principle of conservation of energy and the principle of conservation of the momentum are fulfilled. The corresponding formulas can be found in the textbook. <br/>
+&bull;  Repeat the exercise with a different ball, changing the initial velocity and position of ejected balls. <br/><br/>
+
+Further exercises are in the textbook. <br/>		       
+		]]>     
+	</string>
+
+	<string name="ed_info_ciecze">
+		<![CDATA[  
+<b> Liquid </b> is a state of matter intermediate between a solid and a gas. Physical body in<b> liquid </b>phase hardly changes the volume, but easily changes the shape. Therefore, in the liquid case we observe that its takes the shape of the vessel in which is located.<br/>
+
+In this e-experiment, you can do among others: <br/>
+&bull;  familiarize yourself with the hydrostatic paradox, <br/>
+&bull;  observe the water displacement of swimmers in different liquids, <br/>
+&bull;  determine the density of the liquid, <br/>
+&bull;  measure the hydrostatic pressure. <br/>
+		       
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_ciecze">
+		<![CDATA[    
+<b> Exercise - hydrostatic paradox </ b>
+<p>Start a curiosity. Pour the mercury to all vesseles set on the table beyond high glass cylinder on the left hand side. In each vessel the height of the liquid column is the same. How high will be the the hydrostatic pressure in each vessel? Start the experiment and see if you were right. </ p>
+&bull;  Pour the mercury to the last container. Will the pressure be lower or higher than in the other vesseles? Or will be the same? <br/>
+&bull;  Repeat the experiment using a sea water. How does the pressure in the vesseles change? Consider what is the difference beetwen the mercury and the sea water? <br/><br/>
+Further exercises are in the textbook. <br/>
+		     
+		]]>     
+	</string>
+	<string name="ed_info_drgania">
+		<![CDATA[    
+<p><b> Mechanical vibration </b> is a kind of movement, where certain physical quantities alternately increase and decrease over time. Examples of such movement are: motion of a pendulum or the movement of weight hung on a spring. Take a closer look at the movement of the weight hung on a vibrating spring. Oscillatory motion of the spring is a periodic motion, i.e. we can find a sequence repeated throughout its duration - oscillates around the equilibrium point.
+It is also a harmonic motion, as is formed under a force, which acts in a direction opposite that spring  has been stretched (or compressed). The force is due to the features possessed by the spring called the coefficient of elasticity. Compressed or stretched spring will be unsustainable and depending on the size of the elasticity coefficient  with varying intensity will strive to achieve a state of equilibrium.
+</p>
+In this e-experiment, you can do among others: <br/>
+&bull;  determine the period of vibrations, <br/>
+&bull;  specify elasticity coefficient, <br/>
+&bull;  specify ratio of force applied on the spring to its lengthening, <br/>
+&bull;  find out the intrinsic vibration period of the spring in relation to its weight. <br/>
+<p>
+In this e-experiment we can observe the oscillations of springs burdened weights in different frames of reference, ie: on the train, elevator and on other planets. It is also possible to build a system in order to observe systems of vibration springs connected in series or in parallel. The experiments can convince ourselves about rightness of known dependencies from school’s textbooks. </p>
+		 
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_drgania">
+		<![CDATA[    
+<b> Exercise - calculating the elasticity coefficient of the vibrating spring </b>
+<p>From the Tools select: a tripod, a box of weights, one spring, e.g. copper. In physical terms, select any planet on which the measurement is performed. Place the spring on the tripod. Then select two weights and hang them on the spring (you can put up to 300 g). Stretch the spring and start the experiment. </ p>
+&bull;  What are the minimum and  maximum positions of the weight during the spring oscillation (if necessary use the video camera)? <br/>
+&bull;  What is the value of the elasticity coefficient? <br/>
+&bull;  From the toolbar choose  the physical condition and select another planet. After that perform the measurement. Does spring elasticity coefficient change? Why did this happen? <br/><br/>
+Further exercises are in the textbook. <br/> 
+		]]>     
+	</string>
+	
+	<string name="ed_info_gazy">
+		<![CDATA[       
+<p> <b> Gas </b> is a state of matter in which the physical body occupies the entire available space. Between gas molecules are small interations, and their energy is larger than the molecules bound in the solid state. Gas molecules move in almost chaotic manner and collide with each other and with surfaces limiting them. Therefore, a small amount of the gas molecules may spread at very large area.
+   </p>
+<b> Ideal gas</b>  is a mathematical model, in which:
+&bull;  the intermolecular actions are ignored, <br/>
+&bull;  molecules are in continuous chaotic motion, <br/>
+&bull;  it is assumed that the particles’ collisions are perfectly elastic, <br/>
+&bull;  the volume occupied by the tiny particles themselves  is omitted in relation to the sheer volume occupied by the gas, </p>
+In this e-experiment, you can do among others: <br/>
+&bull;  build a measuring system for observing the behavior of the selected gas in certain physical conditions, <br/>
+&bull;  observe the thermodynamic changes: isobaric, isochoric, isothermal or adiabatic. <br/>
+&bull;  perform measurements of the pressure, temperature and gas volume in the cylinder. </p>
+		  
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_gazy">
+		<![CDATA[       
+		<b> exercise - study the behavior of an ideal gas </b> <p>
+From the Tools choose: a cylinder with a piston, a Bunsen burner, an insulating foam, a set of weights, a bottle with one-atomic ideal gas. </ P>
+&bull;  Put on the cylinder the insulating foam and set the cylinder on the burner. Run experiment. Let 3 portions of the gas from the bottle to the cylinder. Please observe its parameters. Place any 3 weights on the piston. Please refer to an additional information placed in the cylinder&apos;  tooltip.
+<br/><br/>
+&bull;  Heat up the gas in the cylinder. Get your measurement data to the table (THERMO button). Which parameter (temperature, volume, pressure) has changed during the measurement? <br/>
+&bull;  After that create a chart of the dependency of the volume on the temperature.<br/><br/>
+&bull;  Turn off the burner. Block position of the piston and then again heat up the gas. Get your measurement data to the table again. Make a similar chart. Analyze the results. Repeat the exercise for different weights. <br/><br/>
+Further exercises are in the textbook. <br/>
+		  
+		]]>    
+	</string>
+	<string name="ed_info_pole_elektryczne">
+		<![CDATA[    
+<p>  Imagine a space filled by the electric charges.  An area where  electric charges reside, affected by electrostatic forces, is called <b> the electric field </b>. Each one of the electric charges is the source of the electric field. <br/> Chose one of these charges and call it a probationary charge. Electrostatic forces originating from other electric charges placed in this area have an impact at the probationary charge. At the same time the probationary charge affects the rest of electric charges with force related to its own electric charge. The sparsely the charges are placed in the area, the weaker are interactions between them. Their intensity also decreases with increasing distance between the charges. </ p>
+In this e-experiment, you can do among others: <br/>
+&bull;  observe the basic concepts of electrostatics, for example, the distribution and the shape of the electric field coming from charged bodies, <br/>
+&bull;  measure the potential at any point of the produced electric field <br/>
+&bull;  determine the position of equipotential lines, <br/>
+&bull;  in curiosity you will familiarize with Millikan’s experiment, which shows how to determine the value of the elementary charge. <br/>        
+		     
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_pole_elektryczne">
+		<![CDATA[       
+		<b> Exercise - flat capacitor performance </b>
+<p> Select from the Tools: a cuvette, a paper, two flat electrodes, a power supply, two wires: blue and red, a quinine. Inside the cuvette, place the electrodes in parallel to each other at a distance of 10 cm. Connect the first electrode to the positive socket of the power supply using one of chosen wires. Connect the other to the negative socket. Adjust the power supply voltage to 20V and start experiment. How does the vectors of the electric field forces extending between electrodes look like? </p>
+Pour olive oil into the cuvette, and then sprinkle it with the quinine. Quinine crystals, under the influence of the electric field, will be arranged along with the lines of the electric field forces. Restart your experiment. <br/>
+&bull;  Are the quinine crystals arranging themselves according to your expectations? Is the obtained electric field homogeneous? <br/>
+&bull;  Now reconnect the second electrode to the positive socket. Leave the AC voltage at 20V. Are lines of the electric field forces arranged as before? <br/>
+&bull;  Repeat the experiment with electrodes set at a distance of  20 cm, and then 30 cm. What has changed? <br/>
+&bull;  What can you say about the force that acts on the charge placed at any point of the homogeneous electric field? <br/><br/>
+Further exercises are in the textbook. <br/>
+		  
+		]]>     
+	</string>
+	<string name="ed_info_prad_staly">
+		<![CDATA[ 
+<p> An ordered movement of electric charges through some space is called an<b> electric current</b>. It is assumed
+ that the current flows from the point(s) having a higher potential to the point(s) with a lower potential, 
+ and hence direction of current flow is consistent with the direction of movement of the positive charges 
+ in the electric field. DC (direct current) is characterized by a constant value of current intensity and 
+ constant flow direction, as opposed to alternating current (AC - alternating current). <br/>
+<b> DC electric circuit </b> is a system consisting of the current or voltage source, and other circuit elements, 
+such as: resistors, capacitors, coils, diodes&#8230; . These elements are connected to the source using wires, 
+so that current flows in all the circuit elements. </ p>
+
+In this e-experiment, you can do among others: <br/>
+&bull;  learn the Ohm&apos;s law, <br/>
+&bull;  learn the Kirchhoff&apos;s laws, <br/>
+&bull;  learn the principles of combining the light bulbs and resistors etc, in series and in parallel, <br/>
+&bull;  design your own DC circuit, <br/>
+&bull;  determine the effect of various methods of connecting the components of the system on its operation, <br/>
+&bull;  measure the current flowing in the circuit or the voltage at various elements of the electrical circuit. <br/>
+       
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_prad_staly">
+		<![CDATA[ 
+<b> Exercise - Ohm&apos;s law </b>
+<p> Choose from the Tools: circuit no. 1. Note that in the prepared circuit an ammeter is included in series and 
+a voltmeter in parallel. Measure the dependency of the current intensity on the voltage. Write data in the table, 
+then do a chart of written results. Is this a linear dependence? </p><p>
+&bull;  Repeat the experiment for resistors 1 Ω, 100 Ω, R1. <br/>
+&bull;  Does the ratio of the voltage measured at the end of conductor to the intensity of the current flowing 
+through a conductor is constant? <br/>
+&bull;  What is the resistance of R1? Does the resistance depends on the voltage or the intensity of current? </p>
+Further exercises are in the textbook. <br/>
+		        
+		]]>     
+	</string>
+	<string name="ed_info_dzwiek">
+		<![CDATA[    
+<p><b> The sound </b>is an acoustic wave propagating in some medium. The sound during propagation changes the pressure 
+and the density of the medium. The sound wave in the medium produces cyclic concentrations and dilution of 
+ medium particles (eg. air or water). </br>
+Spreading sound is a longitudinal wave i.e. direction of compation and dilution of the particles is consistent 
+with the direction of the wave propagation. The peaks and valleys of the sound wave are moving at a certain speed 
+(the speed of sound), and after getting to the receiver - the human ear - make an experience of a sound. 
+A man hears the sonic frequencies from 16 Hz to 20 kHz. Lower frequency vibrations are called infrasound, 
+ultrasound are higher.</p>
+<p>
+In this e-experiment, you can do among others: <br/>
+&bull;  observe acustic resonance </ br>
+The phenomenon of resonance occurs, when the frequency of vibrations of some objects are match each other i.e. 
+tuning forks. It involves transfer of the vibration energy from one tuning fork to another. When tuning forks 
+are properly tuned, excited tuning fork has the same base frequency of vibration as the second one, which is not excited.
+<br/>
+&bull;  observe interference <br/>
+Sound waves do not propagate in the space in isolation, when wave  encounter other acoustic waves they overlap.
+ Under certain conditions, waves can be mutually reinforcing or suppress. <br/>
+&bull;  measure the frequency of beats <br/>
+Beats are created by imposition of the two harmonic waves of equal amplitude and slightly different frequencies.
+We hear the cyclically recurring gains and dropouts in the sound. For example, the rumbling sound produced by 
+the juxtaposition of two badly tuned musical instruments. <br/>
+<br/>
+&bull;  determine the frequency of a tuning fork vibration.
+</p>
+		     
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_dzwiek">
+		<![CDATA[ 
+<b> Exercise - acoustic resonance </b>
+<p> Tuning forks are instaled on resonance boxes and located at short distance from each other. The holes of boxes are 
+located opposite to each other. Set the frequency of the first tuning fork at 440 Hz and the other at 445 Hz. Exite
+ the first tuning fork, and after a while, stop it. <br/>
+&bull;  Does the second tuning fork begin to vibrate? <br/>
+&bull;  If it does not, change the frequency of vibration of the second tuning fork by 0.5 Hz. <br/>
+&bull;  At what frequency tuning forks fall into resonance? Does the order of tuning fork excitation is important? </p>
+Further exercises are in the textbook. <br/>
+		        
+		]]>     
+	</string>
+	<string name="ed_info_kalorymetria">
+		<![CDATA[  
+<p> <b> Calorimetry </b> (Latin calor = heat) - the science dealing with development of techniques for 
+measuring the heat generated by the reaction of a variety of chemical and physical processes. In the experiment,
+ we mainly use laboratory instrument (calorimeter) used to measure the heat emitted or absorbed during the processes.<p/><p>
+Calorimeter is used primarily to determine: <br/>
+&bull;  specific heat of the liquid, <br/>
+&bull;  specific heat of solids, <br/>
+&bull;  melting heat, <br/>
+&bull;  evaporation heat. <br/> <br/>
+In curiosity you can familiarize yourself with the calorific bomb. This is a special type of calorimeter adapted 
+to measure rapidly running processes. The process is initiated eg. by an electric spark. Running combustion of 
+material placed in the calorimeter heats the air, which is there. The intensity of the process is reflected in 
+the increase in temperature and the volume of air that escapes from the calorimeter.</p>
+
+In this e-experiment, you can do among others: <br/>
+&bull;  find out heat capacity of the calorimeter, <br/>
+&bull;  determine specific heat of the metals available in the experiment, <br/>
+&bull;  calculate melting heat of ice and evaporation heat of liquids, <br/>
+&bull;  learn the caloric value of food products. <br/>       
+		       
+		]]>    
+	</string>
+	<string name="ed_cwiczenie_kalorymetria">
+		<![CDATA[   
+<b> Exercise - measuring the vaporization heat of the water </b>
+<p> Read and write down the state of calorimeter before the measurement. Bring the water in the vaporiser to a boil. 
+Then connect the vaporiser to calorimeter. When the temperature shown on the thermometer ceases to rise, move the pipe
+ away from the calorimeter. </p>
+&bull;  Weigh the calorimeter and calculate how much water condensed? <br/>
+&bull;  If you have not weighed the calorimeter before the measurement, then you have to repeat measuring. <br/>
+&bull;  Make a note of how long the condensation took. Knowing how much water has condensed in a certain time,
+ can you determine the vaporization heat of the water? <br/> <br/>
+
+Further exercises are in the textbook. <br/>
+		      
+		]]>    
+	</string>
+	<string name="ed_info_kondensatory">
+		<![CDATA[ 
+<p><b> Capacitor </b> is a device for collecting the electric charge. Each <b> capacitor </b> consists of conductors 
+(cover) separated by a dielectric layer. In order to collect the electric charge, voltage must be led to the capacitor’s
+ cover. After disconnecting from the power supply electrostatic forces persist charges on the covers. </ br>
+A characteristic feature is the capacitance of the capacitor, namely the quantitative ability to collect the charge. 
+A special type of capacitor is the flat capacitor. It is composed of two parallel metal plates separated by a certain 
+distance, eg. the air capacitor  - the gap between the covers is filled with air. </p>
+
+In this e-experiment, you can do among others: <br/>
+&bull;  familiarize with the construction of a flat the capacitor , <br/>
+&bull;  learn the principles of capacitors connected in series and in parallel, <br/>
+&bull;  determine how capacitor-joining methods affect the properties of the electrical circuit, <br/>
+&bull;  measure the overral capacitance various capacitor systems, <br/>
+&bull;  determine the effect of different dielectric materials on the capacitance of the capacitor. <br/>      
+		        
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_kondensatory">
+		<![CDATA[  
+<b> Exercise - serial and parallel connections of capacitors </b>
+<p>Select from the Tools: a capacitance meter, two wires, a perforated plate and a box of capacitors. Place four capacitors
+ on the mat. Connect them in series - pay attention to not close the circuit. What happens if you measure the capacitance of 
+ the closed circuit? </p>
+<p>Measure the capacitance of each capacitor separatedly and the system as a whole. <br/>
+&bull;  How does capacitance of the circuit of capacitors connected in series change? <br/>
+&bull;  Based on observations, try to come up with a formula. </p>
+&bull;  Repeat above experiment with capacitors connected in parallel. Use the same capacitors as before. <br/>
+&bull;  Has the total capacity of the circuit changed? Why did this happen? <br/> <br/>
+Further exercises are in the textbook. <br/>
+		       
+		]]>    
+	</string>
+	                        	        
+	
+	
  </resources>  
     
