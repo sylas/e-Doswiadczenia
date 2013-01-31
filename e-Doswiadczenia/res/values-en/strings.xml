@@ -56,13 +56,11 @@
 
     <string name="txt_title1">
         Application prepared ​​within frames of the innovative project \"e-Experiments in physics\", 
-        \nco-financed by the European Union under the European Social Fund 
-    </string>
+        \nco-financed by the European Union under the European Social Fund      </string>
     <string name="txt_title2">Concept and realization:</string>
     <string name="txt_title3">
         Gdańsk University of Technology, Faculty of Applied Physics And Mathematics\n 
-        with the support of Young Digital Planet SA and L.C.G. Malmberg B.V. 
-    </string>
+        with the support of Young Digital Planet SA and L.C.G. Malmberg B.V.     </string>
 
 <!-- Teksty strony informacyjnej -->
 
@@ -127,7 +125,6 @@ problemu, wymuszając w ten sposób aktywność naukową.<br/><br/>
 
 Wszystkim e-doświadczeniom towarzyszą <b>podręczniki w formie zeszytów ćwiczeń</b>. Gorąco zachęcamy do zapoznania
 się z nimi jeszcze przed uruchomieniem danego e-doświadczenia.<br/><br/>
-
         ]]>
     </string>
 
@@ -164,6 +161,7 @@ L.C.G. Malmberg B.V. (Holandia)
 <!-- Teksty w popupach o programie i partnerach -->
 
     <string name="pokl_name">Program Operacyjny Kapitał Ludzki</string>
+    
     <string name="pokl_text">
          <![CDATA[
 Program Kapitał Ludzki jest jednym z programów służących realizacji Narodowych Strategicznych Ram Odniesienia
@@ -176,6 +174,7 @@ i podejmowania pracy, rozwijanie wiedzy i innowacji oraz tworzenie większej lic
     </string>
 
     <string name="efs_name">Europejski Fundusz Społeczny</string>
+    
     <string name="efs_text">
          <![CDATA[
 Europejski Fundusz Społeczny (EFS) jest jednym z funduszy strukturalnych UE. Został stworzony, by redukować
@@ -186,8 +185,9 @@ sprawiając, że siła robocza i firmy są lepiej przygotowane do stawienia czo�
     </string>
 
     <string name="pg_name">Politechnika Gdańska</string>
+    
     <string name="pg_text">
-                <![CDATA[
+		<![CDATA[
 <b>Największa i najstarsza w północnej Polsce państwowa uczelnia wyższa o profilu technicznym, 
 z siedzibą w Gdańsku.</b><br/><br/>
 Obejmuje 9 wydziałów, na których studiuje ponad 24 tysiące studentów na studiach
@@ -199,419 +199,134 @@ Politechnika Gdańska zajmuje od dawna jedno z czołowych miejsc.
         ]]>
     </string>
 
-    <string name="ftims_name">Wydział Fizyki Technicznej i Matematyki Stosowanej PG</string>
-    <string name="ftims_text">
-         <![CDATA[
-<b>Jeden z dziewięciu wydziałów Politechniki Gdańskiej.</b><br/><br/>
-Prowadzone kierunki studiów i specjalności:<br/><br/>
-<b>Fizyka techniczna</b><br/>
-&bull; Fizyka stosowana<br/>
-&bull; Konwersja energii<br/>
-&bull; Informatyka stosowana<br/>
-&bull; Nanotechnologia<br/>
-&bull; Fizyka środowiska<br/><br/>
+	<string name="ftims_name"> Faculty of Technical Physics and Applied Mathematics PG </string>
+	
+	<string name="ftims_text">
+		<![CDATA[
 
-<b>Matematyka</b><br/>
-&bull; Matematyka stosowana<br/>
-&bull; Matematyka finansowa<br/>
-&bull; Biomatematyka<br/><br/>
+  The Faculty of Technical Physics and Applied Mathematics offers courses of study in:
+<b> Technical Physics </b> <br/>
+&bull;     Physics and Energy Conversion Engineering
+&bull;     Applied Physics
+&bull;     Nanotechnology
+&bull;     Applied Information Technology
+<b> Mathematics </b> <br/>
+&bull;     Applied Mathematics
+&bull;     Financial Mathematics
+&bull;     Biomathematics
 
-<b>Inżynieria materiałowa</b><br/>
-&bull; Inżynieria materiałów funkcjonalnych<br/>
-&nbsp;&nbsp;(wspólnie z wydziałami: Chemicznym<br/>&nbsp;&nbsp;i Mechanicznym)<br/><br/>
+<b> Materials Engineering </b> <br/>
+&bull; Advanced Functional Materials Engineering <br/>
+(jointly with the Faculty of Chemistry and Mechanical Engineering) <br/>
+Graduates of the department are respected professionals and easily find employment in various industries.
+		]]>  
+	</string> 
 
-Absolwenci wydziału są cenionymi specjalistami i łatwo znajdują zatrudnienie w różnych dziedzinach przemysłu.
-        ]]>
-    </string>
-
-    <string name="ydp_name">Young Digital Planet SA (Gdańsk)</string>
+	<string name="ydp_name"> Young Digital Planet SA (Gdańsk)</string>
+	
     <string name="ydp_text">
-         <![CDATA[
-<b>Największy w Polsce producent i wydawca edukacyjnych programów komputerowych.</b><br/><br/>
-Firma działa na rynku oprogramowania od 1990 roku. Jest dostawcą systemów szkoleniowych i treści edukacyjnych,
-opartych na technologiach informacyjnych, dla klientów indywidualnych, instytucji oświatowych
-oraz przedsiębiorstw.<br/><br/>
-Celem firmy jest dostarczanie rozwiązań, które charakteryzują się najwyższą jakością oraz sprawdzoną
-efektywnością. Jego realizację stanowią uznane i wielokrotnie nagradzane serie produktów, m.in.:<br/><br/>
-&bull; EuroPlus+<br/>
-&bull; eduSensus<br/>
-&bull; portal Nauczyciel.pl<br/>
-&bull; eduROM<br/>
-&bull; Lekcjotek@
+<![CDATA[
+<b> Poland&aps;s largest developer and publisher of educational software. </b> <br/><br/>
+The company operates in the software market since 1990. Is a provider of ICT-based training systems 
+and educational content to consumers, educational institutions and businesses. <br/>
+The company&aps;s goal is to provide solutions that are of the highest quality and proven performance. 
+Its implementation are recognized and award-winning series of products, including: <br/><br/>
+&bull; EuroPlus + <br/>
+&bull; eduSensus <br/>
+&bull; Nauczyciel.pl portal <br/>
+&bull; eduROM <br/>
+&bull; Lekcjotek@<br/>
         ]]>
-    </string>
+    </string>	
 
-    <string name="malmberg_name">L.C.G. Malmberg B.V. (Den Bosch, Holandia)</string>
+    <string name="malmberg_name"> L.C.G. Malmberg BV (Den Bosch, Holland)</string>
     <string name="malmberg_text">
-         <![CDATA[
-<b>Znany, działający od lat i wiodący w Holandii wydawca rozwiązań edukacyjnych</b>, pomagających uczniom w procesie
-uczenia się za pomocą systemów multimedialnych oraz nowoczesnych technologii ICT.<br/><br/>
-Firma rozwija interdyscyplinarne metodologie nauczania (Pluspunt, Biologie voor jou, Taalblokken,
-w sumie ponad 2500 tytułów).
-Świadczy usługi doradcze, szkoleniowe, badawcze m.in. w zakresie e-learnigu.
-        ]]>
-    </string>
-
+		<![CDATA[
+<b> Renowned, working for years in the Netherlands and a leading publisher of educational </b> to help students in the learning process with multimedia systems and modern ICT. <br/>
+The company develops interdisciplinary teaching methodologies (Pluspunt, Biologie voor jou, Taalblokken,  more than 2,500 titles). Provides consulting services, training, research such as in e-learning.
+		]]> 
+	</string>
+     
 <!-- Teksty pomocy -->
-
     <string name="txt_title_help">Help</string>
     
     <string name="txt_help_tytulowa">
-         <![CDATA[
-<b>On this screen you may:</b><br/><br/>
-
-&bull; znaleźć podstawowe informacje o projekcie,<br/><br/> 
-
-&bull; wyświetlić informacje o programie operacyjnym i funduszu, 
-w ramach których realizowany jest projekt<br/>
-(<i>poprzez tapnięcie na logotypach na górze ekranu</i>)<br/><br/>
-
-&bull; wyświetlić informacje o realizatorach projektu<br/>
-(<i>poprzez tapnięcie na logotypach na dole ekranu</i>),<br/><br/>
-
-&bull; zmienić język aplikacji<br/>
-(<i>poprzez tapnięcie na ikonach w belce narzędziowej u góry ekranu</i>),<br/><br/>
-
-&bull; przejść do kolejnych ekranów aplikacji bądź ją zakończyć<br/> 
-(<i>poprzez tapnięcie na przyciskach w centralnej części ekranu)</i>.
-         ]]>
-    </string>
-    
+		<![CDATA[
+<b> On this screen, you can: </b><br/><br/>
+&bull; read basic information about the project, <br/><br/>
+&bull; display information about the an operational program and a fund in which the project is realized <br/> 
+(<i> by tapping on the logotypes at the top of the screen </i>) <br/>br/>
+&bull; display information about the project contractors <br/>
+(<i> by tapping on the logotypes at the bottom of the screen </i>), <br/><br/>
+&bull; change the application language <br/>
+(<i> by tapping on the icons in the tool bar at the top of the screen </i>), <br/><br/>
+&bull; move to the next screen application or end it <br/>
+(<i> by tap buttons in the center of the screen) </i>.
+		]]>   
+	</string>    
+         
+     <string name="txt_help_listED">
+		<![CDATA[
+<b> On this screen, you can: </b>  <p>
+&bull; view a set of e-experiments,</p> <p>
+&bull;  pass to the selected e-experiment or return to the title page, <br/>
+(<i> by tapping on the e-experiment icon or the back button</i>) </p>
+&bull; to change the language back to the initial screen. <br/>
+ </p>   
+ 		]]>  
+	</string>   
+ 
+	<string name="txt_help_detailsED">
+		<![CDATA[
+</p>
+&bull; read the information about physical phenomena that are the subject of an experience, </p><p>
+&bull; run chosen e-experiment,<br/>
+(<i> by tapping on the the run </i>) </p>
+&bull; view the textbook prepared for e-experiment, <br/>
+(<i> by tapping on the button named manual - the book is available in pdf format and opened by an external program </i>),</p> <p>
+&bull; return to the last screen, br/>
+(<i> by tapping on the the back </i>) </p>
+&bull; to change the language back to the initial screen. </p>
+		]]> 
+	</string>
+     
 <!-- elementy stringów -->
-        <string name="MANUAL_NAME_PREFIX">exercises_</string>
-        
+	<string name="MANUAL_NAME_PREFIX">exercises_</string>
         
 <!-- Komunikaty -->
     
-    <string name="msg_no_network">
-        Do pobrania e-doświadczenia niezbędne jest połączenie z Internetem.\n\nSprawdź swoje połączenie sieciowe
-        i spróbuj ponownie.
-    </string>
-
-    <string name="msg_ed_not_yet_produced">
-        Niestety, to e-doświadczenie nie jest jeszcze gotowe.\n\ne-Doświadczenia są produkowane sukcesywnie\ni będą
-        udostępniane tak szybko, jak to tylko możliwe.
-    </string>
-
-    <string name="msg_no_file_on_server">
-        Wystąpił nieoczekiwany błąd serwera.\nPrzepraszamy i prosimy spróbować później.
-    </string>
-
-    <string name="msg_internal_error001">
-        Wystąpił nieoczekiwany błąd aplikacji (kod: 001).\nPrzepraszamy i prosimy spróbować później.
-        Jeżeli błąd będzie się powtarzał, prosimy o kontakt z autorem programu.
-    </string>
-
-    <string name="msg_cant_make_dir">
-        Nie można utworzyć katalogu na karcie pamięci! Proszę spróbować z inną kartą.
-    </string>
-
-    <string name="msg_title_error">Błąd!</string>
-
-    <string name="dlg_unpacking">Pobieranie zakończone.\nTrwa rozpakowywanie plików, proszę czekać...</string>
-
-    <string name="dlg_downloading">Pobieranie danych (ok. %1$d MB), proszę czekać... </string>
-
-    <string name="msg_download_cancelled">Operacja została anulowana przez użytkownika</string>
-
-    <string name="msg_to_less_space">Zbyt mało miejsca na karcie SD!\nPobranie e-doświadczeń nie będzie możliwe.</string>
-
-    <string name="msg_no_pdf_reader">Aby obejrzeć podręcznik, zainstaluj czytnik plików PDF</string>
-
-    <string name="msg_screen_not_supported">
-        Ta aplikacja wymaga ekranu o rozdzielczości co najmniej 1280 x 800 pikseli.
-    </string>
-
-    <string name="msg_title_info">Informacja</string>
-    <string name="msg_title_question">Pytanie</string>
-    <string name="msg_download_ed_question">
-        Aby uruchomić to e-doświadczenie, wymagane jest jednorazowe pobranie dodatkowych danych z Internetu.\n
-        \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
-        \n\nCzy pobrać dane teraz?
-    </string>
-    <string name="msg_download_ed_update_question">
-        Znaleziono aktualizację tego e-doświadczenia.\n
-        \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
-        \n\nCzy pobrać aktualizację teraz?
-    </string>
-    <string name="msg_install_flash_question">
-        Aby uruchamiać e-doświadczenia, wymagane jest zainstalowanie Adobe Flash Playera.
-        \n\nCzy uruchomić Market?
-    </string>
-
-    <string name="msg_starting_ed">Uruchamianie e-doświadczenia...</string>
-
-    <string name="msg_manual_not_available">
-        Przepraszamy, podręcznik do tego e-doświadczenia nie został jeszcze przygotowany.
-    </string>
+	<string name="msg_no_network">  To download your e-experiment it is necessary to connect to the Internet. \n \nPlease check your network connection and try again.      </string>
+	<string name="msg_ed_not_yet_produced"> Unfortunately, this e-experiment is not ready yet. \n \ne- experiment are produced successively and \n will be available as soon as possible.   </string>
+	<string name="msg_no_file_on_server"> An unexpected server error. \n We apologise please try again later.</string>
+	<string name="msg_internal_error001">An unexpected application error (code 001). \nWe apologise please try again later. If the error persists, please contact the author of the program.    </string>
+	<string name="msg_cant_make_dir">You can not create a folder on the memory card! Please try again with a different SD card.</string>
+	<string name="msg_title_error"> ERROR! </string>
+	<string name="dlg_unpacking"> Download completed. \n Extracting files in progress, please wait&#8230;</string>
+	<string name="dlg_downloading"> Downloading data (about% 1 $ d MB), please wait&#8230; </string>
+	<string name="msg_download_cancelled"> The operation was canceled by the user </string>
+	<string name="msg_to_less_space"> Not enough space on the SD card! \n Download an e-experiment is not possible. Zbyt malo miejsca ns karcie SD! \nPobranie e-doświadczeń NIE będzie możliwe. </string>
+	<string name="msg_no_pdf_reader"> To see textbook, install a PDF reader. </string>
+	<string name="msg_screen_not_supported"> This application requires a screen resolution of at least 1280 x 800 pixels. </string>
+    
+    <!-- Messages -->
+    
+    <string name="msg_title_info"> Information </string>
+    <string name="msg_title_question"> Question </string>
+    <string name="msg_download_ed_question">   To run an experiment, you need to download extra data from the Internet. \n \nData size to download can vary \n from 5 to 45 MB - it is suggested to use a WiFi connection. \n \nDo you want to retrieve the data now?	</string>
+	<string name="msg_download_ed_update_question">       Found an update of  this e-experience. \n \nData size to download can vary \n from 5 to 45 MB - it is suggested to use a WiFi connection. \n \nDo you want to download the update now?	</string>
+    <string name="msg_starting_ed"> Starting an e-experiment&#8230;</string>
+    <string name="msg_manual_not_available">Sorry, the textbook to the this e-experiment has not yet been prepared</string>
 
     <string name="msg_switch_to_en">Switched to English</string>
-    <string name="msg_already_en">You are already using English version...</string>
+    <string name="msg_already_en">You are already using English version&#8230;</string>
     <string name="msg_switch_to_pl">Przełączono na język polski</string>
-    <string name="msg_already_pl">Już używasz wersji polskojęzycznej...</string>
+    <string name="msg_already_pl">Już używasz wersji polskojęzycznej&#8230;</string>
 
-    <string name="msg_no_premission">  "Application doesn't have premission to write on external storage."</string> 
-    <string name="msg_no_sd"> "External Storage isn't available." </string>
-    <string name="msg_no_flash">  Flash not installed! This application require Adobe Flash Player. 
-        Downloading will start automatically. </string>
-    
+    <string name="msg_no_premission">  &quot;Application doesn&apos;t have permission to write on external storage.&quot;</string> 
+    <string name="msg_no_sd"> &quot;External Storage isn&apos;t available.&quot; </string>
+    <string name="msg_no_flash">  Flash not installed! This application require Adobe Flash Player. Downloading will start automatically. </string>
+       
 <!-- Informacje o e-doświadczeniach -->
 
-    <string name="ed_info_wahadlo">
-         <![CDATA[
-<b>Wahadło</b> możemy wyobrażać sobie jako kulkę zawieszoną swobodnie na nici.
-Głównym założeniem modelu <b>wahadła matematycznego</b> jest to, aby kulka ta
-była punktowa, a cała masa wahadła skupiała się właśnie w niej.
-Nić, na której zawieszona jest kulka traktujemy jako nieważką (zaniedbujemy jej masę)
-oraz nierozciągliwą (nie zmienia ona swojej długości).<br/><br/>
-
-<b>Za pomocą tego e-doświadczenia można m. in:</b><br/>
-&bull; zbadać okres podstawowy drgań wahadła matematycznego,<br/>
-&bull; zaobserwować zmiany energii kinetycznej i potencjalnej,<br/>
-&bull; poznać jeden z wielu sposobów na wyznaczenie przyspieszenia
-grawitacyjnego,<br/>
-&bull; sprawdzić, jak wygląda ruch wahadła w przyspieszającej windzie bądź pociągu,<br/>
-&bull; prowadzić obserwację wahadła matematycznego w warunkach, 
-w których trudno się znaleźć w świecie rzeczywistym, np. na innych planetach,<br/>
-&bull; obserwować ruch wahadła Foucaulta.<br/><br/>
-
-<big><b>Uwaga!</b></big><br/>Ze względu na prowadzenie czasochłonnych obliczeń
-oraz wykorzystanie trójwymiarowej grafiki, animacja wahadła najprawdopodobniej
-będzie dość powolna (maksymalnie kilka klatek/s). 
-Ciągle pracujemy nad optymalizacją tego e-doświadczenia tak, aby można było
-w pełni wykorzystać jego możliwości również na tabletach.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_wahadlo">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-    <string name="ed_info_lawa">
-         <![CDATA[
-e-Doświadczenie <b>Ława optyczna</b> zostało w całości poświęcone soczewkom.
-<b>Soczewka</b> to proste urządzenie optyczne, składające się z jednego lub kilku sklejonych razem
-bloków przezroczystego materiału, zwykle szkła, ale też różnych tworzyw sztucznych, żeli lub minerałów.<br/><br/>
-
-Dzięki temu e-doświadczeniu można zapoznać się z wiedzą z zakresu optyki geometrycznej.
-Można poznać własności soczewek i podstawowe parametry je charakteryzujące. Dodatkowo, stanowi ono
-doskonałą ilustrację podstawowych wzorów opisujących soczewki.<br/><br/>
-
-Układając odpowiednio soczewki na ławie optycznej, można otrzymać różne obrazy rzeczywiste jak i pozorne.
-Ponadto, można zbudować lunetę i mikroskop.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_lawa">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-    <string name="ed_info_rzuty">
-         <![CDATA[
-<b>Rzutem</b> nazywamy ruch w jednorodnym polu grawitacyjnym z
-pewną prędkością początkową, skierowaną wzdłuż, w poprzek lub
-pod skosem względem linii pola.<br/><br/>
-
-<b>Za pomocą tego e-doświadczenia można:</b><br/>
-&bull; badać rzuty<br/>
-&nbsp;&nbsp; - pionowe,<br/>&nbsp;&nbsp; -  poziome,<br/>&nbsp;&nbsp; -  ukośne,<br/>
-&bull; badać rzuty, podczas których od rzuconego ciała odłącza się jego część,<br/>
-&bull; obserwować, jak odbicie rzuconej piłki od powierzchni wpływa na jej ruch obrotowy,<br/>
-&bull; obserwować rzuty w wietrznych warunkach,<br/>
-&bull; obserwować rzuty w nieinercjalnych układach odniesienia.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_rzuty">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-    <string name="ed_info_bryla">
-         <![CDATA[
-<b>Bryła sztywna</b> to modelowe ciało fizyczne, które nie deformuje się pod wpływem sił,
-czyli &minus; inaczej mówiąc &minus; odległości między punktami ciała się nie zmieniają.<br/><br/>
-Z pojęciem bryły sztywnej nieodłącznie związane jest pojęcie wahadła fizycznego.
-<b>Wahadłem fizycznym</b> nazywamy bryłę sztywną, wykonującą drgania
-wokół osi nie przechodzącej przez środek masy bryły.<br/><br/>
-
-<b>Za pomocą tego e-doświadczenia można m. in:</b><br/>
-&bull; zmierzyć okres wahadła fizycznego,<br/>
-&bull; wyznaczać środki mas figur o nieregularnych kształtach,<br/>
-&bull; badać moment bezwładności różnych figur, w tym własnoręcznie stworzonych,<br/>
-&bull; badać zachowanie tzw. wahadła Oberbecka.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_bryla">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-    <string name="ed_info_rownia">
-         <![CDATA[
-<b>Równią pochyłą</b> nazywamy płaską powierzchnię, nachyloną pod pewnym kątem do poziomu.
-Równia pochyła jest jedną z sześciu klasycznych <b>maszyn prostych</b>, tzn. takich,
-które zmieniają kierunek lub wartość siły (pozostałymi są: dźwignia, kołowrót, blok, klin i śruba).<br/><br/>
-
-Za pomocą tego e-doświadczenia można m.in:<br/>
-&bull; badać ruch przyspieszony,<br/>
-&bull; badać prawa dotyczące siły tarcia,<br/>
-&bull; poznać metodę wyznaczenia współczynnika tarcia<br/>,
-&bull; przekonać się, od czego zależy współczynnik tarcia.<br/><br/>
-
-Dodatkowo, wirtualne e-doświadczenie umożliwia także obserwacje w warunkach,
-które bardzo trudno jest wytworzyć w laboratorium: w windzie i pociągu,
-poruszających się z zadanym przyspieszeniem.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_rownia">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-
-    <string name="ed_info_astro">
-         <![CDATA[
-<b>Ciałem niebieskim</b> nazywamy dowolny obiekt fizyczny (czyli przedmiot
-rozciągły w czasie i przestrzeni) występujący w przestrzeni
-kosmicznej, czyli poza obszarem ziemskiej atmosfery (umownie
-granicą jest tzw. linia K&aacute;rm&aacute;na, znajdująca się 100 km nad
-powierzchnią Ziemi).<br/><br/>
-
-Ciałem niebieskim może być także układ obiektów i struktur
-powiązanych ze sobą siłami grawitacji. Jako ciała niebieskie
-klasyfikujemy miedzy innymi: gromady galaktyk, galaktyki,
-gwiazdy, układy planetarne, planety, księżyce. Jak widać, rozmiary
-i struktury ciał niebieskich są bardzo różne, zatem i ich ruch może
-zdecydowanie się różnić.
-<br/><br/>
-Za pomocą e-doświadczenia można zbadać model Układu Słonecznego,
-poznać prawa Keplera, wyznaczyć prędkości kosmiczne i trajektorie planet
-oraz dowiedzieć się, czym jest układ podwójnej gwiazdy.
-Jest to również niepowtarzalna okazja do zbudowania własnego układu planetarnego.<br/><br/>
-
-<big><b>Uwaga!</b></big><br/>Ze względu na prowadzenie czasochłonnych obliczeń
-oraz wykorzystanie grafiki trójwymiarowej, animacja wahadła najprawdopodobniej
-będzie dość powolna (maksymalnie kilka klatek/s).
-Ciągle pracujemy nad optymalizacją tego e-doświadczenia, tak, aby można było
-w pełni wykorzystać jego możliwości również na tabletach.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_astro">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-    <string name="ed_info_zderzenia">
-         <![CDATA[
-<b>Zderzenie</b> to relatywnie krótkie zdarzenie, podczas którego poruszające się ciała
-oddziałują na siebie pewnymi siłami. W <b>zderzeniach sprężystych</b>, całkowita energia kinetyczna ciał
-po zderzeniu jest równa całkowitej energii kinetycznej ciał przed zderzeniem.
-Z kolei w <b>zderzeniach niesprężystych</b>, końcowa energia kinetyczna jest mniejsza od energii kinetycznej
-przed zderzeniem (w takim przypadku część energii jest tracona na różne procesy towarzyszące zderzeniu,
-jak np. wydzielanie ciepła).<br/><br/>
-
-Za pomocą tego e-doświadczenia można m.in:<br/>
-&bull; badać zasadę zachowania pędu,<br/>
-&bull; badać oraz zasadę zachowania energii,<br/>
-&bull; obserwować zachowanie tzw. kołyski Newtona,<br/>
-&bull; nauczyć się metody mierzenia czasu zderzeń metalowych kul.<br/><br/>
-
-Jako ciekawostkę, do e-doświadczenia załączono symulację bilardu.
-
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_zderzenia">
-         <![CDATA[
-<b>Ćwiczenie nr 1.</b><br/>
-&bull; Wybierz z Narzędzi (pierwsza ikonka od lewej) dwie takie same kulki
-(obie stalowe, szklane, uranowe lub niklowe).<br/>
-&bull; Jedną z nich umieść przy wyrzutni, a drugą na środku maty.
-Ustaw je tak, aby ich środki znajdowały się w tej samej linii siatki.<br/>
-&bull; Ustal dowolną prędkość początkową dla kulki i wystrzel ją.<br/>
-&bull; Jak będą poruszały się kulki po zderzeniu?
-Powtórz ćwiczenie, ustalając różne prędkości początkowe kulki oraz zmieniając rodzaj kulek
-(obie muszą być z tego samego materiału). Czy ich zachowanie będzie takie same?
-
-<br/><br/>
-<b>Ćwiczenie nr 2.</b><br/>
-&bull; Wybierz z Narzędzi (pierwsza ikonka od lewej) dwie takie same kulki
-(obie stalowe, szklane, uranowe lub niklowe).<br/>
-&bull; Jedną z nich umieść przy wyrzutni, a drugą na środku maty.
-Ustaw je tak, aby ich środki znajdowały się w tej samej linii siatki.<br/>
-&bull; Ustal dowolną prędkość początkową dla kulki i wystrzel ją.<br/>
-&bull; Jak będą poruszały się kulki po zderzeniu?
-Powtórz ćwiczenie, ustalając różne prędkości początkowe kulki oraz zmieniając rodzaj kulek
-(obie muszą być z tego samego materiału). Czy ich zachowanie będzie takie same?<br/></br>
-
-Więcej ćwiczeń można znaleźć w podręczniku.
-         ]]>
-    </string>
- 
- <string name="ed_info_einstein">
-<![CDATA[
-<b>Eksperymenty myślowe Einsteina</b> przybliżają zagadnienia Szczególnej Teorii Względności. 
-Jak brzmią najważniejsze założenia tej weorii, otóż:<br/>
-&bull; wszystkie prawa przyrody (w szczególnosci fizyki) są takie same bez względu na to, 
-czy obserwujemy je z układu nie poruszającego sią, czy z ruchomego, ale poruszającego sią
-bez przyśpieszenia (czyli układu inercjalnego) oraz<br/>
-&bull; prędkość światła jest zawsze stała w danym ośrodku. Jest to jednocześnie największa prędkość, 
-z którą może być przekazywana energia.<br/>
-
-&bull; Niektóre wnioski <b>szczególnej teorii względności</b> są sprzeczne z intuicją:<br/>
-&bull; Dylatacja czasu — czas jaki mija pomiędzy dwoma zdarzeniami nie jest jednoznacznie określony, 
-lecz zależy od obserwatora.<br/>   
-&bull; Względność jednoczesności — dwa zdarzenia określone przez jednego obserwatora jako jednoczesne, 
-mogą nie być jednoczesne dla innego obserwatora.<br/>
-&bull; Kontrakcja przestrzeni — odległości między punktami zależą od układu. 
-Wszystkie poruszające się przedmioty obserwujemy jako krótsze.<br/>
-&bull; Masa jest równoważna energii a związek między tymi wielkościami opisuje wzór E = m c^2.<br/> 
-&bull; Relatywistyczne skrócenie długości — wraz ze wzrostem prędkości następuje skrócenie 
-obiektu zgodnie z kierunkiem w którym obiekt się przemieszcza. 
-Relatywistyczne skrócenie obiektu zawsze wyniesie tyle samo procent dla danej prędkości.<br/>
-         ]]>
-         </string>
+ </resources>  
     
-    <string name="ed_cwiczenie_einstein">
-<![CDATA[
-<b>Propozycja ćwiczenia:</b> Zastanówmy się jak dwóch obserwatorów ogląda świat?<br/>
-Jednym obserwatorem niech będzie osoba na ziemii, drugim osoba w rakiecie. 
-Rakieta oddala się od ziemii z pewną prędkością. <br/>
-Załóżmy, że osoba pozostająca na ziemii widzi co dzieje się w rakiecie. 
-Kosmonaucie w rakiecie w pewnej chwili zaczyna rosnac broda i rosnie przez pewien czas dt. <br/>
-Ile czasu  rosnie mu broda wg. obserwatora na ziemii (czyli ile wynosi Dt )?
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-    
-</resources>

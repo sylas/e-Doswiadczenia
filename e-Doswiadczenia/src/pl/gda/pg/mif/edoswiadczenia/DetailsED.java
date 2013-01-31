@@ -318,7 +318,7 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
 				(ViewGroup) findViewById(R.id.pomoc_popup));
 
 		String title = getString(R.string.txt_title_help);
-		String body = getString(R.string.txt_help_szczegolyED);
+		String body = getString(R.string.txt_help_detailsED);
 
 		TextView text = (TextView) layout.findViewById(R.id.text_help_popup);
 		text.setText(Html.fromHtml(body));
