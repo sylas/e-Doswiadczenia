@@ -265,7 +265,7 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
 		]]>   
 	</string>    
          
-     <string name="txt_help_listED">
+     <string name="txt_help_list_ed">
 		<![CDATA[
 <b> On this screen, you can: </b>  <p>
 &bull; view a set of e-experiments,</p> <p>
@@ -276,7 +276,7 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
  		]]>  
 	</string>   
  
-	<string name="txt_help_detailsED">
+	<string name="txt_help_details_ed">
 		<![CDATA[
 </p>
 &bull; read the information about physical phenomena that are the subject of an experience, </p><p>
@@ -291,7 +291,7 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
 	</string>
      
 <!-- elementy stringów -->
-	<string name="MANUAL_NAME_PREFIX">exercises_</string>
+	<string name="manual_name_prefix">exercises_</string>
         
 <!-- Komunikaty -->
     

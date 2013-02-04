@@ -84,7 +84,7 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
         	name = ED.edSubDir;
         }
 
-        pathToManual = ListED.ED_BASE_DIR + ED.edSubDir + MANUAL_CORE_PATH + getString(R.string.MANUAL_NAME_PREFIX) 
+        pathToManual = ListED.ED_BASE_DIR + ED.edSubDir + MANUAL_CORE_PATH + getString(R.string.manual_name_prefix) 
         			+ name + PDF_FILE_EXTENSION; 
    
         //obsługa pinch zoom
@@ -318,7 +318,7 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
 				(ViewGroup) findViewById(R.id.pomoc_popup));
 
 		String title = getString(R.string.txt_title_help);
-		String body = getString(R.string.txt_help_detailsED);
+		String body = getString(R.string.txt_help_details_ed);
 
 		TextView text = (TextView) layout.findViewById(R.id.text_help_popup);
 		text.setText(Html.fromHtml(body));

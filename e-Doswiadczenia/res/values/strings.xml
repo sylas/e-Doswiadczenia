@@ -263,7 +263,7 @@ w ramach których realizowany jest projekt<br/>
 (<i>poprzez tapnięcie na przyciskach w centralnej części ekranu)</i>.
          ]]>
     </string>
-    <string name="txt_help_listed">
+    <string name="txt_help_list_ed">
 <![CDATA[
 <b>Na tym ekranie można:</b><br/>
 <p> 
@@ -274,7 +274,7 @@ w ramach których realizowany jest projekt<br/>
 (<i>poprzez tapnięcie na ikonach w belce narzędziowej u góry ekranu</i>).</p>        
          ]]>
     </string>
-    <string name="txt_help_detailsED">
+    <string name="txt_help_details_ed">
 <![CDATA[
 <b>Na tym ekranie można:</b><br/>
 <p> 

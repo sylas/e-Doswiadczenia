@@ -186,9 +186,6 @@ public final class R {
         public static final int zderzenia=0x7f040013;
     }
     public static final class string {
-        /**  elementy stringów 
-         */
-        public static final int MANUAL_NAME_PREFIX=0x7f06008a;
         /**  Nazwa aplikacji 
  Nazwa aplikacji 
          */
@@ -300,6 +297,7 @@ public final class R {
         public static final int malmberg_name=0x7f06003a;
         public static final int malmberg_text=0x7f06003b;
         /**  elementy stringów 
+ elementy stringów 
          */
         public static final int manual_name_prefix=0x7f060040;
         public static final int msg_already_en=0x7f060055;
@@ -338,9 +336,8 @@ public final class R {
          */
         public static final int pokl_name=0x7f060030;
         public static final int pokl_text=0x7f060031;
-        public static final int txt_help_detailsED=0x7f06003f;
-        public static final int txt_help_listED=0x7f060089;
-        public static final int txt_help_listed=0x7f06003e;
+        public static final int txt_help_details_ed=0x7f06003f;
+        public static final int txt_help_list_ed=0x7f06003e;
         public static final int txt_help_tytulowa=0x7f06003d;
         /**  Nazwy e-doświadczeń 
  Nazwy e-doświadczeń 

@@ -1427,7 +1427,7 @@ public class ListED extends Activity {
 				(ViewGroup) findViewById(R.id.pomoc_popup));
 
 		String title = getString(R.string.txt_title_help);
-		String body = getString(R.string.txt_help_listED);
+		String body = getString(R.string.txt_help_list_ed);
 
 		TextView text = (TextView) layout.findViewById(R.id.text_help_popup);
 		text.setText(Html.fromHtml(body));
