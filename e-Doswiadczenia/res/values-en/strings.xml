@@ -251,50 +251,43 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
     <string name="txt_title_help">Help</string>
     
     <string name="txt_help_tytulowa">
-		<![CDATA[
+<![CDATA[
 <b> On this screen, you can: </b><br/><br/>
 &bull; read basic information about the project, <br/><br/>
-&bull; display information about the an operational program and a fund in which the project is realized <br/> 
-(<i> by tapping on the logotypes at the top of the screen </i>) <br/>br/>
+&bull; display information about the operational program and the fund within which the project is realized <br/> 
+(<i> by pressing the logotypes at the top of the screen </ i>) <br/>br/>
 &bull; display information about the project contractors <br/>
-(<i> by tapping on the logotypes at the bottom of the screen </i>), <br/><br/>
+(<i> by pressing the logotypes at the bottom of the screen </ i>), <br/><br/>
 &bull; change the application language <br/>
-(<i> by tapping on the icons in the tool bar at the top of the screen </i>), <br/><br/>
-&bull; move to the next screen application or end it <br/>
-(<i> by tap buttons in the center of the screen) </i>.
-		]]>   
-	</string>    
-         
+(<i> by touching the icons in the toolbar at the top of the screen </i>), <br/><br/>
+&bull; move to the next screen of the application or end it <br/>
+(<i> by buttons in the center of the screen) </i>.
+         ]]>   </string>    
      <string name="txt_help_list_ed">
-		<![CDATA[
+<![CDATA[
 <b> On this screen, you can: </b>  <p>
 &bull; view a set of e-experiments,</p> <p>
 &bull;  pass to the selected e-experiment or return to the title page, <br/>
-(<i> by tapping on the e-experiment icon or the back button</i>) </p>
+(<i> by tapping on the e-experiment icon or the back button</ i>) </p>
 &bull; to change the language back to the initial screen. <br/>
- </p>   
- 		]]>  
-	</string>   
- 
-	<string name="txt_help_details_ed">
-		<![CDATA[
-</p>
-&bull; read the information about physical phenomena that are the subject of an experience, </p><p>
+ </p>   ]]>  </string>   
+<string name="txt_help_details_ed">
+<![CDATA[
+</ p>
+&bull; read the information about physical phenomena that are the subject of an experiment, </p><p>
 &bull; run chosen e-experiment,<br/>
 (<i> by tapping on the the run </i>) </p>
 &bull; view the textbook prepared for e-experiment, <br/>
-(<i> by tapping on the button named manual - the book is available in pdf format and opened by an external program </i>),</p> <p>
+(<i> by tapping on the button named “manual” - the book is available in PDF format and will be opened by an external program </i>),</p> <p>
 &bull; return to the last screen, br/>
-(<i> by tapping on the the back </i>) </p>
+(<i> by tapping on the the back </ i>) </p>
 &bull; to change the language back to the initial screen. </p>
-		]]> 
-	</string>
+         ]]> </string>
      
 <!-- elementy stringów -->
 	<string name="manual_name_prefix">exercises_</string>
         
 <!-- Komunikaty -->
-    
 	<string name="msg_no_network">  To download your e-experiment it is necessary to connect to the Internet. \n \nPlease check your network connection and try again.      </string>
 	<string name="msg_ed_not_yet_produced"> Unfortunately, this e-experiment is not ready yet. \n \ne- experiment are produced successively and \n will be available as soon as possible.   </string>
 	<string name="msg_no_file_on_server"> An unexpected server error. \n We apologise please try again later.</string>
@@ -309,11 +302,16 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
 	<string name="msg_screen_not_supported"> This application requires a screen resolution of at least 1280 x 800 pixels. </string>
     
     <!-- Messages -->
-    
+      
     <string name="msg_title_info"> Information </string>
     <string name="msg_title_question"> Question </string>
-    <string name="msg_download_ed_question">   To run an experiment, you need to download extra data from the Internet. \n \nData size to download can vary \n from 5 to 45 MB - it is suggested to use a WiFi connection. \n \nDo you want to retrieve the data now?	</string>
-	<string name="msg_download_ed_update_question">       Found an update of  this e-experience. \n \nData size to download can vary \n from 5 to 45 MB - it is suggested to use a WiFi connection. \n \nDo you want to download the update now?	</string>
+    <string name="msg_download_ed_question">   To run an experiment, you need to download additional data from the Internet. \n
+\n The size of the data to be downloaded can vary \n from 5 to 45 MB - it is suggested to use a WiFi connection. \n\n Do you want to retrieve the data now?
+	</string>
+	<string name="msg_download_ed_update_question">      Found an update of  this e-experiment. \n
+\n The size of the data to be downloaded can vary \n from 5 to 45 MB - it is suggested to use a WiFi connection. \n \n Do you want to download the update now? 
+</string>		
+
     <string name="msg_starting_ed"> Starting an e-experiment&#8230;</string>
     <string name="msg_manual_not_available">Sorry, the textbook to the this e-experiment has not yet been prepared</string>
 
@@ -324,8 +322,10 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
 
     <string name="msg_no_premission">  &quot;Application doesn&apos;t have permission to write on external storage.&quot;</string> 
     <string name="msg_no_sd"> &quot;External Storage isn&apos;t available.&quot; </string>
-    <string name="msg_no_flash">  Flash not installed! This application require Adobe Flash Player. Downloading will start automatically. </string>
-       
+	<string name="msg_no_flash"> Adobe Flash is not installed! E-experiments in physics requires the Adobe Flash Player.     
+ 	Your download will start automatically. 
+ 	</string>
+ 	
 <!-- Informacje o e-doświadczeniach -->
 
 	<string name="ed_info_wahadlo">
@@ -822,7 +822,162 @@ Further exercises are in the textbook. <br/>
 		       
 		]]>    
 	</string>
-	                        	        
+	  
+	<string name="ed_info_pole_magnetyczne">
+		<![CDATA[
+		<p> We observe <b> the magnetic field </b> between two magnetic poles of a body. In contrast to the electric field, 
+		<b> magnetic field</b> does not have a source. A single electric charge produces the electric field. <b> The magnetic 
+		field </b> needs a dipole, which is a configuration of two dissimilar electrical charges or magnetic poles. 
+		</p><p> 
+		The oldest known magnet is the magnetite. If from a solid magnetite lump several bars were cut out, each one
+		 would preserve the same magnetic properties. Each bar still would have two distinct poles (just as the whole 
+		 lump of ore had before) and would attract iron filings. Line structure of <b> the magnetic field forces </b>  
+		 for each of them would have been almost identical. </p>
+		 <p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  observe the shape of the magnetic field lines originating from the magnets of different shapes, <br/>
+		&bull;  observe the shape of the magnetic field lines originating from the conductors, in which current flows, <br/>
+		&bull;  indicate the shape of the magnetic field lines, <br/>
+		&bull;  familiarize oneself with the magnetic properties of different materials. </p>
+		]]>
+	</string>
+
+    <string name="ed_cwiczenie_pole_magnetyczne">
+		<![CDATA[
+		<b> Exercise - examination of lines of magnetic field forces </b>
+		<p> Select from the Tools: a mat, iron filings, a compass, two bar magnets and a table. Take out the compass 
+		from the box and place it in the middle of the table. What does the compass indicate? <br/> 
+		On the left side of the compass, place one bar magnet. Slide the magnet to the left. Have the readings from 
+		the compass changed? 
+		</p> <p>
+		Place two bar magnets, one above the compass, and the other below. Turn both magnets so that the blue poles
+		 point at the compass. <br/> <br/> 
+		&bull;  How do the magnetic field force lines look like between the magnets? Sprinkle filings on the table. 
+		Were your assumptions confirmed? <br/>
+		&bull;  Rotate magnets by 180 &deg; were the magnetic field line structure changed? <br/>
+		&bull;  Rotate just one magnet by 180 &deg;, were the magnetic field line structure changed? Why it happend? </p>
+		Further exercises are in the textbook. <br/>
+		]]>
+	</string>
+
+    <string name="ed_info_cewki_i_indukcja">
+		<![CDATA[
+		<p> Electromagnetic induction is used in many devices, such as electromagnets or transformers. Coil wound on 
+		a ferromagnetic core forms an electromagnet. It is used to generate the magnetic field. When the electric current
+		 flows through the coil, the magnetic field is created. This field acts on a ferromagnetic core located  within 
+		 the coil, causing the magnetization. At the same time the magnetic field of the coil is amplified. 
+		 </p><p>
+		In the construction of the transformer the core and the coils are usually made of conductive material. Normally
+		 in the transformers cores of a shape of the angular letter O are used. Two coils are placed at the vertical arms, 
+		 one called the primary winding and the second secondary winding. When the primary winding is connected to a 
+		 source of an alternating voltage, an alternating current starts to flow, causing the transformer core to induce 
+		 an alternating magnetic field. The field penetrating the secondary winding results in an electromotive force (emf). 
+		 </p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  become familiar with the phenomenon of electromagnetic induction, <br/>
+		&bull;  build a transformer, <br/>
+		&bull;  familiarize yourself with the electric motor, generator and the differences between them, <br/>
+		&bull;  learn how to measure the electrodynamic force, <br/>
+		&bull;  observe the magnetic field lines of a magnet or coil <br/>
+		&bull;  measure the value of EMF induction <br/>
+		&bull;  measure the value of the electrodynamic forces. </p>
+         ]]>
+	</string>
+
+    <string name="ed_cwiczenie_cewki_i_indukcja">
+		<![CDATA[
+		<b> Exercise - measurement of the voltage in the secondary winding of the transformer </b>
+		<p> Select from the Tools: a power supply, a voltmeter, two blue wires, two red wires,  an iron core, 
+		two coils with four hundred winds (parameter N). Place the coil on the core, but do not close the core. 
+		The left coil will act as the primary winding. Connect it to the power supply. The right coil connect to 
+		the voltmeter - secondary winding. Switch the power supply and the voltmeter to  the AC mode. Then set 12&nbsp;V
+		 at power supply. 
+		 </p><p>
+		&bull;  What voltage is induced in the secondary winding?  Will the result of measurement be the same if you swap coils? <br/>
+		&bull;  Continue taking measurements for the input voltages equal to 9 V, 6V, 3V, 0V. Make a chart of U<sub>2</sub>(U<sub>1</sub>). 
+		Is this a linear dependence? <br/>
+		&bull;  Will the voltage in the secondary winding change if you use the coil with more winds? <br/>
+		&bull;  Select the primary coil with half the number of rolls than the secondary winding. Take measurements 
+		for the same input voltages as before and make a chart of U <sub> 2 </sub> (U <sub> 1 </sub>). </p>
+		Further exercises are in the textbook. <br/>
+		]]>
+	</string>
+
+    <string name="ed_info_optyka_geometryczna">
+		<![CDATA[
+Geometrical optics <p> </b> is a branch of physics trying to explain the phenomena of light with the use of the geometry. In this theory, the light beams are treated as rays, having its origin in the source of the light. This simplification is allowable in case of beams propagating in a single medium. Hovewer if the beam of light is crossing between two mediums, so-called refraction of the light appears. </p>
+
+Geometrical optics <b> </b> is interested in following phenomena:<br/>
+• reflection, <br/>
+• total internal reflection of light, <br/>
+• refraction, <br/>
+• splitting of white light, <br/>
+• the spherical or chromatic aberration. <br/>
+ Geometric interpretation of optical phenomena does not include a very wide range of issues related to the nature of light, but it is very useful, for example, to describe the principles of operation of optical devices - cameras, binoculars and telescopes, etc. </p>
+In this e-experiment, you can do among others: <br/>
+• observe the beams of light passing through different lenses and mirrors, <br/>
+• observe double refraction of light using birefringent crystal, <br/>
+• observe the passage of electromagnetic waves by polaroid, <br/>
+• measure the angles of incidence, refraction and reflection of light rays in different mediums, <br/>
+• determine the refractive index, <br/>
+• set a limit angle of total internal reflection at the boundary of mediums <br/>
+• determine the Brewster angle. <br/>        
+
+         ]]>
+    </string>
+    
+    <string name="ed_cwiczenie_optyka_geometryczna">
+		<![CDATA[
+	
+		]]>
+	</string>
+	
+    <string name="ed_info_rlc">
+		<![CDATA[
+	
+	  	]]>
+	</string>
+	
+    <string name="ed_cwiczenie_rlc">
+		<![CDATA[
+
+		]]>
+	</string>
+	
+    <string name="ed_info_korpuskularna">
+		<![CDATA[
+		
+		]]>
+	</string>
+	
+    <string name="ed_cwiczenie_korpuskularna">
+		<![CDATA[
+		
+		]]>
+	</string>
+    <string name="ed_info_interferencja">
+		<![CDATA[
+		
+		]]> 
+	</string>
+	
+    <string name="ed_cwiczenie_interferencja">
+		<![CDATA[
+		
+		]]>
+	</string>
+	
+   	<string name="ed_info_fizyka_atomowa">
+		<![CDATA[
+		
+		]]>
+	</string>
+	
+	<string name="ed_cwiczenie_fizyka_atomowa">
+		<![CDATA[
+	
+		]]>
+	</string>	        
 	
 	
  </resources>  

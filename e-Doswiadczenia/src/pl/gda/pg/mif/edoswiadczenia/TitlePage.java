@@ -4,14 +4,13 @@ import java.io.File;
 import java.io.IOException;
 import java.net.BindException;
 import java.net.HttpURLConnection;
+import java.net.ServerSocket;
 import java.net.URL;
-import java.util.Date;
 import java.util.Locale;
 import java.util.Random;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Application;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -59,12 +58,11 @@ public class TitlePage extends Activity implements OnGestureListener {
 	public static int WWW_SERVER_PORT;
 	public static final int MAX_PORT = 65535;
 
-	public static final String TAG = "EDOSIE";  
 	public static Boolean updateDone = false;
 	public static final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
 	public static final String PREFS_UPDATE_SUFFIX = "_update";
 	public static final String PREFS_DATE_MODF_SUFFIX = "_date";
-
+	public static final String TAG = "EDOSIE";
 	
 	/**
 	 * Called when the activity is first created.
@@ -81,21 +79,27 @@ public class TitlePage extends Activity implements OnGestureListener {
 		}
 
 		setContentView(R.layout.title_page);
-
-		//Losowanie portu
-		portRandomization();
-		// Start serwera WWW            
+         
 		File NanoHTTPDserverRoot = new File(Environment.getExternalStorageDirectory().
 				getAbsolutePath() + File.separator + ListED.ED_SDCARD_DIR);
 		try {
+			//TODO gniazdo
+			//portRandomization();
+			//Losowanie portu
+			// Start serwera WWW   
+			ServerSocket mSocket = new ServerSocket(0);
+			WWW_SERVER_PORT = mSocket.getLocalPort();			
+			mSocket.close();
+			
 			nanoHTTPD = new NanoHTTPD(WWW_SERVER_PORT, NanoHTTPDserverRoot);
 		} 
 
 		//jeśli zajety port - "Address already in use" jest niegrozny, wiec robimy wyjatek od wyjatku :)
 		catch(BindException bEx){
-			portRandomization();
+			//portRandomization();
 		}
 		catch (IOException ioe) {
+			//ewentualne błędy podczas tworzenia socket
 			/*myDialog mDialog = myDialog.myDialog();
         	mDialog.setTitle(getString(R.string.msg_title_error));
         	mDialog.setMessage(getString(R.string.msg_internal_error001));*/
@@ -318,6 +322,7 @@ public class TitlePage extends Activity implements OnGestureListener {
 				Toast.makeText(getApplicationContext(), getString(R.string.msg_already_pl), Toast.LENGTH_SHORT).show();
 				return true;
 			}
+			//TODO do poprawy
 			Locale localePL = new Locale(PL_FLAG);
 			Locale.setDefault(localePL);
 			Configuration configPL = new Configuration();
@@ -394,7 +399,7 @@ public class TitlePage extends Activity implements OnGestureListener {
 	 * "A valid port value is between 0 and 65535. 
 	 * A port number of zero will let the system pick up an ephemeral port in a bind operation." 
 	 */ 	
-	private void portRandomization(){
+/*	private void portRandomization(){
 
 		Random rdn = new Random();
 		int tmp = rdn.nextInt();
@@ -407,7 +412,7 @@ public class TitlePage extends Activity implements OnGestureListener {
 
 		String text = String.valueOf(WWW_SERVER_PORT);
 		Log.i(TAG,text);
-	}
+	}*/
 
 
 	/**
