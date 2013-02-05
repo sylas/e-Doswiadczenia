@@ -285,6 +285,8 @@ public final class R {
         public static final int ed_name_zderzenia=0x7f060005;
         public static final int efs_name=0x7f060032;
         public static final int efs_text=0x7f060033;
+        /**  Teksty w popupach o programie i partnerach 
+         */
         public static final int ftims_name=0x7f060036;
         public static final int ftims_text=0x7f060037;
         public static final int info_app_text=0x7f06002f;
@@ -332,7 +334,6 @@ public final class R {
         public static final int pg_name=0x7f060034;
         public static final int pg_text=0x7f060035;
         /**  Teksty w popupach o programie i partnerach 
- Teksty w popupach o programie i partnerach 
          */
         public static final int pokl_name=0x7f060030;
         public static final int pokl_text=0x7f060031;

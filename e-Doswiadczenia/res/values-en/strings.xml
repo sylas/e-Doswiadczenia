@@ -55,7 +55,7 @@
 <!-- Teksty strony tytułowej -->
 
     <string name="txt_title1">
-        Application prepared ​​within frames of the innovative project \"e-Experiments in physics\", 
+        Application prepared ​​within frames of the innovative project &quot;e-Experiments in physics&quot;, 
         \nco-financed by the European Union under the European Social Fund      </string>
     <string name="txt_title2">Concept and realization:</string>
     <string name="txt_title3">
@@ -71,134 +71,10 @@
          ]]>
     </string>
 
-    <string name="info_project_text">
-        <![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O projekcie</h1>
-
-W ramach innowacyjnego projektu testującego pt. <b>„e-Doświadczenia w fizyce”</b> wytwarzamy oraz testujemy
-w wybranych szkołach ponadgminazjalnych nowatorskie rozwiązania programowe,
-polegające na (testowym) włączeniu do lekcji fizyki tzw. <b>e-doświadczeń</b> &minus;
-wirtualnych doświadczeń fizycznych, jako uzupełnienie doświadczeń rzeczywistych.
-Następnie będziemy starali się o włączenie e-doświadczeń do głównego nurtu polityki oświatowej,
-tzn. planujemy sprawić, żeby stały się one częścią programów nauczania fizyki
-w szkołach ponadgimnazjalnych.<br/><br/>
-e-Doświadczenia będą sukcesywnie produkowane i testowane do końca 2012 roku.
-Swoim zakresem będą obejmowały większość zagadnień omawianych na lekcjach fizyki w szkołach
-ponadgimnazjalnych, w tym zagadnienia objęte rozszerzonym programem nauczania.<br/><br/>
-
-Pomysł na projekt narodził się w wyniku przeprowadzonej analizy i diagnozy problemów związanych
-z nauczaniem fizyki w polskich szkołach. Ideą przewodnią projektu jest znana wszystkim maksyma Konfucjusza:
-<b>„Powiesz mi &minus; wkrótce zapomnę, pokażesz mi &minus; może zapamiętam,
-pozwolisz dotknąć a zrozumiem”.</b><br/></br>
-        ]]>
-    </string>
-
-    <string name="info_ed_text">
-        <![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O e-doświadczeniach</h1>
-Głównym produktem projektu jest <b>zestaw 23 wirtualnych e-doświadczeń z fizyki</b>,
-w postaci programów komputerowych, obejmujących różne działy fizyki.
-Programy te są głównie przeznaczone do uruchamiania przy użyciu klasycznych komputerów,
-jednak podjęliśmy próbę przeniesienia ich na tablety (choć wiążą się z tym pewne ograniczenia, opisane
-w zakładce „o aplikacji”).<br/><br/>
-
-Mocno podkreślamy, że absolutnie <b>nie chcemy zastępować doświadczeń rzeczywistych</b>
-(są one niezastąpione w dydaktyce), chcemy je wspierać.
-e-Doświadczenia mają na celu pokazanie zagadnień fizycznych w szerszej perspektywie.
-Dzięki swoim możliwościom pozwolą bowiem na głębsze zrozumienie problemów, pozwolą na budowanie lepiej rozumianych
-modeli, ciągów przyczynowo-skutkowych i zbiorów zależności, niezbędnych do opisu zjawisk fizycznych.<br/><br/>
-
-Dzięki e-Doświadczeniom nauczyciele będą mogli zilustrować daną partię materiału teoretycznego
-przy pomocy komputera, bez obawy zniszczenia drogiego sprzętu doświadczalnego.
-Z kolei uczniowie będą mogli samodzielne powtórzyć dane ćwiczenie w domu.<br/><br/>
-
-Przewidziana jest <b>daleko idąca możliwość ingerencji w przebieg e-doświadczeń</b>,
-co umożliwia uczniowi przyswojenie wiedzy oraz pobudzenie i rozwinięcie zainteresowań badawczych. <br/><br/>
-
-Staramy się, aby e-doświadczenia były <b>w jak największym stopniu zbliżone do rzeczywistości</b>.
-Wpisują się one w schemat <b>zaprojektuj - zbuduj – wykonaj – przeanalizuj – przedstaw wyniki</b>,
-gdzie istotne jest uczenie się na błędach. Chcemy bowiem zmusić uczniów do działania, nawet jeśli sprowadzałoby
-się to do działania metodą prób i błędów. Zgodnie z naszym doświadczeniem, uzyskanie nawet niewłaściwych wyników,
-które skonfrontowane z tymi prawidłowymi zmuszą do myślenia „gdzie i jaki popełniłem błąd?”,
-ma ogromną wartość dydaktyczną: motywuje do wyciągania wniosków i ciągłych poszukiwań właściwego rozwiązania
-problemu, wymuszając w ten sposób aktywność naukową.<br/><br/>
-
-Wszystkim e-doświadczeniom towarzyszą <b>podręczniki w formie zeszytów ćwiczeń</b>. Gorąco zachęcamy do zapoznania
-się z nimi jeszcze przed uruchomieniem danego e-doświadczenia.<br/><br/>
-        ]]>
-    </string>
-
-    <string name="info_app_text">
-        <![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O aplikacji</h1>
-
-e-Doświadczenia produkowane są w technologii <b>Adobe Flash / Adobe Air</b>, dzięki czemu mogą być używane
-na większości komputerów, niezależnie od używanego systemu operacyjnego czy rodzaju procesora.
-Niestety, technologia ta na tabletach daleka jest od doskonałości - występują ograniczenia związane
-z wydajnością aplikacji oraz z dostosowaniem jej do ekranów dotykowych.<br/><br/>
-Podczas używania e-doświadczeń <b>mogą zatem pojawić się następujące problemy:</b><br/>
-&bull; niewystarczająca wydajność w e-doświadczeniach wykorzystujących grafikę 3D
-(np. Wahadło matematyczne, Ruch ciał niebieskich), skutkująca „klatkowaniem” animacji,<br/>
-&bull; utrudniony dostęp do niektórych, niewielkich elementów (np. filtr w Ławie optycznej); czasem trzeba kilku
-prób, aby „podnieść” dany element,<br/>
-&bull; nie można uruchamiać podręczników z wnętrza e-doświadczeń; w zamian zostały one udostępnione
-bezpośrednio z aplikacji.<br/><br/>
-
-Przed uruchomieniem, dane e-Doświadczenie jest pobierane z Internetu do pamięci wewnętrznej urządzenia.
-Jest to operacja jednorazowa, do momentu skasowania go z pamięci bądź opublikowania nowszej wersji.<br/><br/>
-
-<font color="#22DAFE">Autor aplikacji</font><br/>
-Paweł Syty &minus; Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej<br/><br/>
-<font color="#22DAFE">Opracowanie graficzne aplikacji</font><br/>
-Rafał Buczek &minus; Crea.pl<br/><br/>
-<font color="#22DAFE">Opracowanie i produkcja e-doświadczeń:</font><br/>
-Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej<br/>
-Young Digital Planet SA<br/>
-L.C.G. Malmberg B.V. (Holandia)
-        ]]>
-    </string>
 
 <!-- Teksty w popupach o programie i partnerach -->
 
-    <string name="pokl_name">Program Operacyjny Kapitał Ludzki</string>
-    
-    <string name="pokl_text">
-         <![CDATA[
-Program Kapitał Ludzki jest jednym z programów służących realizacji Narodowych Strategicznych Ram Odniesienia
-2007-2013 i obejmuje całość interwencji Europejskiego Funduszu Społecznego (EFS) w Polsce. Stanowi on odpowiedź
-na wyzwania, jakie przed państwami członkowskimi UE, w tym również Polską, stawia odnowiona Strategia Lizbońska.
-<br/><br/>
-Do wyzwań tych należą: uczynienie z Europy bardziej atrakcyjnego miejsca do lokowania inwestycji
-i podejmowania pracy, rozwijanie wiedzy i innowacji oraz tworzenie większej liczby trwałych miejsc pracy.
-        ]]>
-    </string>
-
-    <string name="efs_name">Europejski Fundusz Społeczny</string>
-    
-    <string name="efs_text">
-         <![CDATA[
-Europejski Fundusz Społeczny (EFS) jest jednym z funduszy strukturalnych UE. Został stworzony, by redukować
-różnice w zamożności i jakości życia we wszystkich państwach członkowskich i regionach UE.<br/><br/>
-Fundusz promuje spójność gospodarczą i społeczną oraz promocją zatrudnienia w UE. Pomaga państwom członkowskim,
-sprawiając, że siła robocza i firmy są lepiej przygotowane do stawienia czoła nowym, globalnym wyzwaniom.
-        ]]>
-    </string>
-
-    <string name="pg_name">Politechnika Gdańska</string>
-    
-    <string name="pg_text">
-		<![CDATA[
-<b>Największa i najstarsza w północnej Polsce państwowa uczelnia wyższa o profilu technicznym, 
-z siedzibą w Gdańsku.</b><br/><br/>
-Obejmuje 9 wydziałów, na których studiuje ponad 24 tysiące studentów na studiach
-inżynierskich i magisterskich (stacjonarnych i niestacjonarnych), a także ponad 400 słuchaczy studiów
-doktoranckich. Dodatkowo, prowadzona jest na szeroką skalę
-wymiana międzynarodowa studentów i pracowników.<br/><br/>
-W ogólnopolskich rankingach uczelni wyższych
-Politechnika Gdańska zajmuje od dawna jedno z czołowych miejsc.
-        ]]>
-    </string>
-
+  
 	<string name="ftims_name"> Faculty of Technical Physics and Applied Mathematics PG </string>
 	
 	<string name="ftims_text">
@@ -905,77 +781,192 @@ Further exercises are in the textbook. <br/>
 
     <string name="ed_info_optyka_geometryczna">
 		<![CDATA[
-Geometrical optics <p> </b> is a branch of physics trying to explain the phenomena of light with the use of the geometry. In this theory, the light beams are treated as rays, having its origin in the source of the light. This simplification is allowable in case of beams propagating in a single medium. Hovewer if the beam of light is crossing between two mediums, so-called refraction of the light appears. </p>
-
-Geometrical optics <b> </b> is interested in following phenomena:<br/>
-• reflection, <br/>
-• total internal reflection of light, <br/>
-• refraction, <br/>
-• splitting of white light, <br/>
-• the spherical or chromatic aberration. <br/>
- Geometric interpretation of optical phenomena does not include a very wide range of issues related to the nature of light, but it is very useful, for example, to describe the principles of operation of optical devices - cameras, binoculars and telescopes, etc. </p>
-In this e-experiment, you can do among others: <br/>
-• observe the beams of light passing through different lenses and mirrors, <br/>
-• observe double refraction of light using birefringent crystal, <br/>
-• observe the passage of electromagnetic waves by polaroid, <br/>
-• measure the angles of incidence, refraction and reflection of light rays in different mediums, <br/>
-• determine the refractive index, <br/>
-• set a limit angle of total internal reflection at the boundary of mediums <br/>
-• determine the Brewster angle. <br/>        
-
+		<p> <b>Geometrical optics </b> is a branch of physics trying to explain the phenomena of light with the use of 
+		the geometry. In this theory, the light beams are treated as rays, having its origin in the source of the light. 
+		This simplification is allowable in case of beams propagating in a single medium. Hovewer if the beam of light 
+		is crossing between two mediums, so-called refraction of the light appears. 
+		</p><p>
+		<b> Geometrical optics </b> is interested in following phenomena:<br/>
+		&bull;  reflection, <br/>
+		&bull;  total internal reflection of light, <br/>
+		&bull;  refraction, <br/>
+		&bull;  splitting of white light, <br/>
+		&bull;  the spherical or chromatic aberration. <br/><br/>
+		 Geometric interpretation of optical phenomena does not include a very wide range of issues related to the nature 
+		 of light, but it is very useful, for example, to describe the principles of operation of optical devices - cameras, 
+		 binoculars and telescopes, etc. </p>
+		</p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  observe the beams of light passing through different lenses and mirrors, <br/>
+		&bull;  observe double refraction of light using birefringent crystal, <br/>
+		&bull;  observe the passage of electromagnetic waves by polaroid, <br/>
+		&bull;  measure the angles of incidence, refraction and reflection of light rays in different mediums, <br/>
+		&bull;  determine the refractive index, <br/>
+		&bull;  set a limit angle of total internal reflection at the boundary of mediums <br/>
+		&bull;  determine the Brewster angle. </p>      
          ]]>
     </string>
     
     <string name="ed_cwiczenie_optyka_geometryczna">
 		<![CDATA[
-	
+		<b> Exercise - study focusing properties of lenses made from different materials <b>
+		<p> Select from the Tools: mat, laser and a box of lenses. Set the laser mode to display five beams of wavelength 
+		equal to 485 nm. Remove from the box a convex lens made of glass, with refractive index of 1.5, the radius of 20 cm
+		 and the height - 12 cm. <br/><br/>
+		 Place it in a distance of 5 cm from the laser (this is the spacing of the grid of the mat).
+		  Push start button placed on the cover of the laser. <br/> Does the lens focus the beams or not? Check whether the 
+		  light beams of different wavelength would work the same way with that lens?
+		   </p><p>
+		&bull;  Set the lens at an angle of 45 ° relative to the left edge of the mat. Does the lens still focus the beams? <br/>
+		&bull;  Repeat the exercise for lenses made of other materials, but with a radius equal to 20 cm, height - 12 cm. Start 
+		with lens made of air. <br/> Why did you get a different result than before?<br/><br/>
+		&bull;  Next, examine the diamond and silicon lenses. Think about what causes focusing inaccuracies? <br/>
+		&bull;  Repeat above analysis, changing the number of rays passing through the lens. Has changing the number of rays 
+		an impact on the quality of focus? </p>
+		Further exercises are in the textbook. <br/>	
 		]]>
 	</string>
 	
     <string name="ed_info_rlc">
 		<![CDATA[
-	
+	   <p> RLC electrical circuit comprises of: <br/>
+		&bull;  resistor R, <br/>
+		&bull;  coil L, <br/>
+		&bull;  capacitor C. 
+		</p><p>
+		The inclusion of the resistor in the circuit causes a loss of energy and generation of heat. The total energy 
+		of the system will decrease over time – damped oscilations appear in the circuit. If specific conditions are met, 
+		voltages or currents resonance may be observed in RLC circuit. Voltage resonance occurs in  series RLC circuits. 
+		It is based on the fact that for a signal of a certain frequency, the sum of voltage on the coil and on the capacitor 
+		is equal to zero. Currents resonance occurs in parallel RLC circuits. At a certain frequency the sum of currents 
+		flowing through the coil and the capacitor is zero. Both of these phenomena can be very dangerous in the case 
+		of more complex systems, because some components may be damaged. 
+		</p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  monitor on an oscilloscope the waveforms of voltage and current in the RLC circuit, <br/>
+		&bull;  measure the voltage as a function of time in different parts of the electrical circuit using an oscilloscope, <br/>
+		&bull;  measure current as a function of time using the current probe connected to an oscilloscope, <br/>
+		&bull;  determine the natural frequency of the LC and RLC circuits. </p>     
 	  	]]>
 	</string>
 	
     <string name="ed_cwiczenie_rlc">
 		<![CDATA[
-
+		Exercise - beats <b> in LC systems </b>
+		<p> Select from the Tools: serial LC circuit, pulse generator, oscilloscope, two voltage probes. 
+		Connect the pulse generator to a circuit located on a perforated plate. Set the frequency of generated signal 
+		at 2000 Hz and its amplitude to 2.12 V. Connect the voltage probes to the oscilloscope channels and to the 
+		circuit -  the first in parallel to the coil and second one in parallel to the capacitor. Set the same scale 
+		on both oscilloscope channels, for example, 5 V, and the time step of 0.2 ms.
+		 </p><p>
+		&bull;  In what state is the circuit? By varying the frequency and amplitude, find an another stable state of the system.
+		 Why do you observe beats in this LC circuit? <br/><br/>
+		&bull;  Select different coil and capacitor from the box - will state of  circuit change?
+		</p>    
+		Further exercises are in the textbook. <br/>
 		]]>
 	</string>
 	
     <string name="ed_info_korpuskularna">
 		<![CDATA[
-		
+		<p>  Wave–particle duality is a concept proclaiming that light has a dual nature. It was first presented 
+		at the beginning of the twentieth century. According to this theory, in some cases, light behaves like a wave, 
+		and others as particle. For example, light interference phenomena is explained by the wave theory of light. 
+		Strengthening or weakening of the light beam is explained  as light waves overlaping with their phases in line
+		or against. Purely corpuscular theory (which treats light as a collection of particles) does not explain it at all. 
+		To keep on equilibrium the wave theory can not explain the photoelectric effect. Therefore it is assumed that 
+		light has  corpuscular-wave nature.
+		</p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  observe the continuous spectrum and the characteristic spectrum of X-rays, <br/>
+		&bull;  familiarize oneself with the design and function of X-ray tube at the nano scale, <br/>
+		&bull;   know the mechanism of Compton&apos;s scattering of photons at the weakly bound electrons, <br/>
+		&bull;  know the structure and function of a photocell, <br/>
+		&bull;  become acquainted to the mechanism of photocurrent, <br/>
+		&bull;  measure the position of the peaks in the characteristic spectrum <br/>
+		&bull;  determine the Planck&apos;s constant. </p>  	
 		]]>
 	</string>
 	
     <string name="ed_cwiczenie_korpuskularna">
 		<![CDATA[
-		
+		...
 		]]>
 	</string>
     <string name="ed_info_interferencja">
 		<![CDATA[
-		
+		<p><b> Interference </b> is phenomenon of two or more waves overlaping.  Such waves can reinforce or 
+		undermine each other. White light is composed from many waves with different wavelengths, the interference
+		 in this case is very difficult to observe. It is much easier to observe the interference using 
+		 monochromatic light, such as laser. Directing the laser beam, passing through the tile 
+		 (usually a diffraction grating), onto the screen, gives a picture made up of 
+		 staggered stripes of light and dark. This is called the Young&apos;s experiment. 
+		 </p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  see the diffraction and interference of light waves, <br/>
+		&bull;  observe diffraction and interference of water waves, <br/>
+		&bull;  familiarize oneself to the experiment of Young, <br/>
+		&bull;  determine the distance between the slits of the diffraction grating, <br/>
+		&bull;  measure the distance between the interference stripes. </p>   		
 		]]> 
 	</string>
 	
     <string name="ed_cwiczenie_interferencja">
 		<![CDATA[
+		<b> Exercise - light interference </b>
+		<p>	Select from the Tools: a RGBU laser,a screen, an optical bench and a tile to cut your own slits
+		 (from card titled: diffraction tiles). 
+		 </p><p>
+		&bull;  Select the diffraction tile and press CUT (located in the sidebar). Cut out one circular hole in 
+		the center of the tile. Place the diffraction tile on the optical bench. 
+		</p><p>
+		&bull;  Then mount the laser at the end of the optical bench. Choose any laser&apos;s color for example, red.  
+		Start the experiment by running the laser. 
+		</p><p>
+		&bull;  What image is created, when the light passes through the tile? If you want a better, view turn 
+		on the &quot;screen view&quot; option in the sidebar.  What physical phenomenon causes this effect? <br/>
+		</p><p>
+		&bull;  Does the change of the wavelength of  the light have influence on the pattern on the screen? 
+		Check it out for the beams of a different color. </p>
+		<p>
+		&bull;  Repeat the experiment with a square and then also with triangular hole. Does the pattern look  
+		just as in the case of a circular hole? </p>
 		
+		Further exercises are in the textbook. <br/>
 		]]>
 	</string>
 	
    	<string name="ed_info_fizyka_atomowa">
 		<![CDATA[
-		
+		<p> Radioactivity is an ability of an element to emit nuclear radiation. This radiation is produced by 
+		spontaneous conversion of atomic nuclei. All matter emits radiation of varying intensity and character. 
+		</p><p>
+		Radiation can be divided into two groups: <br/>
+		&bull; ionizing radiation (alpha, beta, gamma, UV, X), <br/>
+		&bull; non-ionizing radiation (infrared, radio, microwave, visible light). 
+		</p><p>		
+		In this e-experiment, you can do among others: <br/>
+		&bull; determine the location of individual spectral lines of hydrogen and helium and
+		 find the corresponding wave length, <br/>
+		&bull; find the radioactivity class of selected materials, <br/>
+		&bull; determine the half-life of selected materials <br/>
+		&bull; examine the age of the selected objects by examining the decay of the isotope C14. </p>		
 		]]>
 	</string>
 	
 	<string name="ed_cwiczenie_fizyka_atomowa">
 		<![CDATA[
-	
+		<b> Exercise - examine the age of the object </b> 
+		<p> Select from Tools a Sumerian tile (it&apos;s in the laboratory of carbon dating). Prepare a sample. 
+		In the lower right corner of the laboratory on a table is a device for making samples. 
+		Activate it by pressing the button on its cover and then insert the tile into it.
+		<br/><br/>
+		 Place the sample in the source of ions  and activate the mass spectrometer. 
+		 During the measurement, you can look inside of the measuring apparatus.<p> 
+		&bull; What does the result displayed on the monitor of the mass spectrometer mean? <br/>
+		&bull; How old is the subject of the test? Use physical tables to determine age. <br/>
+		&bull; Save the result and perform the test again for other objects. </p>
+		Further exercises are in the textbook. <br/>	
 		]]>
 	</string>	        
 	
