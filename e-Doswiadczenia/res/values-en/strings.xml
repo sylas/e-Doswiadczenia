@@ -127,38 +127,42 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
     <string name="txt_title_help">Help</string>
     
     <string name="txt_help_tytulowa">
-<![CDATA[
-<b> On this screen, you can: </b><br/><br/>
-&bull; read basic information about the project, <br/><br/>
-&bull; display information about the operational program and the fund within which the project is realized <br/> 
-(<i> by pressing the logotypes at the top of the screen </ i>) <br/>br/>
-&bull; display information about the project contractors <br/>
-(<i> by pressing the logotypes at the bottom of the screen </ i>), <br/><br/>
-&bull; change the application language <br/>
-(<i> by touching the icons in the toolbar at the top of the screen </i>), <br/><br/>
-&bull; move to the next screen of the application or end it <br/>
-(<i> by buttons in the center of the screen) </i>.
-         ]]>   </string>    
+		<![CDATA[
+		<b> On this screen, you can: </b><br/><br/>
+		&bull; read basic information about the project, <br/><br/>
+		&bull; display information about the operational program and the fund within which the project is realized <br/> 
+		(<i> by pressing the logotypes at the top of the screen </ i>) <br/><br/>
+		&bull; display information about the project contractors <br/>
+		(<i> by pressing the logotypes at the bottom of the screen </ i>), <br/><br/>
+		&bull; change the application language <br/>
+		(<i> by touching the icons in the toolbar at the top of the screen </i>), <br/><br/>
+		&bull; move to the next screen of the application or end it <br/>
+		(<i> by buttons in the center of the screen) </i>.
+         ]]>  
+     </string>    
      <string name="txt_help_list_ed">
-<![CDATA[
-<b> On this screen, you can: </b>  <p>
-&bull; view a set of e-experiments,</p> <p>
-&bull;  pass to the selected e-experiment or return to the title page, <br/>
-(<i> by tapping on the e-experiment icon or the back button</ i>) </p>
-&bull; to change the language back to the initial screen. <br/>
- </p>   ]]>  </string>   
-<string name="txt_help_details_ed">
-<![CDATA[
-</ p>
-&bull; read the information about physical phenomena that are the subject of an experiment, </p><p>
-&bull; run chosen e-experiment,<br/>
-(<i> by tapping on the the run </i>) </p>
-&bull; view the textbook prepared for e-experiment, <br/>
-(<i> by tapping on the button named “manual” - the book is available in PDF format and will be opened by an external program </i>),</p> <p>
-&bull; return to the last screen, br/>
-(<i> by tapping on the the back </ i>) </p>
-&bull; to change the language back to the initial screen. </p>
-         ]]> </string>
+		<![CDATA[
+		<b> On this screen, you can: </b><br/><br/>
+		&bull; view a set of e-experiments,<br/><br/>
+		&bull;  pass to the selected e-experiment or return to the title page, <br/>
+		(<i> by tapping on the e-experiment icon or the back button</ i>)<br/><br/>
+		&bull; to change the language back to the initial screen. <br/>
+		 ]]> 
+	</string>   
+	<string name="txt_help_details_ed">
+		<![CDATA[
+		<b> On this screen, you can: </b><br/><br/>
+		&bull; read the information about physical phenomena that are the subject of an experiment,<br/><br/>
+		&bull; run chosen e-experiment,<br/><br/>
+		(<i> by tapping on the the run </i>)<br/>
+		&bull; view the textbook prepared for e-experiment, <br/>
+		(<i> by tapping on the button named “manual” - the book is available in 
+		PDF format and will be opened by an external program </i>),<br/><br/>
+		&bull; return to the last screen, br/>
+		(<i> by tapping on the the back </ i>) <br/><br/>
+		&bull; to change the language back to the initial screen. <br/>
+         ]]> 
+    </string>
      
 <!-- elementy stringów -->
 	<string name="manual_name_prefix">exercises_</string>
@@ -206,96 +210,131 @@ The company develops interdisciplinary teaching methodologies (Pluspunt, Biologi
 
 	<string name="ed_info_wahadlo">
 		<![CDATA[  
-<p>We can imagine <b> a pendulum </b> as a ball freely hanging on a strand. The main assumption of 
-<b> mathematical pendulum model </b> is that the ball is a point and the whole mass of the pendulum is containted there. 
-The strand which the ball hangs on is treated as weightless (neglecting its mass) and inextensible 
-(it does not change its length.) </p>
-<p> <b> In this e-experiment, you can: </b> <br/>
-&bull; examine the basic period of oscilations of the mathematical pendulum, <br/>
-&bull; observe changes in kinetic and potential energy, <br/>
-&bull; learn about one of the many ways to determine the gravitational acceleration, <br/>
-&bull; see how the movement of the pendulum proceeds in an accelerating elevator or a train, <br/>
-&bull; observe the mathematical pendulum in an environment which is difficult to find in the everyday world, such as other planets, <br/>
-&bull; watch the Foucault&apos;s pendulum. </p>
-<big> <b> Note: </b> </big> <br/> Due to the time-consuming calculations and usage of three-dimensional graphics, 
-pendulum animation is rather quite slow (down to several fps). 
-We still working on the optimization of the e-experiment so that you can take full advantage of its features also on tablets.
+		<p>We can imagine <b> a pendulum </b> as a ball freely hanging on a strand. The main assumption of 
+		<b> mathematical pendulum model </b> is that the ball is a point and the whole mass of the pendulum is containted there. 
+		The strand which the ball hangs on is treated as weightless (neglecting its mass) and inextensible 
+		(it does not change its length.) 
+		</p><p>
+		<b> In this e-experiment, you can: </b> <br/>
+		&bull; examine the basic period of oscilations of the mathematical pendulum, <br/>
+		&bull; observe changes in kinetic and potential energy, <br/>
+		&bull; learn about one of the many ways to determine the gravitational acceleration, <br/>
+		&bull; see how the movement of the pendulum proceeds in an accelerating elevator or a train, <br/>
+		&bull; observe the mathematical pendulum in an environment which is difficult to find in the everyday world, such 
+		as other planets, <br/>
+		&bull; watch the Foucault&apos;s pendulum. 
+		</p><p>
+		<big> <b> Note: </b> </big> <br/> Due to the time-consuming calculations and usage of three-dimensional graphics, 
+		pendulum animation is rather quite slow (down to several fps). 
+		We still working on the optimization of the e-experiment so that you can take full advantage of its features also 
+		on tablets.</p>
 		]]>      
 	</string>
 	
 	<string name="ed_cwiczenie_wahadlo">
 		<![CDATA[  
-<b> Exercise - how to measure the base period of oscilations of the mathematical pendulum </b> <p>
-&bull; At the beginning we propose to measure the base period of the pendulum i.e. time of one oscilation of the pendulum. For this experiment we will need a sliding pendulum and a ball. <br/>
-&bull;  Put together strand and a tripod, then attach  the ball to the strand.<br/>
-&bull; Set the length of the thread and its angle. After that press ACCEPT SETTINGS. <br/>
-&bull; To start motion of the pendulum, press START. <br/>
-&bull; After one full period stop the timer and save the result into a table. <br/>
-&bull; Now let us perform as accurately as possible the same experiment again. Measure the full periods, writing each time the result into the table. Repeat the experiment at least 5 times. <br/>
-&bull;  Next, let&apos;s look at the obtained results and try to answer the question: did we succeed in repeating the experiment accurately? That is, were the results of measurements of the base period equal? <br/>
-&bull; Do you think that the deviations from the individual values measured in this way are large or small? <br/>
-&bull; What do you think, from where do these variations come and what are factors influencing the accuracy of measurements? <br/>
-&bull; Consider whether there are more accurate ways to measure the base period? <br/><br/>
-Further exercises are in the textbook. <br/>
+		<b> Exercise - how to measure the base period of oscilations of the mathematical pendulum </b> 
+		<p>
+		&bull; At the beginning we propose to measure the base period of the pendulum i.e. time of one oscilation 
+		of the pendulum. For this experiment we will need a sliding pendulum and a ball. <br/>
+		&bull;  Put together strand and a tripod, then attach  the ball to the strand.
+		</p><p>
+		&bull; Set the length of the thread and its angle. After that press ACCEPT SETTINGS. <br/>
+		&bull; To start motion of the pendulum, press START.
+		</p><p>
+		&bull; After one full period stop the timer and save the result into a table. <br/>
+		&bull; Now let us perform as accurately as possible the same experiment again. Measure the full periods, 
+		writing each time the result into the table. Repeat the experiment at least 5 times.
+		</p><p>
+		&bull;  Next, let&apos;s look at the obtained results and try to answer the question: did we succeed 
+		in repeating the experiment accurately? That is, were the results of measurements of the base period equal?
+		</p><p>
+		&bull; Do you think that the deviations from the individual values measured in this way are large or small?
+		&bull; What do you think, from where do these variations come and what are factors influencing
+		 the accuracy of measurements? </p>
+		&bull; Consider whether there are more accurate ways to measure the base period? <br/><br/>
+		
+		Further exercises are in the textbook. <br/>
 		]]>      
 	</string>
 	<string name="ed_info_lawa">
 		<![CDATA[       
-The e-experiment <b> Optical Bench </b> has been entirely devoted to lenses. <b> The lens </b> is a simple optical device, consisting of one or more blocks of a transparent material glued together - usually glass, but also can be a variety of plastics, gels or minerals. <br/>
-
-With this e-experiment you can learn about geometrical optics. You will familiarize with properties of the lens and the basic parameters characterizing them. In addition, it is a perfect illustration for the basic equations describing the lens. <br/>
-Arranging appropriate lens on the optical bench, you can get different images: real and apparent. In addition, you can build a telescope and a microscope.	  
+		<p>The e-experiment <b> Optical Bench </b> has been entirely devoted to lenses. <b> The lens </b> is a simple 
+		optical device, consisting of one or more blocks of a transparent material glued together - usually glass, 
+		but also can be a variety of plastics, gels or minerals. <br/>
+		</p><p>
+		With this e-experiment you can learn about geometrical optics. 
+		You will familiarize with properties of the lens and the basic parameters characterizing them.
+		 In addition, it is a perfect illustration for the basic equations describing the lens. <br/>
+		Arranging appropriate lens on the optical bench, you can get different images: real and apparent. 
+		In addition, you can build a telescope and a microscope.	  
+		</p>
 		]]>     
 	</string>
 		
 	<string name="ed_cwiczenie_lawa">
 		<![CDATA[       
- <b> Exercise - studying properties of a focusing lens </b> <br/>
-&bull; Mount the light source on the bench with any filter. <br/>
-&bull; From a set of glass lenses of different focal length choose any focusing lens (that with positive values of focal length) and mount it on the optical bench. <br/>
-&bull; For the time being, mount the screen at any distance on the other side of the lens. <br/>
-&bull; Try placing the light source in various positions: nearer to the lens than the focal length, exactly in the focal point and in a distance further than the focal length. <br/>
-&bull; For each of these three cases, check whether the image is projected onto the screen. <br/>
-&bull; If the image is not sharp, try to move the screen along the optical bench in order to get the best result. <br/>
-&bull; If you do not observe any image on your screen, look through the lens and see if you can observe the virtual image. <br/>
-&bull; Repeat the exercise for the other focusing lenses within this set. <br/><br/>
-Further exercises are in the textbook. <br/>
+		 <b> Exercise - studying properties of a focusing lens </b> <br/>
+		<p>
+		&bull; Mount the light source on the bench with any filter. <br/>
+		&bull; From a set of glass lenses of different focal length choose any focusing lens
+		 (that with positive values of focal length) and mount it on the optical bench.
+		 </p><p>
+		&bull; For the time being, mount the screen at any distance on the other side of the lens. <br/>
+		&bull; Try placing the light source in various positions: nearer to the lens than the focal length,
+		 exactly in the focal point and in a distance further than the focal length.
+		 </p><p>
+		&bull; For each of these three cases, check whether the image is projected onto the screen. <br/>
+		&bull; If the image is not sharp, try to move the screen along the optical bench in order to get the best result.
+ 		</p><p>
+		&bull; If you do not observe any image on your screen, look through the lens and see if you 
+		can observe the virtual image. <br/>
+		&bull; Repeat the exercise for the other focusing lenses within this set.  </p>
+		Further exercises are in the textbook. <br/>
 		]]> 
 	</string>
 
 	<string name="ed_info_rzuty">
 		<![CDATA[ 
-<b> The throw </b> is defined as a uniform motion in a gravitational field with a certain initial velocity, directed along, across or at an angle to the lines of the field. <br/>
-<b> With this e-experiment, you can: </ b> <br/>
-&bull; examine the throws: <br/>
-- vertical, <br/> - horizontal, <br/> - pitched, <br/>
-&bull; examine cases where a part detaches from the thrown body, <br/>
-&bull; watch how the rotation of the ball affects its bounce, <br/>
-&bull; observe the throws in a windy conditions, <br/>
-&bull; observe the throws in a noninertial frames of reference.    	        
+		<b> The throw </b> is defined as a uniform motion in a gravitational field with a certain initial velocity, 
+		directed along, across or at an angle to the lines of the field.
+		<p>
+		<b> With this e-experiment, you can: </ b> <br/>
+		&bull; examine the throws: <br/>
+		- vertical, <br/> - horizontal, <br/> - pitched, <br/><br/>
+		&bull; examine cases where a part detaches from the thrown body, <br/>
+		&bull; watch how the rotation of the ball affects its bounce, <br/>
+		&bull; observe the throws in a windy conditions, <br/>
+		&bull; observe the throws in a noninertial frames of reference. </p>   	        
 		]]>      
 	</string>
 	
 	<string name="ed_cwiczenie_rzuty">
 		<![CDATA[        
-	  <b> Exercise - horizontal projection with a fixed velocity </ b> <br/>
-&bull; Select from the Tools (the first icon from the left) the following: any ball, a board with a measuring grid, a tripod, a launcher and a rebound-damping mat. <br/>
-&bull; Adjust the tripod to the left of the mat and position the launcher at a certain height. Adjust the angle of the launcher to 0 degrees (horizontally) and set any initial velocity of the ball. <br/>
-&bull; RUN the e-experiment. <br/>
-&bull; Determine the range of the throw, i.e. the distance the ball has traveled horizontally. For accurate measurements of the position, use a ruler. <br/>
-&bull; Repeat the exercise several times with the same initial speed. Every time change the height of the launcher. <br/>
-&bull; Consider what determines the range of projection. <br/>
+	  	<b> Exercise - horizontal projection with a fixed velocity </b>
+	  	<p>
+		&bull; Select from the Tools (the first icon from the left) the following: any ball, a board with a measuring grid, a tripod, a launcher and a rebound-damping mat. <br/>
+		&bull; Adjust the tripod to the left of the mat and position the launcher at a certain height. Adjust the angle of the launcher to 0 degrees (horizontally) and set any initial velocity of the ball. 
+		</p><p>
+		&bull; RUN the e-experiment. <br/>
+		&bull; Determine the range of the throw, i.e. the distance the ball has traveled horizontally. For accurate measurements of the position, use a ruler. <br/>
+		</p><p>
+		&bull; Repeat the exercise several times with the same initial speed. Every time change the height of the launcher. <br/>
+		&bull; Consider what determines the range of projection. </p></br>
 
-<b> Exercise - free fall </b> <br/>
-&bull; Select from the Tools: two tripods with electromagnet and two balls of different diameters. Assemble the set properly and for both of the balls set the same initial height. Drop them by pressing START button (both balls are released at the same time). <br/>
-&bull;  What is the difference between the times of the balls&apos; fall? If in a direct observation you were unable to accurately determine it, use a video from a camera. Write down your observations. <br/>
-&bull;  Perform the exercise by fixing up the starting height of the balls on tripods, so that the distance between the ground and their undersides will be the same. <br/>
-&bull; What is in this case the time interval between the landings of the balls? Explain. Why is it important to ensure that the ground is equidistant from undersides of the balls, not to their centers? <br/>
-&bull; Repeat this exercise, changing the starting height and the size of both examined balls. There are four balls with different diameters and consequently having different masses. Be sure to set the same distance from the ground to the undersides. <br/>
-&bull; What are your conclusions? Are you able to tell what determines the duration of free fall and what does not? <br/>
-&bull; Are you able to write some general conclusions from the experiment?
-<br/><br/>
-Further exercises are in the textbook. <br/>		
+		<b> Exercise - free fall </b> 
+		<p>
+		&bull; Select from the Tools: two tripods with electromagnet and two balls of different diameters. Assemble the set properly and for both of the balls set the same initial height. Drop them by pressing START button (both balls are released at the same time). <br/>
+		&bull;  What is the difference between the times of the balls&apos; fall? If in a direct observation you were unable to accurately determine it, use a video from a camera. Write down your observations. <br/>
+		</p><p>
+		&bull;  Perform the exercise by fixing up the starting height of the balls on tripods, so that the distance between the ground and their undersides will be the same. <br/>
+		&bull; What is in this case the time interval between the landings of the balls? Explain. Why is it important to ensure that the ground is equidistant from undersides of the balls, not to their centers? <br/>
+		</p><p>
+		&bull; Repeat this exercise, changing the starting height and the size of both examined balls. There are four balls with different diameters and consequently having different masses. Be sure to set the same distance from the ground to the undersides. <br/>
+		&bull; What are your conclusions? Are you able to tell what determines the duration of free fall and what does not? <br/>
+		&bull; Are you able to write some general conclusions from the experiment?
+		</p>
+		Further exercises are in the textbook. <br/>		
 		 ]]>      
 	 </string>
 	 

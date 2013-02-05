@@ -11,6 +11,7 @@ import java.util.Random;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -83,26 +84,13 @@ public class TitlePage extends Activity implements OnGestureListener {
 		File NanoHTTPDserverRoot = new File(Environment.getExternalStorageDirectory().
 				getAbsolutePath() + File.separator + ListED.ED_SDCARD_DIR);
 		try {
-			//TODO gniazdo
-			//portRandomization();
-			//Losowanie portu
-			// Start serwera WWW   
-			ServerSocket mSocket = new ServerSocket(0);
-			WWW_SERVER_PORT = mSocket.getLocalPort();			
-			mSocket.close();
-			
+			// Start serwera WWW i losowanie portu  			
 			nanoHTTPD = new NanoHTTPD(WWW_SERVER_PORT, NanoHTTPDserverRoot);
 		} 
-
-		//jeśli zajety port - "Address already in use" jest niegrozny, wiec robimy wyjatek od wyjatku :)
-		catch(BindException bEx){
-			//portRandomization();
-		}
+		//ewentualne błędy podczas tworzenia socket
 		catch (IOException ioe) {
-			//ewentualne błędy podczas tworzenia socket
-			/*myDialog mDialog = myDialog.myDialog();
-        	mDialog.setTitle(getString(R.string.msg_title_error));
-        	mDialog.setMessage(getString(R.string.msg_internal_error001));*/
+            Toast.makeText(getApplicationContext(), getString(R.string.msg_title_error), Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.msg_internal_error001), Toast.LENGTH_LONG).show();          
 		}
 		
 		new CheckForEDUpdates().execute(EdFileNames.edName);
@@ -394,26 +382,6 @@ public class TitlePage extends Activity implements OnGestureListener {
 		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(i);
 	}
-
-	/*
-	 * "A valid port value is between 0 and 65535. 
-	 * A port number of zero will let the system pick up an ephemeral port in a bind operation." 
-	 */ 	
-/*	private void portRandomization(){
-
-		Random rdn = new Random();
-		int tmp = rdn.nextInt();
-		if (tmp > MAX_PORT || tmp < 0){
-			WWW_SERVER_PORT = Math.abs(tmp % MAX_PORT);
-		}
-		else{
-			WWW_SERVER_PORT = tmp;
-		}
-
-		String text = String.valueOf(WWW_SERVER_PORT);
-		Log.i(TAG,text);
-	}*/
-
 
 	/**
 	 * Sprawdza, czy plik istnieje na zdalnym serwerze.

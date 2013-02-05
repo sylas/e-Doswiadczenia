@@ -175,9 +175,10 @@ public class NanoHTTPD {
      * socket is already in use
      */
     public NanoHTTPD(int port, File wwwroot) throws IOException {
-        myTcpPort = port;
+
         this.myRootDir = wwwroot;
-        myServerSocket = new ServerSocket(myTcpPort);
+        myServerSocket = new ServerSocket(port);
+        myTcpPort = myServerSocket.getLocalPort();
         myThread = new Thread(new Runnable() {
 
             public void run() {
