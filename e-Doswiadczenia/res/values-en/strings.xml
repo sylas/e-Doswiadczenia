@@ -929,7 +929,23 @@ Further exercises are in the textbook. <br/>
 	
     <string name="ed_cwiczenie_korpuskularna">
 		<![CDATA[
-		...
+		<b>	Exercise – measurement of the spectrum of X-rays</b>
+		<p> Select from the Tools: a X-ray tube power supply, a high voltage generator, a detector, a cover,
+		 a X-ray tube with cooper anode. Connect black wires to the X-ray tube power supply. Connect blue and
+		  red wires to the high voltage generator. Put the cover onto the X-ray tube.
+		  </p><p>
+		  Turn on the X-ray tube power supply and the high voltage generator. Then set 10 000 kV at high voltage 
+		  generator and turn it on.
+		  </p><p>
+		  &bull;  Spectrum of the X-rays is displayed on a monitor of the detector. Inspect the X-rays chart
+		   by zooming and panning it. Save the chart. <br/>
+		   &bull;  Continue taking measurements for the input voltages equal to 8000 kV, 6000 kV, 4000 kV, 2000 kV.<br/>
+		   &bull;  Compare saved charts. During first measurment in the X-rays spectrum high peaks were noticeable.  <br/>
+		   Do they look the same in following measurments?
+		   </p><p>
+		   &bull;  Why do the peaks appear in the spectrum for some input voltages and not for others?<br/>
+		   &bull;  At what voltage will the peaks be formed for the first time?</p>
+		   Further exercises are in the textbook. 		
 		]]>
 	</string>
     <string name="ed_info_interferencja">
