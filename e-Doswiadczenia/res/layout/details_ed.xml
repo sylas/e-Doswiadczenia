@@ -38,7 +38,7 @@
                 android:paddingBottom="20dp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:textSize="24dp"/>
+                android:textSize="24sp"/>
 
         </TableRow>
 
@@ -77,7 +77,7 @@
                 android:text="@string/btn_run_ed"
                 android:gravity="left|center"
                 android:paddingLeft="40dp"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 style="@style/InfoButton"/>
 
         </TableRow>
@@ -92,7 +92,7 @@
                 android:gravity="left|center"
                 android:paddingLeft="40dp"
                 android:text="@string/btn_run_manual"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </TableRow>
         
@@ -101,22 +101,24 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="vertical"
-        android:layout_marginTop="150dp"
+        android:layout_marginBottom="60dp"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
-        android:layout_marginBottom="60dp"
-        android:fillViewport="true">
+        android:layout_marginTop="150dp"
+        android:fillViewport="true"
+        android:scrollbars="vertical" >
 
         <TextView
             android:id="@+id/textEDInfo"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:clickable="false"
+            android:enabled="true"
             android:gravity="fill_horizontal"
             android:lineSpacingMultiplier="1.18"
             android:scaleType="centerCrop"
             android:textColor="@color/white"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
     </ScrollView>
 

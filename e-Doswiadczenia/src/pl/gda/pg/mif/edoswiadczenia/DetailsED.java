@@ -1,33 +1,31 @@
 package pl.gda.pg.mif.edoswiadczenia;
 
+import java.io.File;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.content.res.Configuration;
-import android.graphics.AvoidXfermode;
-import android.graphics.Shader.TileMode;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.Html;
-import android.util.FloatMath;
-import android.util.Log;
-import android.util.MonthDisplayHelper;
 import android.util.TypedValue;
-import android.view.*;
-import android.view.MotionEvent.PointerCoords;
-import android.view.ScaleGestureDetector.OnScaleGestureListener;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
+import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
-import java.io.File;
-import java.util.Locale;
-import java.util.Map;
 
 /**
  * Wyświetlenie szczegółów e-doświadczenia.
@@ -44,20 +42,17 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
     private final String MANUAL_CORE_PATH = "/assets/scenarios/"; 
     private final String PDF_FILE_EXTENSION = ".pdf";
     public static final String MIME_TYPE_PDF = "application/pdf";
-    // Stany dla obsługi gestów:
-   // static final int NONE = 0;
-   // static final int DRAG = 1;
-   // static final int ZOOM = 2;
-   // int mode = NONE;
-   // private float oldDist;
-   // private float newDist;
     
     ScaleGestureDetector myScaleGestureDetector;
 	MyScaleListener myListener;
 
-	private float myCurrentSpan=1f;
-	private float myPrevSpan=1f;	
-    
+	// Zmienne do obsługi gestów:
+	private static float ORG_TEXT = 18f;
+	private float newTextSize;	
+	private float myPrevScaleFactor = 1.0f;
+	private static float MIN_TEXT = 15f;
+	private static float MAX_TEXT = 50f;
+
     
     
     /** Called when the activity is first created. */
@@ -97,8 +92,16 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
 			public boolean onTouch(View v, MotionEvent event) {
 				// TODO Auto-generated method stub
 				
+				newTextSize = info.getTextSize();
 		    	myScaleGestureDetector.onTouchEvent(event);
-
+    			if(newTextSize < MIN_TEXT){
+    				newTextSize = MIN_TEXT;
+    			}
+    			else if(newTextSize > MAX_TEXT){
+    				newTextSize = MAX_TEXT;   				
+    			}
+		    	info.setTextSize(TypedValue.COMPLEX_UNIT_SP, newTextSize);
+		    	
 				return true;
 			}
 		};
@@ -125,7 +128,6 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
 
                 if (canDisplayPdf(DetailsED.this)) {
                     File file = new File(pathToManual);
-                    Boolean test= file.exists();
                     if (file.exists()) { // Podrecznik istnieje
                         Intent intent = new Intent();
                         intent.setDataAndType(Uri.parse("file:///" + pathToManual), MIME_TYPE_PDF);
@@ -150,113 +152,6 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
             }
         });
 
-
-
-    }
-
-
-   // public boolean onTouch(View v, MotionEvent event) {
-        // Handle touch events here...
-
-    	
-/*    	if (action == MotionEvent.ACTION_MOVE && !myScaleGestureDetector.isInProgress()) {
-  
-        	
- 			float textSize = info.getTextSize();  
- 			Log.i(TitlePage.TAG, "początkowy rozmiar tekstu" + String.valueOf(textSize)); 	
- 	
- 			if(myCurrentSpan > myScaleGestureDetector.getCurrentSpan() && textSize >= 15){
- 				textSize-=5;
- 				Log.i(TitlePage.TAG,"rozmiar tekstu po zmniejszeniu " + String.valueOf(textSize));
- 				info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
- 				 return true;
- 			}
-           if (myCurrentSpan < myScaleGestureDetector.getCurrentSpan() && textSize <= 40) {
-        	   textSize+=5;
-               Log.i(TitlePage.TAG, "rozmiar tekstu po zwiększeniu" + String.valueOf(textSize));
-               info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-               return true;
-           }
-           
-    	}*/
-    	// return true;
-   // }
-    	/*
-    	switch (event.getAction() & MotionEvent.ACTION_MASK) {
-    	   case MotionEvent.ACTION_DOWN:
-    	   //A pressed gesture has started, the motion contains the initial starting location.
-
-    		   
-    	   break;
-    	   case MotionEvent.ACTION_POINTER_DOWN:
-    	    //A non-primary pointer has gone down.
-
-        		
-        		
-    		   oldDist = spacing(event);
-               if (oldDist > 10f) {
-                   mode = ZOOM;
-               }
-               break;
-
-           case MotionEvent.ACTION_MOVE:
-    		   
-        	   
-        	   if (mode == ZOOM) {
-                    newDist = spacing(event);
-
-                    if (newDist > 10f) {
-                        float textSize = info.getTextSize();
-                        if (newDist > oldDist) {
-                            if (textSize <= 40) {
-                                textSize++;
-                            }
-                            info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-                        } else {
-                            if (textSize >= 15) {
-                                textSize--;
-                            }
-                            info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-                        }
-                    }
-                }
-                break;
-    	   case MotionEvent.ACTION_UP:
-    		   //A pressed gesture has finished.
-
-    		   float tmpSpan = 0;
-    		   tmpSpan = myScaleGestureDetector.getCurrentSpan();
-    		   if(tmpSpan > myCurrentSpan){
-    			   float textSize = info.getTextSize();
-                   if (textSize <= 40) {
-                       textSize++;
-                   }
-                   info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-    		   }
-    		   
-    		   if(tmpSpan < myCurrentSpan){
-    			   float textSize = info.getTextSize();
-                   if (textSize >= 15) {
-                       textSize--;
-                   }
-                   info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-
-    		   break;
-       	   case MotionEvent.ACTION_POINTER_UP:
-       	    //A non-primary pointer has gone up.
-       		   break;
-       		   
-    	}*/
-
-      
-
-    private float spacing(MotionEvent event) {
-        if (event.getPointerCount() == 2) { // jeżeli dwa punkty, to oblicz odległość
-            float x = event.getX(0) - event.getX(1);
-            float y = event.getY(0) - event.getY(1);
-            return FloatMath.sqrt(x * x + y * y);
-        }
-        return 0;
     }
     
     private static boolean canDisplayPdf(Context context) {
@@ -333,33 +228,27 @@ public class DetailsED extends Activity /*implements OnTouchListener*/ {
 		builder.setView(layout);
 		alertDialog = builder.create();
 		alertDialog.show();
-
+		
 	}
-    
-    private void scaleText(float currSpan, float prevSpan, float textSize){
-
-    	if(currSpan > prevSpan && textSize <= 40){
-    		textSize++;    
-	    	info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-    	}
-    	else if(currSpan < prevSpan && textSize >= 15){
-    		textSize--;
-	    	info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-    	}     			
-    }
-    
-    
+	    
     
     private class MyScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
     	
     	@Override
 		public boolean onScale(ScaleGestureDetector myDetector) {
-    		
-    		myCurrentSpan = myDetector.getCurrentSpan();
-    		myPrevSpan = myDetector.getPreviousSpan();
-    		scaleText(myCurrentSpan,myPrevSpan, info.getTextSize());
-    	
-			return true;
+    		    		
+    		if(myPrevScaleFactor < myDetector.getScaleFactor()){
+    			myPrevScaleFactor *= myDetector.getScaleFactor();
+    			newTextSize *=myPrevScaleFactor;
+    			return true;    			
+    		}
+    		else if (myDetector.getPreviousSpan() > myDetector.getCurrentSpan() && myDetector.getScaleFactor() > 0.4){
+    			myPrevScaleFactor *= myDetector.getScaleFactor();
+    			newTextSize = myPrevScaleFactor *ORG_TEXT;
+    			return true;
+    		}
+    		else
+    			return true;
 		}
 	}
    

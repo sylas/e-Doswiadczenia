@@ -2,16 +2,12 @@ package pl.gda.pg.mif.edoswiadczenia;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.BindException;
 import java.net.HttpURLConnection;
-import java.net.ServerSocket;
 import java.net.URL;
 import java.util.Locale;
-import java.util.Random;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -24,10 +20,9 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.text.Html;
-import android.util.Log;
-import android.view.Display;
+import android.util.DisplayMetrics;
 import android.view.GestureDetector;
-import android.view.GestureDetector.OnGestureListener;
+import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -47,10 +42,13 @@ import android.widget.Toast;
  *
  * @author sylas
  */
-public class TitlePage extends Activity implements OnGestureListener {
+public class TitlePage extends Activity {
 
-	private GestureDetector gestureScanner;
+	private SimpleOnGestureListener myGestureScanner;
+	//private GestureDetector myGestureScanner;
 	private String wwwAddress;
+	DisplayMetrics mDisplayMetrics;
+	long eventTime;
 	private final int MIN_SCREEN_WIDTH = 1280;
 	private final int MIN_SCREEN_HEIGHT = 752;
 	public static final String EN_FLAG = "en";
@@ -73,8 +71,11 @@ public class TitlePage extends Activity implements OnGestureListener {
 		super.onCreate(savedInstanceState);
 
 		// Sprawdzamy rozdzielczość - musi być co najmniej 1280x752 px (z uwzględnieniem status baru - 800)
-		Display display = getWindowManager().getDefaultDisplay();
-		if (display.getWidth() < MIN_SCREEN_WIDTH || display.getHeight() < MIN_SCREEN_HEIGHT) {
+		mDisplayMetrics = new DisplayMetrics();
+		getWindowManager().getDefaultDisplay().getMetrics(mDisplayMetrics);
+		
+		
+		if (mDisplayMetrics.widthPixels < MIN_SCREEN_WIDTH || mDisplayMetrics.heightPixels < MIN_SCREEN_HEIGHT) {
 			Toast.makeText(getApplicationContext(), getString(R.string.msg_screen_not_supported), Toast.LENGTH_LONG).show();
 			finish();
 		}
@@ -94,7 +95,164 @@ public class TitlePage extends Activity implements OnGestureListener {
 		}
 		
 		new CheckForEDUpdates().execute(EdFileNames.edName);
-		gestureScanner = new GestureDetector(this);
+		
+		//myGestureScanner = new GestureDetector(this);
+		myGestureScanner = new GestureDetector.SimpleOnGestureListener(){
+		
+			@Override
+			public boolean onDown(MotionEvent e) {
+				return true;
+			}
+
+			@Override
+			public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+				return true;
+			}
+
+			@Override
+			public void onLongPress(MotionEvent e) {
+			}
+
+			@Override
+			public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
+				return true;
+			}
+
+			@Override
+			public void onShowPress(MotionEvent e) {
+			}
+
+
+			// Obsluga tapniecia na ekranie
+			//onSingleTapUp
+			@Override
+			public boolean onSingleTapConfirmed(MotionEvent e) {
+				
+				String tresc = "";
+				String tytul = "";
+				int photo1 = 0;
+				int photo2 = 0;
+				int photo3 = 0;
+				int photo4 = 0;
+				
+				getWindowManager().getDefaultDisplay().getMetrics(mDisplayMetrics);
+				Float xRel = e.getX() / mDisplayMetrics.widthPixels;
+				Float yRel = e.getY() / mDisplayMetrics.heightPixels;
+
+				// Gorne logotypy
+				if (yRel < 0.21 && xRel > 0.03 && xRel < 0.2) {
+					tytul = getString(R.string.pokl_name);
+					tresc = getString(R.string.pokl_text);
+					photo1 = R.drawable.photo_pokl;
+					wwwAddress = "http://www.kapitalludzki.gov.pl/";
+				}
+				if (yRel < 0.21 && xRel > 0.81 && xRel < 0.98) {
+					tytul = getString(R.string.efs_name);
+					tresc = getString(R.string.efs_text);
+					photo1 = R.drawable.photo_efs;
+					wwwAddress = "http://www.efs.gov.pl";
+				}
+
+				// Dolne logotypy
+				if (yRel > 0.87 && xRel > 0.25 && xRel < 0.33) {
+					tytul = getString(R.string.pg_name);
+					tresc = getString(R.string.pg_text);
+					photo1 = R.drawable.photo_pg1;
+					photo2 = R.drawable.photo_pg2;
+					photo3 = R.drawable.photo_pg3;
+					wwwAddress = "http://www.pg.gda.pl";
+				}
+				if (yRel > 0.87 && xRel > 0.36 && xRel < 0.44) {
+					tytul = getString(R.string.ftims_name);
+					tresc = getString(R.string.ftims_text);
+					photo1 = R.drawable.photo_wftims1;
+					photo2 = R.drawable.photo_wftims2;
+					photo3 = R.drawable.photo_wftims3;
+					photo4 = R.drawable.photo_wftims4;
+					wwwAddress = "http://www.mif.pg.gda.pl";
+				}
+				if (yRel > 0.87 && xRel > 0.46 && xRel < 0.59) {
+					tytul = getString(R.string.ydp_name);
+					tresc = getString(R.string.ydp_text);
+					photo1 = R.drawable.photo_ydp1;
+					photo2 = R.drawable.photo_ydp2;
+					photo3 = R.drawable.photo_ydp3;
+					photo4 = R.drawable.photo_ydp4;
+					wwwAddress = "http://ydp.com.pl";
+				}
+				if (yRel > 0.87 && xRel > 0.62 && xRel < 0.77) {
+					tytul = getString(R.string.malmberg_name);
+					tresc = getString(R.string.malmberg_text);
+					photo1 = R.drawable.photo_malmberg1;
+					photo2 = R.drawable.photo_malmberg2;
+					wwwAddress = "http://www.malmberg.nl";
+				}
+
+				if (tresc.isEmpty()) {
+					return false;
+					// albo startujemy liste e-doswiadczen...
+					// startActivity(new Intent(StronaTytulowa.this, ListaED.class));
+				} else {
+					// to tylko do ew. testów:
+					//tresc = Float.toString(e.getX() / viewWidth) + " " + Float.toString(e.getY() / viewHeight);
+
+					// Wyswietlamy popupa w postaci "custom alertDialog"
+					AlertDialog.Builder builder;
+					AlertDialog alertDialog;
+
+					LayoutInflater inflater = (LayoutInflater) TitlePage.this.getSystemService(LAYOUT_INFLATER_SERVICE);
+					View layout = inflater.inflate(R.layout.title_page_popup,
+							(ViewGroup) findViewById(R.id.strona_tytulowa_popup));
+
+					TextView text = (TextView) layout.findViewById(R.id.text);
+					text.setText(Html.fromHtml(tresc));
+
+					// Marginesy ustawiane programowo, aby nie było luk między "pustymi" obrazkami
+					LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+					lp.setMargins(0, 10, 30, 0);
+					if (photo1 != 0) {
+						ImageView image1 = (ImageView) layout.findViewById(R.id.popup_image1);
+						image1.setImageResource(photo1);
+					}
+					if (photo2 != 0) {
+						ImageView image2 = (ImageView) layout.findViewById(R.id.popup_image2);
+						image2.setLayoutParams(lp);
+						image2.setImageResource(photo2);
+					}
+					if (photo3 != 0) {
+						ImageView image3 = (ImageView) layout.findViewById(R.id.popup_image3);
+						image3.setLayoutParams(lp);
+						image3.setImageResource(photo3);
+					}
+					if (photo4 != 0) {
+						ImageView image4 = (ImageView) layout.findViewById(R.id.popup_image4);
+						image4.setLayoutParams(lp);
+						image4.setImageResource(photo4);
+					}
+
+					builder = new AlertDialog.Builder(TitlePage.this).setTitle(tytul).
+							setNeutralButton(getString(R.string.btn_close),
+									new DialogInterface.OnClickListener() {
+
+								public void onClick(DialogInterface dialog, int which) {
+								}
+							}).
+							setPositiveButton(getString(R.string.btn_view_www),
+									new DialogInterface.OnClickListener() {
+
+								public void onClick(DialogInterface dialog, int which) {
+									final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(wwwAddress));
+									startActivity(intent);
+								}
+							});
+					builder.setView(layout);
+					alertDialog = builder.create();
+					alertDialog.show();
+				}
+				return true;
+			}
+		
+	};
 
 		// Przycisk - Informacje
 		Button infoBtn = (Button) findViewById(R.id.buttonInfo);
@@ -133,159 +291,14 @@ public class TitlePage extends Activity implements OnGestureListener {
 
 	@Override
 	public boolean onTouchEvent(MotionEvent me) {
-		return gestureScanner.onTouchEvent(me);
-	}
 
-	@Override
-	public boolean onDown(MotionEvent e) {
-		return true;
-	}
-
-	@Override
-	public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-		return true;
-	}
-
-	@Override
-	public void onLongPress(MotionEvent e) {
-	}
-
-	@Override
-	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-		return true;
-	}
-
-	@Override
-	public void onShowPress(MotionEvent e) {
-	}
-
-	// Obsluga tapniecia na ekranie
-	@Override
-	public boolean onSingleTapUp(MotionEvent e) {
-		Display display = getWindowManager().getDefaultDisplay();
-		int viewWidth = display.getWidth();
-		int viewHeight = display.getHeight();
-		String tresc = "";
-		String tytul = "";
-		int photo1 = 0;
-		int photo2 = 0;
-		int photo3 = 0;
-		int photo4 = 0;
-
-		Float xRel = e.getX() / viewWidth;
-		Float yRel = e.getY() / viewHeight;
-
-		// Gorne logotypy
-		if (yRel < 0.21 && xRel > 0.03 && xRel < 0.2) {
-			tytul = getString(R.string.pokl_name);
-			tresc = getString(R.string.pokl_text);
-			photo1 = R.drawable.photo_pokl;
-			wwwAddress = "http://www.kapitalludzki.gov.pl/";
+		if (me.getEventTime() > eventTime + 500){
+			eventTime = me.getEventTime();
+			myGestureScanner.onSingleTapConfirmed(me);	
+			return true; 				
 		}
-		if (yRel < 0.21 && xRel > 0.81 && xRel < 0.98) {
-			tytul = getString(R.string.efs_name);
-			tresc = getString(R.string.efs_text);
-			photo1 = R.drawable.photo_efs;
-			wwwAddress = "http://www.efs.gov.pl";
-		}
-
-		// Dolne logotypy
-		if (yRel > 0.87 && xRel > 0.25 && xRel < 0.33) {
-			tytul = getString(R.string.pg_name);
-			tresc = getString(R.string.pg_text);
-			photo1 = R.drawable.photo_pg1;
-			photo2 = R.drawable.photo_pg2;
-			photo3 = R.drawable.photo_pg3;
-			wwwAddress = "http://www.pg.gda.pl";
-		}
-		if (yRel > 0.87 && xRel > 0.36 && xRel < 0.44) {
-			tytul = getString(R.string.ftims_name);
-			tresc = getString(R.string.ftims_text);
-			photo1 = R.drawable.photo_wftims1;
-			photo2 = R.drawable.photo_wftims2;
-			photo3 = R.drawable.photo_wftims3;
-			photo4 = R.drawable.photo_wftims4;
-			wwwAddress = "http://www.mif.pg.gda.pl";
-		}
-		if (yRel > 0.87 && xRel > 0.46 && xRel < 0.59) {
-			tytul = getString(R.string.ydp_name);
-			tresc = getString(R.string.ydp_text);
-			photo1 = R.drawable.photo_ydp1;
-			photo2 = R.drawable.photo_ydp2;
-			photo3 = R.drawable.photo_ydp3;
-			photo4 = R.drawable.photo_ydp4;
-			wwwAddress = "http://ydp.com.pl";
-		}
-		if (yRel > 0.87 && xRel > 0.62 && xRel < 0.77) {
-			tytul = getString(R.string.malmberg_name);
-			tresc = getString(R.string.malmberg_text);
-			photo1 = R.drawable.photo_malmberg1;
-			photo2 = R.drawable.photo_malmberg2;
-			wwwAddress = "http://www.malmberg.nl";
-		}
-
-		if (tresc.isEmpty()) {
-			return false;
-			// albo startujemy liste e-doswiadczen...
-			// startActivity(new Intent(StronaTytulowa.this, ListaED.class));
-		} else {
-			// to tylko do ew. testów:
-			//tresc = Float.toString(e.getX() / viewWidth) + " " + Float.toString(e.getY() / viewHeight);
-
-			// Wyswietlamy popupa w postaci "custom alertDialog"
-			AlertDialog.Builder builder;
-			AlertDialog alertDialog;
-
-			LayoutInflater inflater = (LayoutInflater) TitlePage.this.getSystemService(LAYOUT_INFLATER_SERVICE);
-			View layout = inflater.inflate(R.layout.title_page_popup,
-					(ViewGroup) findViewById(R.id.strona_tytulowa_popup));
-
-			TextView text = (TextView) layout.findViewById(R.id.text);
-			text.setText(Html.fromHtml(tresc));
-
-			// Marginesy ustawiane programowo, aby nie było luk między "pustymi" obrazkami
-			LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-			lp.setMargins(0, 10, 30, 0);
-			if (photo1 != 0) {
-				ImageView image1 = (ImageView) layout.findViewById(R.id.popup_image1);
-				image1.setImageResource(photo1);
-			}
-			if (photo2 != 0) {
-				ImageView image2 = (ImageView) layout.findViewById(R.id.popup_image2);
-				image2.setLayoutParams(lp);
-				image2.setImageResource(photo2);
-			}
-			if (photo3 != 0) {
-				ImageView image3 = (ImageView) layout.findViewById(R.id.popup_image3);
-				image3.setLayoutParams(lp);
-				image3.setImageResource(photo3);
-			}
-			if (photo4 != 0) {
-				ImageView image4 = (ImageView) layout.findViewById(R.id.popup_image4);
-				image4.setLayoutParams(lp);
-				image4.setImageResource(photo4);
-			}
-
-			builder = new AlertDialog.Builder(TitlePage.this).setTitle(tytul).
-					setNeutralButton(getString(R.string.btn_close),
-							new DialogInterface.OnClickListener() {
-
-						public void onClick(DialogInterface dialog, int which) {
-						}
-					}).
-					setPositiveButton(getString(R.string.btn_view_www),
-							new DialogInterface.OnClickListener() {
-
-						public void onClick(DialogInterface dialog, int which) {
-							final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(wwwAddress));
-							startActivity(intent);
-						}
-					});
-			builder.setView(layout);
-			alertDialog = builder.create();
-			alertDialog.show();
-		}
-		return true;
+		else
+			return true; 	
 	}
 
 	/*
@@ -432,8 +445,9 @@ public class TitlePage extends Activity implements OnGestureListener {
 				long lastModification= 0;
 				try {
 					if(!isInternetOn()){					
+						
+						Toast.makeText(getApplicationContext(), R.string.msg_no_network, Toast.LENGTH_LONG).show();
 						return null;
-						//TODO poinformować usera, że żeby sprawdzić aktulaizacje musi włączyć internet;
 					}
 
 					final String fileURL = ED_REMOTE_REPOSITORY + File.separator + edName + ".zip";

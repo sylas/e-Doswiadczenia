@@ -217,7 +217,9 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_obwody_pradu_stalego"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_prad_staly"/>
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    <!--android:drawableLeft="@drawable/ic_prad_staly"/>-->
+                    
             </TableRow>
 
             <TableRow
@@ -287,7 +289,8 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_cewki_i_indukcja"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_cewki"/>
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    <!--android:drawableLeft="@drawable/ic_cewki"/>-->
 
                 <Button
                     android:id="@+id/button18"
@@ -298,7 +301,8 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_optyka_geometryczna"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_optyka_geom"/>
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    <!--android:drawableLeft="@drawable/ic_optyka_geom"/>-->
             </TableRow>
 
             <TableRow
@@ -317,7 +321,8 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_rlc"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_rlc"/>
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    <!--android:drawableLeft="@drawable/ic_rlc"/>-->
 
                 <Button
                     android:id="@+id/button20"
@@ -329,6 +334,7 @@
                     android:text="@string/ed_name_korpuskularna"
                     style="@style/ListaButton"
                     android:drawableLeft="@drawable/ic_wkrotce"/>
+                    <!--android:drawableLeft="@drawable/ic_korpuskularna"/>-->
 
                 <Button
                     android:id="@+id/button21"
@@ -339,7 +345,8 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_interferencja"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_interferencja"/>
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    <!--android:drawableLeft="@drawable/ic_interferencja"/>-->
             </TableRow>
 
             <TableRow
@@ -358,7 +365,8 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_fizyka_atomowa"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_f_atomowa"/>
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+                    <!-- android:drawableLeft="@drawable/ic_f_atomowa"/>-->
 
                 <Button
                     android:id="@+id/button9"
@@ -369,7 +377,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_gazy"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_gazy"/>
+                     android:drawableLeft="@drawable/ic_gazy"/>                   
 
                 <TextView
                     android:layout_width="0dp"

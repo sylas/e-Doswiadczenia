@@ -1,5 +1,14 @@
 package pl.gda.pg.mif.edoswiadczenia;
 
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -11,27 +20,21 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.StatFs;
-import android.os.StrictMode;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLConnection;
 
 
 /**
@@ -746,7 +749,7 @@ public class ListED extends Activity {
                           ED.edName = getString(R.string.ed_name_korpuskularna);
       	                  ED.edInfo = getString(R.string.ed_info_korpuskularna);
                           ED.edInfoRun = getString(R.string.ed_cwiczenie_korpuskularna);
-                          ED.edMovie = R.raw.rzuty;
+                          ED.edMovie = R.raw.korpuskuly;
 
                           if (edIsDownloaded()) {                    	
                           	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);

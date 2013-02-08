@@ -4,7 +4,6 @@
  */
 package pl.gda.pg.mif.edoswiadczenia;
 
-import java.util.Date;
 
 
 /**
