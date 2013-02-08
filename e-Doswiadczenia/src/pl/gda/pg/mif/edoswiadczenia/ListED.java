@@ -45,17 +45,15 @@ import android.widget.Toast;
  */
 public class ListED extends Activity {
 
-    //private int edFileZIPSize;
+
     private static volatile boolean downloadingED;
     private final float ONE_GB = 1048576.0F;
-    //private final String PREFS_UPDATE_SUFFIX = "_update";
-    //private final String PREFS_DATE_MODF_SUFFIX = "_date";
     
     private final String PREFS_SIZE_SUFFIX = "_size";
     private final String PREFS_DIR_SIZE_SUFFIX = "_dirsize";
     private final static String ADOBE_FLASH_PACKAGE_NAME = "com.adobe.flashplayer";
     public final static String ED_SDCARD_DIR = "e-doswiadczenia";
-   // private final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
+
     public static final String ED_BASE_DIR = Environment.getExternalStorageDirectory().getAbsolutePath()
             + File.separator + ED_SDCARD_DIR + File.separator;
     public static final String ED_SERVER_ROOT = "http://127.0.0.1:" + Integer.toString(TitlePage.WWW_SERVER_PORT) + File.separator;
@@ -390,28 +388,13 @@ public class ListED extends Activity {
 //prąd stały
         Button button12 = (Button) findViewById(R.id.button12);
         button12.setOnClickListener(new OnClickListener() {
-      /////// tmp ////////////
+
             @Override
             public void onClick(View v) {
-                if (!downloadingED) {
-                    ED.edSubDir = "rzuty";
-                    ED.edFileSWFName = "throws.swf";
-                    ED.edName = getString(R.string.ed_name_obwody_pradu_stalego);
-	                ED.edInfo = getString(R.string.ed_info_prad_staly);
-                    ED.edInfoRun = getString(R.string.ed_cwiczenie_prad_staly);
-                    ED.edMovie = R.raw.rzuty;
-
-                    if (edIsDownloaded()) {                    	
-                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
-                		//Preferences(MODE_PRIVATE);
-                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
-                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
-                    	}
-                    	else{
-                    		startActivity(new Intent(ListED.this, DetailsED.class));
-                    	}
-                    }
+                if (downloadingED) {
+                    return;
                 }
+                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
             }
         });
 /*            @Override
@@ -442,28 +425,12 @@ public class ListED extends Activity {
         Button button13 = (Button) findViewById(R.id.button13);
         button13.setOnClickListener(new OnClickListener() {
 
-/////// tmp ////////////
             @Override
             public void onClick(View v) {
-                if (!downloadingED) {
-                    ED.edSubDir = "rzuty";
-                    ED.edFileSWFName = "throws.swf";
-                    ED.edName = getString(R.string.ed_name_dzwiek);
-	                ED.edInfo = getString(R.string.ed_info_dzwiek);
-                    ED.edInfoRun = getString(R.string.ed_cwiczenie_dzwiek);
-                    ED.edMovie = R.raw.dzwiek;
-
-                    if (edIsDownloaded()) {                    	
-                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
-                		//Preferences(MODE_PRIVATE);
-                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
-                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
-                    	}
-                    	else{
-                    		startActivity(new Intent(ListED.this, DetailsED.class));
-                    	}
-                    }
+                if (downloadingED) {
+                    return;
                 }
+                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
             }
         });
 
@@ -578,28 +545,13 @@ public class ListED extends Activity {
 /////////////////////////////////cewki i indukcja//////////////////////////////////////////////////////
         Button button17 = (Button) findViewById(R.id.button17);
         button17.setOnClickListener(new OnClickListener() {
-            /////// tmp ////////////
+
             @Override
             public void onClick(View v) {
-                if (!downloadingED) {
-                    ED.edSubDir = "rzuty";
-                    ED.edFileSWFName = "throws.swf";
-                    ED.edName = getString(R.string.ed_name_cewki_i_indukcja);
-	                ED.edInfo = getString(R.string.ed_info_cewki_i_indukcja);
-                    ED.edInfoRun = getString(R.string.ed_cwiczenie_cewki_i_indukcja);
-                    ED.edMovie = R.raw.cewki;
-
-                    if (edIsDownloaded()) {                    	
-                    	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
-                		//Preferences(MODE_PRIVATE);
-                    	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
-                    		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
-                    	}
-                    	else{
-                    		startActivity(new Intent(ListED.this, DetailsED.class));
-                    	}
-                    }
+                if (downloadingED) {
+                    return;
                 }
+                showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
             }
         });
 /*         
@@ -632,28 +584,12 @@ public class ListED extends Activity {
         Button button18 = (Button) findViewById(R.id.button18);
         button18.setOnClickListener(new OnClickListener() {
 
-      /////// tmp ////////////
                   @Override
                   public void onClick(View v) {
-                      if (!downloadingED) {
-                          ED.edSubDir = "rzuty";
-                          ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_optyka_geometryczna);
-      	                  ED.edInfo = getString(R.string.ed_info_optyka_geometryczna);
-                          ED.edInfoRun = getString(R.string.ed_cwiczenie_optyka_geometryczna);
-                          ED.edMovie = R.raw.geometryczna;
-
-                          if (edIsDownloaded()) {                    	
-                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
-                      		//Preferences(MODE_PRIVATE);
-                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
-                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
-                          	}
-                          	else{
-                          		startActivity(new Intent(ListED.this, DetailsED.class));
-                          	}
-                          }
+                      if (downloadingED) {
+                          return;
                       }
+                      showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
                   }
               });
 /*            @Override
@@ -685,28 +621,12 @@ public class ListED extends Activity {
         Button button19 = (Button) findViewById(R.id.button19);
         button19.setOnClickListener(new OnClickListener() {
 
-      /////// tmp ////////////
                   @Override
                   public void onClick(View v) {
-                      if (!downloadingED) {
-                          ED.edSubDir = "rzuty";
-                          ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_rlc);
-      	                  ED.edInfo = getString(R.string.ed_info_rlc);
-                          ED.edInfoRun = getString(R.string.ed_cwiczenie_rlc);
-                          ED.edMovie = R.raw.rlc;
-
-                          if (edIsDownloaded()) {                    	
-                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
-                      		//Preferences(MODE_PRIVATE);
-                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
-                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
-                          	}
-                          	else{
-                          		startActivity(new Intent(ListED.this, DetailsED.class));
-                          	}
-                          }
+                      if (downloadingED) {
+                          return;
                       }
+                      showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
                   }
               });
 /*          
@@ -740,28 +660,12 @@ public class ListED extends Activity {
         Button button20 = (Button) findViewById(R.id.button20);
         button20.setOnClickListener(new OnClickListener() {
 
-      /////// tmp ////////////
                   @Override
                   public void onClick(View v) {
-                      if (!downloadingED) {
-                          ED.edSubDir = "rzuty";
-                          ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_korpuskularna);
-      	                  ED.edInfo = getString(R.string.ed_info_korpuskularna);
-                          ED.edInfoRun = getString(R.string.ed_cwiczenie_korpuskularna);
-                          ED.edMovie = R.raw.korpuskuly;
-
-                          if (edIsDownloaded()) {                    	
-                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
-                      		//Preferences(MODE_PRIVATE);
-                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
-                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
-                          	}
-                          	else{
-                          		startActivity(new Intent(ListED.this, DetailsED.class));
-                          	}
-                          }
+                      if (downloadingED) {
+                          return;
                       }
+                      showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
                   }
               });
 /*         
@@ -793,28 +697,12 @@ public class ListED extends Activity {
         Button button21 = (Button) findViewById(R.id.button21);
         button21.setOnClickListener(new OnClickListener() {
 
-      /////// tmp ////////////
                   @Override
                   public void onClick(View v) {
-                      if (!downloadingED) {
-                          ED.edSubDir = "rzuty";
-                          ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_interferencja);
-      	                  ED.edInfo = getString(R.string.ed_info_interferencja);
-                          ED.edInfoRun = getString(R.string.ed_cwiczenie_interferencja);
-                          ED.edMovie = R.raw.dyfrakcja;
-
-                          if (edIsDownloaded()) {                    	
-                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
-                      		//Preferences(MODE_PRIVATE);
-                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
-                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
-                          	}
-                          	else{
-                          		startActivity(new Intent(ListED.this, DetailsED.class));
-                          	}
-                          }
+                      if (downloadingED) {
+                          return;
                       }
+                      showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
                   }
               });
 /*            @Override
@@ -845,28 +733,12 @@ public class ListED extends Activity {
         Button button22 = (Button) findViewById(R.id.button22);
         button22.setOnClickListener(new OnClickListener() {
 
-      /////// tmp ////////////
                   @Override
                   public void onClick(View v) {
-                      if (!downloadingED) {
-                          ED.edSubDir = "rzuty";
-                          ED.edFileSWFName = "throws.swf";
-                          ED.edName = getString(R.string.ed_name_fizyka_atomowa);
-      	                  ED.edInfo = getString(R.string.ed_info_fizyka_atomowa);
-                          ED.edInfoRun = getString(R.string.ed_cwiczenie_fizyka_atomowa);
-                          ED.edMovie = R.raw.atomowa;
-
-                          if (edIsDownloaded()) {                    	
-                          	SharedPreferences edLocalData = getSharedPreferences("TitlePage", MODE_PRIVATE);
-                      		//Preferences(MODE_PRIVATE);
-                          	if(edLocalData.getBoolean(ED.edSubDir + TitlePage.PREFS_UPDATE_SUFFIX ,false)){
-                          		askForDownloadingEDUpdate(ED.edSubDir + ".zip");
-                          	}
-                          	else{
-                          		startActivity(new Intent(ListED.this, DetailsED.class));
-                          	}
-                          }
+                      if (downloadingED) {
+                          return;
                       }
+                      showInfoDialog(getString(R.string.msg_title_info), getString(R.string.msg_ed_not_yet_produced), R.drawable.ic_info);
                   }
               });
 /*        
@@ -998,13 +870,6 @@ public class ListED extends Activity {
                         
                     	Downloading flash = new Downloading(getApplicationContext());
                     	flash.downloadFlash();
-                    	// Przekierowanie do marketu
-                        //Uri marketUri = Uri.parse(ADOBE_FLASH_MARKET_URL);
-                        // Można też tak (bezposrednio do marketu)...:
-                        //Uri marketUri = Uri.parse("market://details?id=com.adobe.flashplayer");
-                        // ... ale np. emulator nie rozpoznaje protokulu "market"
-                        //Intent marketIntent = new Intent(Intent.ACTION_VIEW, marketUri);
-                        //startActivity(marketIntent);
                     }
                 }).setNegativeButton(getString(R.string.btn_no),
                 new DialogInterface.OnClickListener() {

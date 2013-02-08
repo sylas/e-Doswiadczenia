@@ -34,7 +34,7 @@ import android.widget.VideoView;
  *
  * @author sylas
  */
-public class DetailsED extends Activity /*implements OnTouchListener*/ {
+public class DetailsED extends Activity {
 
     TextView info;
     public static String pathToManual;

@@ -54,8 +54,7 @@ public class TitlePage extends Activity {
 	public static final String EN_FLAG = "en";
 	public static final String PL_FLAG = "pl";
 	NanoHTTPD nanoHTTPD;
-	public static int WWW_SERVER_PORT;
-	public static final int MAX_PORT = 65535;
+	public static int WWW_SERVER_PORT=0;
 
 	public static Boolean updateDone = false;
 	public static final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";

@@ -237,7 +237,8 @@
                     android:paddingRight="10dp"
                     android:text="@string/ed_name_dzwiek"
                     style="@style/ListaButton"
-                    android:drawableLeft="@drawable/ic_dzwiek"/>
+                    android:drawableLeft="@drawable/ic_wkrotce"/>
+					<!--android:drawableLeft="@drawable/ic_dzwiek"/>-->
 
                 <Button
                     android:id="@+id/button14"

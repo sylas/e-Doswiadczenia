@@ -113,7 +113,6 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:clickable="false"
-            android:enabled="true"
             android:gravity="fill_horizontal"
             android:lineSpacingMultiplier="1.18"
             android:scaleType="centerCrop"
