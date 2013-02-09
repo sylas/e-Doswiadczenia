@@ -54,7 +54,7 @@ public class TitlePage extends Activity {
 	public static final String EN_FLAG = "en";
 	public static final String PL_FLAG = "pl";
 	NanoHTTPD nanoHTTPD;
-	public static int WWW_SERVER_PORT=0;
+	public static int WWW_SERVER_PORT;
 
 	public static Boolean updateDone = false;
 	public static final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
@@ -84,7 +84,8 @@ public class TitlePage extends Activity {
 		File NanoHTTPDserverRoot = new File(Environment.getExternalStorageDirectory().
 				getAbsolutePath() + File.separator + ListED.ED_SDCARD_DIR);
 		try {
-			// Start serwera WWW i losowanie portu  			
+			// Start serwera WWW i losowanie portu  
+			WWW_SERVER_PORT = 0;
 			nanoHTTPD = new NanoHTTPD(WWW_SERVER_PORT, NanoHTTPDserverRoot);
 		} 
 		//ewentualne błędy podczas tworzenia socket

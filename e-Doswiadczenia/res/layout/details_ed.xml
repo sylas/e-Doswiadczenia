@@ -111,7 +111,7 @@
         <TextView
             android:id="@+id/textEDInfo"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:clickable="false"
             android:gravity="fill_horizontal"
             android:lineSpacingMultiplier="1.18"

@@ -862,7 +862,7 @@ public class ListED extends Activity {
 
     private void askForDownloadingFlash() {
 
-        new AlertDialog.Builder(ListED.this).setTitle(getString(R.string.msg_title_question)).setMessage(getString(R.string.msg_install_flash_question)).setPositiveButton(getString(R.string.btn_yes),
+        new AlertDialog.Builder(ListED.this).setTitle(getString(R.string.msg_title_question)).setMessage(getString(R.string.msg_no_flash)).setPositiveButton(getString(R.string.btn_yes),
                 new DialogInterface.OnClickListener() {
 
                     public void onClick(DialogInterface dialog,

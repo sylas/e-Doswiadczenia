@@ -314,8 +314,7 @@ i otwierana jest przez program zewnętrzny</i>),</p><p>
     <string name="msg_download_ed_update_question"> Znaleziono aktualizację tego e-doświadczenia.\n
         \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
         \n\nCzy pobrać aktualizację teraz?</string>
-    <string name="msg_install_flash_question"> Aby uruchamiać e-doświadczenia, wymagane jest zainstalowanie Adobe Flash Playera.
-        \n\nCzy uruchomić Market?</string>
+
     <string name="msg_starting_ed">Uruchamianie e-doświadczenia&#8230;</string>
     <string name="msg_manual_not_available">Przepraszamy, podręcznik do tego e-doświadczenia nie został jeszcze przygotowany.</string>
     <string name="msg_switch_to_en">Switched to English</string>

@@ -114,7 +114,7 @@
         <TextView
             android:id="@+id/textViewInfo"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:textSize="18dp"
             android:textColor="@color/white"
             android:lineSpacingMultiplier="1.18"

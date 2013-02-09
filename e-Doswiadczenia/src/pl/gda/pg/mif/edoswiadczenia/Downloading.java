@@ -42,6 +42,8 @@ public class Downloading extends ListED{
 	boolean mExternalStorageWriteable = false;
 	private final String flashPackageName = "com.adobe.flashplayer";
 	
+	public Downloading(){
+	}
 	
 	public Downloading(Context c){
 		mContext = c;
