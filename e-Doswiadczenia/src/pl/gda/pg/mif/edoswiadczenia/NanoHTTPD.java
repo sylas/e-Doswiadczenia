@@ -194,7 +194,15 @@ public class NanoHTTPD {
         myThread.start();
     }
 
-    /**
+	/**
+     * Returns number of the Tcp port.
+     */
+    public int getMyTcpPort() {
+		return myTcpPort;
+	}
+
+
+	/**
      * Stops the server.
      */
     public void stop() {
