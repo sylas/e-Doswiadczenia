@@ -4,6 +4,8 @@
  */
 package pl.gda.pg.mif.edoswiadczenia;
 
+
+
 /**
  * Klasa zawierająca statyczne pola określające właściwości uruchamianego e-doświadczenia
  * 
@@ -20,4 +22,5 @@ public class ED {
     public static int edIcon;
     public static int edMovie;
     public static int edFileZIPSize;
+    public static long edLastModification;
 }

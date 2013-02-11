@@ -9,29 +9,29 @@
 
     <string name="txt_list_ed">List of e-experiments</string>
 
-    <string name="ed_name_wahadlo">Simple\npendulum</string>
+    <string name="ed_name_wahadlo">Simple pendulum</string>
     <string name="ed_name_lawa">Optical bench</string>
     <string name="ed_name_rownia">Inclined plane</string>
-    <string name="ed_name_zderzenia">Elastic\nand inelastic collisions</string>
+    <string name="ed_name_zderzenia">Elastic and inelastic collisions</string>
     <string name="ed_name_rzuty">Throws</string>
-    <string name="ed_name_astro">The movement\nof celestial\nbodies</string>
-    <string name="ed_name_ciecze">Fluid\nmechanics</string>
+    <string name="ed_name_astro">The movement of celestial bodies</string>
+    <string name="ed_name_ciecze">Fluid mechanics</string>
     <string name="ed_name_bryla">Solid body</string>
-    <string name="ed_name_gazy">Properties\nof gases</string>
-    <string name="ed_name_drgania">Mechanical\nvibration</string>
-    <string name="ed_name_poleelektryczne">Electric field</string>
-    <string name="ed_name_prad">DC circuits</string>
-    <string name="ed_name_dzwiek">Sound\nlaboratory</string>
+    <string name="ed_name_gazy">Properties of gases</string>
+    <string name="ed_name_drgania">Mechanical vibration</string>
+    <string name="ed_name_pole_elektryczne">Electric field</string>
+    <string name="ed_name_obwody_pradu_stalego">DC circuits</string>
+    <string name="ed_name_dzwiek">Sound laboratory</string>
     <string name="ed_name_kalorymetria">Calorimetry</string>
     <string name="ed_name_kondensatory">Capacitors</string>
-    <string name="ed_name_polemagnetyczne">Magnetic field</string>
-    <string name="ed_name_cewki">Coils\nand induction</string>
-    <string name="ed_name_polaryzacja">Polarization\nand refraction\nof light</string>
+    <string name="ed_name_pole_magnetyczne">Magnetic field</string>
+    <string name="ed_name_cewki_i_indukcja">Coils and induction</string>
+    <string name="ed_name_optyka_geometryczna">Polarization and refraction of light</string>
     <string name="ed_name_rlc">RLC circuits</string>
-    <string name="ed_name_korpuskularna">Corpuscular\nnature of light\nand matter</string>
-    <string name="ed_name_interferencja">Interference\nand diffraction\nof light</string>
-    <string name="ed_name_spektroskopia">Spectroscopy</string>
-    <string name="ed_name_einstein">Einstein\'s\nthought\nexperiments</string>
+    <string name="ed_name_korpuskularna">Corpuscular nature of light and matter</string>
+    <string name="ed_name_interferencja">Interference and diffraction of light</string>
+    <string name="ed_name_fizyka_atomowa">Spectroscopy</string>
+    <string name="ed_name_einstein">Einstein\'s thought experiments</string>
 
 <!-- Przyciski -->
 
@@ -50,19 +50,17 @@
     <string name="btn_www_project">web page</string>
     <string name="btn_facebook">facebook</string>
     <string name="btn_run_ed">run</string>
-    <string name="btn_run_manual">display manual (PL)</string>
+    <string name="btn_run_manual">display manual</string>
 
 <!-- Teksty strony tytułowej -->
 
     <string name="txt_title1">
-        Application prepared ​​within frames of the innovative project \"e-Experiments in physics\", 
-        \nco-financed by the European Union under the European Social Fund 
-    </string>
+        Application prepared ​​within frames of the innovative project &quot;e-Experiments in physics&quot;, 
+        \nco-financed by the European Union under the European Social Fund      </string>
     <string name="txt_title2">Concept and realization:</string>
     <string name="txt_title3">
         Gdańsk University of Technology, Faculty of Applied Physics And Mathematics\n 
-        with the support of Young Digital Planet SA and L.C.G. Malmberg B.V. 
-    </string>
+        with the support of Young Digital Planet SA and L.C.G. Malmberg B.V.     </string>
 
 <!-- Teksty strony informacyjnej -->
 
@@ -73,512 +71,960 @@
          ]]>
     </string>
 
-    <string name="info_project_text">
-        <![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O projekcie</h1>
-
-W ramach innowacyjnego projektu testującego pt. <b>„e-Doświadczenia w fizyce”</b> wytwarzamy oraz testujemy
-w wybranych szkołach ponadgminazjalnych nowatorskie rozwiązania programowe,
-polegające na (testowym) włączeniu do lekcji fizyki tzw. <b>e-doświadczeń</b> &minus;
-wirtualnych doświadczeń fizycznych, jako uzupełnienie doświadczeń rzeczywistych.
-Następnie będziemy starali się o włączenie e-doświadczeń do głównego nurtu polityki oświatowej,
-tzn. planujemy sprawić, żeby stały się one częścią programów nauczania fizyki
-w szkołach ponadgimnazjalnych.<br/><br/>
-e-Doświadczenia będą sukcesywnie produkowane i testowane do końca 2012 roku.
-Swoim zakresem będą obejmowały większość zagadnień omawianych na lekcjach fizyki w szkołach
-ponadgimnazjalnych, w tym zagadnienia objęte rozszerzonym programem nauczania.<br/><br/>
-
-Pomysł na projekt narodził się w wyniku przeprowadzonej analizy i diagnozy problemów związanych
-z nauczaniem fizyki w polskich szkołach. Ideą przewodnią projektu jest znana wszystkim maksyma Konfucjusza:
-<b>„Powiesz mi &minus; wkrótce zapomnę, pokażesz mi &minus; może zapamiętam,
-pozwolisz dotknąć a zrozumiem”.</b><br/></br>
-        ]]>
-    </string>
-
-    <string name="info_ed_text">
-        <![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O e-doświadczeniach</h1>
-Głównym produktem projektu jest <b>zestaw 23 wirtualnych e-doświadczeń z fizyki</b>,
-w postaci programów komputerowych, obejmujących różne działy fizyki.
-Programy te są głównie przeznaczone do uruchamiania przy użyciu klasycznych komputerów,
-jednak podjęliśmy próbę przeniesienia ich na tablety (choć wiążą się z tym pewne ograniczenia, opisane
-w zakładce „o aplikacji”).<br/><br/>
-
-Mocno podkreślamy, że absolutnie <b>nie chcemy zastępować doświadczeń rzeczywistych</b>
-(są one niezastąpione w dydaktyce), chcemy je wspierać.
-e-Doświadczenia mają na celu pokazanie zagadnień fizycznych w szerszej perspektywie.
-Dzięki swoim możliwościom pozwolą bowiem na głębsze zrozumienie problemów, pozwolą na budowanie lepiej rozumianych
-modeli, ciągów przyczynowo-skutkowych i zbiorów zależności, niezbędnych do opisu zjawisk fizycznych.<br/><br/>
-
-Dzięki e-Doświadczeniom nauczyciele będą mogli zilustrować daną partię materiału teoretycznego
-przy pomocy komputera, bez obawy zniszczenia drogiego sprzętu doświadczalnego.
-Z kolei uczniowie będą mogli samodzielne powtórzyć dane ćwiczenie w domu.<br/><br/>
-
-Przewidziana jest <b>daleko idąca możliwość ingerencji w przebieg e-doświadczeń</b>,
-co umożliwia uczniowi przyswojenie wiedzy oraz pobudzenie i rozwinięcie zainteresowań badawczych. <br/><br/>
-
-Staramy się, aby e-doświadczenia były <b>w jak największym stopniu zbliżone do rzeczywistości</b>.
-Wpisują się one w schemat <b>zaprojektuj - zbuduj – wykonaj – przeanalizuj – przedstaw wyniki</b>,
-gdzie istotne jest uczenie się na błędach. Chcemy bowiem zmusić uczniów do działania, nawet jeśli sprowadzałoby
-się to do działania metodą prób i błędów. Zgodnie z naszym doświadczeniem, uzyskanie nawet niewłaściwych wyników,
-które skonfrontowane z tymi prawidłowymi zmuszą do myślenia „gdzie i jaki popełniłem błąd?”,
-ma ogromną wartość dydaktyczną: motywuje do wyciągania wniosków i ciągłych poszukiwań właściwego rozwiązania
-problemu, wymuszając w ten sposób aktywność naukową.<br/><br/>
-
-Wszystkim e-doświadczeniom towarzyszą <b>podręczniki w formie zeszytów ćwiczeń</b>. Gorąco zachęcamy do zapoznania
-się z nimi jeszcze przed uruchomieniem danego e-doświadczenia.<br/><br/>
-
-        ]]>
-    </string>
-
-    <string name="info_app_text">
-        <![CDATA[
-<h1><font color="#22DAFE">e-Doświadczenia w fizyce</font><br/>O aplikacji</h1>
-
-e-Doświadczenia produkowane są w technologii <b>Adobe Flash / Adobe Air</b>, dzięki czemu mogą być używane
-na większości komputerów, niezależnie od używanego systemu operacyjnego czy rodzaju procesora.
-Niestety, technologia ta na tabletach daleka jest od doskonałości - występują ograniczenia związane
-z wydajnością aplikacji oraz z dostosowaniem jej do ekranów dotykowych.<br/><br/>
-Podczas używania e-doświadczeń <b>mogą zatem pojawić się następujące problemy:</b><br/>
-&bull; niewystarczająca wydajność w e-doświadczeniach wykorzystujących grafikę 3D
-(np. Wahadło matematyczne, Ruch ciał niebieskich), skutkująca „klatkowaniem” animacji,<br/>
-&bull; utrudniony dostęp do niektórych, niewielkich elementów (np. filtr w Ławie optycznej); czasem trzeba kilku
-prób, aby „podnieść” dany element,<br/>
-&bull; nie można uruchamiać podręczników z wnętrza e-doświadczeń; w zamian zostały one udostępnione
-bezpośrednio z aplikacji.<br/><br/>
-
-Przed uruchomieniem, dane e-Doświadczenie jest pobierane z Internetu do pamięci wewnętrznej urządzenia.
-Jest to operacja jednorazowa, do momentu skasowania go z pamięci bądź opublikowania nowszej wersji.<br/><br/>
-
-<font color="#22DAFE">Autor aplikacji</font><br/>
-Paweł Syty &minus; Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej<br/><br/>
-<font color="#22DAFE">Opracowanie graficzne aplikacji</font><br/>
-Rafał Buczek &minus; Crea.pl<br/><br/>
-<font color="#22DAFE">Opracowanie i produkcja e-doświadczeń:</font><br/>
-Politechnika Gdańska, Wydział Fizyki Technicznej i Matematyki Stosowanej<br/>
-Young Digital Planet SA<br/>
-L.C.G. Malmberg B.V. (Holandia)
-        ]]>
-    </string>
 
 <!-- Teksty w popupach o programie i partnerach -->
 
-    <string name="pokl_name">Program Operacyjny Kapitał Ludzki</string>
-    <string name="pokl_text">
-         <![CDATA[
-Program Kapitał Ludzki jest jednym z programów służących realizacji Narodowych Strategicznych Ram Odniesienia
-2007-2013 i obejmuje całość interwencji Europejskiego Funduszu Społecznego (EFS) w Polsce. Stanowi on odpowiedź
-na wyzwania, jakie przed państwami członkowskimi UE, w tym również Polską, stawia odnowiona Strategia Lizbońska.
-<br/><br/>
-Do wyzwań tych należą: uczynienie z Europy bardziej atrakcyjnego miejsca do lokowania inwestycji
-i podejmowania pracy, rozwijanie wiedzy i innowacji oraz tworzenie większej liczby trwałych miejsc pracy.
-        ]]>
-    </string>
+  
+	<string name="ftims_name"> Faculty of Technical Physics and Applied Mathematics PG </string>
+	
+	<string name="ftims_text">
+		<![CDATA[
 
-    <string name="efs_name">Europejski Fundusz Społeczny</string>
-    <string name="efs_text">
-         <![CDATA[
-Europejski Fundusz Społeczny (EFS) jest jednym z funduszy strukturalnych UE. Został stworzony, by redukować
-różnice w zamożności i jakości życia we wszystkich państwach członkowskich i regionach UE.<br/><br/>
-Fundusz promuje spójność gospodarczą i społeczną oraz promocją zatrudnienia w UE. Pomaga państwom członkowskim,
-sprawiając, że siła robocza i firmy są lepiej przygotowane do stawienia czoła nowym, globalnym wyzwaniom.
-        ]]>
-    </string>
+  The Faculty of Technical Physics and Applied Mathematics offers courses of study in:
+<b> Technical Physics </b> <br/>
+&bull;     Physics and Energy Conversion Engineering
+&bull;     Applied Physics
+&bull;     Nanotechnology
+&bull;     Applied Information Technology
+<b> Mathematics </b> <br/>
+&bull;     Applied Mathematics
+&bull;     Financial Mathematics
+&bull;     Biomathematics
 
-    <string name="pg_name">Politechnika Gdańska</string>
-    <string name="pg_text">
-                <![CDATA[
-<b>Największa i najstarsza w północnej Polsce państwowa uczelnia wyższa o profilu technicznym, 
-z siedzibą w Gdańsku.</b><br/><br/>
-Obejmuje 9 wydziałów, na których studiuje ponad 24 tysiące studentów na studiach
-inżynierskich i magisterskich (stacjonarnych i niestacjonarnych), a także ponad 400 słuchaczy studiów
-doktoranckich. Dodatkowo, prowadzona jest na szeroką skalę
-wymiana międzynarodowa studentów i pracowników.<br/><br/>
-W ogólnopolskich rankingach uczelni wyższych
-Politechnika Gdańska zajmuje od dawna jedno z czołowych miejsc.
-        ]]>
-    </string>
+<b> Materials Engineering </b> <br/>
+&bull; Advanced Functional Materials Engineering <br/>
+(jointly with the Faculty of Chemistry and Mechanical Engineering) <br/>
+Graduates of the department are respected professionals and easily find employment in various industries.
+		]]>  
+	</string> 
 
-    <string name="ftims_name">Wydział Fizyki Technicznej i Matematyki Stosowanej PG</string>
-    <string name="ftims_text">
-         <![CDATA[
-<b>Jeden z dziewięciu wydziałów Politechniki Gdańskiej.</b><br/><br/>
-Prowadzone kierunki studiów i specjalności:<br/><br/>
-<b>Fizyka techniczna</b><br/>
-&bull; Fizyka stosowana<br/>
-&bull; Konwersja energii<br/>
-&bull; Informatyka stosowana<br/>
-&bull; Nanotechnologia<br/>
-&bull; Fizyka środowiska<br/><br/>
-
-<b>Matematyka</b><br/>
-&bull; Matematyka stosowana<br/>
-&bull; Matematyka finansowa<br/>
-&bull; Biomatematyka<br/><br/>
-
-<b>Inżynieria materiałowa</b><br/>
-&bull; Inżynieria materiałów funkcjonalnych<br/>
-&nbsp;&nbsp;(wspólnie z wydziałami: Chemicznym<br/>&nbsp;&nbsp;i Mechanicznym)<br/><br/>
-
-Absolwenci wydziału są cenionymi specjalistami i łatwo znajdują zatrudnienie w różnych dziedzinach przemysłu.
-        ]]>
-    </string>
-
-    <string name="ydp_name">Young Digital Planet SA (Gdańsk)</string>
+	<string name="ydp_name"> Young Digital Planet SA (Gdańsk)</string>
+	
     <string name="ydp_text">
-         <![CDATA[
-<b>Największy w Polsce producent i wydawca edukacyjnych programów komputerowych.</b><br/><br/>
-Firma działa na rynku oprogramowania od 1990 roku. Jest dostawcą systemów szkoleniowych i treści edukacyjnych,
-opartych na technologiach informacyjnych, dla klientów indywidualnych, instytucji oświatowych
-oraz przedsiębiorstw.<br/><br/>
-Celem firmy jest dostarczanie rozwiązań, które charakteryzują się najwyższą jakością oraz sprawdzoną
-efektywnością. Jego realizację stanowią uznane i wielokrotnie nagradzane serie produktów, m.in.:<br/><br/>
-&bull; EuroPlus+<br/>
-&bull; eduSensus<br/>
-&bull; portal Nauczyciel.pl<br/>
-&bull; eduROM<br/>
-&bull; Lekcjotek@
+<![CDATA[
+<b> Poland&aps;s largest developer and publisher of educational software. </b> <br/><br/>
+The company operates in the software market since 1990. Is a provider of ICT-based training systems 
+and educational content to consumers, educational institutions and businesses. <br/>
+The company&aps;s goal is to provide solutions that are of the highest quality and proven performance. 
+Its implementation are recognized and award-winning series of products, including: <br/><br/>
+&bull; EuroPlus + <br/>
+&bull; eduSensus <br/>
+&bull; Nauczyciel.pl portal <br/>
+&bull; eduROM <br/>
+&bull; Lekcjotek@<br/>
         ]]>
-    </string>
+    </string>	
 
-    <string name="malmberg_name">L.C.G. Malmberg B.V. (Den Bosch, Holandia)</string>
+    <string name="malmberg_name"> L.C.G. Malmberg BV (Den Bosch, Holland)</string>
     <string name="malmberg_text">
-         <![CDATA[
-<b>Znany, działający od lat i wiodący w Holandii wydawca rozwiązań edukacyjnych</b>, pomagających uczniom w procesie
-uczenia się za pomocą systemów multimedialnych oraz nowoczesnych technologii ICT.<br/><br/>
-Firma rozwija interdyscyplinarne metodologie nauczania (Pluspunt, Biologie voor jou, Taalblokken,
-w sumie ponad 2500 tytułów).
-Świadczy usługi doradcze, szkoleniowe, badawcze m.in. w zakresie e-learnigu.
-        ]]>
-    </string>
-
+		<![CDATA[
+<b> Renowned, working for years in the Netherlands and a leading publisher of educational </b> to help students in the learning process with multimedia systems and modern ICT. <br/>
+The company develops interdisciplinary teaching methodologies (Pluspunt, Biologie voor jou, Taalblokken,  more than 2,500 titles). Provides consulting services, training, research such as in e-learning.
+		]]> 
+	</string>
+     
 <!-- Teksty pomocy -->
-
     <string name="txt_title_help">Help</string>
     
     <string name="txt_help_tytulowa">
-         <![CDATA[
-<b>On this screen you may:</b><br/><br/>
-
-&bull; znaleźć podstawowe informacje o projekcie,<br/><br/> 
-
-&bull; wyświetlić informacje o programie operacyjnym i funduszu, 
-w ramach których realizowany jest projekt<br/>
-(<i>poprzez tapnięcie na logotypach na górze ekranu</i>)<br/><br/>
-
-&bull; wyświetlić informacje o realizatorach projektu<br/>
-(<i>poprzez tapnięcie na logotypach na dole ekranu</i>),<br/><br/>
-
-&bull; zmienić język aplikacji<br/>
-(<i>poprzez tapnięcie na ikonach w belce narzędziowej u góry ekranu</i>),<br/><br/>
-
-&bull; przejść do kolejnych ekranów aplikacji bądź ją zakończyć<br/> 
-(<i>poprzez tapnięcie na przyciskach w centralnej części ekranu)</i>.
-         ]]>
+		<![CDATA[
+		<b> On this screen, you can: </b><br/><br/>
+		&bull; read basic information about the project, <br/><br/>
+		&bull; display information about the operational program and the fund within which the project is realized <br/> 
+		(<i> by pressing the logotypes at the top of the screen </ i>) <br/><br/>
+		&bull; display information about the project contractors <br/>
+		(<i> by pressing the logotypes at the bottom of the screen </ i>), <br/><br/>
+		&bull; change the application language <br/>
+		(<i> by touching the icons in the toolbar at the top of the screen </i>), <br/><br/>
+		&bull; move to the next screen of the application or end it <br/>
+		(<i> by buttons in the center of the screen) </i>.
+         ]]>  
+     </string>    
+     <string name="txt_help_list_ed">
+		<![CDATA[
+		<b> On this screen, you can: </b><br/><br/>
+		&bull; view a set of e-experiments,<br/><br/>
+		&bull;  pass to the selected e-experiment or return to the title page, <br/>
+		(<i> by tapping on the e-experiment icon or the back button</ i>)<br/><br/>
+		&bull; to change the language back to the initial screen. <br/>
+		 ]]> 
+	</string>   
+	<string name="txt_help_details_ed">
+		<![CDATA[
+		<b> On this screen, you can: </b><br/><br/>
+		&bull; read the information about physical phenomena that are the subject of an experiment,<br/><br/>
+		&bull; run chosen e-experiment,<br/><br/>
+		(<i> by tapping on the the run </i>)<br/>
+		&bull; view the textbook prepared for e-experiment, <br/>
+		(<i> by tapping on the button named “manual” - the book is available in 
+		PDF format and will be opened by an external program </i>),<br/><br/>
+		&bull; return to the last screen, br/>
+		(<i> by tapping on the the back </ i>) <br/><br/>
+		&bull; to change the language back to the initial screen. <br/>
+         ]]> 
     </string>
-
+     
+<!-- elementy stringów -->
+	<string name="manual_name_prefix">exercises_</string>
+        
 <!-- Komunikaty -->
+	<string name="msg_no_network">  To download your e-experiment it is necessary to connect to the Internet. \n \nPlease check your network connection and try again.      </string>
+	<string name="msg_ed_not_yet_produced"> Unfortunately, this e-experiment is not ready yet. \n \ne- experiment are produced successively and \n will be available as soon as possible.   </string>
+	<string name="msg_no_file_on_server"> An unexpected server error. \n We apologise please try again later.</string>
+	<string name="msg_internal_error001">An unexpected application error (code 001). \nWe apologise please try again later. If the error persists, please contact the author of the program.    </string>
+	<string name="msg_cant_make_dir">You can not create a folder on the memory card! Please try again with a different SD card.</string>
+	<string name="msg_title_error"> ERROR! </string>
+	<string name="dlg_unpacking"> Download completed. \n Extracting files in progress, please wait&#8230;</string>
+	<string name="dlg_downloading"> Downloading data (about% 1 $ d MB), please wait&#8230; </string>
+	<string name="msg_download_cancelled"> The operation was canceled by the user </string>
+	<string name="msg_to_less_space"> Not enough space on the SD card! \n Download an e-experiment is not possible. Zbyt malo miejsca ns karcie SD! \nPobranie e-doświadczeń NIE będzie możliwe. </string>
+	<string name="msg_no_pdf_reader"> To see textbook, install a PDF reader. </string>
+	<string name="msg_screen_not_supported"> This application requires a screen resolution of at least 1280 x 800 pixels. </string>
     
-    <string name="msg_no_network">
-        Do pobrania e-doświadczenia niezbędne jest połączenie z Internetem.\n\nSprawdź swoje połączenie sieciowe
-        i spróbuj ponownie.
-    </string>
+    <!-- Messages -->
+      
+    <string name="msg_title_info"> Information </string>
+    <string name="msg_title_question"> Question </string>
+    <string name="msg_download_ed_question">   To run an experiment, you need to download additional data from the Internet. \n
+\n The size of the data to be downloaded can vary \n from 5 to 45 MB - it is suggested to use a WiFi connection. \n\n Do you want to retrieve the data now?
+	</string>
+	<string name="msg_download_ed_update_question">      Found an update of  this e-experiment. \n
+\n The size of the data to be downloaded can vary \n from 5 to 45 MB - it is suggested to use a WiFi connection. \n \n Do you want to download the update now? 
+</string>		
 
-    <string name="msg_ed_not_yet_produced">
-        Niestety, to e-doświadczenie nie jest jeszcze gotowe.\n\ne-Doświadczenia są produkowane sukcesywnie\ni będą
-        udostępniane tak szybko, jak to tylko możliwe.
-    </string>
-
-    <string name="msg_no_file_on_server">
-        Wystąpił nieoczekiwany błąd serwera.\nPrzepraszamy i prosimy spróbować później.
-    </string>
-
-    <string name="msg_internal_error001">
-        Wystąpił nieoczekiwany błąd aplikacji (kod: 001).\nPrzepraszamy i prosimy spróbować później.
-        Jeżeli błąd będzie się powtarzał, prosimy o kontakt z autorem programu.
-    </string>
-
-    <string name="msg_cant_make_dir">
-        Nie można utworzyć katalogu na karcie pamięci! Proszę spróbować z inną kartą.
-    </string>
-
-    <string name="msg_title_error">Błąd!</string>
-
-    <string name="dlg_unpacking">Pobieranie zakończone.\nTrwa rozpakowywanie plików, proszę czekać...</string>
-
-    <string name="dlg_downloading">Pobieranie danych (ok. %1$d MB), proszę czekać... </string>
-
-    <string name="msg_download_cancelled">Operacja została anulowana przez użytkownika</string>
-
-    <string name="msg_to_less_space">Zbyt mało miejsca na karcie SD!\nPobranie e-doświadczeń nie będzie możliwe.</string>
-
-    <string name="msg_no_pdf_reader">Aby obejrzeć podręcznik, zainstaluj czytnik plików PDF</string>
-
-    <string name="msg_screen_not_supported">
-        Ta aplikacja wymaga ekranu o rozdzielczości co najmniej 1280 x 800 pikseli.
-    </string>
-
-    <string name="msg_title_info">Informacja</string>
-    <string name="msg_title_question">Pytanie</string>
-    <string name="msg_download_ed_question">
-        Aby uruchomić to e-doświadczenie, wymagane jest jednorazowe pobranie dodatkowych danych z Internetu.\n
-        \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
-        \n\nCzy pobrać dane teraz?
-    </string>
-    <string name="msg_download_ed_update_question">
-        Znaleziono aktualizację tego e-doświadczenia.\n
-        \nRozmiar danych do pobrania może się wahać\nod 5 do 45 MB - sugerowane jest użycie połączenia WiFi.
-        \n\nCzy pobrać aktualizację teraz?
-    </string>
-    <string name="msg_install_flash_question">
-        Aby uruchamiać e-doświadczenia, wymagane jest zainstalowanie Adobe Flash Playera.
-        \n\nCzy uruchomić Market?
-    </string>
-
-    <string name="msg_starting_ed">Uruchamianie e-doświadczenia...</string>
-
-    <string name="msg_manual_not_available">
-        Przepraszamy, podręcznik do tego e-doświadczenia nie został jeszcze przygotowany.
-    </string>
+    <string name="msg_starting_ed"> Starting an e-experiment&#8230;</string>
+    <string name="msg_manual_not_available">Sorry, the textbook to the this e-experiment has not yet been prepared</string>
 
     <string name="msg_switch_to_en">Switched to English</string>
-    <string name="msg_already_en">You are already using English version...</string>
+    <string name="msg_already_en">You are already using English version&#8230;</string>
     <string name="msg_switch_to_pl">Przełączono na język polski</string>
-    <string name="msg_already_pl">Już używasz wersji polskojęzycznej...</string>
+    <string name="msg_already_pl">Już używasz wersji polskojęzycznej&#8230;</string>
 
+    <string name="msg_no_premission">  &quot;Application doesn&apos;t have permission to write on external storage.&quot;</string> 
+    <string name="msg_no_sd"> &quot;External Storage isn&apos;t available.&quot; </string>
+	<string name="msg_no_flash"> Adobe Flash is not installed! E-experiments in physics requires the Adobe Flash Player.     
+ 	Your download will start automatically. 
+ 	</string>
+ 	
 <!-- Informacje o e-doświadczeniach -->
 
-    <string name="ed_info_wahadlo">
-         <![CDATA[
-<b>Wahadło</b> możemy wyobrażać sobie jako kulkę zawieszoną swobodnie na nici.
-Głównym założeniem modelu <b>wahadła matematycznego</b> jest to, aby kulka ta
-była punktowa, a cała masa wahadła skupiała się właśnie w niej.
-Nić, na której zawieszona jest kulka traktujemy jako nieważką (zaniedbujemy jej masę)
-oraz nierozciągliwą (nie zmienia ona swojej długości).<br/><br/>
+	<string name="ed_info_wahadlo">
+		<![CDATA[  
+		<p>We can imagine <b> a pendulum </b> as a ball freely hanging on a strand. The main assumption of 
+		<b> mathematical pendulum model </b> is that the ball is a point and the whole mass of the pendulum is containted there. 
+		The strand which the ball hangs on is treated as weightless (neglecting its mass) and inextensible 
+		(it does not change its length.) 
+		</p><p>
+		<b> In this e-experiment, you can: </b> <br/>
+		&bull; examine the basic period of oscilations of the mathematical pendulum, <br/>
+		&bull; observe changes in kinetic and potential energy, <br/>
+		&bull; learn about one of the many ways to determine the gravitational acceleration, <br/>
+		&bull; see how the movement of the pendulum proceeds in an accelerating elevator or a train, <br/>
+		&bull; observe the mathematical pendulum in an environment which is difficult to find in the everyday world, such 
+		as other planets, <br/>
+		&bull; watch the Foucault&apos;s pendulum. 
+		</p><p>
+		<big> <b> Note: </b> </big> <br/> Due to the time-consuming calculations and usage of three-dimensional graphics, 
+		pendulum animation is rather quite slow (down to several fps). 
+		We still working on the optimization of the e-experiment so that you can take full advantage of its features also 
+		on tablets.</p>
+		]]>      
+	</string>
+	
+	<string name="ed_cwiczenie_wahadlo">
+		<![CDATA[  
+		<b> Exercise - how to measure the base period of oscilations of the mathematical pendulum </b> 
+		<p>
+		&bull; At the beginning we propose to measure the base period of the pendulum i.e. time of one oscilation 
+		of the pendulum. For this experiment we will need a sliding pendulum and a ball. <br/>
+		&bull;  Put together strand and a tripod, then attach  the ball to the strand.
+		</p><p>
+		&bull; Set the length of the thread and its angle. After that press ACCEPT SETTINGS. <br/>
+		&bull; To start motion of the pendulum, press START.
+		</p><p>
+		&bull; After one full period stop the timer and save the result into a table. <br/>
+		&bull; Now let us perform as accurately as possible the same experiment again. Measure the full periods, 
+		writing each time the result into the table. Repeat the experiment at least 5 times.
+		</p><p>
+		&bull;  Next, let&apos;s look at the obtained results and try to answer the question: did we succeed 
+		in repeating the experiment accurately? That is, were the results of measurements of the base period equal?
+		</p><p>
+		&bull; Do you think that the deviations from the individual values measured in this way are large or small?
+		&bull; What do you think, from where do these variations come and what are factors influencing
+		 the accuracy of measurements? </p>
+		&bull; Consider whether there are more accurate ways to measure the base period? <br/><br/>
+		
+		Further exercises are in the textbook. <br/>
+		]]>      
+	</string>
+	<string name="ed_info_lawa">
+		<![CDATA[       
+		<p>The e-experiment <b> Optical Bench </b> has been entirely devoted to lenses. <b> The lens </b> is a simple 
+		optical device, consisting of one or more blocks of a transparent material glued together - usually glass, 
+		but also can be a variety of plastics, gels or minerals. <br/>
+		</p><p>
+		With this e-experiment you can learn about geometrical optics. 
+		You will familiarize with properties of the lens and the basic parameters characterizing them.
+		 In addition, it is a perfect illustration for the basic equations describing the lens. <br/>
+		Arranging appropriate lens on the optical bench, you can get different images: real and apparent. 
+		In addition, you can build a telescope and a microscope.	  
+		</p>
+		]]>     
+	</string>
+		
+	<string name="ed_cwiczenie_lawa">
+		<![CDATA[       
+		 <b> Exercise - studying properties of a focusing lens </b> <br/>
+		<p>
+		&bull; Mount the light source on the bench with any filter. <br/>
+		&bull; From a set of glass lenses of different focal length choose any focusing lens
+		 (that with positive values of focal length) and mount it on the optical bench.
+		 </p><p>
+		&bull; For the time being, mount the screen at any distance on the other side of the lens. <br/>
+		&bull; Try placing the light source in various positions: nearer to the lens than the focal length,
+		 exactly in the focal point and in a distance further than the focal length.
+		 </p><p>
+		&bull; For each of these three cases, check whether the image is projected onto the screen. <br/>
+		&bull; If the image is not sharp, try to move the screen along the optical bench in order to get the best result.
+ 		</p><p>
+		&bull; If you do not observe any image on your screen, look through the lens and see if you 
+		can observe the virtual image. <br/>
+		&bull; Repeat the exercise for the other focusing lenses within this set.  </p>
+		Further exercises are in the textbook. <br/>
+		]]> 
+	</string>
 
-<b>Za pomocą tego e-doświadczenia można m. in:</b><br/>
-&bull; zbadać okres podstawowy drgań wahadła matematycznego,<br/>
-&bull; zaobserwować zmiany energii kinetycznej i potencjalnej,<br/>
-&bull; poznać jeden z wielu sposobów na wyznaczenie przyspieszenia
-grawitacyjnego,<br/>
-&bull; sprawdzić, jak wygląda ruch wahadła w przyspieszającej windzie bądź pociągu,<br/>
-&bull; prowadzić obserwację wahadła matematycznego w warunkach, 
-w których trudno się znaleźć w świecie rzeczywistym, np. na innych planetach,<br/>
-&bull; obserwować ruch wahadła Foucaulta.<br/><br/>
+	<string name="ed_info_rzuty">
+		<![CDATA[ 
+		<b> The throw </b> is defined as a uniform motion in a gravitational field with a certain initial velocity, 
+		directed along, across or at an angle to the lines of the field.
+		<p>
+		<b> With this e-experiment, you can: </ b> <br/>
+		&bull; examine the throws: <br/>
+		- vertical, <br/> - horizontal, <br/> - pitched, <br/><br/>
+		&bull; examine cases where a part detaches from the thrown body, <br/>
+		&bull; watch how the rotation of the ball affects its bounce, <br/>
+		&bull; observe the throws in a windy conditions, <br/>
+		&bull; observe the throws in a noninertial frames of reference. </p>   	        
+		]]>      
+	</string>
+	
+	<string name="ed_cwiczenie_rzuty">
+		<![CDATA[        
+	  	<b> Exercise - horizontal projection with a fixed velocity </b>
+	  	<p>
+		&bull; Select from the Tools (the first icon from the left) the following: any ball, a board with a measuring grid, a tripod, a launcher and a rebound-damping mat. <br/>
+		&bull; Adjust the tripod to the left of the mat and position the launcher at a certain height. Adjust the angle of the launcher to 0 degrees (horizontally) and set any initial velocity of the ball. 
+		</p><p>
+		&bull; RUN the e-experiment. <br/>
+		&bull; Determine the range of the throw, i.e. the distance the ball has traveled horizontally. For accurate measurements of the position, use a ruler. <br/>
+		</p><p>
+		&bull; Repeat the exercise several times with the same initial speed. Every time change the height of the launcher. <br/>
+		&bull; Consider what determines the range of projection. </p></br>
 
-<big><b>Uwaga!</b></big><br/>Ze względu na prowadzenie czasochłonnych obliczeń
-oraz wykorzystanie trójwymiarowej grafiki, animacja wahadła najprawdopodobniej
-będzie dość powolna (maksymalnie kilka klatek/s). 
-Ciągle pracujemy nad optymalizacją tego e-doświadczenia tak, aby można było
-w pełni wykorzystać jego możliwości również na tabletach.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_wahadlo">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-    <string name="ed_info_lawa">
-         <![CDATA[
-e-Doświadczenie <b>Ława optyczna</b> zostało w całości poświęcone soczewkom.
-<b>Soczewka</b> to proste urządzenie optyczne, składające się z jednego lub kilku sklejonych razem
-bloków przezroczystego materiału, zwykle szkła, ale też różnych tworzyw sztucznych, żeli lub minerałów.<br/><br/>
-
-Dzięki temu e-doświadczeniu można zapoznać się z wiedzą z zakresu optyki geometrycznej.
-Można poznać własności soczewek i podstawowe parametry je charakteryzujące. Dodatkowo, stanowi ono
-doskonałą ilustrację podstawowych wzorów opisujących soczewki.<br/><br/>
-
-Układając odpowiednio soczewki na ławie optycznej, można otrzymać różne obrazy rzeczywiste jak i pozorne.
-Ponadto, można zbudować lunetę i mikroskop.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_lawa">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-    <string name="ed_info_rzuty">
-         <![CDATA[
-<b>Rzutem</b> nazywamy ruch w jednorodnym polu grawitacyjnym z
-pewną prędkością początkową, skierowaną wzdłuż, w poprzek lub
-pod skosem względem linii pola.<br/><br/>
-
-<b>Za pomocą tego e-doświadczenia można:</b><br/>
-&bull; badać rzuty<br/>
-&nbsp;&nbsp; - pionowe,<br/>&nbsp;&nbsp; -  poziome,<br/>&nbsp;&nbsp; -  ukośne,<br/>
-&bull; badać rzuty, podczas których od rzuconego ciała odłącza się jego część,<br/>
-&bull; obserwować, jak odbicie rzuconej piłki od powierzchni wpływa na jej ruch obrotowy,<br/>
-&bull; obserwować rzuty w wietrznych warunkach,<br/>
-&bull; obserwować rzuty w nieinercjalnych układach odniesienia.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_rzuty">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
+		<b> Exercise - free fall </b> 
+		<p>
+		&bull; Select from the Tools: two tripods with electromagnet and two balls of different diameters. Assemble the set properly and for both of the balls set the same initial height. Drop them by pressing START button (both balls are released at the same time). <br/>
+		&bull;  What is the difference between the times of the balls&apos; fall? If in a direct observation you were unable to accurately determine it, use a video from a camera. Write down your observations. <br/>
+		</p><p>
+		&bull;  Perform the exercise by fixing up the starting height of the balls on tripods, so that the distance between the ground and their undersides will be the same. <br/>
+		&bull; What is in this case the time interval between the landings of the balls? Explain. Why is it important to ensure that the ground is equidistant from undersides of the balls, not to their centers? <br/>
+		</p><p>
+		&bull; Repeat this exercise, changing the starting height and the size of both examined balls. There are four balls with different diameters and consequently having different masses. Be sure to set the same distance from the ground to the undersides. <br/>
+		&bull; What are your conclusions? Are you able to tell what determines the duration of free fall and what does not? <br/>
+		&bull; Are you able to write some general conclusions from the experiment?
+		</p>
+		Further exercises are in the textbook. <br/>		
+		 ]]>      
+	 </string>
+	 
     <string name="ed_info_bryla">
-         <![CDATA[
-<b>Bryła sztywna</b> to modelowe ciało fizyczne, które nie deformuje się pod wpływem sił,
-czyli &minus; inaczej mówiąc &minus; odległości między punktami ciała się nie zmieniają.<br/><br/>
-Z pojęciem bryły sztywnej nieodłącznie związane jest pojęcie wahadła fizycznego.
-<b>Wahadłem fizycznym</b> nazywamy bryłę sztywną, wykonującą drgania
-wokół osi nie przechodzącej przez środek masy bryły.<br/><br/>
-
-<b>Za pomocą tego e-doświadczenia można m. in:</b><br/>
-&bull; zmierzyć okres wahadła fizycznego,<br/>
-&bull; wyznaczać środki mas figur o nieregularnych kształtach,<br/>
-&bull; badać moment bezwładności różnych figur, w tym własnoręcznie stworzonych,<br/>
-&bull; badać zachowanie tzw. wahadła Oberbecka.
-         ]]>
-    </string>
+		<![CDATA[ 
+ <b> A rigid body </b> is a mathematical model of the physical body, which does not deform under the influence of forces, that is - in other words - the distance between the points of the body does not change. <br/>
+With the notion of a rigid body is inextricably linked to the concept of a physical pendulum. <b> The physical pendulum </b> is a rigid body, performing oscilations around the axis that does not pass through the center of the pendulum’s mass. <br/>
+<b> With this e-experiment, you can among others: </b> <br/>
+&bull; Measure the period of the physical pendulum, <br/>
+&bull; find the center of mass of  irregularly shaped figures, <br/>
+&bull; examine the moment of inertia of various shapes – you can create your own, <br/>
+&bull; examine the behavior of the so-called Oberbeck pendulum.
+		 ]]>      
+	 </string>
+	
     <string name="ed_cwiczenie_bryla">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
+		<![CDATA[     
+<b> Exercise – determining the center of mass of a rigid body </b> <br/>
+&bull; Select from the Tools: a rigid body (from the card &quot;center of mass&quot;), along with the necessary tools. <br/>
+&bull; Place a protractor on the tripod. <br/>
+&bull; Before you start your experiment, try to guess where in the body would be the center of mass. <br/>
+&bull; Click on the block, and then press SELECT ANCHOR POINT. <br/>
+&bull; In the opened window click on the location closest to the point in which you think, that is located the center of mass. You can change the anchor point by clicking elsewhere on the block. <br/>
+&bull; Close the window and hang the body on the tripod. <br/>
+&bull; Start experiment. <br/>
+&bull; After the block stabilizes, click on it once (with the right mouse button) to draw the axis of a stable suspension. <br/>
+&bull; Double-click on the block to put it back on the table. <br/>
+&bull; Select a different anchor point and repeat the measurement. Do this several times. <br/>
+&bull; Were you able to identify the center of mass? Did you expect it to be in this place? <br/>
+&bull; Repeat the experiment for other rigid bodies. <br/>
+&bull; Why some solids have center of mass located outside of  the lump? Explain. <br/><br/>
+Further exercises are in the textbook. <br/>		  
+		]]>    
+	</string>
+	
+   <string name="ed_info_rownia">
+		<![CDATA[       
+ <b> The inclined plane </b> is a flat surface, inclined at an angle to the horizontal plane. Inclined plane is one of the six classical <b> simple machines </b>, i.e. those that change the direction or value of the force (the others are: lever, winch, block, wedge and screw). <br/>
+In this e-experiment, you can do among others: <br/>
+&bull; examine the accelerated movement, <br/>
+&bull; examine the law of friction, <br/>
+&bull; familiarize yourself with methods of determining the coefficient of the friction <br/>,
+&bull; find out what determines the coefficient of friction. <br/>
+In addition the virtual experiment also allows observations under conditions that are difficult to produce in the laboratory, like observations in the elevator or the train, moving with specified acceleration.
+		  ]]>     
+	</string>
+	
+	<string name="ed_cwiczenie_rownia">
+		<![CDATA[     
+<b> Exercise - how do the blocks move on an inclined plane? </b> <br/>
+&bull; Select any block from the Tools. You can also choose various modifications for the block or inclined plane. <br/>
+&bull; Put the block on top of the inclined plane (at any point). Make a note of its location. <br/>
+&bull; Rise the inclined plane to an angle greater from $ 35 ^ \ circ $ (note that the angle in question is formed between the inclined plane and the table, not at the point where the protractor is visible!) <br/>
+&bull; Press START. <br/>
+&bull; After block reaches the end of the inclined plane, review the recording from the camera. <br/>
+&bull; For every successive 0.1 second, write down into the table the positions of the block. Write at least 6 different points. Make a chart of the distance related to the time. <br/>
+&bull; Make a second chart presenting the instantaneous speed of the body. For that purpose, divide the distance traveled by the body within each step of the time, by the length of the step of the time (0.1 s).<br/>
+&bull; Look at received charts. What kind of movement do they represent? What parameters of the movement are you able to derive from the charts? <br/>
+&bull; Repeat this exercise, selecting different modifications for the blocks or inclined plane. Will your conclusions be the same? <br/>
+&bull; Does it matter, which point of the inclined plane you are placing the block at? <br/>
+&bull; What happens if you change the angle of the inclined plane? <br/><br/>
+Further exercises are in the textbook. <br/>   
+		 ]]>  
+	</string>
+       
+	<string name="ed_info_einstein">
+		<![CDATA[   
+<b> The Einstein&apos;s intelectual experiments </b> introduce the issues of the Special Theory of Relativity. The most important foundations of this theory are: <br/>
+&bull;  all the laws of nature (especially physics) are same regardless of where we observe them from, either the system does not move itself, or it is moving, but moves  without acceleration (or inertial frame) and <br/>
+&bull;  the speed of light is always constant in a given medium. It is also the highest speed at which the energy can be transferred. <br/>
+&bull;  Some conclusions of <b> special relativity </b> is counterintuitive: <br/>
+&bull;  Time dilation - time which passes between the two events is not clearly defined, but depends on the observer. <br/>
+&bull;  Relativity of simultaneity - two events defined by one observer as a simultaneous, may not be simultaneous for another observer. <br/>
+&bull;  Contraction of space - the distance between the points are dependent on the system. All moving objects we observe as shorter. <br/>
+&bull;  Energy is equivalent to mass and the relationship between these values are described by the model E = mc ^ 2 <br/><br/>
+    		     
+		 ]]>   
+	 </string>
+   
+	<string name="ed_cwiczenie_einstein">
+		<![CDATA[  
+<b> exercise: </ b> Consider how the two observers see the world? <br/>
+Let the first observer be a person on the ground, and the second - person in the rocket. The rocket is moving away from earth at a certain speed. <br/>
+Assume that the person staying on the ground can see what is happening in the rocket. At some point of the time the astronaut in the rocket starts to grow a beard and is growing it for a certain time dt. <br/>
+How long his beard grows according to the observer on the Earth (ie, what is the dt)?<br/><br/>
+Further exercises are in the textbook. <br/>		       
+		]]>    
+	</string>
+	    
+	<string name="ed_info_astro">
+		<![CDATA[   
+<b> The celestial body  </ b> is any physical object (the object expanded in time and space) occurring in cosmic space, which is outside the Earth&apos;s atmosphere (conventionally limit is called. Kármán line, located just 100 km above the the Earth&apos;s surface). <br/>
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
+Using the e-experiment you can explore the model of the solar system, learn about Kepler&apos;s laws, calculate cosmic speeds and trajectories of planets and find out what the double star system is. It is also a unique opportunity to build your own solar system. <br/>
+<big> <b> Note: </ b> </ big> <br/> Due to the running time-consuming calculations and the use of three-dimensional graphics, animation of the solar system is likely to be quite slow (down to several fps). Still working on the optimization of the e-experiment so that you can take full advantage of its features also tablets.	      
+		]]>   
+	 </string>
+   
 
-    <string name="ed_info_rownia">
-         <![CDATA[
-<b>Równią pochyłą</b> nazywamy płaską powierzchnię, nachyloną pod pewnym kątem do poziomu.
-Równia pochyła jest jedną z sześciu klasycznych <b>maszyn prostych</b>, tzn. takich,
-które zmieniają kierunek lub wartość siły (pozostałymi są: dźwignia, kołowrót, blok, klin i śruba).<br/><br/>
+	<string name="ed_cwiczenie_astro">
+		<![CDATA[  
+<b> Exercise - examination of the solar system </b> <br/>
+&bull;  Select a toolbar &quot;systems of celestial bodies&quot;, and then select the SOLAR SYSTEM. <br/>
+&bull;  Before starting the experiment, using the navigation pane on the right side of the screen, try to locate all the planets in the system. <br/><br/>
+&bull;  In the bottom panel, choose the &quot;Settings&quot; card and select &quot;Show trajectories&quot;. <br/>
+&bull;  To save your time, you can speed up the flow of the time by selecting the appropriate value from the drop down menu from &quot;Settings&quot;. <br/>
+&bull;  Hide the bottom panel by clicking on the HIDE PANEL button, and then run the experiment by pressing START. <br/>
+&bull;  Use the navigation buttons to adjust the system so that you could see as much as possible of trajectories of planets. <br/>
+&bull;  After that you can still navigate through the system easily to further investigate the principles of construction of the solar system, and further experiment with various settings. <br/>
+&bull;  What are your conclusions about:<br/>
+ - the size of the system,<br/>
+ - size of individual planets,<br/>
+ - the distance between planets? <br/>
+&bull;  Does a man, using capabilities of current technology, is able, at the time of his life, get on the edge of our solar system? <br/><br/>
+Further exercises are in the textbook. <br/>		       
+		]]>    
+	</string>
 
-Za pomocą tego e-doświadczenia można m.in:<br/>
-&bull; badać ruch przyspieszony,<br/>
-&bull; badać prawa dotyczące siły tarcia,<br/>
-&bull; poznać metodę wyznaczenia współczynnika tarcia<br/>,
-&bull; przekonać się, od czego zależy współczynnik tarcia.<br/><br/>
+	<string name="ed_info_zderzenia">
+		<![CDATA[  
+<b> Collision </b> is a relatively short event, during which the moving body interact with certain forces. In the elastic <b> collisions </b> the total kinetic energy of the bodies after the collision is equal to the total kinetic energy of the bodies before the collision. In turn in the inelastic <b> collisions </b> the final kinetic energy is less than the kinetic energy before the collision (in this case, part of the energy is lost in the various processes associated with the collision, such as heat). <br/> <br/>
+In this e-experiment, you can do among others: <br/>
+&bull;  examine the principle of conservation of the momentum, <br/>
+&bull;  investigate the principle of conservation of the energy, <br/>
+&bull;  observe the behavior of the so-called Newton&apos;  s cradle, <br/>
+&bull;  learn methods of measuring time of collisions. <br/>
+As a curiosity is attached an experiment to simulate pool game.		    
+	   ]]>    
+   </string>
 
-Dodatkowo, wirtualne e-doświadczenie umożliwia także obserwacje w warunkach,
-które bardzo trudno jest wytworzyć w laboratorium: w windzie i pociągu,
-poruszających się z zadanym przyspieszeniem.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_rownia">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
+	<string name="ed_cwiczenie_zderzenia">
+		<![CDATA[ 
+<b> Exercise - front central collision </ b> <br/>
+&bull;  Select from the Tools (the first icon from the left): two identical balls (both steel, glass, uranium or nickel). <br/>
+&bull;  Place one of them at launcher and the other in the middle of the mat. Adjust them so that their centers are in the same grid line. <br/>
+&bull;  Set any initial velocity for the ball and shoot it. <br/>
+&bull;  How will the balls move after the collision? Repeat the exercise, setting different initial ball velocity and changing the type of balls (both must be of the same material). Will their behavior be the same?
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
 
-    <string name="ed_info_einstein">
-         <![CDATA[
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_einstein">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
+<b> Exercise - the principle of conservation in the angular central collisions </ b> <br/>
+&bull;  Select from the Tools any two balls and note their weight. <br/>
+&bull;  With one ball placed at the launcher and second set in the middle of the mat, move the launcher so that the center of the thrown ball is not on the same grid line as the center of ball lying on the mat. Pay attention to the fact that the middles of balls should be on the lines close enough to each other so that the collision occurrs at all. <br/>
+&bull;  Specify the initial velocity of any ejected ball and note it. Shoot the ball. <br/>
+&bull;  Use the camera recording to determine what are the values of the final velocities of the two balls. To do this, you need to determine how far each ball moves during a fixed period of time. <br/>
+&bull;  Using the recording find out at what angle balls have been rebound. This will help you determine the components of the velocity vectors in the horizontal and vertical directions. <br/>
+&bull;  Verify that both the principle of conservation of energy and the principle of conservation of the momentum are fulfilled. The corresponding formulas can be found in the textbook. <br/>
+&bull;  Repeat the exercise with a different ball, changing the initial velocity and position of ejected balls. <br/><br/>
 
+Further exercises are in the textbook. <br/>		       
+		]]>     
+	</string>
+
+	<string name="ed_info_ciecze">
+		<![CDATA[  
+<b> Liquid </b> is a state of matter intermediate between a solid and a gas. Physical body in<b> liquid </b>phase hardly changes the volume, but easily changes the shape. Therefore, in the liquid case we observe that its takes the shape of the vessel in which is located.<br/>
+
+In this e-experiment, you can do among others: <br/>
+&bull;  familiarize yourself with the hydrostatic paradox, <br/>
+&bull;  observe the water displacement of swimmers in different liquids, <br/>
+&bull;  determine the density of the liquid, <br/>
+&bull;  measure the hydrostatic pressure. <br/>
+		       
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_ciecze">
+		<![CDATA[    
+<b> Exercise - hydrostatic paradox </ b>
+<p>Start a curiosity. Pour the mercury to all vesseles set on the table beyond high glass cylinder on the left hand side. In each vessel the height of the liquid column is the same. How high will be the the hydrostatic pressure in each vessel? Start the experiment and see if you were right. </ p>
+&bull;  Pour the mercury to the last container. Will the pressure be lower or higher than in the other vesseles? Or will be the same? <br/>
+&bull;  Repeat the experiment using a sea water. How does the pressure in the vesseles change? Consider what is the difference beetwen the mercury and the sea water? <br/><br/>
+Further exercises are in the textbook. <br/>
+		     
+		]]>     
+	</string>
+	<string name="ed_info_drgania">
+		<![CDATA[    
+<p><b> Mechanical vibration </b> is a kind of movement, where certain physical quantities alternately increase and decrease over time. Examples of such movement are: motion of a pendulum or the movement of weight hung on a spring. Take a closer look at the movement of the weight hung on a vibrating spring. Oscillatory motion of the spring is a periodic motion, i.e. we can find a sequence repeated throughout its duration - oscillates around the equilibrium point.
+It is also a harmonic motion, as is formed under a force, which acts in a direction opposite that spring  has been stretched (or compressed). The force is due to the features possessed by the spring called the coefficient of elasticity. Compressed or stretched spring will be unsustainable and depending on the size of the elasticity coefficient  with varying intensity will strive to achieve a state of equilibrium.
+</p>
+In this e-experiment, you can do among others: <br/>
+&bull;  determine the period of vibrations, <br/>
+&bull;  specify elasticity coefficient, <br/>
+&bull;  specify ratio of force applied on the spring to its lengthening, <br/>
+&bull;  find out the intrinsic vibration period of the spring in relation to its weight. <br/>
+<p>
+In this e-experiment we can observe the oscillations of springs burdened weights in different frames of reference, ie: on the train, elevator and on other planets. It is also possible to build a system in order to observe systems of vibration springs connected in series or in parallel. The experiments can convince ourselves about rightness of known dependencies from school’s textbooks. </p>
+		 
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_drgania">
+		<![CDATA[    
+<b> Exercise - calculating the elasticity coefficient of the vibrating spring </b>
+<p>From the Tools select: a tripod, a box of weights, one spring, e.g. copper. In physical terms, select any planet on which the measurement is performed. Place the spring on the tripod. Then select two weights and hang them on the spring (you can put up to 300 g). Stretch the spring and start the experiment. </ p>
+&bull;  What are the minimum and  maximum positions of the weight during the spring oscillation (if necessary use the video camera)? <br/>
+&bull;  What is the value of the elasticity coefficient? <br/>
+&bull;  From the toolbar choose  the physical condition and select another planet. After that perform the measurement. Does spring elasticity coefficient change? Why did this happen? <br/><br/>
+Further exercises are in the textbook. <br/> 
+		]]>     
+	</string>
+	
+	<string name="ed_info_gazy">
+		<![CDATA[       
+<p> <b> Gas </b> is a state of matter in which the physical body occupies the entire available space. Between gas molecules are small interations, and their energy is larger than the molecules bound in the solid state. Gas molecules move in almost chaotic manner and collide with each other and with surfaces limiting them. Therefore, a small amount of the gas molecules may spread at very large area.
+   </p>
+<b> Ideal gas</b>  is a mathematical model, in which:
+&bull;  the intermolecular actions are ignored, <br/>
+&bull;  molecules are in continuous chaotic motion, <br/>
+&bull;  it is assumed that the particles’ collisions are perfectly elastic, <br/>
+&bull;  the volume occupied by the tiny particles themselves  is omitted in relation to the sheer volume occupied by the gas, </p>
+In this e-experiment, you can do among others: <br/>
+&bull;  build a measuring system for observing the behavior of the selected gas in certain physical conditions, <br/>
+&bull;  observe the thermodynamic changes: isobaric, isochoric, isothermal or adiabatic. <br/>
+&bull;  perform measurements of the pressure, temperature and gas volume in the cylinder. </p>
+		  
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_gazy">
+		<![CDATA[       
+		<b> exercise - study the behavior of an ideal gas </b> <p>
+From the Tools choose: a cylinder with a piston, a Bunsen burner, an insulating foam, a set of weights, a bottle with one-atomic ideal gas. </ P>
+&bull;  Put on the cylinder the insulating foam and set the cylinder on the burner. Run experiment. Let 3 portions of the gas from the bottle to the cylinder. Please observe its parameters. Place any 3 weights on the piston. Please refer to an additional information placed in the cylinder&apos;  tooltip.
 <br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
+&bull;  Heat up the gas in the cylinder. Get your measurement data to the table (THERMO button). Which parameter (temperature, volume, pressure) has changed during the measurement? <br/>
+&bull;  After that create a chart of the dependency of the volume on the temperature.<br/><br/>
+&bull;  Turn off the burner. Block position of the piston and then again heat up the gas. Get your measurement data to the table again. Make a similar chart. Analyze the results. Repeat the exercise for different weights. <br/><br/>
+Further exercises are in the textbook. <br/>
+		  
+		]]>    
+	</string>
+	<string name="ed_info_pole_elektryczne">
+		<![CDATA[    
+<p>  Imagine a space filled by the electric charges.  An area where  electric charges reside, affected by electrostatic forces, is called <b> the electric field </b>. Each one of the electric charges is the source of the electric field. <br/> Chose one of these charges and call it a probationary charge. Electrostatic forces originating from other electric charges placed in this area have an impact at the probationary charge. At the same time the probationary charge affects the rest of electric charges with force related to its own electric charge. The sparsely the charges are placed in the area, the weaker are interactions between them. Their intensity also decreases with increasing distance between the charges. </ p>
+In this e-experiment, you can do among others: <br/>
+&bull;  observe the basic concepts of electrostatics, for example, the distribution and the shape of the electric field coming from charged bodies, <br/>
+&bull;  measure the potential at any point of the produced electric field <br/>
+&bull;  determine the position of equipotential lines, <br/>
+&bull;  in curiosity you will familiarize with Millikan’s experiment, which shows how to determine the value of the elementary charge. <br/>        
+		     
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_pole_elektryczne">
+		<![CDATA[       
+		<b> Exercise - flat capacitor performance </b>
+<p> Select from the Tools: a cuvette, a paper, two flat electrodes, a power supply, two wires: blue and red, a quinine. Inside the cuvette, place the electrodes in parallel to each other at a distance of 10 cm. Connect the first electrode to the positive socket of the power supply using one of chosen wires. Connect the other to the negative socket. Adjust the power supply voltage to 20V and start experiment. How does the vectors of the electric field forces extending between electrodes look like? </p>
+Pour olive oil into the cuvette, and then sprinkle it with the quinine. Quinine crystals, under the influence of the electric field, will be arranged along with the lines of the electric field forces. Restart your experiment. <br/>
+&bull;  Are the quinine crystals arranging themselves according to your expectations? Is the obtained electric field homogeneous? <br/>
+&bull;  Now reconnect the second electrode to the positive socket. Leave the AC voltage at 20V. Are lines of the electric field forces arranged as before? <br/>
+&bull;  Repeat the experiment with electrodes set at a distance of  20 cm, and then 30 cm. What has changed? <br/>
+&bull;  What can you say about the force that acts on the charge placed at any point of the homogeneous electric field? <br/><br/>
+Further exercises are in the textbook. <br/>
+		  
+		]]>     
+	</string>
+	<string name="ed_info_prad_staly">
+		<![CDATA[ 
+<p> An ordered movement of electric charges through some space is called an<b> electric current</b>. It is assumed
+ that the current flows from the point(s) having a higher potential to the point(s) with a lower potential, 
+ and hence direction of current flow is consistent with the direction of movement of the positive charges 
+ in the electric field. DC (direct current) is characterized by a constant value of current intensity and 
+ constant flow direction, as opposed to alternating current (AC - alternating current). <br/>
+<b> DC electric circuit </b> is a system consisting of the current or voltage source, and other circuit elements, 
+such as: resistors, capacitors, coils, diodes&#8230; . These elements are connected to the source using wires, 
+so that current flows in all the circuit elements. </ p>
+
+In this e-experiment, you can do among others: <br/>
+&bull;  learn the Ohm&apos;s law, <br/>
+&bull;  learn the Kirchhoff&apos;s laws, <br/>
+&bull;  learn the principles of combining the light bulbs and resistors etc, in series and in parallel, <br/>
+&bull;  design your own DC circuit, <br/>
+&bull;  determine the effect of various methods of connecting the components of the system on its operation, <br/>
+&bull;  measure the current flowing in the circuit or the voltage at various elements of the electrical circuit. <br/>
+       
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_prad_staly">
+		<![CDATA[ 
+<b> Exercise - Ohm&apos;s law </b>
+<p> Choose from the Tools: circuit no. 1. Note that in the prepared circuit an ammeter is included in series and 
+a voltmeter in parallel. Measure the dependency of the current intensity on the voltage. Write data in the table, 
+then do a chart of written results. Is this a linear dependence? </p><p>
+&bull;  Repeat the experiment for resistors 1 Ω, 100 Ω, R1. <br/>
+&bull;  Does the ratio of the voltage measured at the end of conductor to the intensity of the current flowing 
+through a conductor is constant? <br/>
+&bull;  What is the resistance of R1? Does the resistance depends on the voltage or the intensity of current? </p>
+Further exercises are in the textbook. <br/>
+		        
+		]]>     
+	</string>
+	<string name="ed_info_dzwiek">
+		<![CDATA[    
+<p><b> The sound </b>is an acoustic wave propagating in some medium. The sound during propagation changes the pressure 
+and the density of the medium. The sound wave in the medium produces cyclic concentrations and dilution of 
+ medium particles (eg. air or water). </br>
+Spreading sound is a longitudinal wave i.e. direction of compation and dilution of the particles is consistent 
+with the direction of the wave propagation. The peaks and valleys of the sound wave are moving at a certain speed 
+(the speed of sound), and after getting to the receiver - the human ear - make an experience of a sound. 
+A man hears the sonic frequencies from 16 Hz to 20 kHz. Lower frequency vibrations are called infrasound, 
+ultrasound are higher.</p>
+<p>
+In this e-experiment, you can do among others: <br/>
+&bull;  observe acustic resonance </ br>
+The phenomenon of resonance occurs, when the frequency of vibrations of some objects are match each other i.e. 
+tuning forks. It involves transfer of the vibration energy from one tuning fork to another. When tuning forks 
+are properly tuned, excited tuning fork has the same base frequency of vibration as the second one, which is not excited.
+<br/>
+&bull;  observe interference <br/>
+Sound waves do not propagate in the space in isolation, when wave  encounter other acoustic waves they overlap.
+ Under certain conditions, waves can be mutually reinforcing or suppress. <br/>
+&bull;  measure the frequency of beats <br/>
+Beats are created by imposition of the two harmonic waves of equal amplitude and slightly different frequencies.
+We hear the cyclically recurring gains and dropouts in the sound. For example, the rumbling sound produced by 
+the juxtaposition of two badly tuned musical instruments. <br/>
+<br/>
+&bull;  determine the frequency of a tuning fork vibration.
+</p>
+		     
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_dzwiek">
+		<![CDATA[ 
+<b> Exercise - acoustic resonance </b>
+<p> Tuning forks are instaled on resonance boxes and located at short distance from each other. The holes of boxes are 
+located opposite to each other. Set the frequency of the first tuning fork at 440 Hz and the other at 445 Hz. Exite
+ the first tuning fork, and after a while, stop it. <br/>
+&bull;  Does the second tuning fork begin to vibrate? <br/>
+&bull;  If it does not, change the frequency of vibration of the second tuning fork by 0.5 Hz. <br/>
+&bull;  At what frequency tuning forks fall into resonance? Does the order of tuning fork excitation is important? </p>
+Further exercises are in the textbook. <br/>
+		        
+		]]>     
+	</string>
+	<string name="ed_info_kalorymetria">
+		<![CDATA[  
+<p> <b> Calorimetry </b> (Latin calor = heat) - the science dealing with development of techniques for 
+measuring the heat generated by the reaction of a variety of chemical and physical processes. In the experiment,
+ we mainly use laboratory instrument (calorimeter) used to measure the heat emitted or absorbed during the processes.<p/><p>
+Calorimeter is used primarily to determine: <br/>
+&bull;  specific heat of the liquid, <br/>
+&bull;  specific heat of solids, <br/>
+&bull;  melting heat, <br/>
+&bull;  evaporation heat. <br/> <br/>
+In curiosity you can familiarize yourself with the calorific bomb. This is a special type of calorimeter adapted 
+to measure rapidly running processes. The process is initiated eg. by an electric spark. Running combustion of 
+material placed in the calorimeter heats the air, which is there. The intensity of the process is reflected in 
+the increase in temperature and the volume of air that escapes from the calorimeter.</p>
+
+In this e-experiment, you can do among others: <br/>
+&bull;  find out heat capacity of the calorimeter, <br/>
+&bull;  determine specific heat of the metals available in the experiment, <br/>
+&bull;  calculate melting heat of ice and evaporation heat of liquids, <br/>
+&bull;  learn the caloric value of food products. <br/>       
+		       
+		]]>    
+	</string>
+	<string name="ed_cwiczenie_kalorymetria">
+		<![CDATA[   
+<b> Exercise - measuring the vaporization heat of the water </b>
+<p> Read and write down the state of calorimeter before the measurement. Bring the water in the vaporiser to a boil. 
+Then connect the vaporiser to calorimeter. When the temperature shown on the thermometer ceases to rise, move the pipe
+ away from the calorimeter. </p>
+&bull;  Weigh the calorimeter and calculate how much water condensed? <br/>
+&bull;  If you have not weighed the calorimeter before the measurement, then you have to repeat measuring. <br/>
+&bull;  Make a note of how long the condensation took. Knowing how much water has condensed in a certain time,
+ can you determine the vaporization heat of the water? <br/> <br/>
+
+Further exercises are in the textbook. <br/>
+		      
+		]]>    
+	</string>
+	<string name="ed_info_kondensatory">
+		<![CDATA[ 
+<p><b> Capacitor </b> is a device for collecting the electric charge. Each <b> capacitor </b> consists of conductors 
+(cover) separated by a dielectric layer. In order to collect the electric charge, voltage must be led to the capacitor’s
+ cover. After disconnecting from the power supply electrostatic forces persist charges on the covers. </ br>
+A characteristic feature is the capacitance of the capacitor, namely the quantitative ability to collect the charge. 
+A special type of capacitor is the flat capacitor. It is composed of two parallel metal plates separated by a certain 
+distance, eg. the air capacitor  - the gap between the covers is filled with air. </p>
+
+In this e-experiment, you can do among others: <br/>
+&bull;  familiarize with the construction of a flat the capacitor , <br/>
+&bull;  learn the principles of capacitors connected in series and in parallel, <br/>
+&bull;  determine how capacitor-joining methods affect the properties of the electrical circuit, <br/>
+&bull;  measure the overral capacitance various capacitor systems, <br/>
+&bull;  determine the effect of different dielectric materials on the capacitance of the capacitor. <br/>      
+		        
+		]]>     
+	</string>
+	<string name="ed_cwiczenie_kondensatory">
+		<![CDATA[  
+<b> Exercise - serial and parallel connections of capacitors </b>
+<p>Select from the Tools: a capacitance meter, two wires, a perforated plate and a box of capacitors. Place four capacitors
+ on the mat. Connect them in series - pay attention to not close the circuit. What happens if you measure the capacitance of 
+ the closed circuit? </p>
+<p>Measure the capacitance of each capacitor separatedly and the system as a whole. <br/>
+&bull;  How does capacitance of the circuit of capacitors connected in series change? <br/>
+&bull;  Based on observations, try to come up with a formula. </p>
+&bull;  Repeat above experiment with capacitors connected in parallel. Use the same capacitors as before. <br/>
+&bull;  Has the total capacity of the circuit changed? Why did this happen? <br/> <br/>
+Further exercises are in the textbook. <br/>
+		       
+		]]>    
+	</string>
+	  
+	<string name="ed_info_pole_magnetyczne">
+		<![CDATA[
+		<p> We observe <b> the magnetic field </b> between two magnetic poles of a body. In contrast to the electric field, 
+		<b> magnetic field</b> does not have a source. A single electric charge produces the electric field. <b> The magnetic 
+		field </b> needs a dipole, which is a configuration of two dissimilar electrical charges or magnetic poles. 
+		</p><p> 
+		The oldest known magnet is the magnetite. If from a solid magnetite lump several bars were cut out, each one
+		 would preserve the same magnetic properties. Each bar still would have two distinct poles (just as the whole 
+		 lump of ore had before) and would attract iron filings. Line structure of <b> the magnetic field forces </b>  
+		 for each of them would have been almost identical. </p>
+		 <p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  observe the shape of the magnetic field lines originating from the magnets of different shapes, <br/>
+		&bull;  observe the shape of the magnetic field lines originating from the conductors, in which current flows, <br/>
+		&bull;  indicate the shape of the magnetic field lines, <br/>
+		&bull;  familiarize oneself with the magnetic properties of different materials. </p>
+		]]>
+	</string>
+
+    <string name="ed_cwiczenie_pole_magnetyczne">
+		<![CDATA[
+		<b> Exercise - examination of lines of magnetic field forces </b>
+		<p> Select from the Tools: a mat, iron filings, a compass, two bar magnets and a table. Take out the compass 
+		from the box and place it in the middle of the table. What does the compass indicate? <br/> 
+		On the left side of the compass, place one bar magnet. Slide the magnet to the left. Have the readings from 
+		the compass changed? 
+		</p> <p>
+		Place two bar magnets, one above the compass, and the other below. Turn both magnets so that the blue poles
+		 point at the compass. <br/> <br/> 
+		&bull;  How do the magnetic field force lines look like between the magnets? Sprinkle filings on the table. 
+		Were your assumptions confirmed? <br/>
+		&bull;  Rotate magnets by 180 &deg; were the magnetic field line structure changed? <br/>
+		&bull;  Rotate just one magnet by 180 &deg;, were the magnetic field line structure changed? Why it happend? </p>
+		Further exercises are in the textbook. <br/>
+		]]>
+	</string>
+
+    <string name="ed_info_cewki_i_indukcja">
+		<![CDATA[
+		<p> Electromagnetic induction is used in many devices, such as electromagnets or transformers. Coil wound on 
+		a ferromagnetic core forms an electromagnet. It is used to generate the magnetic field. When the electric current
+		 flows through the coil, the magnetic field is created. This field acts on a ferromagnetic core located  within 
+		 the coil, causing the magnetization. At the same time the magnetic field of the coil is amplified. 
+		 </p><p>
+		In the construction of the transformer the core and the coils are usually made of conductive material. Normally
+		 in the transformers cores of a shape of the angular letter O are used. Two coils are placed at the vertical arms, 
+		 one called the primary winding and the second secondary winding. When the primary winding is connected to a 
+		 source of an alternating voltage, an alternating current starts to flow, causing the transformer core to induce 
+		 an alternating magnetic field. The field penetrating the secondary winding results in an electromotive force (emf). 
+		 </p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  become familiar with the phenomenon of electromagnetic induction, <br/>
+		&bull;  build a transformer, <br/>
+		&bull;  familiarize yourself with the electric motor, generator and the differences between them, <br/>
+		&bull;  learn how to measure the electrodynamic force, <br/>
+		&bull;  observe the magnetic field lines of a magnet or coil <br/>
+		&bull;  measure the value of EMF induction <br/>
+		&bull;  measure the value of the electrodynamic forces. </p>
+         ]]>
+	</string>
+
+    <string name="ed_cwiczenie_cewki_i_indukcja">
+		<![CDATA[
+		<b> Exercise - measurement of the voltage in the secondary winding of the transformer </b>
+		<p> Select from the Tools: a power supply, a voltmeter, two blue wires, two red wires,  an iron core, 
+		two coils with four hundred winds (parameter N). Place the coil on the core, but do not close the core. 
+		The left coil will act as the primary winding. Connect it to the power supply. The right coil connect to 
+		the voltmeter - secondary winding. Switch the power supply and the voltmeter to  the AC mode. Then set 12&nbsp;V
+		 at power supply. 
+		 </p><p>
+		&bull;  What voltage is induced in the secondary winding?  Will the result of measurement be the same if you swap coils? <br/>
+		&bull;  Continue taking measurements for the input voltages equal to 9 V, 6V, 3V, 0V. Make a chart of U<sub>2</sub>(U<sub>1</sub>). 
+		Is this a linear dependence? <br/>
+		&bull;  Will the voltage in the secondary winding change if you use the coil with more winds? <br/>
+		&bull;  Select the primary coil with half the number of rolls than the secondary winding. Take measurements 
+		for the same input voltages as before and make a chart of U <sub> 2 </sub> (U <sub> 1 </sub>). </p>
+		Further exercises are in the textbook. <br/>
+		]]>
+	</string>
+
+    <string name="ed_info_optyka_geometryczna">
+		<![CDATA[
+		<p> <b>Geometrical optics </b> is a branch of physics trying to explain the phenomena of light with the use of 
+		the geometry. In this theory, the light beams are treated as rays, having its origin in the source of the light. 
+		This simplification is allowable in case of beams propagating in a single medium. Hovewer if the beam of light 
+		is crossing between two mediums, so-called refraction of the light appears. 
+		</p><p>
+		<b> Geometrical optics </b> is interested in following phenomena:<br/>
+		&bull;  reflection, <br/>
+		&bull;  total internal reflection of light, <br/>
+		&bull;  refraction, <br/>
+		&bull;  splitting of white light, <br/>
+		&bull;  the spherical or chromatic aberration. <br/><br/>
+		 Geometric interpretation of optical phenomena does not include a very wide range of issues related to the nature 
+		 of light, but it is very useful, for example, to describe the principles of operation of optical devices - cameras, 
+		 binoculars and telescopes, etc. </p>
+		</p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  observe the beams of light passing through different lenses and mirrors, <br/>
+		&bull;  observe double refraction of light using birefringent crystal, <br/>
+		&bull;  observe the passage of electromagnetic waves by polaroid, <br/>
+		&bull;  measure the angles of incidence, refraction and reflection of light rays in different mediums, <br/>
+		&bull;  determine the refractive index, <br/>
+		&bull;  set a limit angle of total internal reflection at the boundary of mediums <br/>
+		&bull;  determine the Brewster angle. </p>      
          ]]>
     </string>
-
-    <string name="ed_info_astro">
-         <![CDATA[
-<b>Ciałem niebieskim</b> nazywamy dowolny obiekt fizyczny (czyli przedmiot
-rozciągły w czasie i przestrzeni) występujący w przestrzeni
-kosmicznej, czyli poza obszarem ziemskiej atmosfery (umownie
-granicą jest tzw. linia K&aacute;rm&aacute;na, znajdująca się 100 km nad
-powierzchnią Ziemi).<br/><br/>
-
-Ciałem niebieskim może być także układ obiektów i struktur
-powiązanych ze sobą siłami grawitacji. Jako ciała niebieskie
-klasyfikujemy miedzy innymi: gromady galaktyk, galaktyki,
-gwiazdy, układy planetarne, planety, księżyce. Jak widać, rozmiary
-i struktury ciał niebieskich są bardzo różne, zatem i ich ruch może
-zdecydowanie się różnić.
-<br/><br/>
-Za pomocą e-doświadczenia można zbadać model Układu Słonecznego,
-poznać prawa Keplera, wyznaczyć prędkości kosmiczne i trajektorie planet
-oraz dowiedzieć się, czym jest układ podwójnej gwiazdy.
-Jest to również niepowtarzalna okazja do zbudowania własnego układu planetarnego.<br/><br/>
-
-<big><b>Uwaga!</b></big><br/>Ze względu na prowadzenie czasochłonnych obliczeń
-oraz wykorzystanie grafiki trójwymiarowej, animacja wahadła najprawdopodobniej
-będzie dość powolna (maksymalnie kilka klatek/s).
-Ciągle pracujemy nad optymalizacją tego e-doświadczenia, tak, aby można było
-w pełni wykorzystać jego możliwości również na tabletach.
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_astro">
-         <![CDATA[
-<b>Propozycja ćwiczenia:</b><br/>
-&bull;
-
-<br/><br/>
-Więcej ćwiczeń znajduje się w podręczniku.
-         ]]>
-    </string>
-
-    <string name="ed_info_zderzenia">
-         <![CDATA[
-<b>Zderzenie</b> to relatywnie krótkie zdarzenie, podczas którego poruszające się ciała
-oddziałują na siebie pewnymi siłami. W <b>zderzeniach sprężystych</b>, całkowita energia kinetyczna ciał
-po zderzeniu jest równa całkowitej energii kinetycznej ciał przed zderzeniem.
-Z kolei w <b>zderzeniach niesprężystych</b>, końcowa energia kinetyczna jest mniejsza od energii kinetycznej
-przed zderzeniem (w takim przypadku część energii jest tracona na różne procesy towarzyszące zderzeniu,
-jak np. wydzielanie ciepła).<br/><br/>
-
-Za pomocą tego e-doświadczenia można m.in:<br/>
-&bull; badać zasadę zachowania pędu,<br/>
-&bull; badać oraz zasadę zachowania energii,<br/>
-&bull; obserwować zachowanie tzw. kołyski Newtona,<br/>
-&bull; nauczyć się metody mierzenia czasu zderzeń metalowych kul.<br/><br/>
-
-Jako ciekawostkę, do e-doświadczenia załączono symulację bilardu.
-
-         ]]>
-    </string>
-    <string name="ed_cwiczenie_zderzenia">
-         <![CDATA[
-<b>Ćwiczenie nr 1.</b><br/>
-&bull; Wybierz z Narzędzi (pierwsza ikonka od lewej) dwie takie same kulki
-(obie stalowe, szklane, uranowe lub niklowe).<br/>
-&bull; Jedną z nich umieść przy wyrzutni, a drugą na środku maty.
-Ustaw je tak, aby ich środki znajdowały się w tej samej linii siatki.<br/>
-&bull; Ustal dowolną prędkość początkową dla kulki i wystrzel ją.<br/>
-&bull; Jak będą poruszały się kulki po zderzeniu?
-Powtórz ćwiczenie, ustalając różne prędkości początkowe kulki oraz zmieniając rodzaj kulek
-(obie muszą być z tego samego materiału). Czy ich zachowanie będzie takie same?
-
-<br/><br/>
-<b>Ćwiczenie nr 2.</b><br/>
-&bull; Wybierz z Narzędzi (pierwsza ikonka od lewej) dwie takie same kulki
-(obie stalowe, szklane, uranowe lub niklowe).<br/>
-&bull; Jedną z nich umieść przy wyrzutni, a drugą na środku maty.
-Ustaw je tak, aby ich środki znajdowały się w tej samej linii siatki.<br/>
-&bull; Ustal dowolną prędkość początkową dla kulki i wystrzel ją.<br/>
-&bull; Jak będą poruszały się kulki po zderzeniu?
-Powtórz ćwiczenie, ustalając różne prędkości początkowe kulki oraz zmieniając rodzaj kulek
-(obie muszą być z tego samego materiału). Czy ich zachowanie będzie takie same?<br/></br>
-
-Więcej ćwiczeń można znaleźć w podręczniku.
-         ]]>
-    </string>
-
-</resources>
+    
+    <string name="ed_cwiczenie_optyka_geometryczna">
+		<![CDATA[
+		<b> Exercise - study focusing properties of lenses made from different materials <b>
+		<p> Select from the Tools: mat, laser and a box of lenses. Set the laser mode to display five beams of wavelength 
+		equal to 485 nm. Remove from the box a convex lens made of glass, with refractive index of 1.5, the radius of 20 cm
+		 and the height - 12 cm. <br/><br/>
+		 Place it in a distance of 5 cm from the laser (this is the spacing of the grid of the mat).
+		  Push start button placed on the cover of the laser. <br/> Does the lens focus the beams or not? Check whether the 
+		  light beams of different wavelength would work the same way with that lens?
+		   </p><p>
+		&bull;  Set the lens at an angle of 45 ° relative to the left edge of the mat. Does the lens still focus the beams? <br/>
+		&bull;  Repeat the exercise for lenses made of other materials, but with a radius equal to 20 cm, height - 12 cm. Start 
+		with lens made of air. <br/> Why did you get a different result than before?<br/><br/>
+		&bull;  Next, examine the diamond and silicon lenses. Think about what causes focusing inaccuracies? <br/>
+		&bull;  Repeat above analysis, changing the number of rays passing through the lens. Has changing the number of rays 
+		an impact on the quality of focus? </p>
+		Further exercises are in the textbook. <br/>	
+		]]>
+	</string>
+	
+    <string name="ed_info_rlc">
+		<![CDATA[
+	   <p> RLC electrical circuit comprises of: <br/>
+		&bull;  resistor R, <br/>
+		&bull;  coil L, <br/>
+		&bull;  capacitor C. 
+		</p><p>
+		The inclusion of the resistor in the circuit causes a loss of energy and generation of heat. The total energy 
+		of the system will decrease over time – damped oscilations appear in the circuit. If specific conditions are met, 
+		voltages or currents resonance may be observed in RLC circuit. Voltage resonance occurs in  series RLC circuits. 
+		It is based on the fact that for a signal of a certain frequency, the sum of voltage on the coil and on the capacitor 
+		is equal to zero. Currents resonance occurs in parallel RLC circuits. At a certain frequency the sum of currents 
+		flowing through the coil and the capacitor is zero. Both of these phenomena can be very dangerous in the case 
+		of more complex systems, because some components may be damaged. 
+		</p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  monitor on an oscilloscope the waveforms of voltage and current in the RLC circuit, <br/>
+		&bull;  measure the voltage as a function of time in different parts of the electrical circuit using an oscilloscope, <br/>
+		&bull;  measure current as a function of time using the current probe connected to an oscilloscope, <br/>
+		&bull;  determine the natural frequency of the LC and RLC circuits. </p>     
+	  	]]>
+	</string>
+	
+    <string name="ed_cwiczenie_rlc">
+		<![CDATA[
+		Exercise - beats <b> in LC systems </b>
+		<p> Select from the Tools: serial LC circuit, pulse generator, oscilloscope, two voltage probes. 
+		Connect the pulse generator to a circuit located on a perforated plate. Set the frequency of generated signal 
+		at 2000 Hz and its amplitude to 2.12 V. Connect the voltage probes to the oscilloscope channels and to the 
+		circuit -  the first in parallel to the coil and second one in parallel to the capacitor. Set the same scale 
+		on both oscilloscope channels, for example, 5 V, and the time step of 0.2 ms.
+		 </p><p>
+		&bull;  In what state is the circuit? By varying the frequency and amplitude, find an another stable state of the system.
+		 Why do you observe beats in this LC circuit? <br/><br/>
+		&bull;  Select different coil and capacitor from the box - will state of  circuit change?
+		</p>    
+		Further exercises are in the textbook. <br/>
+		]]>
+	</string>
+	
+    <string name="ed_info_korpuskularna">
+		<![CDATA[
+		<p>  Wave–particle duality is a concept proclaiming that light has a dual nature. It was first presented 
+		at the beginning of the twentieth century. According to this theory, in some cases, light behaves like a wave, 
+		and others as particle. For example, light interference phenomena is explained by the wave theory of light. 
+		Strengthening or weakening of the light beam is explained  as light waves overlaping with their phases in line
+		or against. Purely corpuscular theory (which treats light as a collection of particles) does not explain it at all. 
+		To keep on equilibrium the wave theory can not explain the photoelectric effect. Therefore it is assumed that 
+		light has  corpuscular-wave nature.
+		</p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  observe the continuous spectrum and the characteristic spectrum of X-rays, <br/>
+		&bull;  familiarize oneself with the design and function of X-ray tube at the nano scale, <br/>
+		&bull;   know the mechanism of Compton&apos;s scattering of photons at the weakly bound electrons, <br/>
+		&bull;  know the structure and function of a photocell, <br/>
+		&bull;  become acquainted to the mechanism of photocurrent, <br/>
+		&bull;  measure the position of the peaks in the characteristic spectrum <br/>
+		&bull;  determine the Planck&apos;s constant. </p>  	
+		]]>
+	</string>
+	
+    <string name="ed_cwiczenie_korpuskularna">
+		<![CDATA[
+		<b>	Exercise – measurement of the spectrum of X-rays</b>
+		<p> Select from the Tools: a X-ray tube power supply, a high voltage generator, a detector, a cover,
+		 a X-ray tube with cooper anode. Connect black wires to the X-ray tube power supply. Connect blue and
+		  red wires to the high voltage generator. Put the cover onto the X-ray tube.
+		  </p><p>
+		  Turn on the X-ray tube power supply and the high voltage generator. Then set 10 000 kV at high voltage 
+		  generator and turn it on.
+		  </p><p>
+		  &bull;  Spectrum of the X-rays is displayed on a monitor of the detector. Inspect the X-rays chart
+		   by zooming and panning it. Save the chart. <br/>
+		   &bull;  Continue taking measurements for the input voltages equal to 8000 kV, 6000 kV, 4000 kV, 2000 kV.<br/>
+		   &bull;  Compare saved charts. During first measurment in the X-rays spectrum high peaks were noticeable.  <br/>
+		   Do they look the same in following measurments?
+		   </p><p>
+		   &bull;  Why do the peaks appear in the spectrum for some input voltages and not for others?<br/>
+		   &bull;  At what voltage will the peaks be formed for the first time?</p>
+		   Further exercises are in the textbook. 		
+		]]>
+	</string>
+    <string name="ed_info_interferencja">
+		<![CDATA[
+		<p><b> Interference </b> is phenomenon of two or more waves overlaping.  Such waves can reinforce or 
+		undermine each other. White light is composed from many waves with different wavelengths, the interference
+		 in this case is very difficult to observe. It is much easier to observe the interference using 
+		 monochromatic light, such as laser. Directing the laser beam, passing through the tile 
+		 (usually a diffraction grating), onto the screen, gives a picture made up of 
+		 staggered stripes of light and dark. This is called the Young&apos;s experiment. 
+		 </p><p>
+		In this e-experiment, you can do among others: <br/>
+		&bull;  see the diffraction and interference of light waves, <br/>
+		&bull;  observe diffraction and interference of water waves, <br/>
+		&bull;  familiarize oneself to the experiment of Young, <br/>
+		&bull;  determine the distance between the slits of the diffraction grating, <br/>
+		&bull;  measure the distance between the interference stripes. </p>   		
+		]]> 
+	</string>
+	
+    <string name="ed_cwiczenie_interferencja">
+		<![CDATA[
+		<b> Exercise - light interference </b>
+		<p>	Select from the Tools: a RGBU laser,a screen, an optical bench and a tile to cut your own slits
+		 (from card titled: diffraction tiles). 
+		 </p><p>
+		&bull;  Select the diffraction tile and press CUT (located in the sidebar). Cut out one circular hole in 
+		the center of the tile. Place the diffraction tile on the optical bench. 
+		</p><p>
+		&bull;  Then mount the laser at the end of the optical bench. Choose any laser&apos;s color for example, red.  
+		Start the experiment by running the laser. 
+		</p><p>
+		&bull;  What image is created, when the light passes through the tile? If you want a better, view turn 
+		on the &quot;screen view&quot; option in the sidebar.  What physical phenomenon causes this effect? <br/>
+		</p><p>
+		&bull;  Does the change of the wavelength of  the light have influence on the pattern on the screen? 
+		Check it out for the beams of a different color. </p>
+		<p>
+		&bull;  Repeat the experiment with a square and then also with triangular hole. Does the pattern look  
+		just as in the case of a circular hole? </p>
+		
+		Further exercises are in the textbook. <br/>
+		]]>
+	</string>
+	
+   	<string name="ed_info_fizyka_atomowa">
+		<![CDATA[
+		<p> Radioactivity is an ability of an element to emit nuclear radiation. This radiation is produced by 
+		spontaneous conversion of atomic nuclei. All matter emits radiation of varying intensity and character. 
+		</p><p>
+		Radiation can be divided into two groups: <br/>
+		&bull; ionizing radiation (alpha, beta, gamma, UV, X), <br/>
+		&bull; non-ionizing radiation (infrared, radio, microwave, visible light). 
+		</p><p>		
+		In this e-experiment, you can do among others: <br/>
+		&bull; determine the location of individual spectral lines of hydrogen and helium and
+		 find the corresponding wave length, <br/>
+		&bull; find the radioactivity class of selected materials, <br/>
+		&bull; determine the half-life of selected materials <br/>
+		&bull; examine the age of the selected objects by examining the decay of the isotope C14. </p>		
+		]]>
+	</string>
+	
+	<string name="ed_cwiczenie_fizyka_atomowa">
+		<![CDATA[
+		<b> Exercise - examine the age of the object </b> 
+		<p> Select from Tools a Sumerian tile (it&apos;s in the laboratory of carbon dating). Prepare a sample. 
+		In the lower right corner of the laboratory on a table is a device for making samples. 
+		Activate it by pressing the button on its cover and then insert the tile into it.
+		<br/><br/>
+		 Place the sample in the source of ions  and activate the mass spectrometer. 
+		 During the measurement, you can look inside of the measuring apparatus.<p> 
+		&bull; What does the result displayed on the monitor of the mass spectrometer mean? <br/>
+		&bull; How old is the subject of the test? Use physical tables to determine age. <br/>
+		&bull; Save the result and perform the test again for other objects. </p>
+		Further exercises are in the textbook. <br/>	
+		]]>
+	</string>	        
+	
+	
+ </resources>  
+    

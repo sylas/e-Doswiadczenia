@@ -1,22 +1,31 @@
 package pl.gda.pg.mif.edoswiadczenia;
 
+import java.io.File;
+
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.Html;
-import android.util.FloatMath;
 import android.util.TypedValue;
-import android.view.*;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
+import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
-import java.io.File;
 
 /**
  * Wyświetlenie szczegółów e-doświadczenia.
@@ -25,23 +34,27 @@ import java.io.File;
  *
  * @author sylas
  */
-public class DetailsED extends Activity implements OnTouchListener {
+public class DetailsED extends Activity {
 
     TextView info;
     public static String pathToManual;
     VideoView videoED;
-    private final String MANUAL_CORE_PATH = "/assets/scenarios/";
-    private final String MANUAL_NAME_PREFIX = "podrecznik_";
+    private final String MANUAL_CORE_PATH = "/assets/scenarios/"; 
     private final String PDF_FILE_EXTENSION = ".pdf";
     public static final String MIME_TYPE_PDF = "application/pdf";
-    // Stany dla obsługi gestów:
-    static final int NONE = 0;
-    static final int DRAG = 1;
-    static final int ZOOM = 2;
-    int mode = NONE;
-    private float oldDist;
-    private float newDist;
+    
+    ScaleGestureDetector myScaleGestureDetector;
+	MyScaleListener myListener;
 
+	// Zmienne do obsługi gestów:
+	private static float ORG_TEXT = 18f;
+	private float newTextSize;	
+	private float myPrevScaleFactor = 1.0f;
+	private static float MIN_TEXT = 15f;
+	private static float MAX_TEXT = 50f;
+
+    
+    
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,16 +72,43 @@ public class DetailsED extends Activity implements OnTouchListener {
         videoED = (VideoView) this.findViewById(R.id.video_view);
         String uri = "android.resource://" + getPackageName() + File.separator + ED.edMovie;
         videoED.setVideoURI(Uri.parse(uri));
+        String name = new String();
+        try{
+        	name = ED.edSubDir.substring(0, ED.edSubDir.indexOf("_"));
+        }catch(IndexOutOfBoundsException indEx){
+        	name = ED.edSubDir;
+        }
 
-        pathToManual = ListED.ED_BASE_DIR + ED.edSubDir + MANUAL_CORE_PATH
-                + MANUAL_NAME_PREFIX + ED.edSubDir + PDF_FILE_EXTENSION;
-
-
-
-        // Obsługa gestów
-        info.setOnTouchListener(this);
-
-
+        pathToManual = ListED.ED_BASE_DIR + ED.edSubDir + MANUAL_CORE_PATH + getString(R.string.manual_name_prefix) 
+        			+ name + PDF_FILE_EXTENSION; 
+   
+        //obsługa pinch zoom
+        myListener = new MyScaleListener();
+        myScaleGestureDetector = new ScaleGestureDetector(getApplicationContext(), myListener);  
+      
+        View.OnTouchListener onTouchTekst = new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				// TODO Auto-generated method stub
+				
+				newTextSize = info.getTextSize();
+		    	myScaleGestureDetector.onTouchEvent(event);
+    			if(newTextSize < MIN_TEXT){
+    				newTextSize = MIN_TEXT;
+    			}
+    			else if(newTextSize > MAX_TEXT){
+    				newTextSize = MAX_TEXT;   				
+    			}
+		    	info.setTextSize(TypedValue.COMPLEX_UNIT_SP, newTextSize);
+		    	
+				return true;
+			}
+		};
+		
+		// Obsługa gestów
+        info.setOnTouchListener(onTouchTekst);
+        
         // Przycisk - Uruchom ED
         Button aboutEDBtn = (Button) findViewById(R.id.buttonRunED);
         aboutEDBtn.setOnClickListener(new OnClickListener() {
@@ -112,56 +152,8 @@ public class DetailsED extends Activity implements OnTouchListener {
             }
         });
 
-
-
     }
-
-    public boolean onTouch(View v, MotionEvent event) {
-        // Handle touch events here...
-        switch (event.getAction() & MotionEvent.ACTION_MASK) {
-
-            case MotionEvent.ACTION_POINTER_DOWN:
-                oldDist = spacing(event);
-                if (oldDist > 10f) {
-                    mode = ZOOM;
-                }
-                break;
-
-            case MotionEvent.ACTION_MOVE:
-                if (mode == ZOOM) {
-                    newDist = spacing(event);
-
-                    if (newDist > 10f) {
-                        float textSize = info.getTextSize();
-                        if (newDist > oldDist) {
-                            if (textSize <= 40) {
-                                textSize++;
-                            }
-                            info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-                        } else {
-                            if (textSize >= 15) {
-                                textSize--;
-                            }
-                            info.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
-                        }
-                    }
-                }
-                break;
-        }
-
-        return true;
-
-    }
-
-    private float spacing(MotionEvent event) {
-        if (event.getPointerCount() == 2) { // jeżeli dwa punkty, to oblicz odległość
-            float x = event.getX(0) - event.getX(1);
-            float y = event.getY(0) - event.getY(1);
-            return FloatMath.sqrt(x * x + y * y);
-        }
-        return 0;
-    }
-
+    
     private static boolean canDisplayPdf(Context context) {
         PackageManager packageManager = context.getPackageManager();
         Intent testIntent = new Intent(Intent.ACTION_VIEW);
@@ -203,13 +195,61 @@ public class DetailsED extends Activity implements OnTouchListener {
         // Obsługa wybranych pozycji z menu
         switch (item.getItemId()) {
             case R.id.menu_help:
-                Toast.makeText(getApplicationContext(), "Tu będzie pomoc", Toast.LENGTH_SHORT).show();
+                showHelp();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
 
     }
+    
+	private void showHelp() {
+		// Wyswietlamy pomoc w postaci "custom alertDialog"
+		AlertDialog.Builder builder;
+		AlertDialog alertDialog;
+		
+		LayoutInflater inflater = (LayoutInflater)DetailsED.this.getSystemService(LAYOUT_INFLATER_SERVICE);
+		View layout = inflater.inflate(R.layout.help_popup,
+				(ViewGroup) findViewById(R.id.pomoc_popup));
 
+		String title = getString(R.string.txt_title_help);
+		String body = getString(R.string.txt_help_details_ed);
 
+		TextView text = (TextView) layout.findViewById(R.id.text_help_popup);
+		text.setText(Html.fromHtml(body));
+
+		builder = new AlertDialog.Builder(DetailsED.this).setTitle(title).
+				setNeutralButton(getString(R.string.btn_close),
+						new DialogInterface.OnClickListener() {
+
+					public void onClick(DialogInterface dialog, int which) {
+					}
+				}).setIcon(R.drawable.ic_menu_help);
+		builder.setView(layout);
+		alertDialog = builder.create();
+		alertDialog.show();
+		
+	}
+	    
+    
+    private class MyScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
+    	
+    	@Override
+		public boolean onScale(ScaleGestureDetector myDetector) {
+    		    		
+    		if(myPrevScaleFactor < myDetector.getScaleFactor()){
+    			myPrevScaleFactor *= myDetector.getScaleFactor();
+    			newTextSize *=myPrevScaleFactor;
+    			return true;    			
+    		}
+    		else if (myDetector.getPreviousSpan() > myDetector.getCurrentSpan() && myDetector.getScaleFactor() > 0.4){
+    			myPrevScaleFactor *= myDetector.getScaleFactor();
+    			newTextSize = myPrevScaleFactor *ORG_TEXT;
+    			return true;
+    		}
+    		else
+    			return true;
+		}
+	}
+   
 }

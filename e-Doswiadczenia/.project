@@ -30,4 +30,10 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>ic_kondensatory</name>
+			<value>file:/G:/ecllipse_workspace/e-Doswiadczenia/e-Doswiadczenia/res/drawable-mdpi/ic_kondensatory.jpg</value>
+		</variable>
+	</variableList>
 </projectDescription>
