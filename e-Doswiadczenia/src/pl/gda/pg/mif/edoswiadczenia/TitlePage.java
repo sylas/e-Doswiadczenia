@@ -53,14 +53,12 @@ public class TitlePage extends Activity {
 	private final int MIN_SCREEN_HEIGHT = 752;
 	public static final String EN_FLAG = "en";
 	public static final String PL_FLAG = "pl";
-	NanoHTTPD nanoHTTPD;
-	public static int WWW_SERVER_PORT=0;
+	public static NanoHTTPD nanoHTTPD;
 
 	public static Boolean updateDone = false;
 	public static final String ED_REMOTE_REPOSITORY = "http://e-doswiadczenia.mif.pg.gda.pl/files/ed-android-repo/";
 	public static final String PREFS_UPDATE_SUFFIX = "_update";
 	public static final String PREFS_DATE_MODF_SUFFIX = "_date";
-	public static final String TAG = "EDOSIE";
 	
 	/**
 	 * Called when the activity is first created.
@@ -86,16 +84,17 @@ public class TitlePage extends Activity {
 		try {
 			// Start serwera WWW i losowanie portu  
 			
-			nanoHTTPD = new NanoHTTPD(WWW_SERVER_PORT, NanoHTTPDserverRoot);
-			WWW_SERVER_PORT = nanoHTTPD.getMyTcpPort();			
+			nanoHTTPD = new NanoHTTPD(0, NanoHTTPDserverRoot);		
 		} 
 		//ewentualne błędy podczas tworzenia socket
 		catch (IOException ioe) {
-            Toast.makeText(getApplicationContext(), getString(R.string.msg_title_error), Toast.LENGTH_LONG).show();
-            Toast.makeText(getApplicationContext(), getString(R.string.msg_internal_error001), Toast.LENGTH_LONG).show();          
+			Toast.makeText(getApplicationContext(), getString(R.string.msg_title_error), Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.msg_internal_error001), Toast.LENGTH_LONG).show();       
+			Toast.makeText(getApplicationContext(), ioe.getMessage(), Toast.LENGTH_LONG).show();
 		}
-		
-		new CheckForEDUpdates().execute(EdFileNames.edName);
+
+			new CheckForEDUpdates().execute(EdFileNames.edName);
+
 		
 		//myGestureScanner = new GestureDetector(this);
 		myGestureScanner = new GestureDetector.SimpleOnGestureListener(){
@@ -418,18 +417,22 @@ public class TitlePage extends Activity {
 	 * Test polaczenia z siecia.
 	 */
 	private boolean isInternetOn() {
-
 		ConnectivityManager connec = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-		if (connec.getNetworkInfo(0).getState() == NetworkInfo.State.CONNECTED
-				|| connec.getNetworkInfo(0).getState() == NetworkInfo.State.CONNECTING
-				|| connec.getNetworkInfo(1).getState() == NetworkInfo.State.CONNECTING
-				|| connec.getNetworkInfo(1).getState() == NetworkInfo.State.CONNECTED) {
-			return true;
-		} else if (connec.getNetworkInfo(0).getState() == NetworkInfo.State.DISCONNECTED
-				|| connec.getNetworkInfo(1).getState() == NetworkInfo.State.DISCONNECTED) {
-			return false;
+		
+		
+		NetworkInfo tmp0 = connec.getNetworkInfo(0);
+		NetworkInfo tmp1 = connec.getNetworkInfo(1);
+		NetworkInfo.State  state0 = tmp0.getState();
+		NetworkInfo.State  state1 = tmp1.getState();
+		
+		if (state0 == NetworkInfo.State.CONNECTED || state0 == NetworkInfo.State.CONNECTING){ 
+			return true; 
 		}
-		return false;
+		if (state1 == NetworkInfo.State.CONNECTED || state1 == NetworkInfo.State.CONNECTING){ 
+			return true; 
+		}	
+
+	return false;
 	}
 
 	/**
@@ -446,8 +449,6 @@ public class TitlePage extends Activity {
 				long lastModification= 0;
 				try {
 					if(!isInternetOn()){					
-						
-						Toast.makeText(getApplicationContext(), R.string.msg_no_network, Toast.LENGTH_LONG).show();
 						return null;
 					}
 
@@ -484,8 +485,9 @@ public class TitlePage extends Activity {
 							edLocalDataEditor.apply();
 						}
 					}
-				}          
-				catch (IOException e) {
+				}
+
+				catch (Exception e) {
 					return null;
 				}
 			}

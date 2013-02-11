@@ -293,6 +293,8 @@ i otwierana jest przez program zewnętrzny</i>),</p><p>
 
     <string name="msg_no_network">Do pobrania e-doświadczenia niezbędne jest połączenie z Internetem.\n\nSprawdź swoje połączenie sieciowe
         i spróbuj ponownie.</string>
+    <string name="msg_no_network_update"> Do sprawdzenia aktualizacji niezbędne jest połączenie z Internetem.\n\nSprawdź swoje połączenie sieciowe.
+</string>
     <string name="msg_ed_not_yet_produced">Niestety, to e-doświadczenie nie jest jeszcze gotowe.\n\ne-Doświadczenia są produkowane sukcesywnie\ni będą
         udostępniane tak szybko, jak to tylko możliwe.</string>
     <string name="msg_no_file_on_server">Wystąpił nieoczekiwany błąd serwera.\nPrzepraszamy i prosimy spróbować później.</string>

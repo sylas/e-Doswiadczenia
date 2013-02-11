@@ -56,9 +56,9 @@ public class ListED extends Activity {
 
     public static final String ED_BASE_DIR = Environment.getExternalStorageDirectory().getAbsolutePath()
             + File.separator + ED_SDCARD_DIR + File.separator;
-    public static final String ED_SERVER_ROOT = "http://127.0.0.1:" + Integer.toString(TitlePage.WWW_SERVER_PORT) + File.separator;
+    public static final String ED_SERVER_ROOT = "http://127.0.0.1:" + Integer.toString(TitlePage.nanoHTTPD.getMyTcpPort()) + File.separator;
     
-    
+    //TitlePage.nanoHTTPD.getMyTcpPort()
     public ListED() {
     }
 
